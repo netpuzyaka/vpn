@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-03 09:54:58",
-  "updated_ts": 1788418498,
+  "updated_at": "2026-09-03 10:00:15",
+  "updated_ts": 1788418815,
   "total": 1778,
   "alive": 1231,
   "unknown": 384,
   "dead": 163,
-  "in_config": 257,
+  "in_config": 268,
   "vip_config": 300,
   "protocols": {
     "vless": {

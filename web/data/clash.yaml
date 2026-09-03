@@ -743,6 +743,32 @@ proxies:
     path: /cdn/assets/stream
     headers:
       Host: cnd.finland2.2.newwaycdn.com
+- name: 🇹🇷 Turkey
+  type: vless
+  server: tr.cdn-assets-pro.com
+  port: 2471
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
+  client-fingerprint: firefox
+- name: 🇰🇿 Kazakhstan
+  type: vless
+  server: kz.cdn-assets-pro.com
+  port: 2473
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
+  client-fingerprint: firefox
 - name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #29'
   type: vless
   server: skk.moe
@@ -916,6 +942,19 @@ proxies:
   network: xhttp
   tls: true
   servername: api-ch.upd-media.com
+  client-fingerprint: firefox
+- name: 🇷🇺 Russia
+  type: vless
+  server: ru.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
   client-fingerprint: firefox
 - name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #37'
   type: vless
@@ -1156,6 +1195,19 @@ proxies:
     path: /v1
     headers:
       Host: live.ok.ru
+- name: 🇫🇷 France
+  type: vless
+  server: fr.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
+  client-fingerprint: firefox
 - name: 🇬🇧 LTE United Kingdom
   type: vless
   server: lte-gb.cdn-assets-pro.com
@@ -1179,6 +1231,19 @@ proxies:
   network: xhttp
   tls: true
   servername: app-fr.upd-media.com
+  client-fingerprint: firefox
+- name: 🇺🇦 Ukraine
+  type: vless
+  server: ua.cdn-assets-pro.com
+  port: 2470
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
   client-fingerprint: firefox
 - name: 🇫🇮 LTE Finland
   type: vless
@@ -1252,6 +1317,19 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: lv3grpc
+- name: 🇩🇪 Germany
+  type: vless
+  server: de.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
+  client-fingerprint: firefox
 - name: ' 🇩🇪 Германия 2'
   type: vless
   server: de.fef-media.me
@@ -1269,6 +1347,71 @@ proxies:
   network: xhttp
   tls: true
   servername: host.sdssg-vid.online
+  client-fingerprint: firefox
+- name: 🇳🇱 Netherlands
+  type: vless
+  server: nl.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
+  client-fingerprint: firefox
+- name: 🇫🇮 Finland
+  type: vless
+  server: fi.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
+  client-fingerprint: firefox
+- name: 🇸🇪 Sweden
+  type: vless
+  server: se.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
+  client-fingerprint: firefox
+- name: 🇬🇧 United Kingdom
+  type: vless
+  server: gb.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
+  client-fingerprint: firefox
+- name: 🇺🇸 United States
+  type: vless
+  server: us.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: cdn.byteark.com
   client-fingerprint: firefox
 - name: WS, Яндекс [V.O.I.D]
   type: vless
@@ -2937,6 +3080,8 @@ proxy-groups:
   - '🌀 CYBERPORTAL | Bypass List | 🇷🇺 Россия #298'
   - '🌀 CYBERPORTAL | Bypass List | 🇷🇺 Россия #300'
   - '🌀 CYBERPORTAL | TCP Pack | 🇫🇮 Финляндия #11'
+  - 🇹🇷 Turkey
+  - 🇰🇿 Kazakhstan
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #29'
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #126'
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #127'
@@ -2953,6 +3098,7 @@ proxy-groups:
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #299'
   - 🇵🇱 Польша
   - 🇨🇭 Швейцария 2
+  - 🇷🇺 Russia
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #37'
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #123'
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #124'
@@ -2974,9 +3120,11 @@ proxy-groups:
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #301'
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #303'
   - '[OpenRay] 🇧🇷 BR-246'
+  - 🇫🇷 France
   - 🇬🇧 LTE United Kingdom
   - ' 🇩🇪 | ⭐️ ✨ Германия | Hysteria2'
   - 🇫🇷 Франция
+  - 🇺🇦 Ukraine
   - 🇫🇮 LTE Finland
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #249'
   - 🇨🇭 Швейцария
@@ -2984,8 +3132,14 @@ proxy-groups:
   - 🇳🇱 Netherlands 🔥 NEW | XHTTP
   - 🇳🇱 Netherlands 🔥 NEW | XHTTP
   - 🇨🇭 Switzerland | 🌐 [*CIDR]
+  - 🇩🇪 Germany
   - ' 🇩🇪 Германия 2'
   - ' 🇳🇱 Нидерланды '
+  - 🇳🇱 Netherlands
+  - 🇫🇮 Finland
+  - 🇸🇪 Sweden
+  - 🇬🇧 United Kingdom
+  - 🇺🇸 United States
   - WS, Яндекс [V.O.I.D]
   - '[OpenRay] 🇷🇺 RU-35067'
   - '[OpenRay] 🇷🇺 RU-35040'
