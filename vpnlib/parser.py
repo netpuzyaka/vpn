@@ -86,6 +86,12 @@ def parse_vless(raw: str):
     except ValueError:
         return None
     params = _qs(m.group("query") or "")
+    flow = params.get("flow", "")
+    net = (params.get("type") or "tcp").lower()
+    if flow.lower().startswith("xtls") and net not in ("tcp", "none", ""):
+        return None
+    if not _safe_unquote(m.group("id")):
+        return None
     return Node(
         proto="vless",
         host=m.group("host"),

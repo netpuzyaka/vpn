@@ -33,6 +33,31 @@ RAW_URLS = [
         "name": "cdn-assets подписка",
         "limit": 1000,
     },
+    {
+        "url": "https://warp-gen.cyb-portal.org/CP-032",
+        "name": "warp-gen CP-032 (сборка)",
+        "limit": 300,
+    },
+    {
+        "url": "https://warp-gen.cyb-portal.org/CP-042",
+        "name": "warp-gen CP-042",
+        "limit": 300,
+    },
+    {
+        "url": "https://warp-gen.cyb-portal.org/CP-038",
+        "name": "warp-gen CP-038",
+        "limit": 300,
+    },
+    {
+        "url": "https://warp-gen.cyb-portal.org/CP-037",
+        "name": "warp-gen CP-037",
+        "limit": 300,
+    },
+    {
+        "url": "https://warp-gen.cyb-portal.org/CP-019",
+        "name": "warp-gen CP-019",
+        "limit": 300,
+    },
 ]
 
 DEFAULT_SOURCE_LIMIT = 1000
