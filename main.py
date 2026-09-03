@@ -94,6 +94,7 @@ def parse_args():
     ap.add_argument("--no-clash", action="store_true", help="не генерировать clash.yaml")
     ap.add_argument("--session", help="путь к .session файлу Telethon")
     ap.add_argument("--ci", action="store_true", help="CI-режим: без интерактива (сессия из env)")
+    ap.add_argument("--push", action="store_true", help="автозапушить web/data в GitHub, если конфиг изменился")
     ap.add_argument("--json", action="store_true", help="вывести итоговую статистику в JSON")
     return ap.parse_args()
 
@@ -163,6 +164,31 @@ def source_limit(name: str) -> int:
         if entry["name"] == name:
             return int(entry.get("limit", config.DEFAULT_SOURCE_LIMIT))
     return config.DEFAULT_SOURCE_LIMIT
+
+
+def auto_push(message: str = "chore: update unified vpn config [skip ci]"):
+    """Если web/data изменился — закоммитить и запушить в GitHub (Vercel передеплоит)."""
+    import subprocess
+
+    cwd = str(config.BASE_DIR)
+    add = subprocess.run(["git", "add", "web/data", "output"], cwd=cwd, capture_output=True, text=True)
+    if add.returncode != 0:
+        return False, f"git add: {add.stderr.strip()}"
+
+    diff = subprocess.run(
+        ["git", "diff", "--cached", "--quiet"], cwd=cwd, capture_output=True, text=True
+    )
+    if diff.returncode == 0:
+        return False, "изменений нет — пушить нечего"
+
+    commit = subprocess.run(["git", "commit", "-m", message], cwd=cwd, capture_output=True, text=True)
+    if commit.returncode != 0:
+        return False, f"git commit: {commit.stderr.strip()}"
+
+    push = subprocess.run(["git", "push", "origin", "master"], cwd=cwd, capture_output=True, text=True)
+    if push.returncode != 0:
+        return False, f"git push: {push.stderr.strip()}"
+    return True, commit.stdout.strip()
 
 
 async def run(args):
@@ -315,6 +341,19 @@ async def run(args):
         )
     else:
         print("Готово! Файлы сохранены.")
+
+    if args.push:
+        ok, info = auto_push()
+        if ok:
+            if RICH:
+                console.print(f"[bold green]✔ Запушено в GitHub:[/bold green]\n{info}")
+            else:
+                print(f"Запушено в GitHub:\n{info}")
+        else:
+            if RICH:
+                console.print(f"[yellow]Не пушу ({info})[/yellow]")
+            else:
+                print(f"Не пушу ({info})")
 
     if args.json:
         print(json.dumps(stats, ensure_ascii=False))
