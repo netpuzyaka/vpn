@@ -59,6 +59,11 @@ RAW_URLS = [
         "limit": 300,
     },
     {
+        "url": "https://warp-gen.cyb-portal.org/CP-035",
+        "name": "warp-gen CP-035 (White List)",
+        "limit": 400,
+    },
+    {
         "url": "https://is.wepogp.gay/bypass-hwid-lock-3z5O6BFAaJQzGlamvtSo?payload=gG/IXjj2tBVY9/4JV3lO3LR8fEj/UerNm8z9mCCsm7SJ3ys2XwiB0%2BDskEqi5KAfMsHsakN5Ts1gfflCuHW4zA%3D%3D",
         "name": "wepogp CP2 (sing-box JSON)",
         "limit": 300,
