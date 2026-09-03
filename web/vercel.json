@@ -4,6 +4,7 @@
     { "source": "/sub", "destination": "/data/unified_config.txt" },
     { "source": "/sub/b64", "destination": "/data/unified_config_b64.txt" },
     { "source": "/sub/clash", "destination": "/data/clash.yaml" },
+    { "source": "/sub/:hash", "destination": "/data/pastes/:hash.txt" },
     { "source": "/stats", "destination": "/api/stats" },
     { "source": "/api/config", "destination": "/api/config" }
   ],
