@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-09-03 07:20:10",
+  "updated_ts": 1788409210,
+  "total": 1100,
+  "alive": 693,
+  "unknown": 279,
+  "dead": 128,
+  "in_config": 972,
+  "protocols": {
+    "vless": {
+      "unknown": 273,
+      "alive": 667,
+      "dead": 121
+    },
+    "hysteria2": {
+      "unknown": 3,
+      "alive": 1,
+      "dead": 7
+    },
+    "vmess": {
+      "alive": 8
+    },
+    "trojan": {
+      "alive": 4,
+      "unknown": 3
+    },
+    "ss": {
+      "alive": 13
+    }
+  }
+}

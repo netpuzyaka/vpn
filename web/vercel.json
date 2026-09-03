@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/sub", "destination": "/api/config" },
+    { "source": "/sub/b64", "destination": "/api/config?format=b64" },
+    { "source": "/sub/clash", "destination": "/api/config?format=clash" },
+    { "source": "/stats", "destination": "/api/stats" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
+    }
+  ]
+}

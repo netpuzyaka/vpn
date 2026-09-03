@@ -1,0 +1,19 @@
+# Telethon sessions — никогда не коммить
+session/*.session
+session/*.session-journal
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Локальные результаты генерации (на сайт идёт только web/data)
+output/
+
+# Личные файлы источников
+sources/*.txt
+!sources/input.txt
+
+.vercel/
+.env
+.env.*
