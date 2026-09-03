@@ -14592,6 +14592,2301 @@ proxies:
     short-id: eb0cca7312345678
   flow: xtls-rprx-vision
   servername: eh.vk.com
+- name: 4FreeIran-c9c3e3e22d
+  type: vless
+  server: 77.232.41.149
+  port: 443
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: 2b5b1ffa8a6a1a68
+  servername: ya.ru
+  client-fingerprint: chrome
+- name: 4Kian-38cf94be24
+  type: vless
+  server: 77.232.43.195
+  port: 443
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
+    short-id: 2b5b1ffa8a6a1a68
+  servername: ya.ru
+  client-fingerprint: chrome
+- name: 4Mohsen-a5fd7da170
+  type: vless
+  server: 188.225.33.206
+  port: 8443
+  uuid: c124a209-d949-4951-8234-e2d918b3e6c0
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc
+  flow: xtls-rprx-vision
+  servername: max.ru
+  client-fingerprint: chrome
+- name: 4Sarina-eb71e066cf
+  type: vless
+  server: usa03.abvpn.net
+  port: 443
+  uuid: c5c9d8ec-6c95-4f84-a395-de41ef895f34
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: J0_Stw7IIr6naIGCtZ1ZB75HfD-KIITZMy84jQVufyU
+    short-id: 7b
+  servername: mirror.yandex.ru
+  client-fingerprint: firefox
+- name: 4Jadi-916b0ca5a4
+  type: vless
+  server: 87.249.54.103
+  port: 4100
+  uuid: db7de26b-96d8-452c-8b9d-4a6bf55a7da7
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: 4FreeIran-0399ecee0b
+  type: vless
+  server: api6.maps-yandex.net
+  port: 10970
+  uuid: ed9a0afe-1f54-40af-8821-0995cef0225a
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: _RCN3b8MUJE61ES111k45TLrvB_nUi1pywAO5sc0OF0
+    short-id: cb8ba29900e2f68b
+  flow: xtls-rprx-vision
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 4Kian-159f37fc16
+  type: vless
+  server: 81.200.144.27
+  port: 4100
+  uuid: f0528a17-863f-4160-a5a0-0d9ad03f2ee7
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: 4Sarina-6b75f71ab1
+  type: vless
+  server: us.nitroo-tech.ru
+  port: 443
+  uuid: f31f5fe0-0a42-436a-be94-437330801388
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: aHaFXlvmkeCV60wfe60DD9w00WE1euQfH6jtDq5iYkI
+    short-id: 7e44612b079459
+  flow: xtls-rprx-vision
+  servername: mirror.yandex.ru
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇺🇸 US-25995'
+  type: vless
+  server: 31.77.220.163
+  port: 9443
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: D-G2rTpSUTAF6Rj0C6Gxnk-uzsaGzM6MSbJX3jCyBBk
+    short-id: a1b2c3d4
+  flow: xtls-rprx-vision
+  servername: max.ru
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇺🇸 US-26042'
+  type: vless
+  server: 31.77.220.183
+  port: 5443
+  uuid: 6379673b-197f-4944-ba81-a45c66aefe9c
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: v2O4A9AFfpLvXyAdLulLTsSEN8XXjVA2Q4jT3lTqBxI
+    short-id: a1b2c3d4
+  flow: xtls-rprx-vision
+  servername: m.ok.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇺🇸 US-26043'
+  type: vless
+  server: 31.77.220.152
+  port: 5017
+  uuid: 74f73fb2-49cc-4744-bd37-97c5f83963ab
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: v2O4A9AFfpLvXyAdLulLTsSEN8XXjVA2Q4jT3lTqBxI
+    short-id: a1b2c3d4
+  flow: xtls-rprx-vision
+  servername: m.ok.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇷🇺 RU-35035'
+  type: vless
+  server: 201.51.1.84
+  port: 16923
+  uuid: ba222add-6ac1-45f1-9a18-f91cb38e324f
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: api-maps.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇷🇺 RU-35070'
+  type: vless
+  server: 201.24.49.57
+  port: 2200
+  uuid: 45712903-92af-48b5-8f2f-5482d33e9385
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇰🇷 KR-2916'
+  type: vless
+  server: 31.77.183.88
+  port: 5000
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
+    short-id: a1b2c3d4
+  flow: xtls-rprx-vision
+  servername: max.ru
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇫🇷 FR-4429'
+  type: vless
+  server: 45.192.2.72
+  port: 443
+  uuid: 85d3de51-1960-4bb5-86ab-ab6343accb01
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: ece180c605b5453c
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4464'
+  type: vless
+  server: 88.218.196.33
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa1.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4465'
+  type: vless
+  server: 107.161.160.64
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa2.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4467'
+  type: vless
+  server: 217.179.6.228
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa6.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4468'
+  type: vless
+  server: 107.161.160.219
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa9.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4471'
+  type: vless
+  server: 88.218.196.64
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa8.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4472'
+  type: vless
+  server: 107.161.160.231
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa3.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4473'
+  type: vless
+  server: lapa10.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa10.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4474'
+  type: vless
+  server: lapa8.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa8.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4475'
+  type: vless
+  server: lapa6.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa6.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4476'
+  type: vless
+  server: lapa3.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa3.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4477'
+  type: vless
+  server: lapa2.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa2.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4478'
+  type: vless
+  server: lapa5.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa5.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4479'
+  type: vless
+  server: lapa9.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa9.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4480'
+  type: vless
+  server: lapa4.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa4.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇫🇷 FR-4492'
+  type: vless
+  server: lapa1.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa1.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇬🇧 GB-2833'
+  type: vless
+  server: 132.243.207.38
+  port: 4443
+  uuid: 1f35c4eb-e4fa-5a62-b0e1-b557983b34c7
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: wg5YJMYIcqRU9X9U54TRzKIIw5aUyxIEI3tL_jck5WU
+    short-id: '44'
+  servername: www.vk.com
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇬🇧 GB-2834'
+  type: vless
+  server: 132.243.207.38
+  port: 5000
+  uuid: 6a0a3a97-f063-5599-b5fa-2b5ad599a683
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 0qifn7FGo1Fv6bAhw29gy5SmVHcWarBfIHTUPOwpXVs
+    short-id: 360e
+  flow: xtls-rprx-vision
+  servername: www.vk.com
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇬🇧 GB-2870'
+  type: vless
+  server: 132.243.207.38
+  port: 50039
+  uuid: 6a0a3a97-f063-5599-b5fa-2b5ad599a683
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 0qifn7FGo1Fv6bAhw29gy5SmVHcWarBfIHTUPOwpXVs
+    short-id: 9c6d65829a49c6
+  flow: xtls-rprx-vision
+  servername: www.vk.com
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇬🇧 GB-2913'
+  type: vless
+  server: frabridge1.frost-api.com
+  port: 443
+  uuid: cbe5611f-392b-4ec3-9d8b-5bbe59c0fa68
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
+    short-id: e7
+  flow: xtls-rprx-vision
+  servername: max.ru
+  client-fingerprint: safari
+- name: '[OpenRay] 🇮🇹 IT-863'
+  type: vless
+  server: 194.180.207.244
+  port: 8443
+  uuid: 6ed91f07-89b1-4819-b0d8-64393339dca4
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: BO3U4MZIyXeRHHKjZjdrAhoEpsdIN-9zk0YHATAJriE
+    short-id: 0f
+  servername: yandex.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇮🇹 IT-870'
+  type: vless
+  server: 194.180.207.240
+  port: 8443
+  uuid: 26bf8edb-8731-4f06-bc01-2cf7fefc29a6
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: BO3U4MZIyXeRHHKjZjdrAhoEpsdIN-9zk0YHATAJriE
+    short-id: d21d461746
+  servername: yandex.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇮🇹 IT-883'
+  type: vless
+  server: 151.243.198.104
+  port: 8443
+  uuid: e4737ce4-c646-44cc-9067-390e13c2a5f6
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: Fw8ZV01MXPDlEFv28McarZoPOtGKFhOqp6Paf1V8tXw
+    short-id: 1aef020d3c38ca3c
+  servername: yandex.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇯🇵 JP-4071'
+  type: vless
+  server: 195.78.48.167
+  port: 8453
+  uuid: 27392d81-048b-45c6-b919-70f4d3f9d60e
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: nzqaN3lDq7ydcGlEpDvQ58WNo2iEETUxDHzSZwvkhmY
+    short-id: a1b2c3d4
+  flow: xtls-rprx-vision
+  servername: yastatic.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇯🇵 JP-4439'
+  type: vless
+  server: jp.alertyagency.com
+  port: 443
+  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: a7QPumBr-7EpnnPJ8TRr38MapK3xNGt59kfdPwud4xA
+    short-id: 48ced39e
+  flow: xtls-rprx-vision
+  servername: api-maps.yandex.ru
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇵🇱 PL-1963'
+  type: vless
+  server: 82.22.41.125
+  port: 2053
+  uuid: 438b4dc4-57a4-4c09-a32a-6730ca071ca8
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: qQZ2JrvOorFCGldu8DzQ4qGF7LOdQGMxqklRgGAXUhU
+    short-id: ed67cf1129
+  servername: dzen.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[OpenRay] 🇵🇱 PL-1964'
+  type: vless
+  server: 82.22.41.125
+  port: 443
+  uuid: 438b4dc4-57a4-4c09-a32a-6730ca071ca8
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: qQZ2JrvOorFCGldu8DzQ4qGF7LOdQGMxqklRgGAXUhU
+    short-id: 6843f05f8c4a
+  servername: dzen.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇵🇱 PL-2174'
+  type: vless
+  server: 45.144.51.101
+  port: 443
+  uuid: 663836b2-f676-43fb-977f-47c495b1b383
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: rgVwK1tNuKMOuTY2ZLXoV511cXPO-L8mXTq0jhG5_WU
+    short-id: 3476d0c6139ad353
+  flow: xtls-rprx-vision
+  servername: st.ozone.ru
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇵🇱 PL-2180'
+  type: vless
+  server: 45.144.48.223
+  port: 443
+  uuid: 663836b2-f676-43fb-977f-47c495b1b383
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: rgVwK1tNuKMOuTY2ZLXoV511cXPO-L8mXTq0jhG5_WU
+    short-id: 3476d0c6139ad353
+  flow: xtls-rprx-vision
+  servername: st.ozone.ru
+  client-fingerprint: ios
+- name: '[OpenRay] 🇵🇱 PL-2190'
+  type: vless
+  server: lapa7.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lapa7.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1336'
+  type: vless
+  server: 152.233.53.7
+  port: 443
+  uuid: 0718d4d6-42ea-4388-a41c-2069a49761f5
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: DAdWhCSXRRcho_XopxBKq2-KDupbSY_i2r-FJCy58kY
+    short-id: 5a3874f1
+  flow: xtls-rprx-vision
+  servername: api-maps.yandex.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1433'
+  type: vless
+  server: try.smotri-shop.top
+  port: 443
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM
+    short-id: c0573c8280a0c019
+  flow: xtls-rprx-vision
+  servername: www.ya.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1560'
+  type: vless
+  server: 64.49.13.198
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok10.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1561'
+  type: vless
+  server: 64.49.13.249
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok4.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1563'
+  type: vless
+  server: 64.49.13.12
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok6.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1564'
+  type: vless
+  server: 107.181.155.231
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok3.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1566'
+  type: vless
+  server: 64.49.13.232
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok2.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1567'
+  type: vless
+  server: 64.49.13.250
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok8.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1569'
+  type: vless
+  server: 143.246.136.78
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok1.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1570'
+  type: vless
+  server: wok4.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok4.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1571'
+  type: vless
+  server: wok8.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok8.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1572'
+  type: vless
+  server: wok2.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok2.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1573'
+  type: vless
+  server: wok3.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok3.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1574'
+  type: vless
+  server: wok7.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok7.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1575'
+  type: vless
+  server: wok10.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok10.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1576'
+  type: vless
+  server: wok9.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok9.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1577'
+  type: vless
+  server: wok6.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok6.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1578'
+  type: vless
+  server: wok1.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok1.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇹🇷 TR-1583'
+  type: vless
+  server: wok5.api3-max.ru
+  port: 443
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wok5.api3-max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇸🇪 SE-1878'
+  type: vless
+  server: se.vrsvpn.com
+  port: 443
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: HUIUjR11K2-23-4Y-i51g9cun8etjfgaWW-h8AsEtEU
+    short-id: 45ba24f179ad1f26
+  flow: xtls-rprx-vision
+  servername: web.max.ru
+  client-fingerprint: qq
+- name: '[OpenRay] 🇸🇪 SE-1901'
+  type: vless
+  server: 94.183.224.21
+  port: 443
+  uuid: 1388bb49-e4a1-485d-b9ee-02ba3742f8f6
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: OnvxYKheQYpnGbyaF5S392QFQwYvFPOTuAnSJEweCG0
+    short-id: 078a89fb628b9bd7
+  flow: xtls-rprx-vision
+  servername: avito.ru
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇸🇪 SE-1925'
+  type: vless
+  server: 144.31.230.27
+  port: 8443
+  uuid: 3cae7515-8967-49bc-ae9d-49fcf3d9dc3e
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: zRVSRinqebogFvlL5GWcaYfLlKGueXknigEI-f-tKAI
+    short-id: d82c4b67f9a13e5c
+  flow: xtls-rprx-vision
+  servername: www.vk.com
+  client-fingerprint: edge
+- name: '[OpenRay] 🇸🇪 SE-2057'
+  type: vless
+  server: 150.241.72.97
+  port: 443
+  uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: jkJjVvjbZmS5Nq-5Oz7GTRSZ_qXfChO7b5Ee8yYglzw
+    short-id: 23c0b9cc8395ab36
+  flow: xtls-rprx-vision
+  servername: max.ru
+  client-fingerprint: qq
+- name: '[OpenRay] 🇸🇪 SE-2058'
+  type: vless
+  server: 95.85.241.169
+  port: 8443
+  uuid: 41e72698-f09a-4617-8f1b-33359c2473cc
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: QcYJtyoXm01O0DbwCc_sXDqa0Y9D6detbg07HovecSg
+    short-id: a0f2b4232e34f664
+  servername: sun6-21.userapi.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[OpenRay] 🇸🇪 SE-2185'
+  type: vless
+  server: 87.120.196.190
+  port: 2443
+  uuid: 35066ccf-e303-4b0e-993b-aa2c2cef9c87
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: rRg3JiP2006ldJYh2TDPAn7dtlXLcSHdgHgkGI_HZTE
+    short-id: ef567890
+  servername: ya.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[OpenRay] 🇸🇪 SE-2217'
+  type: vless
+  server: 2.26.7.249
+  port: 554
+  uuid: 48c622d6-3cdd-47d5-8cd8-29855f7716d1
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: E8r9n9A0VyyYV6VE_94xo5UsZMvssa5Ub8kYudvCPCk
+    short-id: ab1da24b10d4c1
+  flow: xtls-rprx-vision
+  servername: api-maps.yandex.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇸🇪 SE-2287'
+  type: vless
+  server: sw1111.bearbeer.digital
+  port: 443
+  uuid: c6fdfa4b-742c-4225-986b-b0e3bd3146a4
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: SwfpVdTE6Ay33LQpgRl2Q97t7HFrGREkpE7E1A6pCD4
+  flow: xtls-rprx-vision
+  servername: api-maps.yandex.ru
+  client-fingerprint: qq
+- name: '[OpenRay] 🇸🇪 SE-2335'
+  type: vless
+  server: 88.216.189.177
+  port: 443
+  uuid: bd1b4bd2-a312-433d-ae7b-d5d28f50af2a
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: AjJEU0yOwxU1qq-6-M32xKTOOc0xI4dpTiRp5EzXIRM
+    short-id: '49'
+  flow: xtls-rprx-vision
+  servername: id.vk.com
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇨🇭 CH-759'
+  type: vless
+  server: 83.228.197.195
+  port: 8082
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: '[OpenRay] 🇨🇭 CH-787'
+  type: vless
+  server: 152.233.31.80
+  port: 16923
+  uuid: 26e354ba-a3ee-45f0-bf68-422e27e12884
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: api-maps.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇨🇭 CH-943'
+  type: vless
+  server: chb.kosmosapp.ru
+  port: 16923
+  uuid: 28863986-75fb-4b2f-b006-65e62194358d
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: images.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇨🇭 CH-944'
+  type: vless
+  server: cha.kosmosapp.ru
+  port: 16923
+  uuid: cf0310b0-2cd6-4ae1-b4c4-e029e7fb0ee3
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: auto.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇨🇭 CH-945'
+  type: vless
+  server: chc.kosmosapp.ru
+  port: 16923
+  uuid: 0f4aeb95-32ae-457c-8d71-b66bb9ff1073
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: mail.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇨🇭 CH-947'
+  type: vless
+  server: che.kosmosapp.ru
+  port: 16923
+  uuid: a6d52d0d-7ce6-4601-8de3-bfcf07646f58
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: images.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇨🇭 CH-975'
+  type: vless
+  server: 176.65.144.248
+  port: 443
+  uuid: 62a08ea5-0564-47b4-a92c-25be07ad6358
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A
+    short-id: 6ba85179e30d4fc2
+  servername: 360.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[OpenRay] 🇰🇿 KZ-472'
+  type: vless
+  server: 45.94.23.46
+  port: 16923
+  uuid: 83f76cc0-ebcd-4805-a408-f6c8e30ff3ee
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: api-maps.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇰🇿 KZ-539'
+  type: vless
+  server: 109.248.18.63
+  port: 443
+  uuid: 62a08ea5-0564-47b4-a92c-25be07ad6358
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A
+    short-id: 6ba85179e30d4fc2
+  servername: 360.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[OpenRay] 🇰🇿 KZ-550'
+  type: vless
+  server: 5.180.40.9
+  port: 443
+  uuid: 5e19b3c8-c1dc-4163-95e2-895319c15d6c
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 06GvG7PU5F3Hgq-vUH24tU0tpsbGMCCt26BSvlaBNUE
+    short-id: dfbfa87e9f37f1f0
+  flow: xtls-rprx-vision
+  servername: cloud.mail.ru
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇭🇺 HU-462'
+  type: vless
+  server: 45.198.87.99
+  port: 8443
+  uuid: 360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+- name: '[OpenRay] 🇭🇺 HU-463'
+  type: vless
+  server: 45.198.87.152
+  port: 8443
+  uuid: 360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇭🇺 HU-422'
+  type: vless
+  server: 45.198.87.83
+  port: 8443
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇭🇺 HU-476'
+  type: vless
+  server: 152.233.41.13
+  port: 16923
+  uuid: 781be37f-2ed2-40b3-a013-f416e0450fd0
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: api-maps.yandex.ru
+  client-fingerprint: safari
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇭🇺 HU-482'
+  type: vless
+  server: 152.233.41.31
+  port: 16923
+  uuid: b8e74de0-42c6-4b84-8889-bf348f32730c
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: mail.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇭🇺 HU-486'
+  type: vless
+  server: 45.195.111.15
+  port: 443
+  uuid: 45459159-1536-4e98-95b3-aa1dbbfb4172
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: qq
+- name: '[OpenRay] 🇭🇺 HU-492'
+  type: vless
+  server: hua.kosmosapp.ru
+  port: 16923
+  uuid: cf0310b0-2cd6-4ae1-b4c4-e029e7fb0ee3
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: mail.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇭🇺 HU-493'
+  type: vless
+  server: hue.kosmosapp.ru
+  port: 16923
+  uuid: a6d52d0d-7ce6-4601-8de3-bfcf07646f58
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: images.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇭🇺 HU-494'
+  type: vless
+  server: 45.195.111.123
+  port: 443
+  uuid: d2042070-c247-4226-a3ac-15337923e00d
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇭🇺 HU-501'
+  type: vless
+  server: hu10.levikogjgfdd.ir
+  port: 443
+  uuid: 66824c94-7ba9-4113-908e-bd793f296852
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇻 LV-1044'
+  type: vless
+  server: 185.145.245.125
+  port: 16923
+  uuid: 83f76cc0-ebcd-4805-a408-f6c8e30ff3ee
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  servername: api-maps.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+- name: '[OpenRay] 🇱🇻 LV-1045'
+  type: vless
+  server: 185.145.245.227
+  port: 443
+  uuid: a4a7b274-39e1-4d79-8122-66f96c0affad
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: epKxGHvul2A8tNMFsEDFN2P71B-WbEEwbqbPLyNlYFg
+    short-id: e549af0908
+  servername: dzen.ru
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: web-grpc
+- name: '[OpenRay] 🇱🇻 LV-1291'
+  type: vless
+  server: 91.204.75.198
+  port: 34499
+  uuid: 7b6c6542-f3f2-4ca8-aa37-38428cb3bc3a
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: pXqtZamxC_qxublGTL8rVZqNI_tt3Ul_GHhcKJPaoQ0
+  servername: m.vk.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[OpenRay] 🇱🇻 LV-1292'
+  type: vless
+  server: 91.204.75.198
+  port: 24499
+  uuid: 7b6c6542-f3f2-4ca8-aa37-38428cb3bc3a
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: pXqtZamxC_qxublGTL8rVZqNI_tt3Ul_GHhcKJPaoQ0
+  servername: static.rutube.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[OpenRay] 🇱🇻 LV-1322'
+  type: vless
+  server: 104.253.25.106
+  port: 443
+  uuid: bb1985eb-bb3b-418a-968a-13b7ff23d347
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 5jRhbyWh1T_J61Ro-7J4L5QFR2PkqNyXS4841VphYn0
+  flow: xtls-rprx-vision
+  servername: www.max.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇻 LV-1369'
+  type: vless
+  server: 72.56.52.27
+  port: 2053
+  uuid: bd44419a-02a9-4c03-9cb8-a7f8ffd3ae68
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
+  servername: api-maps.yandex.ru
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: MapsYandexAPI
+- name: '[OpenRay] 🇸🇨 SC-82'
+  type: vless
+  server: 200.165.228.47
+  port: 4100
+  uuid: 6620ef58-9c62-43fe-9596-ff862b200958
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '[OpenRay] 🇸🇨 SC-87'
+  type: vless
+  server: 200.165.235.43
+  port: 2053
+  uuid: 41f33146-7eb4-11f1-855a-d60b69bb56c6
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: j8OW1foMwfeiy3VMbNPHLgTXgy_ZPdFFxv-H3HrbNF0
+    short-id: 2c60309fa586eb60
+  servername: dzen.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-direct
+- name: '[OpenRay] 🇸🇨 SC-94'
+  type: vless
+  server: 200.165.228.78
+  port: 4100
+  uuid: 215c2b34-6371-49c7-a90d-39a4fe5191c0
+  network: ws
+  client-fingerprint: edge
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '[OpenRay] 🇸🇨 SC-103'
+  type: vless
+  server: 200.165.234.83
+  port: 443
+  uuid: bded43d3-fdad-44eb-a1fb-f3fe86d3550d
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: MEf-wwgnhZG97nPrgwU2gry9o9lKn8PmaNNi6OaMEy8
+    short-id: 3c7ad26694142132
+  flow: xtls-rprx-vision
+  servername: ya.ru
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇸🇨 SC-110'
+  type: vless
+  server: 200.165.230.19
+  port: 443
+  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
+    short-id: a3f8d21c4b907e56
+  flow: xtls-rprx-vision
+  servername: www.kinopoisk.ru
+  client-fingerprint: ios
+- name: '[OpenRay] 🇸🇨 SC-112'
+  type: vless
+  server: 200.165.230.19
+  port: 2087
+  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
+    short-id: f2a4c6e8
+  servername: vk.com
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[OpenRay] 🇸🇨 SC-113'
+  type: vless
+  server: 200.165.230.19
+  port: 445
+  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
+    short-id: 5b9d3e7f1a2c8406
+  flow: xtls-rprx-vision
+  servername: www.avito.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇦🇪 AE-123'
+  type: vless
+  server: 178.248.238.84
+  port: 40443
+  uuid: 7b569cd8-3829-4699-ab9d-3862b8a68b91
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: ZSzB9TQPGNcCiC0WLmciF5Jc8doJDvdRgbqTi8SCoEM
+    short-id: a1b2c3d4e5f6789a
+  flow: xtls-rprx-vision
+  servername: api-maps.yandex.ru
+  client-fingerprint: qq
+- name: '[OpenRay] 🇧🇬 BG-76'
+  type: vless
+  server: nl2.vrsvpn.com
+  port: 444
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: X-YL5VNtlMNIaBrwaHt3hJCeF_gMT9gPRDDlK1Qg7Tc
+    short-id: 8321461729abcdef
+  servername: web.max.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: web.max.ru
+- name: '[OpenRay] 🇧🇷 BR-165'
+  type: vless
+  server: 154.91.157.184
+  port: 443
+  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: _0HnraldEtXmJMu7t3nEm8VmQXkMWF7dX1Dmz5KceSw
+    short-id: 57f5917841a2178f
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇧🇷 BR-184'
+  type: vless
+  server: 45.192.2.51
+  port: 443
+  uuid: c9b764b5-49cf-4400-9540-f56f7c09a87a
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: f34818a561dfd1fe
+  flow: xtls-rprx-vision
+  servername: yandex.net
+  client-fingerprint: qq
+- name: '[OpenRay] 🇧🇷 BR-241'
+  type: vless
+  server: 201.24.49.120
+  port: 4100
+  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '[OpenRay] 🇧🇷 BR-281'
+  type: vless
+  server: 201.24.49.120
+  port: 2200
+  uuid: b671573f-6303-4cdf-ad50-0401d07e85bf
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇱🇹 LT-185'
+  type: vless
+  server: 45.194.10.106
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-186'
+  type: vless
+  server: 45.194.10.115
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-187'
+  type: vless
+  server: 45.194.10.125
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-188'
+  type: vless
+  server: 45.194.10.128
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-189'
+  type: vless
+  server: 45.194.10.12
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-190'
+  type: vless
+  server: 45.194.10.149
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-191'
+  type: vless
+  server: 45.194.10.153
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-192'
+  type: vless
+  server: 45.194.10.171
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-193'
+  type: vless
+  server: 45.194.10.178
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-194'
+  type: vless
+  server: 45.194.10.20
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-195'
+  type: vless
+  server: 45.194.10.211
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-197'
+  type: vless
+  server: 45.194.10.247
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-198'
+  type: vless
+  server: 45.194.10.24
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-199'
+  type: vless
+  server: 45.194.10.25
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-200'
+  type: vless
+  server: 45.194.10.27
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-201'
+  type: vless
+  server: 45.194.10.31
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-202'
+  type: vless
+  server: 45.194.10.35
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-203'
+  type: vless
+  server: 45.194.10.37
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-205'
+  type: vless
+  server: 45.194.10.4
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-206'
+  type: vless
+  server: 45.194.10.62
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-207'
+  type: vless
+  server: 45.194.10.92
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+- name: '[OpenRay] 🇱🇹 LT-223'
+  type: vless
+  server: 45.194.10.193
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-224'
+  type: vless
+  server: 45.194.10.39
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-225'
+  type: vless
+  server: 45.194.10.80
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-226'
+  type: vless
+  server: 45.194.10.95
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-227'
+  type: vless
+  server: 45.194.10.213
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-229'
+  type: vless
+  server: 45.194.10.229
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-231'
+  type: vless
+  server: 45.194.10.142
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-232'
+  type: vless
+  server: 45.194.10.146
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-233'
+  type: vless
+  server: 45.194.10.202
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-234'
+  type: vless
+  server: 45.194.10.223
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-235'
+  type: vless
+  server: 45.194.10.36
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-236'
+  type: vless
+  server: 45.194.10.53
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-237'
+  type: vless
+  server: 45.194.10.57
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-238'
+  type: vless
+  server: 45.194.10.70
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-239'
+  type: vless
+  server: 45.194.10.74
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-241'
+  type: vless
+  server: 45.194.10.14
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-242'
+  type: vless
+  server: 45.194.10.163
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-243'
+  type: vless
+  server: 45.194.10.204
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-244'
+  type: vless
+  server: 45.194.10.2
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-245'
+  type: vless
+  server: 45.194.10.41
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇱🇹 LT-246'
+  type: vless
+  server: 45.194.10.85
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  flow: xtls-rprx-vision
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #125'
+  type: vless
+  server: novantunnel.tech
+  port: 443
+  uuid: 05b1737c-c92e-41cd-af4f-b4b8c6150e7b
+  network: ws
+  tls: true
+  client-fingerprint: randomized
+  ws-opts:
+    path: /Novan-AE8
+    headers:
+      Host: novantunnel.tech
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #127'
+  type: vless
+  server: novantunnel.tech
+  port: 443
+  uuid: e18aa221-41af-4186-859e-78c83b8aaac9
+  network: ws
+  tls: true
+  client-fingerprint: randomized
+  ws-opts:
+    path: /Novan-AE5
+    headers:
+      Host: novantunnel.tech
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #145'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: da5ff974-c135-4b57-a0ff-53dd2502e71e
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: long-smoke-b6cb.290-cd1.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #146'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: d503ca85-91c2-426d-98ce-7a6f44666be1
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: winter-hall-a0a2.74-532.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #151'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: 86dc5fb4-f279-45b7-a2c6-0d1e84b85c18
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lingering-dawn-5d4a.163-3f1.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #152'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: afb13fa2-bba2-417f-b8c2-62565f92a78d
+  network: ws
+  client-fingerprint: firefox
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: orange-block-5cd1.124-199.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List #156'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: 486ebf01-0b45-4c38-9ef6-198aa0f9d2c3
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: quiet-feather-19f3.410-a69.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List #162'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: 73ae7d45-1046-4cc5-9741-199375b620f1
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: round-resonance-a84c.13-531.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List #241'
+  type: vless
+  server: 0406.infinityconfig7.workers.dev
+  port: 2053
+  uuid: d682c8f4-e719-577e-cbe9-2e5b00000001
+  network: ws
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: 0406.infinityconfig7.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #242'
+  type: vless
+  server: www.baipiao.eu.org
+  port: 8880
+  uuid: cf39cbf2-8926-43b5-ba3e-45b975019094
+  network: ws
+  client-fingerprint: firefox
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: snowy-feather-39d3.428.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #243'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: 2a8cafda-479d-4e30-82d1-0bd4c6da6db9
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: delicate-meadow-15da.423-c77.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #245'
+  type: vless
+  server: www.baipiao.eu.org
+  port: 8880
+  uuid: 1113b881-179c-411c-b29b-53dae8faaf0a
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: raspy-sun-3de0.338.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #251'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: 4e81922a-1c2e-41ee-bb4c-9095a0a363fe
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: gentle-cell-501a.273-d6b.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #267'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: f4e6476f-40d0-40cb-841f-cc2f6909ff20
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: calm-haze-d105.21-7cd.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #268'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: e974d4c7-2376-4b65-aa40-0680961ff5e4
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: icy-unit-58dc.157-59c.workers.dev
+- name: '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #269'
+  type: vless
+  server: ez-bfa272.ezaccess1d90628.workers.dev
+  port: 2087
+  uuid: 86442a2b-417d-426d-9b42-955573b5c6e4
+  network: ws
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /eyJqdW5rIjoia2pPRnFFenhxIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODkuMTY5LjM0Ljk5Il19?ed=2560
+- name: '🌀 CYBERPORTAL | White Keys #106'
+  type: vless
+  server: sanpa-meow.nethcloud.top
+  port: 443
+  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
+  flow: xtls-rprx-vision
+  servername: www.wikihow.com
+  client-fingerprint: randomized
+- name: '🌀 CYBERPORTAL | White Keys #178'
+  type: vless
+  server: germanika.stopingiphatered.shop
+  port: 443
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  flow: xtls-rprx-vision
+  servername: germanika.stopingiphatered.shop
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White Keys #183'
+  type: vless
+  server: direct-tr01.korvexe.ir
+  port: 21570
+  uuid: c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: direct-tr01.korvexe.ir
+- name: '🌀 CYBERPORTAL | White Keys #188'
+  type: vless
+  server: rs4.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
+    short-id: 861ac7d66953e55f
+  servername: rs4.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: media.v1.StreamService
+- name: '🌀 CYBERPORTAL | White Keys #199'
+  type: vless
+  server: rs5.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+    short-id: 4872856d5489c37d
+  servername: rs5.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: gw.v1.ObjectService
+- name: '🌀 CYBERPORTAL | White Keys #206'
+  type: vless
+  server: chmstnd1.jarvesitw.ru
+  port: 443
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg
+    short-id: cf41f778
+  flow: xtls-rprx-vision
+  servername: app72.jarvestip.ru
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White Keys #225'
+  type: vless
+  server: app4.goonars.com
+  port: 443
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
+    short-id: 09ef88a6
+  flow: xtls-rprx-vision
+  servername: app4.goonars.com
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White Keys #230'
+  type: vless
+  server: fi-xh01.tcp-reset-club.net
+  port: 443
+  uuid: 0678ed07-980a-49c1-9066-05caec654967
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  servername: s3.netavex.com
+  client-fingerprint: random
+- name: '🌀 CYBERPORTAL | White Keys #235'
+  type: vless
+  server: md3.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: q38CddDj2g-XNDc0uW1m6S6b8iGY_Bne2RwX7C_FYCQ
+    short-id: 9a72d40f1ff882b3
+  servername: md3.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: stats.v2.PushService
+- name: '🌀 CYBERPORTAL | White Keys #257'
+  type: vless
+  server: 167.104.223.29.sslip.io
+  port: 443
+  uuid: c6cff605-90cf-4953-bf97-0a44e43f229d
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: fyfX-egDrRvXNW1Gt2P_8rH4jdupAcmhFLOCZCzCowo
+    short-id: fc36b4a584871aa5
+  flow: xtls-rprx-vision
+  servername: 167.104.223.29.sslip.io
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White Keys #261'
+  type: vless
+  server: upp-to.adsmoba.com
+  port: 443
+  uuid: ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: CcQSK8MlTK613n1M4iXtMjkWwejRMWhAQp92tUvZXnk
+    short-id: e3a1d441e7c4f703
+  flow: xtls-rprx-vision
+  servername: upp-to.adsmoba.com
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | White Keys #271'
+  type: vless
+  server: vu2jp26vdi.87544899.xyz
+  port: 443
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: SQ2YV9d0aD0HE3n01a-TMftltBBta2rVo8gaEKNxiAE
+    short-id: 6e98d95f15
+  flow: xtls-rprx-vision
+  servername: reonpocket.sony.co.jp
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | White Keys #295'
+  type: vless
+  server: w1z2qhevu1ps.7tzwwhemurss.workers.dev
+  port: 2096
+  uuid: 50414e45-4c5f-5a45-5553-39a51b68c271
+  network: ws
+  tls: true
+  servername: w1z2qhevu1ps.7tzwwhemurss.workers.dev
+  ws-opts:
+    path: /stream/PANEL_ZEUS/39a51b68c271/loc-1
+    headers:
+      Host: w1z2qhevu1ps.7tzwwhemurss.workers.dev
+- name: '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #3'
+  type: vless
+  server: fr.convert-flow.net
+  port: 443
+  uuid: 373963db-1cfa-440b-a51b-b06a7f2552e7
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 7X9VzIlg3uSahojf8N7OojrbnU4juMdMH2FLFlfBJVE
+    short-id: bc6f09277b7ca2f5
+  flow: xtls-rprx-vision
+  servername: fr.convert-flow.net
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | TCP Pack | 🇮🇹 Италия #4'
+  type: vless
+  server: osit1.ghast.sbs
+  port: 443
+  uuid: 367ff772-a8f4-4895-8e99-3702a868f0c6
+  network: grpc
+  tls: true
+  servername: osit1.ghast.sbs
+  grpc-opts:
+    grpc-service-name: grpc-api
+- name: '🌀 CYBERPORTAL | TCP Pack | 🇩🇪 Германия #5'
+  type: vless
+  server: multi.fresedvpn.site
+  port: 26490
+  uuid: 9190c233-09d6-4bcf-9903-1854e7899671
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: tyjPR-2sNQr2CQy5necKZGs_8eGT8LQM0fHFMSWNcBU
+    short-id: 7b2d00f66d691b15
+  servername: api-maps.yandex.ru
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | TCP Pack | 🇩🇪 Германия #8'
+  type: vless
+  server: multi.fresedvpn.site
+  port: 40080
+  uuid: 9190c233-09d6-4bcf-9903-1854e7899671
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: tyjPR-2sNQr2CQy5necKZGs_8eGT8LQM0fHFMSWNcBU
+    short-id: f35751993b64c475
+  servername: api-maps.yandex.ru
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | TCP Pack | 🇹🇷 Турция #12'
+  type: vless
+  server: multi.fresedvpn.site
+  port: 37282
+  uuid: 9190c233-09d6-4bcf-9903-1854e7899671
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: tyjPR-2sNQr2CQy5necKZGs_8eGT8LQM0fHFMSWNcBU
+    short-id: f35751993b64c475
+  servername: api-maps.yandex.ru
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | TCP Pack | 🇹🇷 Турция #16'
+  type: vless
+  server: pdf.convert-flow.net
+  port: 443
+  uuid: 373963db-1cfa-0318-a51b-b06a7f2552e7
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: G0cYCIeDQa12DMYQksBJjF52ErwWunJqBhzUB2WMfEc
+    short-id: 1bfe0a2cd873d3d0
+  flow: xtls-rprx-vision
+  servername: pdf.convert-flow.net
+  client-fingerprint: firefox
 proxy-groups:
 - name: VPN-UNIFIER
   type: url-test
@@ -15796,6 +18091,194 @@ proxy-groups:
   - 4Sarina-4ecd688601
   - 4Mohsen-674c922537
   - 4Nika-1f7e14852d
+  - 4FreeIran-c9c3e3e22d
+  - 4Kian-38cf94be24
+  - 4Mohsen-a5fd7da170
+  - 4Sarina-eb71e066cf
+  - 4Jadi-916b0ca5a4
+  - 4FreeIran-0399ecee0b
+  - 4Kian-159f37fc16
+  - 4Sarina-6b75f71ab1
+  - '[OpenRay] 🇺🇸 US-25995'
+  - '[OpenRay] 🇺🇸 US-26042'
+  - '[OpenRay] 🇺🇸 US-26043'
+  - '[OpenRay] 🇷🇺 RU-35035'
+  - '[OpenRay] 🇷🇺 RU-35070'
+  - '[OpenRay] 🇰🇷 KR-2916'
+  - '[OpenRay] 🇫🇷 FR-4429'
+  - '[OpenRay] 🇫🇷 FR-4464'
+  - '[OpenRay] 🇫🇷 FR-4465'
+  - '[OpenRay] 🇫🇷 FR-4467'
+  - '[OpenRay] 🇫🇷 FR-4468'
+  - '[OpenRay] 🇫🇷 FR-4471'
+  - '[OpenRay] 🇫🇷 FR-4472'
+  - '[OpenRay] 🇫🇷 FR-4473'
+  - '[OpenRay] 🇫🇷 FR-4474'
+  - '[OpenRay] 🇫🇷 FR-4475'
+  - '[OpenRay] 🇫🇷 FR-4476'
+  - '[OpenRay] 🇫🇷 FR-4477'
+  - '[OpenRay] 🇫🇷 FR-4478'
+  - '[OpenRay] 🇫🇷 FR-4479'
+  - '[OpenRay] 🇫🇷 FR-4480'
+  - '[OpenRay] 🇫🇷 FR-4492'
+  - '[OpenRay] 🇬🇧 GB-2833'
+  - '[OpenRay] 🇬🇧 GB-2834'
+  - '[OpenRay] 🇬🇧 GB-2870'
+  - '[OpenRay] 🇬🇧 GB-2913'
+  - '[OpenRay] 🇮🇹 IT-863'
+  - '[OpenRay] 🇮🇹 IT-870'
+  - '[OpenRay] 🇮🇹 IT-883'
+  - '[OpenRay] 🇯🇵 JP-4071'
+  - '[OpenRay] 🇯🇵 JP-4439'
+  - '[OpenRay] 🇵🇱 PL-1963'
+  - '[OpenRay] 🇵🇱 PL-1964'
+  - '[OpenRay] 🇵🇱 PL-2174'
+  - '[OpenRay] 🇵🇱 PL-2180'
+  - '[OpenRay] 🇵🇱 PL-2190'
+  - '[OpenRay] 🇹🇷 TR-1336'
+  - '[OpenRay] 🇹🇷 TR-1433'
+  - '[OpenRay] 🇹🇷 TR-1560'
+  - '[OpenRay] 🇹🇷 TR-1561'
+  - '[OpenRay] 🇹🇷 TR-1563'
+  - '[OpenRay] 🇹🇷 TR-1564'
+  - '[OpenRay] 🇹🇷 TR-1566'
+  - '[OpenRay] 🇹🇷 TR-1567'
+  - '[OpenRay] 🇹🇷 TR-1569'
+  - '[OpenRay] 🇹🇷 TR-1570'
+  - '[OpenRay] 🇹🇷 TR-1571'
+  - '[OpenRay] 🇹🇷 TR-1572'
+  - '[OpenRay] 🇹🇷 TR-1573'
+  - '[OpenRay] 🇹🇷 TR-1574'
+  - '[OpenRay] 🇹🇷 TR-1575'
+  - '[OpenRay] 🇹🇷 TR-1576'
+  - '[OpenRay] 🇹🇷 TR-1577'
+  - '[OpenRay] 🇹🇷 TR-1578'
+  - '[OpenRay] 🇹🇷 TR-1583'
+  - '[OpenRay] 🇸🇪 SE-1878'
+  - '[OpenRay] 🇸🇪 SE-1901'
+  - '[OpenRay] 🇸🇪 SE-1925'
+  - '[OpenRay] 🇸🇪 SE-2057'
+  - '[OpenRay] 🇸🇪 SE-2058'
+  - '[OpenRay] 🇸🇪 SE-2185'
+  - '[OpenRay] 🇸🇪 SE-2217'
+  - '[OpenRay] 🇸🇪 SE-2287'
+  - '[OpenRay] 🇸🇪 SE-2335'
+  - '[OpenRay] 🇨🇭 CH-759'
+  - '[OpenRay] 🇨🇭 CH-787'
+  - '[OpenRay] 🇨🇭 CH-943'
+  - '[OpenRay] 🇨🇭 CH-944'
+  - '[OpenRay] 🇨🇭 CH-945'
+  - '[OpenRay] 🇨🇭 CH-947'
+  - '[OpenRay] 🇨🇭 CH-975'
+  - '[OpenRay] 🇰🇿 KZ-472'
+  - '[OpenRay] 🇰🇿 KZ-539'
+  - '[OpenRay] 🇰🇿 KZ-550'
+  - '[OpenRay] 🇭🇺 HU-462'
+  - '[OpenRay] 🇭🇺 HU-463'
+  - '[OpenRay] 🇭🇺 HU-422'
+  - '[OpenRay] 🇭🇺 HU-476'
+  - '[OpenRay] 🇭🇺 HU-482'
+  - '[OpenRay] 🇭🇺 HU-486'
+  - '[OpenRay] 🇭🇺 HU-492'
+  - '[OpenRay] 🇭🇺 HU-493'
+  - '[OpenRay] 🇭🇺 HU-494'
+  - '[OpenRay] 🇭🇺 HU-501'
+  - '[OpenRay] 🇱🇻 LV-1044'
+  - '[OpenRay] 🇱🇻 LV-1045'
+  - '[OpenRay] 🇱🇻 LV-1291'
+  - '[OpenRay] 🇱🇻 LV-1292'
+  - '[OpenRay] 🇱🇻 LV-1322'
+  - '[OpenRay] 🇱🇻 LV-1369'
+  - '[OpenRay] 🇸🇨 SC-82'
+  - '[OpenRay] 🇸🇨 SC-87'
+  - '[OpenRay] 🇸🇨 SC-94'
+  - '[OpenRay] 🇸🇨 SC-103'
+  - '[OpenRay] 🇸🇨 SC-110'
+  - '[OpenRay] 🇸🇨 SC-112'
+  - '[OpenRay] 🇸🇨 SC-113'
+  - '[OpenRay] 🇦🇪 AE-123'
+  - '[OpenRay] 🇧🇬 BG-76'
+  - '[OpenRay] 🇧🇷 BR-165'
+  - '[OpenRay] 🇧🇷 BR-184'
+  - '[OpenRay] 🇧🇷 BR-241'
+  - '[OpenRay] 🇧🇷 BR-281'
+  - '[OpenRay] 🇱🇹 LT-185'
+  - '[OpenRay] 🇱🇹 LT-186'
+  - '[OpenRay] 🇱🇹 LT-187'
+  - '[OpenRay] 🇱🇹 LT-188'
+  - '[OpenRay] 🇱🇹 LT-189'
+  - '[OpenRay] 🇱🇹 LT-190'
+  - '[OpenRay] 🇱🇹 LT-191'
+  - '[OpenRay] 🇱🇹 LT-192'
+  - '[OpenRay] 🇱🇹 LT-193'
+  - '[OpenRay] 🇱🇹 LT-194'
+  - '[OpenRay] 🇱🇹 LT-195'
+  - '[OpenRay] 🇱🇹 LT-197'
+  - '[OpenRay] 🇱🇹 LT-198'
+  - '[OpenRay] 🇱🇹 LT-199'
+  - '[OpenRay] 🇱🇹 LT-200'
+  - '[OpenRay] 🇱🇹 LT-201'
+  - '[OpenRay] 🇱🇹 LT-202'
+  - '[OpenRay] 🇱🇹 LT-203'
+  - '[OpenRay] 🇱🇹 LT-205'
+  - '[OpenRay] 🇱🇹 LT-206'
+  - '[OpenRay] 🇱🇹 LT-207'
+  - '[OpenRay] 🇱🇹 LT-223'
+  - '[OpenRay] 🇱🇹 LT-224'
+  - '[OpenRay] 🇱🇹 LT-225'
+  - '[OpenRay] 🇱🇹 LT-226'
+  - '[OpenRay] 🇱🇹 LT-227'
+  - '[OpenRay] 🇱🇹 LT-229'
+  - '[OpenRay] 🇱🇹 LT-231'
+  - '[OpenRay] 🇱🇹 LT-232'
+  - '[OpenRay] 🇱🇹 LT-233'
+  - '[OpenRay] 🇱🇹 LT-234'
+  - '[OpenRay] 🇱🇹 LT-235'
+  - '[OpenRay] 🇱🇹 LT-236'
+  - '[OpenRay] 🇱🇹 LT-237'
+  - '[OpenRay] 🇱🇹 LT-238'
+  - '[OpenRay] 🇱🇹 LT-239'
+  - '[OpenRay] 🇱🇹 LT-241'
+  - '[OpenRay] 🇱🇹 LT-242'
+  - '[OpenRay] 🇱🇹 LT-243'
+  - '[OpenRay] 🇱🇹 LT-244'
+  - '[OpenRay] 🇱🇹 LT-245'
+  - '[OpenRay] 🇱🇹 LT-246'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #125'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #127'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #145'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #146'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #151'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #152'
+  - '🌀 CYBERPORTAL | Bypass List #156'
+  - '🌀 CYBERPORTAL | Bypass List #162'
+  - '🌀 CYBERPORTAL | Bypass List #241'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #242'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #243'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #245'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #251'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #267'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #268'
+  - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #269'
+  - '🌀 CYBERPORTAL | White Keys #106'
+  - '🌀 CYBERPORTAL | White Keys #178'
+  - '🌀 CYBERPORTAL | White Keys #183'
+  - '🌀 CYBERPORTAL | White Keys #188'
+  - '🌀 CYBERPORTAL | White Keys #199'
+  - '🌀 CYBERPORTAL | White Keys #206'
+  - '🌀 CYBERPORTAL | White Keys #225'
+  - '🌀 CYBERPORTAL | White Keys #230'
+  - '🌀 CYBERPORTAL | White Keys #235'
+  - '🌀 CYBERPORTAL | White Keys #257'
+  - '🌀 CYBERPORTAL | White Keys #261'
+  - '🌀 CYBERPORTAL | White Keys #271'
+  - '🌀 CYBERPORTAL | White Keys #295'
+  - '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #3'
+  - '🌀 CYBERPORTAL | TCP Pack | 🇮🇹 Италия #4'
+  - '🌀 CYBERPORTAL | TCP Pack | 🇩🇪 Германия #5'
+  - '🌀 CYBERPORTAL | TCP Pack | 🇩🇪 Германия #8'
+  - '🌀 CYBERPORTAL | TCP Pack | 🇹🇷 Турция #12'
+  - '🌀 CYBERPORTAL | TCP Pack | 🇹🇷 Турция #16'
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
