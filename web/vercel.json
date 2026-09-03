@@ -1,12 +1,32 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
-    { "source": "/sub", "destination": "/api/config" },
-    { "source": "/sub/b64", "destination": "/api/config?format=b64" },
-    { "source": "/sub/clash", "destination": "/api/config?format=clash" },
-    { "source": "/stats", "destination": "/api/stats" }
+    { "source": "/sub", "destination": "/data/unified_config.txt" },
+    { "source": "/sub/b64", "destination": "/data/unified_config_b64.txt" },
+    { "source": "/sub/clash", "destination": "/data/clash.yaml" },
+    { "source": "/stats", "destination": "/api/stats" },
+    { "source": "/api/config", "destination": "/api/config" }
   ],
   "headers": [
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/data/(.*)unified_config.*",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
+    {
+      "source": "/data/clash.yaml",
+      "headers": [{ "key": "Content-Type", "value": "text/yaml; charset=utf-8" }]
+    },
+    {
+      "source": "/data/stats.json",
+      "headers": [{ "key": "Content-Type", "value": "application/json; charset=utf-8" }]
+    },
     {
       "source": "/api/(.*)",
       "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
