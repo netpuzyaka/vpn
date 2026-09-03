@@ -171,7 +171,7 @@ def auto_push(message: str = "chore: update unified vpn config [skip ci]"):
     import subprocess
 
     cwd = str(config.BASE_DIR)
-    add = subprocess.run(["git", "add", "web/data", "output"], cwd=cwd, capture_output=True, text=True)
+    add = subprocess.run(["git", "add", "web/data"], cwd=cwd, capture_output=True, text=True)
     if add.returncode != 0:
         return False, f"git add: {add.stderr.strip()}"
 
