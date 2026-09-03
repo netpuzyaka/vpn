@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-03 08:29:35",
-  "updated_ts": 1788413375,
-  "total": 1516,
-  "alive": 1080,
-  "unknown": 308,
-  "dead": 128,
+  "updated_at": "2026-09-03 08:31:25",
+  "updated_ts": 1788413485,
+  "total": 1575,
+  "alive": 1137,
+  "unknown": 309,
+  "dead": 129,
   "in_config": 1200,
   "protocols": {
     "vless": {
-      "unknown": 302,
-      "alive": 1036,
-      "dead": 121
+      "unknown": 303,
+      "alive": 1093,
+      "dead": 122
     },
     "hysteria2": {
       "unknown": 3,
