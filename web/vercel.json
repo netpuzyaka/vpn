@@ -2,7 +2,18 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     { "source": "/sub", "destination": "/data/unified_config.txt" },
-    { "source": "/sub/b64", "destination": "/data/unified_config_b64.txt" },
+    {
+      "source": "/sub/vip/b64",
+      "destination": "/data/vip_config_b64.txt"
+    },
+    {
+      "source": "/sub/vip",
+      "destination": "/data/vip_config.txt"
+    },
+    {
+      "source": "/sub/b64",
+      "destination": "/data/unified_config_b64.txt"
+    },
     { "source": "/sub/clash", "destination": "/data/clash.yaml" },
     { "source": "/sub/:hash", "destination": "/data/pastes/:hash.txt" },
     { "source": "/stats", "destination": "/api/stats" },
@@ -17,11 +28,19 @@
       ]
     },
     {
+      "source": "/data/(.*)vip_config.*",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
+    {
       "source": "/data/(.*)unified_config.*",
       "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
     },
     {
       "source": "/data/clash.yaml",
+      "headers": [{ "key": "Content-Type", "value": "text/yaml; charset=utf-8" }]
+    },
+    {
+      "source": "/data/clash_vip.yaml",
       "headers": [{ "key": "Content-Type", "value": "text/yaml; charset=utf-8" }]
     },
     {

@@ -173,6 +173,38 @@ def build_clash_yaml(nodes):
     )
 
 
+def _is_whitelist(node):
+    return any(s in config.WHITELIST_SOURCE_NAMES for s in node.sources)
+
+
+def _bad_reality_sni(raw: str, proto: str) -> bool:
+    """Отбрасываем vless reality-конфиги с поддельным SNI (яндекс, lovelive, cloudflare…)."""
+    if proto != "vless":
+        return False
+    if "security=reality" not in raw and "security=%2Freality" not in raw:
+        return False
+    import re as _re
+    m = _re.search(r"sni=([^&#]+)", raw)
+    if not m:
+        return False
+    sni = m.group(1).lower()
+    for tok in config.BAD_REALITY_SNIS:
+        if tok in sni:
+            return True
+    return False
+
+
+def _make_config(nodes, title, desc):
+    header = (
+        f"# profile-title: {title}\n"
+        f"# profile-update-interval: 1\n"
+        f"# profile-description: {desc}\n\n"
+    )
+    body = "\n".join(n.raw for n in nodes)
+    b64 = base64.b64encode((header + body).encode("utf-8")).decode().rstrip("=")
+    return header + body, b64
+
+
 def build_outputs(nodes, strict_dead: bool = False, clash: bool = True, max_total: int = None):
     out_dir = config.OUTPUT_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -185,27 +217,31 @@ def build_outputs(nodes, strict_dead: bool = False, clash: bool = True, max_tota
         main, dead = split_nodes(nodes)
         main = [n for n in main if n.status == "alive"]
 
+    vip = [n for n in main if _is_whitelist(n)]
+    main = [n for n in main if not _is_whitelist(n)]
+    main = [n for n in main if not _bad_reality_sni(n.raw, n.proto)]
+
     if max_total and len(main) > max_total:
         main = main[:max_total]
+    if max_total and len(vip) > max_total:
+        vip = vip[:max_total]
 
     alive = [n for n in nodes if n.status == "alive"]
     unknown = [n for n in nodes if n.status == "unknown"]
     dead_nodes = [n for n in nodes if n.status == "dead"]
 
-    unified = "\n".join(n.raw for n in main)
+    unified, b64 = _make_config(main, config.PROFILE_TITLE, config.PROFILE_DESC)
+    vip_txt, vip_b64 = _make_config(vip, config.VIP_TITLE, config.VIP_DESC)
     dead_txt = "\n".join(f"{n.raw}" for n in dead)
-    header = (
-        f"# profile-title: {config.PROFILE_TITLE}\n"
-        f"# profile-update-interval: 1\n"
-        f"# profile-description: {config.PROFILE_DESC}\n\n"
-    )
-    b64 = base64.b64encode((header + unified).encode("utf-8")).decode().rstrip("=")
 
-    (out_dir / "unified_config.txt").write_text(header + unified, encoding="utf-8")
+    (out_dir / "unified_config.txt").write_text(unified, encoding="utf-8")
     (out_dir / "unified_config_b64.txt").write_text(b64, encoding="utf-8")
+    (out_dir / "vip_config.txt").write_text(vip_txt, encoding="utf-8")
+    (out_dir / "vip_config_b64.txt").write_text(vip_b64, encoding="utf-8")
     (out_dir / "dead_servers.txt").write_text(dead_txt, encoding="utf-8")
     if clash:
         (out_dir / "clash.yaml").write_text(build_clash_yaml(main), encoding="utf-8")
+        (out_dir / "clash_vip.yaml").write_text(build_clash_yaml(vip), encoding="utf-8")
 
     by_proto = {}
     for n in nodes:
@@ -220,15 +256,25 @@ def build_outputs(nodes, strict_dead: bool = False, clash: bool = True, max_tota
         "unknown": len(unknown),
         "dead": len(dead_nodes),
         "in_config": len(main),
+        "vip_config": len(vip),
         "protocols": by_proto,
     }
     (out_dir / "stats.json").write_text(
         json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    for name in ("unified_config.txt", "unified_config_b64.txt", "dead_servers.txt", "stats.json"):
+    files = (
+        "unified_config.txt",
+        "unified_config_b64.txt",
+        "vip_config.txt",
+        "vip_config_b64.txt",
+        "dead_servers.txt",
+        "stats.json",
+    )
+    for name in files:
         shutil.copyfile(out_dir / name, config.WEB_DATA_DIR / name)
     if clash:
         shutil.copyfile(out_dir / "clash.yaml", config.WEB_DATA_DIR / "clash.yaml")
+        shutil.copyfile(out_dir / "clash_vip.yaml", config.WEB_DATA_DIR / "clash_vip.yaml")
 
     return stats

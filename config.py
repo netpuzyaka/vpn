@@ -42,6 +42,7 @@ RAW_URLS = [
         "url": "https://warp-gen.cyb-portal.org/CP-042",
         "name": "warp-gen CP-042",
         "limit": 300,
+        "group": "whitelist",
     },
     {
         "url": "https://warp-gen.cyb-portal.org/CP-038",
@@ -57,11 +58,13 @@ RAW_URLS = [
         "url": "https://warp-gen.cyb-portal.org/CP-019",
         "name": "warp-gen CP-019",
         "limit": 300,
+        "group": "whitelist",
     },
     {
         "url": "https://warp-gen.cyb-portal.org/CP-035",
         "name": "warp-gen CP-035 (White List)",
         "limit": 400,
+        "group": "whitelist",
     },
     {
         "url": "https://is.wepogp.gay/bypass-hwid-lock-3z5O6BFAaJQzGlamvtSo?payload=gG/IXjj2tBVY9/4JV3lO3LR8fEj/UerNm8z9mCCsm7SJ3ys2XwiB0%2BDskEqi5KAfMsHsakN5Ts1gfflCuHW4zA%3D%3D",
@@ -88,6 +91,25 @@ PROFILE_DESC = (
     "Автосборка серверов: Telegram, GitHub, подписки. Только проверенные живые серверы, "
     "обновляется автоматически."
 )
+
+# Группы «белых списков»: их серверы попадают в отдельный конфиг /sub/vip
+WHITELIST_GROUP = "whitelist"
+WHITELIST_SOURCE_NAMES = {
+    e["name"] for e in RAW_URLS if e.get("group") == WHITELIST_GROUP
+} | {"local / cyberportal.txt"}
+
+VIP_TITLE = "VPN Aggregate — White List"
+VIP_DESC = "Только «белые списки» (CYBERPORTAL White List): проверенные живые серверы."
+
+# Reality-конфиги с поддельным SNI под крупные сайты — обычно не работают, убираем из обычного конфига
+BAD_REALITY_SNIS = (
+    "yandex", "yandex.ru", "geo.yandex", "360.yandex", "yastatic", "maps.yandex",
+    "ya.ru", "lovelive", "lovelive-anime.jp", "cloudflare.com", "www.cloudflare.com",
+    "herokuapp", "nike", "yahoo", "msn.com",
+)
+
+# «Белый список» локальных файлов источников
+WHITELIST_LOCAL_FILES = {"cyberportal.txt"}
 
 CHECK_TIMEOUT = 5.0
 CHECK_CONCURRENCY = 300
