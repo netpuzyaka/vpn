@@ -28,11 +28,19 @@
       ]
     },
     {
-      "source": "/data/(.*)vip_config.*",
+      "source": "/data/unified_config.txt",
       "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
     },
     {
-      "source": "/data/(.*)unified_config.*",
+      "source": "/data/unified_config_b64.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
+    {
+      "source": "/data/vip_config.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
+    {
+      "source": "/data/vip_config_b64.txt",
       "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
     },
     {
