@@ -194,9 +194,14 @@ def build_outputs(nodes, strict_dead: bool = False, clash: bool = True, max_tota
 
     unified = "\n".join(n.raw for n in main)
     dead_txt = "\n".join(f"{n.raw}" for n in dead)
-    b64 = base64.b64encode(unified.encode("utf-8")).decode().rstrip("=")
+    header = (
+        f"# profile-title: {config.PROFILE_TITLE}\n"
+        f"# profile-update-interval: 1\n"
+        f"# profile-description: {config.PROFILE_DESC}\n\n"
+    )
+    b64 = base64.b64encode((header + unified).encode("utf-8")).decode().rstrip("=")
 
-    (out_dir / "unified_config.txt").write_text(unified, encoding="utf-8")
+    (out_dir / "unified_config.txt").write_text(header + unified, encoding="utf-8")
     (out_dir / "unified_config_b64.txt").write_text(b64, encoding="utf-8")
     (out_dir / "dead_servers.txt").write_text(dead_txt, encoding="utf-8")
     if clash:

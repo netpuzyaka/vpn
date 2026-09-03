@@ -16,6 +16,7 @@ output/
 # Личные файлы источников
 sources/*.txt
 !sources/input.txt
+!sources/cyberportal.txt
 
 .vercel/
 .env

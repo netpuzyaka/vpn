@@ -78,6 +78,12 @@ RAW_URLS = [
 DEFAULT_SOURCE_LIMIT = 1000
 MAX_TOTAL_NODES = 300
 
+PROFILE_TITLE = "VPN Aggregate"
+PROFILE_DESC = (
+    "Автосборка серверов: Telegram, GitHub, подписки. Только проверенные живые серверы, "
+    "обновляется автоматически."
+)
+
 CHECK_TIMEOUT = 5.0
 CHECK_CONCURRENCY = 300
 CHECK_RETRIES = 1
