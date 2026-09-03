@@ -194,12 +194,15 @@ def _bad_reality_sni(raw: str, proto: str) -> bool:
     return False
 
 
-def _is_vless_tcp(raw: str, proto: str) -> bool:
-    """vless с type=tcp / без type (по умолчанию tcp) — обычно не работают, убираем."""
-    if proto != "vless":
+def _is_vless_tcp(node) -> bool:
+    """vless с type=tcp / без type (по умолчанию tcp) — обычно не работают, убираем.
+    Исключение: серверы из источников, где tcp разрешён."""
+    if node.proto != "vless":
+        return False
+    if any(s in config.TCP_ALLOW_SOURCE_NAMES for s in node.sources):
         return False
     import re as _re
-    m = _re.search(r"type=([^&#]+)", raw)
+    m = _re.search(r"type=([^&#]+)", node.raw)
     if not m:
         return True
     return m.group(1).lower() == "tcp"
@@ -231,8 +234,8 @@ def build_outputs(nodes, strict_dead: bool = False, clash: bool = True, max_tota
     vip = [n for n in main if _is_whitelist(n)]
     main = [n for n in main if not _is_whitelist(n)]
     main = [n for n in main if not _bad_reality_sni(n.raw, n.proto)]
-    main = [n for n in main if not _is_vless_tcp(n.raw, n.proto)]
-    vip = [n for n in vip if not _is_vless_tcp(n.raw, n.proto)]
+    main = [n for n in main if not _is_vless_tcp(n)]
+    vip = [n for n in vip if not _is_vless_tcp(n)]
 
     if max_total and len(main) > max_total:
         main = main[:max_total]

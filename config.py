@@ -92,6 +92,9 @@ PROFILE_DESC = (
     "обновляется автоматически."
 )
 
+# Источники, где vless tcp разрешён (не отбрасываем)
+TCP_ALLOW_SOURCE_NAMES = {"cdn-assets подписка"}
+
 # Группы «белых списков»: их серверы попадают в отдельный конфиг /sub/vip
 WHITELIST_GROUP = "whitelist"
 WHITELIST_SOURCE_NAMES = {
