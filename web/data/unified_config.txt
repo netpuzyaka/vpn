@@ -1,3 +1,7 @@
+# profile-title: VPN Aggregate
+# profile-update-interval: 1
+# profile-description: Автосборка серверов: Telegram, GitHub, подписки. Только проверенные живые серверы, обновляется автоматически.
+
 vless://31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9@162.159.156.214:8880?encryption=none&fp=chrome&host=tiny-feather-4c41.227.workers.dev&path=/pyip%3DProxyIP.KR.CMLiussss.net&sni=tiny-feather-4c41.227.workers.dev&type=ws#%F0%9F%8C%80%20CYBERPORTAL%20%7C%20Bypass%20List%20%23153
 vless://103744ce-0153-49b1-2eac-d293a6ddd7e2@104.18.163.22:443?encryption=none&fp=chrome&host=nahan-mouse-7749.amirsina2026.workers.dev&path=/sync&security=tls&sni=nahan-mouse-7749.amirsina2026.workers.dev&type=ws#%F0%9F%8C%80%20CYBERPORTAL%20%7C%20Bypass%20List%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%23188
 vless://103744ce-0153-49b1-2eac-d293a6ddd7e2@104.17.139.6:443?encryption=none&fp=chrome&host=nahan-mouse-7749.amirsina2026.workers.dev&path=/sync&security=tls&sni=nahan-mouse-7749.amirsina2026.workers.dev&type=ws#%F0%9F%8C%80%20CYBERPORTAL%20%7C%20Bypass%20List%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%23234
