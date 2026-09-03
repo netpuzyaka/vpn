@@ -1236,19 +1236,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: ads.x5.ru
   client-fingerprint: firefox
-- name: 🇩🇪 | ⭐️ ✨ LTE Германия
-  type: vless
-  server: 78.159.247.214
-  port: 6443
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
-    short-id: a1b2c3d4
-  flow: xtls-rprx-vision
-  servername: smartcaptcha.yandexcloud.net
-  client-fingerprint: firefox
 - name: '[OpenRay] 🇧🇷 BR-246'
   type: vless
   server: 201.24.49.69
@@ -1405,19 +1392,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: fr.aeternavpn.space
   client-fingerprint: qq
-- name: ' 🇪🇪 | ⭐️ ✨ LTE Эстония'
-  type: vless
-  server: 78.159.247.170
-  port: 4443
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
-    short-id: a1b2c3d4
-  flow: xtls-rprx-vision
-  servername: smartcaptcha.yandexcloud.net
-  client-fingerprint: qq
 - name: 🇨🇭 Швейцария
   type: vless
   server: metach.adsmoba.com
@@ -1426,19 +1400,6 @@ proxies:
   network: xhttp
   tls: true
   servername: metach.adsmoba.com
-  client-fingerprint: firefox
-- name: '[OpenRay] 🇪🇸 ES-257'
-  type: vless
-  server: 45.198.80.123
-  port: 8443
-  uuid: 325bcc72-b5c2-4338-bf2d-4766de7018bb
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
-    short-id: 28047c78b3f5ee2c
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
   client-fingerprint: firefox
 - name: '🌀 CYBERPORTAL | TCP Pack | 🇫🇷 Франция #13'
   type: vless
@@ -1725,19 +1686,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: pl.aeternavpn.space
   client-fingerprint: qq
-- name: 🇸🇪 | ⭐️ ✨ LTE Швеция
-  type: vless
-  server: 78.159.247.205
-  port: 5443
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
-    short-id: a1b2c3d4
-  flow: xtls-rprx-vision
-  servername: smartcaptcha.yandexcloud.net
-  client-fingerprint: qq
 - name: 🇸🇪 Sweden
   type: vless
   server: se.cdn-assets-pro.com
@@ -1819,45 +1767,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: api-us.upd-media.com
   client-fingerprint: qq
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.193.100
-  port: 443
-  uuid: dbc43f55-79cd-4331-84ff-d891356d387a
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: e3d38cee79d4f94c
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.78
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.223
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
 - name: TCP
   type: vless
   server: 91.217.10.166
@@ -1869,32 +1778,6 @@ proxies:
     public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
   flow: xtls-rprx-vision
   servername: api.avito.ru
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.193.138
-  port: 443
-  uuid: b55dd203-630d-46a3-b506-c52ebcafa77c
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: 40ce08cf20c67003
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 152.233.56.39
-  port: 443
-  uuid: 33a31dc6-6bbc-46c0-9685-fb5e327d3c7d
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: fJGvGs_j23gTjn5q5QWCOsD3TeIdOqkpSLv7geS6AQI
-    short-id: 2b8c5943
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
 - name: TCP
   type: vless
   server: 146.185.243.18
@@ -1920,31 +1803,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: web.max.ru
   client-fingerprint: chrome
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 144.31.128.197
-  port: 2053
-  uuid: bd44419a-02a9-4c03-9cb8-a7f8ffd3ae68
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 138.199.20.4
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: sT3IlhEi8k7BA0jYkn5TkJ8HcX3_FZ7USnfnqCAGrhw
-    short-id: 1750fe7d
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
 - name: WS, Яндекс [V.O.I.D]
   type: vless
   server: 188.72.103.3
@@ -1971,19 +1829,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: vk.com
   client-fingerprint: qq
-- name: '🌀 CYBERPORTAL | Bypass List #136'
-  type: vless
-  server: 152.67.211.233
-  port: 8899
-  uuid: ca9cec48-bc34-4d6e-92d5-d0cd56150e51
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
-    short-id: 11d27eb4
-  flow: xtls-rprx-vision
-  servername: www.lovelive-anime.jp
-  client-fingerprint: chrome
 - name: '[OpenRay] 🇷🇺 RU-35067'
   type: vless
   server: 178.72.147.249
@@ -2047,19 +1892,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: lapa5.api3-max.ru
   client-fingerprint: firefox
-- name: Reality, Яндекс Путешествия [V.O.I.D]
-  type: vless
-  server: 217.13.104.148
-  port: 443
-  uuid: e908b2be-1a22-41ec-8f28-a2a842c5471a
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: e55fd8f9c9a9a0ca
-  flow: xtls-rprx-vision
-  servername: travel.yandex.ru
-  client-fingerprint: chrome
 - name: Reality
   type: vless
   server: 158.160.203.68
@@ -2085,86 +1917,6 @@ proxies:
     short-id: 3ca620a7ed5f3196
   servername: sun6-21.userapi.com
   client-fingerprint: chrome
-- name: Reality, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.12
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: Reality, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.63
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.30
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.157
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: nn.alertyagency.com
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: Zj7pfZMGav4r5mbPzpi5ohHue1r0El7QfnQt5nx2ljI
-    short-id: 56d5a8fb
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 152.233.62.135
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: kUuy5M4V5bfjri7m_XBryv1YTLLlPLPIwPotJJgpgEc
-    short-id: '87922049'
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
 - name: gRPC
   type: vless
   server: usa.vrsvpn.com
@@ -2187,32 +1939,6 @@ proxies:
     path: /v1
     headers:
       Host: rzd.ru
-- name: '[OpenRay] 🇵🇱 PL-2065'
-  type: vless
-  server: pl2.voronvpn.com
-  port: 443
-  uuid: d94e4126-76ed-4425-96bd-ef7e9fca414e
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: UR-ELTbCCTAAvg_y8vIznWFkGkCKFFaEAVgTtPYNCCk
-    short-id: 54861d36
-  flow: xtls-rprx-vision
-  servername: storage.yandexcloud.net
-  client-fingerprint: firefox
-- name: '[OpenRay] 🇹🇷 TR-1336'
-  type: vless
-  server: 152.233.53.7
-  port: 443
-  uuid: 0718d4d6-42ea-4388-a41c-2069a49761f5
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: DAdWhCSXRRcho_XopxBKq2-KDupbSY_i2r-FJCy58kY
-    short-id: 5a3874f1
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
 - name: '[OpenRay] 🇹🇷 TR-1565'
   type: vless
   server: 107.181.155.71
@@ -2222,58 +1948,6 @@ proxies:
   tls: true
   flow: xtls-rprx-vision
   servername: wok5.api3-max.ru
-  client-fingerprint: firefox
-- name: Reality, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.58
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.101
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: Reality, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.200
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: se.alertyagency.com
-  port: 443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: UtAnh-HlChjh3afrhycDmeOSFs7cZBjIJx0qG7NB5Rc
-    short-id: b419319c
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
   client-fingerprint: firefox
 - name: gRPC
   type: vless
@@ -2285,111 +1959,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: id.vk.com
-  client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.192
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.250
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 195.181.166.73
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: UtAnh-HlChjh3afrhycDmeOSFs7cZBjIJx0qG7NB5Rc
-    short-id: b419319c
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.104
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: vv.alertyagency.com
-  port: 443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: LubLmalkyXoDFKxVQLtf1mh5cVK7W8K-MeNQf6ZDQ2I
-    short-id: 9e354fd8
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.161.208
-  port: 443
-  uuid: 85d3de51-1960-4bb5-86ab-ab6343accb01
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-    short-id: 500aec9e9e5e2212
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.138
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-- name: Reality, Яндекс [V.O.I.D]
-  type: vless
-  server: 150.241.74.149
-  port: 443
-  uuid: 7d3aad33-021a-40f7-981b-7ec29d7fc159
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: gYLRvAfMAg-ZYgdtA2F_rgV151csPl9z6AJTbwhqz0w
-    short-id: a1335752e0d0969a
-  flow: xtls-rprx-vision
-  servername: market.yandex.ru
   client-fingerprint: chrome
 - name: TCP
   type: vless
@@ -2430,32 +1999,6 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.142
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.94
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: chrome
 - name: gRPC
   type: vless
   server: 193.108.52.52
@@ -2469,19 +2012,6 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.208
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
 - name: WS
   type: vless
   server: 138.68.160.230
@@ -2504,19 +2034,6 @@ proxies:
     short-id: 6f3cc9d9
   flow: xtls-rprx-vision
   servername: eh.vk.com
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.46
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: chrome
 - name: TCP
   type: vless
   server: 91.107.121.223
@@ -2593,18 +2110,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: rutube.ru
   client-fingerprint: qq
-- name: 🇬🇧GB_259|1.3MB/s|S001-260618
-  type: vless
-  server: 178.236.254.76
-  port: 443
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
-    short-id: 2b5b1ffa8a6a1a68
-  servername: ya.ru
-  client-fingerprint: firefox
 - name: 194.26.229.174:4100
   type: vless
   server: 194.26.229.174
@@ -2638,43 +2143,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: sun6-21.userapi.com
   client-fingerprint: qq
-- name: TCP, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 84.201.128.137
-  port: 443
-  uuid: 1048a520-ceb6-4a91-a884-8ff3746f3bd5
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-  client-fingerprint: qq
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.234
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 91.108.249.187
-  port: 2053
-  uuid: bd44419a-02a9-4c03-9cb8-a7f8ffd3ae68
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
 - name: gRPC
   type: vless
   server: 193.108.52.154
@@ -2688,32 +2156,6 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.161.51
-  port: 443
-  uuid: d2042070-c247-4226-a3ac-15337923e00d
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-    short-id: d3ee47fc2f553c44
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 84.201.157.100
-  port: 443
-  uuid: 69d5a816-7b57-4f5b-8b77-1d10a950a554
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: dTsRKJN6v03ir1RDMk-DglS9TKiGXRPh1HYbbZXZuUQ
-    short-id: 46761921684ac921
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-  client-fingerprint: qq
 - name: TCP
   type: vless
   server: 185.220.223.61
@@ -2727,32 +2169,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: max.ru
   client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.195.2.133
-  port: 8443
-  uuid: 19b64e79-73b4-4478-bbfc-fb57737b94f8
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
-    short-id: 445ab326fc7c90ac
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 138.199.20.4
-  port: 443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: sT3IlhEi8k7BA0jYkn5TkJ8HcX3_FZ7USnfnqCAGrhw
-    short-id: 1750fe7d
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
 - name: Reality
   type: vless
   server: 178.250.243.184
@@ -2779,72 +2195,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: download.max.ru
   client-fingerprint: qq
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 156.146.40.201
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: WMO-BNY1BX2nNlOOQgxLP4D3H-OnE2ypbXlbSMjLRVM
-    short-id: e764f0ea
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.214.192
-  port: 8443
-  uuid: d5b44b89-ca73-4b82-a494-a72054c31df3
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
-    short-id: f32140952ba18e18
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 46.246.92.249
-  port: 443
-  uuid: b83df10b-dca1-4289-a17a-564e67389d15
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: iANCShq476FCHBlNqkHoapBt8quqmm1wiKLwuCQeMAI
-    short-id: 89466f13a0fbc98f
-  flow: xtls-rprx-vision
-  servername: ya.ru
-  client-fingerprint: chrome
-- name: TCP, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 84.252.137.241
-  port: 443
-  uuid: e5017995-2093-491b-a0fa-d4890782d42a
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: UsMQ62DKgEE3xRGxHB8IBpC0n8qSIFcZOG78KbPIG2Y
-    short-id: ceda1901d1ca546c
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-  client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 82.202.141.2
-  port: 443
-  uuid: 434d057f-83cf-4091-8985-0e09984a645f
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: -3a4R4WIvLor7WHxXIFL98FA1KFzHuqU1Z6R6JEVnU8
-    short-id: ad27a4d1
-  flow: xtls-rprx-vision
-  servername: ya.ru
-  client-fingerprint: firefox
 - name: TCP, Кинопоиск [V.O.I.D]
   type: vless
   server: 83.220.168.140
@@ -2896,17 +2246,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: max.ru
   client-fingerprint: edge
-- name: TCP, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 185.86.145.253
-  port: 443
-  uuid: bdba330b-dfc6-0023-93e4-b10f906bf4fb
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: Mkxs9LT0tRg208EbLXmP-_dQYlsPOgaTwZ3acwgVVWs
-  servername: api-maps.yandex.ru
-  client-fingerprint: chrome
 - name: WS
   type: vless
   server: 139.59.185.253
@@ -2917,19 +2256,6 @@ proxies:
   servername: ozon.ru
   ws-opts:
     path: /lcuaolws
-- name: Reality, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 79.127.196.45
-  port: 443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: 5isIe0GLddqsEuDcnLop5Ex3q4Ibg_AKpogxAvhLMWs
-    short-id: 4501f602
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
 - name: Reality
   type: vless
   server: 217.13.105.19
@@ -2979,19 +2305,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: max.ru
   client-fingerprint: chrome
-- name: Reality, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 51.250.83.255
-  port: 443
-  uuid: 74b6eee7-898d-4f32-9987-a035210ec5e2
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 87cc0414902bee2d
-  flow: xtls-rprx-vision
-  servername: api-maps.yandex.ru
-  client-fingerprint: chrome
 - name: Reality
   type: vless
   server: 72.56.238.17
@@ -3039,20 +2352,6 @@ proxies:
   servername: api.avito.ru
   ws-opts:
     path: /uirexwws
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 84.17.50.118
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: i5_jSoc9DraIlWT7xls9w5PxjeaIjwBS_24nPX_9eGE
-    short-id: 051880fe
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
 - name: WS
   type: vless
   server: 64.227.47.224
@@ -3063,18 +2362,6 @@ proxies:
   servername: ozon.ru
   ws-opts:
     path: /evvixzws
-- name: gRPC, Яндекс [V.O.I.D]
-  type: vless
-  server: 217.179.220.69
-  port: 8443
-  uuid: 41da9cd0-b02c-427a-b74e-7e402c610ae4
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
-    short-id: 844352756c1fabba
-  servername: avatars.mds.yandex.net
-  client-fingerprint: firefox
 - name: TCP
   type: vless
   server: 144.31.1.134
@@ -3112,111 +2399,6 @@ proxies:
   client-fingerprint: qq
 - name: TCP, Яндекс [V.O.I.D]
   type: vless
-  server: 45.196.201.8
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.215
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.24
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.27
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.120
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: sw.alertyagency.com
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: sT3IlhEi8k7BA0jYkn5TkJ8HcX3_FZ7USnfnqCAGrhw
-    short-id: 1750fe7d
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.52
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.235
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
   server: 45.196.201.62
   port: 443
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
@@ -3225,72 +2407,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: storage.yandex.net
   client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.53
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.155
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.213
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.220
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: cz.alertyagency.com
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: TXwYCrwkhTEeqtxTf3ZYmXNwYcmVtR9eVXJRo7Kvxmk
-    short-id: 8c5041b3
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
 - name: gRPC
   type: vless
   server: 193.108.52.82
@@ -3302,45 +2418,6 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: id.vk.com
   client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.230
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.91
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.188
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
 - name: TCP
   type: vless
   server: 84.201.143.90
@@ -3354,71 +2431,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: sun6-22.userapi.com
   client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.178
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: Reality, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.77
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.40
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: Reality, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.15
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.251
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
 - name: TCP
   type: vless
   server: 178.248.236.77
@@ -3466,31 +2478,6 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: id.vk.com
   client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.89
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: de2.twixvpn.com
-  port: 443
-  uuid: aa46411a-fb49-4f8d-8f42-e77da647f894
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: tMOmaOqUOQKPpN7SxwK3PgNQ0gDIlGUpT1Ky3msG8m8
-  flow: xtls-rprx-vision
-  servername: www.yandex.com
-  client-fingerprint: edge
 - name: Reality
   type: vless
   server: 217.13.105.1
@@ -3504,19 +2491,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: eh.vk.com
   client-fingerprint: chrome
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.56
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
 - name: gRPC, Дзен [V.O.I.D]
   type: vless
   server: 31.76.76.28
@@ -3529,59 +2503,6 @@ proxies:
     short-id: 096e0d43c8
   servername: dzen.ru
   client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-- name: Reality, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.74
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.6
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.150
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-- name: Reality, Яндекс [V.O.I.D]
-  type: vless
-  server: 5.188.140.5
-  port: 2096
-  uuid: 4a334454-22f7-491b-9bec-583e1e8a2773
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  servername: an.yandex.ru
-  client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
 - name: TCP
@@ -3597,19 +2518,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: max.ru
   client-fingerprint: qq
-- name: TCP, Яндекс [V.O.I.D]
-  type: vless
-  server: 45.196.201.184
-  port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  flow: xtls-rprx-vision
-  servername: storage.yandex.net
-  client-fingerprint: firefox
 - name: TCP
   type: vless
   server: 31.76.82.229
@@ -3623,19 +2531,1019 @@ proxies:
   flow: xtls-rprx-vision
   servername: st.ozone.ru
   client-fingerprint: firefox
-- name: TCP, Яндекс [V.O.I.D]
+- name: XHTTP
   type: vless
-  server: 45.196.201.114
+  server: ynd2.cloud134.ru
   port: 443
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  uuid: df3572ae-eb80-488d-bd36-c67d76b87de1
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: wEeS-je0J_J7O-a8k3d5UuObL6y4z2ZrquaINYx-wX4
+    short-id: 70ee28f96faae549
+  servername: eh.vk.com
+  client-fingerprint: qq
+- name: TCP
+  type: vless
+  server: 31.59.103.129
+  port: 8443
+  uuid: 0f85a64b-55f4-4166-b217-7563d221cd4a
   network: tcp
   tls: true
   reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
+    public-key: cD8mVX41lqyVGCuPz0-tQWcNqkMxiPZxU7JJsyyNAEI
   flow: xtls-rprx-vision
-  servername: storage.yandex.net
+  servername: vk.com
+  client-fingerprint: qq
+- name: Reality, Перекрёсток [V.O.I.D]
+  type: vless
+  server: 31.77.147.132
+  port: 443
+  uuid: 4d56ded0-6429-4af5-bca7-38c89d009891
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: GinOJvCMn3Iw630YCSLm1meFbcJ0YAb2Ie1YwMVKNAM
+    short-id: '61'
+  servername: img.perekrestok.ru
   client-fingerprint: firefox
+- name: TCP
+  type: vless
+  server: 91.135.156.243
+  port: 443
+  uuid: 42713553-c2e5-408a-8a1b-651b2facf01e
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
+  flow: xtls-rprx-vision
+  servername: sun6-21.userapi.com
+  client-fingerprint: firefox
+- name: TCP
+  type: vless
+  server: ru-5.lemonbow.ru
+  port: 443
+  uuid: 8516c47e-a7a1-42f7-9c14-ae9b14873cc8
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: W8hnq0oVIPpRGyM8UUQuaAF2KKxl6C10yBgO911iFwM
+  flow: xtls-rprx-vision
+  servername: privacy-cs.mail.ru
+  client-fingerprint: firefox
+- name: XHTTP
+  type: vless
+  server: 196.240.57.178
+  port: 443
+  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: 992f3294e2336744
+  servername: stats.vk-portal.net
+  client-fingerprint: firefox
+- name: gRPC
+  type: vless
+  server: 83.228.197.246
+  port: 8082
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: chrome
+- name: gRPC
+  type: vless
+  server: 83.228.197.178
+  port: 8082
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: Reality
+  type: vless
+  server: 185.100.157.171
+  port: 443
+  uuid: 41e72698-f09a-4617-8f1b-33359c2473cc
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: QcYJtyoXm01O0DbwCc_sXDqa0Y9D6detbg07HovecSg
+    short-id: a0f2b4232e34f664
+  flow: xtls-rprx-vision
+  servername: max.ru
+  client-fingerprint: qq
+- name: gRPC, Госуслуги [V.O.I.D]
+  type: vless
+  server: 45.84.222.156
+  port: 8443
+  uuid: 7bc48a0c-0943-42fd-a138-98ca90f941c5
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: vR8-1eG0k6wIKwT1-HyBEoS2pLEWBm3kUXROFS7jfFI
+    short-id: 25d6fd21bbab868f
+  servername: gosuslugi.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-api
+- name: TCP
+  type: vless
+  server: 157.173.29.12
+  port: 443
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: m0XH4zlwCTJGWoRT64dPgCg3gREZvEnwMPOzOiFengU
+    short-id: 45ba18f424ad1f21
+  flow: xtls-rprx-vision
+  servername: web.max.ru
+  client-fingerprint: chrome
+- name: Reality
+  type: vless
+  server: 51.250.4.153
+  port: 443
+  uuid: 0ee2d410-3e64-4c41-a571-3e5d2b5b8982
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+    short-id: a20d3ed244c76426
+  flow: xtls-rprx-vision
+  servername: sun6-21.userapi.com
+  client-fingerprint: qq
+- name: TCP
+  type: vless
+  server: 217.16.31.73
+  port: 443
+  uuid: 15d862ce-61e0-4259-9674-a5008362afd7
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: oCY1MEFpDL3Yskt26fys4QdEEMMoMR2gR0N8iagyvHE
+  flow: xtls-rprx-vision
+  servername: sun6-22.userapi.com
+  client-fingerprint: randomized
+- name: XHTTP
+  type: vless
+  server: 196.240.57.164
+  port: 443
+  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: 992f3294e2336744
+  servername: stats.vk-portal.net
+  client-fingerprint: chrome
+- name: gRPC
+  type: vless
+  server: ss.l90909l.vip
+  port: 2096
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: chrome
+- name: Reality
+  type: vless
+  server: 5.175.178.155
+  port: 443
+  uuid: d9c1a649-1cbe-42c7-a619-af38c944fa72
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: ss02uq_fJvSOaFODaNs9xywXPhxRBXZdBUiazqhY1wM
+    short-id: e5758e5f
+  flow: xtls-rprx-vision
+  servername: vk.com
+- name: 4Mohsen-55730bdfcb
+  type: vless
+  server: 81.31.246.124
+  port: 2200
+  uuid: a4d52fe0-f904-48d3-b579-25d5b79c79b2
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: 4FreeIran-e3087514fe
+  type: vless
+  server: 178.72.147.248
+  port: 2200
+  uuid: c07eee0c-8a67-4e71-9c39-23f0a7b142c2
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇷🇺 RU-35007'
+  type: vless
+  server: 80.90.188.104
+  port: 2200
+  uuid: 2da8106d-8c6a-4818-9a79-07890f9dd859
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇷🇺 RU-34229'
+  type: vless
+  server: 87.249.54.48
+  port: 2200
+  uuid: fe3489e2-6b59-4adb-91f3-e34300a13d5a
+  network: ws
+  client-fingerprint: qq
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇷🇺 RU-34547'
+  type: vless
+  server: 178.72.147.246
+  port: 2200
+  uuid: 099f0859-cb81-4a57-b6d8-2c8e18030627
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: TCP
+  type: vless
+  server: 158.160.5.248
+  port: 443
+  uuid: 04913a93-529d-023a-9ffd-b37948df532b
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM
+  flow: xtls-rprx-vision
+  servername: eh.vk.com
+  client-fingerprint: chrome
+- name: Reality
+  type: vless
+  server: 217.13.104.115
+  port: 443
+  uuid: 488fa2ff-440b-46b7-b0e0-211bcf923d5e
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: HmnZvWf1xDzvps8H-juYYtHnWPZksvaUp6cMYV7TfSk
+    short-id: a20d3ed244c76426
+  flow: xtls-rprx-vision
+  servername: sun6-22.userapi.com
+  client-fingerprint: chrome
+- name: TCP, VK Видео [V.O.I.D]
+  type: vless
+  server: 217.13.105.4
+  port: 443
+  uuid: 87b47efd-34a7-4271-a544-0b8f9feb115c
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: dfpjZXFTymcxlvi1QnQwuja8AVmTBtHiKMOecY3_l2E
+  flow: xtls-rprx-vision
+  servername: m.vkvideo.cs7777.vk.ru
+  client-fingerprint: chrome
+- name: gRPC
+  type: vless
+  server: 83.228.196.3
+  port: 8082
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: Reality
+  type: vless
+  server: 217.13.104.112
+  port: 443
+  uuid: fe0f8774-4064-4d2c-a523-dcd7bf8809bf
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: ZGwYjRp5RxlVpHUTPzi7pB4ZZuDU5FZEaFgBM71teiQ
+    short-id: 0669a3e6b300d069
+  flow: xtls-rprx-vision
+  servername: eh.vk.com
+  client-fingerprint: chrome
+- name: TCP
+  type: vless
+  server: 158-wl.connect-iskra.ru
+  port: 443
+  uuid: df0069ff-8af9-4a46-804c-f8d038d26afd
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: _cWcVhJkvrZJDrn1KamlTbeTo7vPTKv9F_RR6cafwB4
+    short-id: 299787bfb5a3c40a
+  flow: xtls-rprx-vision
+  servername: m.vk.com
+  client-fingerprint: qq
+- name: TCP
+  type: vless
+  server: 138.124.91.185
+  port: 443
+  uuid: 92abf930-b8de-43cc-982c-edd97f1577d9
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: fOch7SpN1QDkYy9cQrj_tb0VR9y1rVDhCQjgH_y_IlA
+    short-id: ee726ae9df6427f7
+  flow: xtls-rprx-vision
+  servername: web.max.ru
+  client-fingerprint: chrome
+- name: TCP
+  type: vless
+  server: 185.255.178.82
+  port: 8443
+  uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: 3ca620a7ed5f3196
+  servername: sun6-21.userapi.com
+  client-fingerprint: chrome
+- name: TCP
+  type: vless
+  server: 38.244.154.200
+  port: 443
+  uuid: c8d1c6d3-388f-48fc-a8f0-ed90d955d096
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
+  flow: xtls-rprx-vision
+  servername: www.vk.com
+  client-fingerprint: chrome
+- name: TCP
+  type: vless
+  server: 194.58.66.7
+  port: 443
+  uuid: c8d1c6d3-388f-48fc-a8f0-ed90d955d096
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
+  flow: xtls-rprx-vision
+  servername: www.vk.com
+  client-fingerprint: chrome
+- name: gRPC
+  type: vless
+  server: 37.9.4.38
+  port: 8450
+  uuid: 5f5973cc-b1f9-4655-8952-ca1de6e2f4bc
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 7V0vADPc7LkbXMs2rPyw-Pp6CBazw3Tt6N_WbkwdvCI
+    short-id: 7ccbcb93b59845de
+  servername: api.vk.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: /api/v2/events/collect
+- name: gRPC
+  type: vless
+  server: 83.228.197.174
+  port: 8082
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: chrome
+- name: TCP
+  type: vless
+  server: 144.31.1.138
+  port: 443
+  uuid: 3cb9f2c2-cd60-4616-963e-6a1c5d1c8b02
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: kEhVzEXS_myQF6LPpKPWEI8Ha2-mmNMyLItXoVa8SD4
+  flow: xtls-rprx-vision
+  servername: eh.vk.com
+  client-fingerprint: chrome
+- name: Reality
+  type: vless
+  server: 31.76.82.230
+  port: 443
+  uuid: 663836b2-f676-43fb-977f-47c495b1b383
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: rgVwK1tNuKMOuTY2ZLXoV511cXPO-L8mXTq0jhG5_WU
+    short-id: 3476d0c6139ad353
+  flow: xtls-rprx-vision
+  servername: st.ozone.ru
+  client-fingerprint: firefox
+- name: TCP
+  type: vless
+  server: 72.56.105.228
+  port: 443
+  uuid: 4af298c3-5c2d-4cf1-af68-5261e482c4e7
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: iSo20v7O_zNHG6EmG4jGxfUkdqARzC8nFlB-JR4q4BA
+    short-id: 1a0ec8752eeaf912
+  servername: max.ru
+  client-fingerprint: firefox
+- name: TCP
+  type: vless
+  server: 64.188.115.219
+  port: 443
+  uuid: 0ea84d1f-2687-467d-97dd-ed8d5e8f3f42
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: lH-huUA9Ek_XYglIopgfGL3lJ-qn8rXK8iG1tlXrxls
+    short-id: 1c
+  flow: xtls-rprx-vision
+  servername: web.max.ru
+  client-fingerprint: chrome
+- name: TCP
+  type: vless
+  server: 193.111.117.62
+  port: 443
+  uuid: 9946f24b-0020-40f6-9d06-de8abff0e584
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: Cve6RU_xmFPAsLiW2eIucli0lwEZyf7XFj6_rR8LukI
+    short-id: 671047edbaa38eef
+  flow: xtls-rprx-vision
+  servername: max.ru
+  client-fingerprint: chrome
+- name: TCP
+  type: vless
+  server: 151.236.93.248
+  port: 443
+  uuid: 5784cae3-d370-4164-8420-92a24097c344
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: ZSzB9TQPGNcCiC0WLmciF5Jc8doJDvdRgbqTi8SCoEM
+    short-id: a1b2c3d4e5f6789a
+  flow: xtls-rprx-vision
+  servername: ir-2.ozone.ru
+  client-fingerprint: chrome
+- name: XHTTP
+  type: vless
+  server: 93-bt.connect-iskra.cv
+  port: 443
+  uuid: b3d3996e-e865-4358-a95e-ff04d3233b02
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: 2GdafD3wts2y_dAUaN_7sE9m7alduy3_2Cb5bQ0uhjU
+    short-id: 3390561d7b345c60
+  servername: eh.vk.com
+  client-fingerprint: qq
+- name: Reality
+  type: vless
+  server: 78.159.240.41
+  port: 443
+  uuid: 39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🏳️ ShatakVPN 154232
+  type: vless
+  server: 200.165.234.119
+  port: 4100
+  uuid: 099f0859-cb81-4a57-b6d8-2c8e18030627
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: 🏳️ ShatakVPN 385326
+  type: vless
+  server: 201.24.49.240
+  port: 4100
+  uuid: aa7d939b-feaa-4ad3-9615-74216f490807
+  network: ws
+  client-fingerprint: edge
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: 🏳️ ShatakVPN 896948
+  type: vless
+  server: 83.147.246.153
+  port: 4100
+  uuid: 85223e1a-f55d-4d0d-b27d-39e8be49d220
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: 🏳️ ShatakVPN 958961
+  type: vless
+  server: 201.24.49.53
+  port: 2200
+  uuid: 3c5b4526-9f8a-4b99-913e-6549bfd20dc3
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: 🏳️ ShatakVPN 655408
+  type: vless
+  server: 5.129.210.63
+  port: 8443
+  uuid: c80a96e8-d4a6-4785-b53b-a475b252c4ed
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: Z5WItgtmxxL_umUUIPO72kSTBGjlGg3sUPigtTG6wlI
+    short-id: ac
+  servername: sun6-21.userapi.com
+  client-fingerprint: edge
+- name: '@meliproxyy'
+  type: vless
+  server: 87.228.122.106
+  port: 2200
+  uuid: 2c66d559-9889-45c5-a712-d8b7a31fa04d
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: Reality
+  type: vless
+  server: 45.136.126.33
+  port: 443
+  uuid: 9c42aa2d-3e57-4ce1-ba85-0b11f685dd6b
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: pRvemrnDzUPhjXIYQC933GlpoomcZI9LwL4DPW5-aQc
+    short-id: b93d114f6a85e9
+  flow: xtls-rprx-vision
+  servername: max.ru
+  client-fingerprint: chrome
+- name: TCP
+  type: vless
+  server: 95.85.229.185
+  port: 8443
+  uuid: 072baf2f-574e-4939-8b20-ccd89c17fefb
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
+    short-id: b3a1cc510a2001c6
+  servername: eh.vk.com
+  client-fingerprint: chrome
+- name: Reality
+  type: vless
+  server: 87.120.219.103
+  port: 443
+  uuid: 5e6242ef-7e51-4f8a-8441-bdd3381b7000
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: jfQ43JU-FeRkFdHGJT5NBCX0GZaWTZjC7N23Z2POsh8
+    short-id: 97e4b5f5
+  flow: xtls-rprx-vision
+  servername: vk.com
+- name: TCP
+  type: vless
+  server: 62.60.159.33
+  port: 443
+  uuid: 496035d5-b0e2-4317-8bef-bf548012a5bd
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: qQ4l40OckukEo2OoCTIpLrxBHKRa277XXhUAf3SYEhM
+    short-id: abd0f00f85f814a0
+  flow: xtls-rprx-vision
+  servername: login.vk.com
+  client-fingerprint: chrome
+- name: TCP
+  type: vless
+  server: 95.85.226.117
+  port: 8443
+  uuid: 26e4d8b5-ee98-4a8d-88c9-7f81b7be3379
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
+    short-id: b3a1cc510a2001c6
+  flow: xtls-rprx-vision
+  servername: eh.vk.com
+  client-fingerprint: ios
+- name: 🇵🇱 Poland | [*CIDR]
+  type: vless
+  server: 46.16.36.222
+  port: 11445
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: '61'
+  servername: mageia.ubuntuhosting.host
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: gun
+- name: 🇸🇪 Sweden [*CIDR]
+  type: vless
+  server: 135.106.142.209
+  port: 443
+  uuid: ae6e6c4b-7b9b-0024-bd0e-42ce01b96f86
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  servername: alfastat.ru
+  client-fingerprint: edge
+- name: 🇸🇪 Sweden [*CIDR]
+  type: vless
+  server: 135.106.142.209
+  port: 443
+  uuid: ae6e6c4b-7b9b-0029-bd0e-42ce01b96f86
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  servername: alfastat.ru
+  client-fingerprint: chrome
+- name: 🇸🇪 Sweden [*CIDR]
+  type: vless
+  server: 135.106.142.209
+  port: 443
+  uuid: ae6e6c4b-7b9b-002f-bd0e-42ce01b96f86
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  servername: alfastat.ru
+  client-fingerprint: edge
+- name: 🇸🇪 Sweden [*CIDR]
+  type: vless
+  server: 135.106.142.209
+  port: 443
+  uuid: ae6e6c4b-7b9b-0031-bd0e-42ce01b96f86
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  servername: alfastat.ru
+  client-fingerprint: firefox
+- name: 🇸🇪 Sweden [*CIDR]
+  type: vless
+  server: 135.106.142.209
+  port: 443
+  uuid: c7c881df-840d-0031-b440-61435885f6e7
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  servername: alfastat.ru
+  client-fingerprint: chrome
+- name: 🇳🇱 The Netherlands | [*CIDR] VK
+  type: vless
+  server: 90.156.218.143
+  port: 443
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
+    short-id: 3fa234ea9feaa048
+  servername: mint.ubuntuhosting.host
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: gun
+- name: 🇷🇺 Russia [*CIDR]
+  type: vless
+  server: 135.106.142.209
+  port: 443
+  uuid: ae6e6c4b-7b9b-0032-bd0e-42ce01b96f86
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  servername: alfastat.ru
+  client-fingerprint: edge
+- name: 🇷🇺 Russia [*CIDR]
+  type: vless
+  server: 135.106.142.209
+  port: 443
+  uuid: c7c881df-840d-0032-b440-61435885f6e7
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  servername: alfastat.ru
+  client-fingerprint: chrome
+- name: 🇷🇺 Russia [*CIDR]
+  type: ss
+  server: 161.104.55.242
+  port: 4500
+  cipher: chacha20-ietf-poly1305
+  password: btzgQnWc6-LS6E5loBMHZm0rQCqyjXkn
+- name: 🏳️ ShatakVPN 464410
+  type: vless
+  server: 72.56.78.50
+  port: 443
+  uuid: fee2cdd8-55d1-4c5b-a67a-cfde8d45eed0
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: huH_8n0Dfk4iolIkzrc-qET8ySHWgZAr-i6K6lr6xSs
+    short-id: 375838bc17c0
+  servername: sun6-21.userapi.com
+- name: 🏳️ ShatakVPN 286945
+  type: vless
+  server: 5.180.42.85
+  port: 443
+  uuid: 5e19b3c8-c1dc-4163-95e2-895319c15d6c
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 06GvG7PU5F3Hgq-vUH24tU0tpsbGMCCt26BSvlaBNUE
+    short-id: dfbfa87e9f37f1f0
+  flow: xtls-rprx-vision
+  servername: cloud.mail.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇷🇺 RU-34292'
+  type: vless
+  server: 194.26.229.157
+  port: 4100
+  uuid: c05888f0-4029-45c8-bea7-ea5eff564462
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '[OpenRay] 🇷🇺 RU-35024'
+  type: vless
+  server: 80.90.188.160
+  port: 4100
+  uuid: f84579d4-3031-47ac-9536-c67d196fb0a3
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '[OpenRay] 🇷🇺 RU-34758'
+  type: vless
+  server: 178.72.147.249
+  port: 2200
+  uuid: 92e20947-b564-4f08-8c1a-c6f3c66f763b
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: 🇩🇪 Germany | [*CIDR] YA
+  type: vless
+  server: 158.160.198.63
+  port: 8443
+  uuid: 1cf3c15c-16ce-46cc-8a96-b33c33b8a20f
+  network: ws
+  tls: true
+  servername: cloudflare.fwqfw783rg2dad.website
+  client-fingerprint: firefox
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: cloudflare.fwqfw783rg2dad.website
+- name: 🇰🇿 Kazakhstan [*CIDR]
+  type: vless
+  server: 46.16.36.222
+  port: 11448
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: b34f41089f1e
+  servername: mageia.ubuntuhosting.host
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: gun
+- name: 🇱🇻 Latvia [*CIDR]
+  type: vless
+  server: 135.106.142.209
+  port: 443
+  uuid: ae6e6c4b-7b9b-0037-bd0e-42ce01b96f86
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  servername: alfastat.ru
+  client-fingerprint: firefox
+- name: 🇱🇻 Latvia [*CIDR]
+  type: vless
+  server: 135.106.142.209
+  port: 443
+  uuid: c7c881df-840d-0037-b440-61435885f6e7
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fz_xpZfQks3oa9c_d1OSokmTgmJuGbvFMkyK0Qt8w3I
+    short-id: 0066a7326f06d426
+  servername: alfastat.ru
+  client-fingerprint: chrome
+- name: 🇵🇱 Poland [*CIDR]
+  type: vless
+  server: 46.16.36.222
+  port: 11446
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: d05e7ab9872797f4
+  servername: mageia.ubuntuhosting.host
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: gun
+- name: 🇳🇱
+  type: vless
+  server: 193.233.82.32
+  port: 443
+  uuid: 5999a497-a2da-41d0-92cb-5b758082f83c
+  network: tcp
+  tls: true
+  flow: xtls-rprx-vision-udp443
+  servername: som1.api3-max.ru
+  client-fingerprint: firefox
+- name: 🇫🇷 France [*CIDR]
+  type: vless
+  server: 46.16.36.222
+  port: 11444
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: d05e7ab9872797f4
+  servername: mageia.ubuntuhosting.host
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: gun
+- name: 🇫🇷 France [*CIDR]
+  type: vless
+  server: 46.16.36.222
+  port: 11443
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: 3b149d533a
+  servername: mageia.ubuntuhosting.host
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: gun
+- name: '[OpenRay] 🇷🇺 RU-34228'
+  type: vless
+  server: 5.42.121.52
+  port: 2200
+  uuid: 64bd5231-8c49-44f4-8bc0-998eef787d05
+  network: ws
+  client-fingerprint: android
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇷🇺 RU-34230'
+  type: vless
+  server: 5.42.121.52
+  port: 4100
+  uuid: 64bd5231-8c49-44f4-8bc0-998eef787d05
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '[OpenRay] 🇷🇺 RU-34608'
+  type: vless
+  server: 194.26.229.157
+  port: 2200
+  uuid: db7de26b-96d8-452c-8b9d-4a6bf55a7da7
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇷🇺 RU-34994'
+  type: vless
+  server: 77.222.53.218
+  port: 2200
+  uuid: 1cb011db-0211-4120-8984-13d8510a612b
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇷🇺 RU-34779'
+  type: vless
+  server: 185.185.69.251
+  port: 2200
+  uuid: 307998ce-9dc2-473b-81bb-6c359817df5c
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: 🇫🇮 Finland | [*CIDR]
+  type: vless
+  server: 46.16.36.222
+  port: 11447
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: 3b149d533a
+  servername: mageia.ubuntuhosting.host
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: gun
+- name: TCP
+  type: vless
+  server: russia.whitenet.online
+  port: 443
+  uuid: 4ce38652-b84c-5aab-8b2c-f897a217b41b
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: xdNyDss0OLTu3z6kcdg8X2wfTOLtmDTobE2on3vKe34
+    short-id: ab1cd2
+  flow: xtls-rprx-vision
+  servername: vk.com
+  client-fingerprint: chrome
+- name: TCP, РБК [V.O.I.D]
+  type: vless
+  server: cdn14.cloud-vk.com
+  port: 8443
+  uuid: c5167719-2b91-478e-a3dc-ffc52910faf8
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: Ml-LF4yKs-OUHfQuCyLKcqMioe92UB8tRC_Vs-xKrR8
+    short-id: 6602554a2aa16bd1
+  flow: xtls-rprx-vision
+  servername: rbc.ru
+  client-fingerprint: chrome
+- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
+  type: vless
+  server: 91.193.58.10
+  port: 8880
+  uuid: bb5f4b63-0b91-4f2c-8a02-66c3f99c1aaa
+  network: ws
+  ws-opts:
+    path: /pyip=Telegram🇨🇳 @WangCai2
+    headers:
+      Host: yellow-mouse-fcce.400-318.workers.dev
+- name: 🌐 Anycast-IP | 🇦🇺 🇨🇦 🇫🇮 | [BL]
+  type: vless
+  server: 102.177.176.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime28.workers.dev
 proxy-groups:
 - name: VPN-UNIFIER
   type: url-test
@@ -3746,7 +3654,6 @@ proxy-groups:
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #301'
   - '🌀 CYBERPORTAL | Bypass List | 🇸🇪 Швеция #303'
   - '🌀 CYBERPORTAL | TCP Pack #2'
-  - 🇩🇪 | ⭐️ ✨ LTE Германия
   - '[OpenRay] 🇧🇷 BR-246'
   - 🇫🇷 France
   - 🇬🇧 LTE United Kingdom
@@ -3761,9 +3668,7 @@ proxy-groups:
   - '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #3'
   - 🇫🇮 | ⭐️ Финляндия
   - 🇧🇪  | ⭐️ ✨ Бельгия
-  - ' 🇪🇪 | ⭐️ ✨ LTE Эстония'
   - 🇨🇭 Швейцария
-  - '[OpenRay] 🇪🇸 ES-257'
   - '🌀 CYBERPORTAL | TCP Pack | 🇫🇷 Франция #13'
   - ' 🇬🇧 | ✨ Великобритания'
   - '🇹🇷 | ⭐️ ✨ Турция '
@@ -3787,7 +3692,6 @@ proxy-groups:
   - 🇮🇪  | ✨ Ирландия
   - 🇧🇬 Болгария⚡️
   - 🇪🇪 | ✨ Эстония
-  - 🇸🇪 | ⭐️ ✨ LTE Швеция
   - 🇸🇪 Sweden
   - 🇬🇧 United Kingdom
   - '🇫🇮 | ✨ Финляндия #2'
@@ -3795,151 +3699,155 @@ proxy-groups:
   - 🌐 Anycast-IP | 🇫🇮 🇬🇧 | [BL]
   - 🇺🇸 United States
   - 🇺🇸 Соединенные Штаты Америки⚡️
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс Карты [V.O.I.D]
   - TCP
   - TCP
-  - gRPC, Яндекс Карты [V.O.I.D]
-  - gRPC, Яндекс Карты [V.O.I.D]
+  - TCP
   - WS, Яндекс [V.O.I.D]
   - '[OpenRay] 🇰🇿 KZ-513'
-  - '🌀 CYBERPORTAL | Bypass List #136'
   - '[OpenRay] 🇷🇺 RU-35067'
   - '[OpenRay] 🇷🇺 RU-34941'
   - '[OpenRay] 🇷🇺 RU-35040'
   - '[OpenRay] 🇷🇺 RU-35081'
   - '[OpenRay] 🇫🇷 FR-4466'
   - '[OpenRay] 🇫🇷 FR-4470'
-  - Reality, Яндекс Путешествия [V.O.I.D]
   - Reality
   - Reality
-  - Reality, Яндекс [V.O.I.D]
-  - Reality, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - gRPC, Яндекс Карты [V.O.I.D]
-  - gRPC, Яндекс Карты [V.O.I.D]
   - gRPC
   - '[OpenRay] 🇷🇺 RU-35033'
-  - '[OpenRay] 🇵🇱 PL-2065'
-  - '[OpenRay] 🇹🇷 TR-1336'
   - '[OpenRay] 🇹🇷 TR-1565'
-  - Reality, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - Reality, Яндекс [V.O.I.D]
-  - TCP, Яндекс Карты [V.O.I.D]
   - gRPC
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - gRPC, Яндекс Карты [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс Карты [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - Reality, Яндекс [V.O.I.D]
   - TCP
   - TCP
   - gRPC
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
   - gRPC
-  - TCP, Яндекс [V.O.I.D]
   - WS
   - TCP
-  - TCP, Яндекс [V.O.I.D]
   - TCP
   - TCP
   - TCP
   - Reality
   - gRPC, Перекрёсток [V.O.I.D]
   - TCP
-  - 🇬🇧GB_259|1.3MB/s|S001-260618
   - 194.26.229.174:4100
   - 141.8.199.212:4100
   - TCP
-  - TCP, Яндекс Карты [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - gRPC, Яндекс Карты [V.O.I.D]
   - gRPC
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс Карты [V.O.I.D]
   - TCP
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс Карты [V.O.I.D]
   - Reality
   - TCP
-  - gRPC, Яндекс Карты [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс Карты [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
   - TCP, Кинопоиск [V.O.I.D]
   - XHTTP
   - TCP
   - TCP
-  - TCP, Яндекс Карты [V.O.I.D]
   - WS
-  - Reality, Яндекс Карты [V.O.I.D]
   - Reality
   - TCP
   - gRPC
   - TCP
-  - Reality, Яндекс Карты [V.O.I.D]
   - Reality
   - Reality
   - Reality
   - WS
-  - gRPC, Яндекс Карты [V.O.I.D]
   - WS
-  - gRPC, Яндекс [V.O.I.D]
   - TCP
   - 4Kian-0cc659d43f
   - 🇯🇵 | ⭐️ ✨ Япония
   - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - gRPC, Яндекс Карты [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - gRPC, Яндекс Карты [V.O.I.D]
   - gRPC
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
   - TCP
-  - TCP, Яндекс [V.O.I.D]
-  - Reality, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - Reality, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
   - TCP
   - TCP
   - Reality
   - gRPC
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
   - Reality
-  - TCP, Яндекс [V.O.I.D]
   - gRPC, Дзен [V.O.I.D]
-  - Reality, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - TCP, Яндекс [V.O.I.D]
-  - Reality, Яндекс [V.O.I.D]
   - TCP
-  - TCP, Яндекс [V.O.I.D]
   - TCP
-  - TCP, Яндекс [V.O.I.D]
+  - XHTTP
+  - TCP
+  - Reality, Перекрёсток [V.O.I.D]
+  - TCP
+  - TCP
+  - XHTTP
+  - gRPC
+  - gRPC
+  - Reality
+  - gRPC, Госуслуги [V.O.I.D]
+  - TCP
+  - Reality
+  - TCP
+  - XHTTP
+  - gRPC
+  - Reality
+  - 4Mohsen-55730bdfcb
+  - 4FreeIran-e3087514fe
+  - '[OpenRay] 🇷🇺 RU-35007'
+  - '[OpenRay] 🇷🇺 RU-34229'
+  - '[OpenRay] 🇷🇺 RU-34547'
+  - TCP
+  - Reality
+  - TCP, VK Видео [V.O.I.D]
+  - gRPC
+  - Reality
+  - TCP
+  - TCP
+  - TCP
+  - TCP
+  - TCP
+  - gRPC
+  - gRPC
+  - TCP
+  - Reality
+  - TCP
+  - TCP
+  - TCP
+  - TCP
+  - XHTTP
+  - Reality
+  - 🏳️ ShatakVPN 154232
+  - 🏳️ ShatakVPN 385326
+  - 🏳️ ShatakVPN 896948
+  - 🏳️ ShatakVPN 958961
+  - 🏳️ ShatakVPN 655408
+  - '@meliproxyy'
+  - Reality
+  - TCP
+  - Reality
+  - TCP
+  - TCP
+  - 🇵🇱 Poland | [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] VK
+  - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia [*CIDR]
+  - 🏳️ ShatakVPN 464410
+  - 🏳️ ShatakVPN 286945
+  - '[OpenRay] 🇷🇺 RU-34292'
+  - '[OpenRay] 🇷🇺 RU-35024'
+  - '[OpenRay] 🇷🇺 RU-34758'
+  - 🇩🇪 Germany | [*CIDR] YA
+  - 🇰🇿 Kazakhstan [*CIDR]
+  - 🇱🇻 Latvia [*CIDR]
+  - 🇱🇻 Latvia [*CIDR]
+  - 🇵🇱 Poland [*CIDR]
+  - 🇳🇱
+  - 🇫🇷 France [*CIDR]
+  - 🇫🇷 France [*CIDR]
+  - '[OpenRay] 🇷🇺 RU-34228'
+  - '[OpenRay] 🇷🇺 RU-34230'
+  - '[OpenRay] 🇷🇺 RU-34608'
+  - '[OpenRay] 🇷🇺 RU-34994'
+  - '[OpenRay] 🇷🇺 RU-34779'
+  - 🇫🇮 Finland | [*CIDR]
+  - TCP
+  - TCP, РБК [V.O.I.D]
+  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
+  - 🌐 Anycast-IP | 🇦🇺 🇨🇦 🇫🇮 | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
