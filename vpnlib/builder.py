@@ -183,7 +183,7 @@ def build_outputs(nodes, strict_dead: bool = False, clash: bool = True, max_tota
         dead = [n for n in nodes if n.status != "alive"]
     else:
         main, dead = split_nodes(nodes)
-        main = [n for n in main if n.status == "alive" or n.status == "unknown"]
+        main = [n for n in main if n.status == "alive"]
 
     if max_total and len(main) > max_total:
         main = main[:max_total]
