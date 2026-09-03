@@ -6,7 +6,7 @@ import httpx
 import config
 from .parser import URL_RE
 
-_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) vpn-unifier/1.0"
+_UA = "v2rayN/6.53"
 
 _SKIP_URL_HOSTS = (
     "t.me",

@@ -58,6 +58,21 @@ RAW_URLS = [
         "name": "warp-gen CP-019",
         "limit": 300,
     },
+    {
+        "url": "https://is.wepogp.gay/bypass-hwid-lock-3z5O6BFAaJQzGlamvtSo?payload=gG/IXjj2tBVY9/4JV3lO3LR8fEj/UerNm8z9mCCsm7SJ3ys2XwiB0%2BDskEqi5KAfMsHsakN5Ts1gfflCuHW4zA%3D%3D",
+        "name": "wepogp CP2 (sing-box JSON)",
+        "limit": 300,
+    },
+    {
+        "url": "https://is.wepogp.gay/bypass-hwid-lock-3z5O6BFAaJQzGlamvtSo?payload=LoWcw85kRd%2BHRAuaIWWTGQtmHz91ER2Gsf9j8ro4aENKelQom7dBGSEIW11PuLnbJGqHulnnMD/AW2RrnHWKlWFJxvUtqF01SLDdwqY%2Bj9MB2RSD%2BDWEqu7KmBMo/8DS",
+        "name": "wepogp CP3",
+        "limit": 300,
+    },
+    {
+        "url": "https://is.wepogp.gay/bypass-hwid-lock-3z5O6BFAaJQzGlamvtSo?payload=LoWcw85kRd%2BHRAuaIWWTGSrQUdcV/eGORkiAoI3BsgSObYWaeuC%2BBYXbabYZ%2BZDH/B4IykRnliVs3yXtFIJLootPp9LjxoPrX0EudeB3cRP9FadgPlOCQ7fXa5V66JkPf7449MjjDishvwQEBmO6aQ%3D%3D",
+        "name": "wepogp CP1",
+        "limit": 300,
+    },
 ]
 
 DEFAULT_SOURCE_LIMIT = 1000
