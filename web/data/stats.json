@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-03 08:32:04",
-  "updated_ts": 1788413524,
+  "updated_at": "2026-09-03 08:35:55",
+  "updated_ts": 1788413755,
   "total": 1590,
   "alive": 1152,
   "unknown": 309,
   "dead": 129,
-  "in_config": 1461,
+  "in_config": 600,
   "protocols": {
     "vless": {
       "unknown": 303,
