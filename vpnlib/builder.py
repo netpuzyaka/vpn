@@ -194,6 +194,17 @@ def _bad_reality_sni(raw: str, proto: str) -> bool:
     return False
 
 
+def _is_vless_tcp(raw: str, proto: str) -> bool:
+    """vless с type=tcp / без type (по умолчанию tcp) — обычно не работают, убираем."""
+    if proto != "vless":
+        return False
+    import re as _re
+    m = _re.search(r"type=([^&#]+)", raw)
+    if not m:
+        return True
+    return m.group(1).lower() == "tcp"
+
+
 def _make_config(nodes, title, desc):
     header = (
         f"# profile-title: {title}\n"
@@ -220,6 +231,8 @@ def build_outputs(nodes, strict_dead: bool = False, clash: bool = True, max_tota
     vip = [n for n in main if _is_whitelist(n)]
     main = [n for n in main if not _is_whitelist(n)]
     main = [n for n in main if not _bad_reality_sni(n.raw, n.proto)]
+    main = [n for n in main if not _is_vless_tcp(n.raw, n.proto)]
+    vip = [n for n in vip if not _is_vless_tcp(n.raw, n.proto)]
 
     if max_total and len(main) > max_total:
         main = main[:max_total]
