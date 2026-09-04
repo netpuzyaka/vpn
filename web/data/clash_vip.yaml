@@ -3,203 +3,7 @@ allow-lan: true
 mode: rule
 log-level: warning
 proxies:
-- name: '[OpenRay] 🇸🇨 SC-85'
-  type: vless
-  server: 200.165.234.62
-  port: 4100
-  uuid: 5383fb97-1178-4709-9a25-b767b743e911
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🌀 CYBERPORTAL | White Keys #2'
-  type: vless
-  server: 176.109.88.202
-  port: 13443
-  uuid: 423cb984-5f34-4da3-a279-eb7a65f0527f
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 8SVplvpxdnCtuzFZ0cda1tQCsh84LilaaFYIIedqhWE
-    short-id: 27e53bbcab7593d7
-  servername: 360.yandex.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White Keys #8'
-  type: vless
-  server: 62.152.58.182
-  port: 443
-  uuid: 423cb984-5f34-4da3-a279-eb7a65f0527f
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k
-    short-id: 27e53bbcab7593d7
-  servername: 360.yandex.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White Keys #84'
-  type: vless
-  server: 91.224.86.107
-  port: 9830
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  servername: dl.google.com
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '🌀 CYBERPORTAL | White Keys #113'
-  type: vless
-  server: 104.17.71.206
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  network: ws
-  tls: true
-  servername: 8.sahanwickramasinghe.me
-  client-fingerprint: firefox
-  ws-opts:
-    path: /
-- name: '🌀 CYBERPORTAL | White Keys #142'
-  type: vless
-  server: 178.72.147.249
-  port: 4100
-  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🌀 CYBERPORTAL | White Keys #47'
-  type: vless
-  server: mktossl.com
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  network: ws
-  tls: true
-  servername: 8.sahanwickramasinghe.me
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-- name: '🌀 CYBERPORTAL | White Keys #64'
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: c6c1760f-f6af-4a54-8600-cf9c9971f7d8
-  network: ws
-  tls: true
-  servername: sgdo1.cassanova.biz.id
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless
-    headers:
-      Host: sgdo1.cassanova.biz.id
-- name: '🌀 CYBERPORTAL | White Keys #105'
-  type: vless
-  server: 104.17.74.206
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  network: ws
-  tls: true
-  servername: 8.sahanwickramasinghe.me
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-- name: '🌀 CYBERPORTAL | White Keys #114'
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: 7812d96c-fbd5-4689-a480-e359dde49b7b
-  network: ws
-  tls: true
-  servername: bpb-f23ddedd.jcxkvlndl.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /eyJqdW5rIjoiWWdUTFZiaTRQU3YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-    headers:
-      Host: bpb-f23ddedd.jcxkvlndl.workers.dev
-- name: '🌀 CYBERPORTAL | White Keys #254'
-  type: vless
-  server: 104.16.228.202
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-e0dfede8abc0
-  network: ws
-  tls: true
-  servername: xoz60debusrs.lezuwaeiunjs.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /stream/PANEL_ZEUS/e0dfede8abc0
-    headers:
-      Host: xoz60debusrs.lezuwaeiunjs.workers.dev
-- name: '🌀 CYBERPORTAL | White List #74'
-  type: vless
-  server: 81.163.22.15
-  port: 443
-  uuid: 948b4db7-9b1e-4c58-8c31-c23ebf03627a
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: nc5dunLF2knU5PkMbQlklbp_tZPfOx6xuHu4mkdYPBc
-  servername: max.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #289'
-  type: vless
-  server: 78.159.250.104
-  port: 1443
-  uuid: 99e7fe72-5db5-4f4d-a7eb-dd8c9ef8bf20
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: w42qluNCHvJAkqCCjg_BHu7eTr2qRQYn93OKUSfmHEI
-  servername: www.ozon.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #414'
-  type: vless
-  server: 51.250.7.143
-  port: 2096
-  uuid: d3159eed-75c5-0002-b2d9-c30c927dda61
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  servername: an.yandex.ru
-  client-fingerprint: chrome
-- name: '🌀 CYBERPORTAL | White Keys #45'
-  type: vless
-  server: 104.17.72.206
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  network: ws
-  tls: true
-  servername: 8.sahanwickramasinghe.me
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #93'
-  type: vless
-  server: 78.159.245.201
-  port: 15565
-  uuid: 28629240-2a26-48ea-9149-5dce8bcbd5f4
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw
-    short-id: a5bd715862513387
-  servername: iv.kommersant.ru
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '🌀 CYBERPORTAL | White Keys #100'
-  type: vless
-  server: 104.17.70.206
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  network: ws
-  tls: true
-  servername: 8.sahanwickramasinghe.me
-  client-fingerprint: firefox
-  ws-opts:
-    path: /
-- name: '🌀 CYBERPORTAL | White Keys #211'
+- name: '🌀 CYBERPORTAL | White Keys #206'
   type: vless
   server: 188.114.97.6
   port: 443
@@ -211,38 +15,20 @@ proxies:
     path: /ws
     headers:
       Host: a.cwvps.eu.org
-- name: '🌀 CYBERPORTAL | White List #95'
+- name: '🌀 CYBERPORTAL | White Keys #138'
   type: vless
-  server: 217.19.122.20
-  port: 15565
-  uuid: 28629240-2a26-48ea-9149-5dce8bcbd5f4
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw
-    short-id: a5bd715862513387
-  servername: iv.kommersant.ru
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '🌀 CYBERPORTAL | White List #479'
-  type: trojan
-  server: ru-at.techdatacloud.org
-  port: 8443
-  password: 2e5502fe-a951-4b2f-90fb-3570c8e18b98
-  network: tcp
-  servername: cloud.mail.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White Keys #52'
-  type: vless
-  server: 172.66.40.229
-  port: 2096
-  uuid: 0aeb1da4-2362-4aaa-97f3-26d0f84423b5
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   network: ws
   tls: true
-  servername: 8.sahanwickramasinghe.me
+  servername: jp3.yohototo.top
   client-fingerprint: chrome
-- name: '🌀 CYBERPORTAL | White Keys #54'
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: '🌀 CYBERPORTAL | White Keys #151'
   type: vless
   server: 141.101.122.147
   port: 443
@@ -255,1119 +41,15 @@ proxies:
     path: /ws
     headers:
       Host: a.cwvps.eu.org
-- name: '🌀 CYBERPORTAL | White Keys #55'
-  type: vless
-  server: 91.224.87.22
-  port: 9882
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  servername: dl.google.com
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '🌀 CYBERPORTAL | White Keys #107'
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  network: ws
-  tls: true
-  servername: nautica-cff.kloningstrife002.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /138.2.74.219-28616
-    headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
-- name: '🌀 CYBERPORTAL | White Keys #131'
-  type: vless
-  server: 104.17.73.206
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  network: ws
-  tls: true
-  servername: 8.sahanwickramasinghe.me
-  client-fingerprint: firefox
-  ws-opts:
-    path: /
-- name: '🌀 CYBERPORTAL | White Keys #244'
-  type: vless
-  server: 77.110.104.125
-  port: 6443
-  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  servername: maps.apple.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: your-custom-path
-- name: '🌀 CYBERPORTAL | White List #91'
-  type: vless
-  server: 84.201.136.20
-  port: 8443
-  uuid: 9b4c96f9-60e8-4694-b069-c46992390555
-  network: ws
-  tls: true
-  servername: cloudflare.vhub.pro
-  client-fingerprint: firefox
-  ws-opts:
-    path: /websocket?ed=2560
-    headers:
-      Host: cloudflare.vhub.pro
-- name: '🌀 CYBERPORTAL | White List #96'
-  type: vless
-  server: 217.19.122.142
-  port: 15565
-  uuid: 28629240-2a26-48ea-9149-5dce8bcbd5f4
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw
-    short-id: a5bd715862513387
-  servername: iv.kommersant.ru
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '🌀 CYBERPORTAL | White List #136'
-  type: vless
-  server: 188.72.103.3
-  port: 443
-  uuid: c94c37a5-98fe-40ac-8651-d894e9c1e53c
-  network: xhttp
-  tls: true
-  servername: potato.dbintro.space
-  client-fingerprint: edge
-- name: '🌀 CYBERPORTAL | White List #172'
-  type: vless
-  server: 188.72.103.3
-  port: 443
-  uuid: a8d6ee54-a8a2-412b-93a0-48f96ec6cc91
-  network: xhttp
-  tls: true
-  servername: worldstream.club
-  client-fingerprint: edge
-- name: '🌀 CYBERPORTAL | White List #290'
-  type: vless
-  server: 45.11.26.99
-  port: 443
-  uuid: a58f5798-69ef-40c7-a038-cae3a0ed031a
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #291'
-  type: vless
-  server: 45.11.26.99
-  port: 8001
-  uuid: a58f5798-69ef-40c7-a038-cae3a0ed031a
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #294'
-  type: vless
-  server: 45.11.26.99
-  port: 8001
-  uuid: 0f240308-5771-4636-9315-f3259ff87f98
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #295'
-  type: vless
-  server: 45.11.26.99
-  port: 8002
-  uuid: 0f240308-5771-4636-9315-f3259ff87f98
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #297'
-  type: vless
-  server: 85.192.48.236
-  port: 8443
-  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: EGxJpl6UtxBovvg0-E9utvD3VvEIVYwBtRN8yy8enUs
-    short-id: f1a84d63b20e7c95
-  servername: www.tradingview.com
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White Keys #156'
-  type: hysteria2
-  server: ee1.sferavpn.pro
-  port: 443
-  password: cd74c0a406664a5bc0bac098220a2468
-  sni: ee1.sferavpn.pro
-- name: '🌀 CYBERPORTAL | White Keys #295'
-  type: vless
-  server: w1z2qhevu1ps.7tzwwhemurss.workers.dev
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-39a51b68c271
-  network: ws
-  tls: true
-  servername: w1z2qhevu1ps.7tzwwhemurss.workers.dev
-  ws-opts:
-    path: /stream/PANEL_ZEUS/39a51b68c271/loc-1
-    headers:
-      Host: w1z2qhevu1ps.7tzwwhemurss.workers.dev
-- name: '🌀 CYBERPORTAL | White List #147'
-  type: vless
-  server: 188.72.103.3
-  port: 443
-  uuid: 4ba1eee3-ced2-48b7-9a87-3893a03febf4
-  network: xhttp
-  tls: true
-  servername: tomato.dragonborn.space
-  client-fingerprint: edge
-- name: '🌀 CYBERPORTAL | White List #262'
-  type: vless
-  server: 178.72.147.249
-  port: 4100
-  uuid: 6bd3e20b-4be0-41df-a1e0-5c147cc8fbfc
-  network: ws
-  servername: live.ok.ru
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🌀 CYBERPORTAL | White List #265'
-  type: vless
-  server: 178.72.147.249
-  port: 2200
-  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
-  network: ws
-  servername: rzd.ru
-  client-fingerprint: firefox
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: '🌀 CYBERPORTAL | White List #270'
-  type: vless
-  server: 201.51.8.235
-  port: 2200
-  uuid: 099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc
-  network: ws
-  servername: rzd.ru
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: '🌀 CYBERPORTAL | White List #277'
-  type: vless
-  server: bz9.wba-pn.ru
-  port: 2053
-  uuid: 9a47a8ff-8cdd-4a35-b765-fbad6d40e0a0
-  network: ws
-  tls: true
-  servername: speedtest.tinkoff.ru
-  client-fingerprint: chrome
-- name: '🌀 CYBERPORTAL | White List #288'
-  type: vless
-  server: 78.159.250.104
-  port: 443
-  uuid: 99e7fe72-5db5-4f4d-a7eb-dd8c9ef8bf20
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: w42qluNCHvJAkqCCjg_BHu7eTr2qRQYn93OKUSfmHEI
-  servername: www.ozon.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #305'
-  type: vless
-  server: 31.76.88.150
-  port: 443
-  uuid: fe0afb65-a43e-4493-81b9-6d9edd57f79c
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4
-    short-id: b4c823
-  servername: www.yandex.ru
-  client-fingerprint: edge
-- name: '🌀 CYBERPORTAL | White List #467'
-  type: vless
-  server: 178.72.147.249
-  port: 2200
-  uuid: d0685701-2fdb-4a50-b1a5-d764c2bb5a43
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: '🌀 CYBERPORTAL | White List #477'
-  type: vless
-  server: ru-at.techdatacloud.org
-  port: 8080
-  uuid: 2e5502fe-a951-4b2f-90fb-3570c8e18b98
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: gi3kQqVpq3ZMOI6iKS4GMu25eIJH0ZT6xKheel7LVVU
-    short-id: 6e643d2d54ab470d
-  servername: cloud.mail.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White Keys #14'
-  type: vless
-  server: sfhvvvv.falsemirrov.com
-  port: 443
-  uuid: 423cb984-5f34-4da3-a279-eb7a65f0527f
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k
-    short-id: 27e53bbcab7593d7
-  servername: 360.yandex.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White Keys #20'
-  type: vless
-  server: 185.229.9.178
-  port: 49111
-  uuid: 423cb984-5f34-4da3-a279-eb7a65f0527f
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: hlC9TGfp4ZrEJps2BQ8FtuXSaRsYXMFyMxZV-kOFTjE
-    short-id: 27e53bbcab93d7
-  servername: max.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White Keys #69'
-  type: vless
-  server: 87.228.122.108
-  port: 4100
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
-  network: ws
-  ws-opts:
-    path: /v1
-- name: '🌀 CYBERPORTAL | White List #292'
-  type: vless
-  server: 45.11.26.99
-  port: 8002
-  uuid: a58f5798-69ef-40c7-a038-cae3a0ed031a
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #293'
-  type: vless
-  server: 45.11.26.99
-  port: 443
-  uuid: 0f240308-5771-4636-9315-f3259ff87f98
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #487'
-  type: trojan
-  server: multi2.techdatacloud.org
-  port: 8443
-  password: 2e5502fe-a951-4b2f-90fb-3570c8e18b98
-  network: tcp
-  servername: cloud.mail.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #488'
-  type: vless
-  server: multi2.techdatacloud.org
-  port: 8080
-  uuid: 2e5502fe-a951-4b2f-90fb-3570c8e18b98
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: gi3kQqVpq3ZMOI6iKS4GMu25eIJH0ZT6xKheel7LVVU
-    short-id: 6e643d2d54ab470d
-  servername: cloud.mail.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #568'
-  type: vless
-  server: free.filecloudos.space
-  port: 443
-  uuid: 0c78b433-e644-4249-9e56-86ab4c5106e2
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 3Yg55PenA6QAs_WGHl_ro3pu1zcr3DU9a8xJyWUolV8
-  servername: ads.x5.ru
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '[OpenRay] 🇧🇷 BR-258'
-  type: vless
-  server: 201.24.49.79
-  port: 2200
-  uuid: 3b4274c1-4744-452e-9903-e11ccc0c9900
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: '🌀 CYBERPORTAL | White Keys #60'
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tyxyws
-- name: '🌀 CYBERPORTAL | White Keys #96'
-  type: vless
-  server: 95.85.228.30
-  port: 443
-  uuid: 8c105407-82fb-4dd1-8df4-916d34a7d3fe
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-  servername: www.google.com
-  client-fingerprint: qq
-- name: '🌀 CYBERPORTAL | White List #100'
-  type: vless
-  server: 64.188.82.152
-  port: 443
-  uuid: 7836b28e-8451-4596-ad3e-e3601b2335ba
-  network: ws
-  tls: true
-  servername: cloudflare.vhub.pro
-  client-fingerprint: safari
-  ws-opts:
-    path: /websocket?ed=2560
-    headers:
-      Host: cloudflare.vhub.pro
-- name: '🌀 CYBERPORTAL | White List #269'
-  type: vless
-  server: 178.72.147.249
-  port: 4100
-  uuid: d0685701-2fdb-4a50-b1a5-d764c2bb5a43
-  network: ws
-  servername: live.ok.ru
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🌀 CYBERPORTAL | White List #298'
-  type: vless
-  server: 89.124.86.6
-  port: 8443
-  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: EGxJpl6UtxBovvg0-E9utvD3VvEIVYwBtRN8yy8enUs
-    short-id: a3f7b2e91c8d4056
-  servername: www.tradingview.com
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #480'
-  type: trojan
-  server: multi2.techdatacloud.org
-  port: 2088
-  password: 2e5502fe-a951-4b2f-90fb-3570c8e18b98
-  network: tcp
-  servername: cloud.mail.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White Keys #128'
-  type: vless
-  server: 89.35.14.31
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: JXFsWHYjhAcR-7yz9tuCTMdcfuiyC9a-C9ewA55Z63o
-    short-id: d36a38659ce106cb
-  servername: md2.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: hub.v1.SyncService
-- name: '🌀 CYBERPORTAL | White List #482'
-  type: vless
-  server: multi2.techdatacloud.org
-  port: 2089
-  uuid: 2e5502fe-a951-4b2f-90fb-3570c8e18b98
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: sOapBimSVypo5sdc_Clhr7uIfvxCXOMWohlGhneVXyY
-    short-id: 7c1a4b90
-  servername: cloud.mail.ru
-  client-fingerprint: firefox
-- name: '[OpenRay] 🇧🇷 BR-270'
-  type: vless
-  server: 201.24.49.74
-  port: 2200
-  uuid: f0528a17-863f-4160-a5a0-0d9ad03f2ee7
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: '🌀 CYBERPORTAL | White Keys #46'
-  type: vless
-  server: 89.35.14.30
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY
-    short-id: 221ba6174224ca5b
-  servername: md1.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: hub.v1.RelayService
-- name: '🌀 CYBERPORTAL | White Keys #71'
-  type: vless
-  server: 150.40.126.19
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
-    short-id: 1469af2040b7c323
-  servername: rs2.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: media.v1.ObjectService
-- name: '🌀 CYBERPORTAL | White Keys #129'
-  type: vless
-  server: md4.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg
-    short-id: 8e07337954f9823f
-  servername: md4.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: hub.v1.ApiService
-- name: '🌀 CYBERPORTAL | White Keys #132'
-  type: vless
-  server: 89.35.14.32
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: q38CddDj2g-XNDc0uW1m6S6b8iGY_Bne2RwX7C_FYCQ
-    short-id: 9a72d40f1ff882b3
-  servername: md3.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: stats.v2.PushService
-- name: '🌀 CYBERPORTAL | White Keys #280'
-  type: vless
-  server: 150.40.126.18
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
-    short-id: ed0cd5cc2e26e6e7
-  servername: rs1.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: node.v2.ObjectService
-- name: '🌀 CYBERPORTAL | White List #285'
-  type: vless
-  server: nlxy.korgivps.ru
-  port: 8443
-  uuid: a3f59a62-b4ad-4f02-bfce-ef68e63ab6f7
-  network: ws
-  tls: true
-  servername: speedtest.tinkoff.ru
-  client-fingerprint: chrome
-  ws-opts:
-    path: /api/user
-- name: '🌀 CYBERPORTAL | White List #301'
-  type: vless
-  server: 188.214.129.163
-  port: 8443
-  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: NnDloDdLzhLM1CVF36kbOkc0JFzsqVaT3k1fYX_vXRY
-    short-id: 58ae8cd85cc31074
-  servername: www.tradingview.com
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List #304'
-  type: vless
-  server: 2.26.90.204
-  port: 443
-  uuid: fe0afb65-a43e-4493-81b9-6d9edd57f79c
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4
-    short-id: b4c823
-  servername: www.yandex.ru
-  client-fingerprint: edge
-- name: '🌀 CYBERPORTAL | White Keys #70'
-  type: vless
-  server: md2.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: JXFsWHYjhAcR-7yz9tuCTMdcfuiyC9a-C9ewA55Z63o
-    short-id: d36a38659ce106cb
-  servername: md2.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: hub.v1.SyncService
 - name: '🌀 CYBERPORTAL | White Keys #112'
   type: vless
-  server: 150.40.126.21
+  server: 151.101.69.253
   port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ
-    short-id: 35d05b666e2c6cdf
-  servername: rs3.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: edge.v2.FeedService
-- name: '🌀 CYBERPORTAL | White Keys #146'
-  type: vless
-  server: 89.35.14.33
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg
-    short-id: 8e07337954f9823f
-  servername: md4.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: hub.v1.ApiService
-- name: '🌀 CYBERPORTAL | White Keys #249'
-  type: vless
-  server: 89.35.14.34
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
-    short-id: aa9884f2982b7d3c
-  servername: md5.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: app.v1.PushService
-- name: '🌀 CYBERPORTAL | White Keys #286'
-  type: vless
-  server: 150.40.126.24
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
-    short-id: 4872856d5489c37d
-  servername: rs5.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: gw.v1.ObjectService
-- name: '🌀 CYBERPORTAL | White List #428'
-  type: vless
-  server: 31.76.113.160
-  port: 2087
-  uuid: b90064cf-3f61-4f37-b549-a72100a8c9db
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: YPbKkg4p8zdxymjtC0qBiDkiMIlu0Iutu5zEbgR46So
-    short-id: c226283c4de5b1ad
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-- name: '🌀 CYBERPORTAL | White List #432'
-  type: vless
-  server: 2.26.5.207
-  port: 2087
-  uuid: b7d6ce85-3c4e-4751-884f-26dfa8a011e2
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: fgAGnqn2g6u4ZacmOsYR0yqA27FGZpKl7NvhD3rnRz0
-    short-id: c226283c4de5b1ad
-  servername: ads.x5.ru
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #3'
-  type: vless
-  server: 104.16.107.139
-  port: 8880
-  uuid: 86dc5fb4-f279-45b7-a2c6-0d1e84b85c18
-  network: ws
-  servername: lingering-dawn-5d4a.163-3f1.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lingering-dawn-5d4a.163-3f1.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #4'
-  type: vless
-  server: 104.18.226.252
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White Keys #44'
-  type: vless
-  server: 150.40.126.22
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
-    short-id: 861ac7d66953e55f
-  servername: rs4.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: media.v1.StreamService
-- name: '🌀 CYBERPORTAL | White Keys #145'
-  type: vless
-  server: 45.9.156.24
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4
-    short-id: 501ab3325b77e1ca
-  servername: bg2.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: api.v2.PushService
-- name: '🌀 CYBERPORTAL | White Keys #152'
-  type: vless
-  server: 45.74.178.142
-  port: 21570
-  uuid: c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: direct-tr01.korvexe.ir
-- name: '🌀 CYBERPORTAL | White Keys #183'
-  type: vless
-  server: direct-tr01.korvexe.ir
-  port: 21570
-  uuid: c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: direct-tr01.korvexe.ir
-- name: '🌀 CYBERPORTAL | White Keys #199'
-  type: vless
-  server: rs5.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
-    short-id: 4872856d5489c37d
-  servername: rs5.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: gw.v1.ObjectService
-- name: '🌀 CYBERPORTAL | White Keys #235'
-  type: vless
-  server: md3.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: q38CddDj2g-XNDc0uW1m6S6b8iGY_Bne2RwX7C_FYCQ
-    short-id: 9a72d40f1ff882b3
-  servername: md3.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: stats.v2.PushService
-- name: '🌀 CYBERPORTAL | White List #36'
-  type: vless
-  server: 79.174.92.85
-  port: 6443
-  uuid: 545d7cfe-152e-46d5-a868-914522b447b9
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8
-    short-id: bad5722c72a0
-  servername: iv.kommersant.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '🌀 CYBERPORTAL | White List #271'
-  type: vless
-  server: 46.19.69.201
-  port: 443
-  uuid: 053440e6-fc8d-48d9-bb4f-2675e367f64f
-  network: ws
-  tls: true
-  servername: vk.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-- name: '🌀 CYBERPORTAL | White Keys #149'
-  type: vless
-  server: rs3.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ
-    short-id: 35d05b666e2c6cdf
-  servername: rs3.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: edge.v2.FeedService
-- name: '🌀 CYBERPORTAL | White Keys #158'
-  type: vless
-  server: md5.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
-    short-id: aa9884f2982b7d3c
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: app.v1.PushService
-- name: '🌀 CYBERPORTAL | White Keys #188'
-  type: vless
-  server: rs4.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
-    short-id: 861ac7d66953e55f
-  servername: rs4.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: media.v1.StreamService
-- name: '🌀 CYBERPORTAL | White List #372'
-  type: vless
-  server: 45.89.60.64
-  port: 443
-  uuid: 15a54c93-49ca-4e6c-86e5-d337b338cd9d
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: wSQIBnAc0cYO9JitaNcgZ2LwkTix0_dXVpDjnZxDrCE
-  servername: ads.x5.ru
-  client-fingerprint: safari
-- name: 🇪🇪 Estonia, Tallinn | [BL]
-  type: trojan
-  server: ee01.botovod.space
-  port: 510
-  password: 8qCNZU2XdtefT7uB4uPxgRR839btqMG8
+  uuid: 884f23e9-caab-4775-9ed9-6a3a9cae677f
   network: xhttp
-  servername: www.icloud.com
-  client-fingerprint: chrome
-- name: '🌀 CYBERPORTAL | White Keys #95'
-  type: vless
-  server: 45.9.156.42
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
   tls: true
-  reality-opts:
-    public-key: RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw
-    short-id: 1a3102bb8e51399e
-  servername: bg5.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: gw.v2.RelayService
-- name: '🌀 CYBERPORTAL | White Keys #110'
-  type: vless
-  server: bg1.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: vCxac528c27GggqKBDwXVYvnzyI_BIlc7eqRTo8xqEY
-    short-id: 954891aec4fe0be9
-  servername: bg1.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: gw.v1.StreamService
-- name: '🌀 CYBERPORTAL | White Keys #61'
-  type: vless
-  server: rs1.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
-    short-id: ed0cd5cc2e26e6e7
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: node.v2.ObjectService
-- name: '🌀 CYBERPORTAL | White Keys #63'
-  type: vless
-  server: bg2.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4
-    short-id: 501ab3325b77e1ca
-  servername: bg2.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: api.v2.PushService
-- name: '🌀 CYBERPORTAL | White Keys #73'
-  type: vless
-  server: 45.9.156.28
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: k-vH6pkyAv26L1_dXKOFhp0Kesur9-FCUDoj-IIpVhc
-    short-id: 51f45d4fd58cc319
-  servername: bg4.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: cloud.v1.RelayService
-- name: '🌀 CYBERPORTAL | White Keys #104'
-  type: vless
-  server: rs2.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
-    short-id: 1469af2040b7c323
-  servername: rs2.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: media.v1.ObjectService
-- name: '🌀 CYBERPORTAL | White Keys #86'
-  type: vless
-  server: 45.9.156.27
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: XBfCioniAKXgKYBUVnvBXu80AIaIa4SpAB3w8qeF7Gk
-    short-id: 1be1bd931c98c84a
-  servername: bg3.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: home.v1.ApiService
-- name: '🌀 CYBERPORTAL | White List #276'
-  type: vless
-  server: 46.243.234.72
-  port: 2053
-  uuid: 24708d62-a508-4c63-a860-7d4e04e440b1
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: IDjWshY2nmbQJzUme5TMymI-RI99Zku45lO9k1HKyTA
-    short-id: 20a080af5636a681
-  servername: 5post-gate.x5.ru
-  client-fingerprint: safari
-  grpc-opts:
-    grpc-service-name: grpc-wl
-- name: '🌀 CYBERPORTAL | White List Lite #10'
-  type: vless
-  server: 104.19.46.223
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White Keys #59'
-  type: vless
-  server: bg5.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw
-    short-id: 1a3102bb8e51399e
-  servername: bg5.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: gw.v2.RelayService
-- name: '🌀 CYBERPORTAL | White Keys #48'
-  type: vless
-  server: 45.9.156.20
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: vCxac528c27GggqKBDwXVYvnzyI_BIlc7eqRTo8xqEY
-    short-id: 954891aec4fe0be9
-  servername: bg1.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: gw.v1.StreamService
-- name: '🌀 CYBERPORTAL | White List Lite #15'
-  type: vless
-  server: 172.64.153.213
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: ws
-  tls: true
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: '🌀 CYBERPORTAL | White Keys #58'
-  type: vless
-  server: bg4.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: k-vH6pkyAv26L1_dXKOFhp0Kesur9-FCUDoj-IIpVhc
-    short-id: 51f45d4fd58cc319
-  servername: bg4.univesalsrv.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: cloud.v1.RelayService
-- name: '🌀 CYBERPORTAL | White Keys #93'
-  type: vless
-  server: bg3.univesalsrv.com
-  port: 443
-  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: XBfCioniAKXgKYBUVnvBXu80AIaIa4SpAB3w8qeF7Gk
-    short-id: 1be1bd931c98c84a
-  servername: bg3.univesalsrv.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: home.v1.ApiService
-- name: '🌀 CYBERPORTAL | White List Lite #5'
-  type: vless
-  server: 104.25.181.9
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #22'
-  type: vless
-  server: 104.16.25.224
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '[OpenRay] 🇷🇺 RU-34335'
-  type: vless
-  server: 185.185.69.26
-  port: 2200
-  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: '[OpenRay] 🇷🇺 RU-34337'
-  type: vless
-  server: 185.185.69.26
-  port: 4100
-  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '[OpenRay] 🇷🇺 RU-35016'
-  type: vless
-  server: 77.222.47.204
-  port: 4100
-  uuid: 5c43b6d8-f71a-46d6-b804-f86349e6f313
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🌀 CYBERPORTAL | White List Lite #1'
-  type: vless
-  server: 104.21.54.140
-  port: 443
-  uuid: d9f94532-c4d4-4f94-ba23-6eb6d35bfc7d
-  network: ws
-  tls: true
-  servername: small-scene-f215.amiralizarefast1.workers.dev
-  ws-opts:
-    path: /eyJqdW5rIjoiZW5GMjJSRmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0%3D
-    headers:
-      Host: small-scene-f215.amiralizarefast1.workers.dev
+  servername: accaunt.fastly.com
+  client-fingerprint: android
 - name: '🌀 CYBERPORTAL | White List Lite #8'
   type: vless
   server: 104.24.75.17
@@ -1394,65 +76,19 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #11'
+- name: '🌀 CYBERPORTAL | White List Lite #15'
   type: vless
-  server: 104.21.45.40
+  server: 172.64.153.213
   port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   network: ws
   tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
   client-fingerprint: chrome
   ws-opts:
-    path: /sync
+    path: /?ed
     headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #23'
-  type: vless
-  server: 104.17.222.14
-  port: 2053
-  uuid: ad40a583-2d59-44ff-88cf-b5db0e1e00a7
-  network: ws
-  tls: true
-  servername: edgetunnel.kalmevebto.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel.kalmevebto.workers.dev
-- name: '🌀 CYBERPORTAL | White Keys #49'
-  type: vless
-  server: 201.24.49.77
-  port: 2200
-  uuid: af60d475-3c13-41cf-af0e-18353d08877a
-  network: ws
-  servername: rzd.ru
-  client-fingerprint: chrome
-  ws-opts:
-    path: /v1
-- name: 4Kian-facba18c87
-  type: vless
-  server: 201.24.49.228
-  port: 2200
-  uuid: 09f2e2f4-3225-4342-bc92-cb58ee841f72
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: '🌀 CYBERPORTAL | White List Lite #7'
-  type: vless
-  server: 104.24.252.141
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #16'
   type: trojan
   server: 172.67.160.103
@@ -1465,297 +101,6 @@ proxies:
 - name: '🌀 CYBERPORTAL | White List Lite #18'
   type: vless
   server: 104.27.127.250
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #33'
-  type: vless
-  server: 172.64.150.34
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  network: ws
-  tls: true
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #37'
-  type: vless
-  server: 45.192.224.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: vms.lifetime17.workers.dev
-  ws-opts:
-    headers:
-      Host: vms.lifetime17.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #38'
-  type: vless
-  server: 104.19.68.119
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 185.141.227.150
-  port: 9002
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-reality
-- name: 4Jadi-bdd1d315b0
-  type: vless
-  server: 201.24.49.79
-  port: 4100
-  uuid: 3b4274c1-4744-452e-9903-e11ccc0c9900
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🌀 CYBERPORTAL | White List #447'
-  type: vless
-  server: 31.76.91.138
-  port: 2087
-  uuid: 309b0ce3-09a8-4883-bfe4-bd56e215be44
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: JfuItzJ81sJehx1PbxyliWSJvuBMKoa9ahNgPO3R7R4
-    short-id: c226283c4de5b1ad
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 79.127.215.226
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 5isIe0GLddqsEuDcnLop5Ex3q4Ibg_AKpogxAvhLMWs
-    short-id: 4501f602
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-- name: gRPC
-  type: vless
-  server: 195.15.213.66
-  port: 8082
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: id.vk.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-- name: Reality
-  type: vless
-  server: 144.124.226.216
-  port: 443
-  uuid: a6cc3164-87d8-5a1e-9e89-4a2d8a81450f
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: JkU5Vn1pM0jelR62NIqNwbE-b6Xs4kx-Vc6F-qNq1Fo
-    short-id: e359
-  servername: ozon.ru
-  client-fingerprint: chrome
-- name: '[OpenRay] 🇷🇺 RU-35039'
-  type: vless
-  server: 81.200.146.190
-  port: 4100
-  uuid: 9c2307ba-7972-4ea5-a199-f2c80049be7f
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: Reality, Яндекс Путешествия [V.O.I.D]
-  type: vless
-  server: 217.13.104.165
-  port: 443
-  uuid: df96530e-56f9-4876-9c84-54faaae14c5e
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: dhTXgiFZvZPJSNc33EqNvn_CRor_RKeiMxSkHsEdDic
-    short-id: 0441f3e34348cb45
-  servername: travel.yandex.ru
-  grpc-opts:
-    grpc-service-name: grpc-proxy
-- name: Reality, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 79.127.196.45
-  port: 9443
-  uuid: a704443d-655e-4d9f-8ce6-12eeb17a9a08
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 5isIe0GLddqsEuDcnLop5Ex3q4Ibg_AKpogxAvhLMWs
-    short-id: 4501f602
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-- name: gRPC, Яндекс Карты [V.O.I.D]
-  type: vless
-  server: 2.27.26.71
-  port: 2053
-  uuid: bd44419a-02a9-4c03-9cb8-a7f8ffd3ae68
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-- name: gRPC, Яндекс [V.O.I.D]
-  type: vless
-  server: 51.250.7.143
-  port: 2096
-  uuid: 4a334454-22f7-0002-9bec-583e1e8a2773
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-    short-id: 1ed136481e0ede74
-  servername: strm.yandex.net
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '🌀 CYBERPORTAL | White List Lite #21'
-  type: vless
-  server: 172.67.92.208
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: 🏳️ ShatakVPN 818680
-  type: vless
-  server: 200.165.234.119
-  port: 2200
-  uuid: 936b7663-a841-4b42-b639-6e3fab1dbf45
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: 🏳️ ShatakVPN 826847
-  type: vless
-  server: 201.34.137.15
-  port: 4100
-  uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
-  network: ws
-  servername: live.ok.ru
-  ws-opts:
-    path: /v1
-- name: 🏳️ ShatakVPN 933745
-  type: vless
-  server: 201.24.49.237
-  port: 2200
-  uuid: af412668-578c-4296-bc8c-8fac6a8d9003
-  network: ws
-  servername: rzd.ru
-  ws-opts:
-    path: /v1
-- name: 🏳️ ShatakVPN 790844
-  type: vless
-  server: 201.24.49.117
-  port: 2200
-  uuid: 2e228435-33a0-47d1-a1d8-9a34b5a03c45
-  network: ws
-  servername: 201.24.49.117
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: 🏳️ ShatakVPN 277179
-  type: vless
-  server: 200.165.234.45
-  port: 4100
-  uuid: 39e0f41b-180b-4f7e-a607-37b135f0fd83
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: 'Channel id: @ShadowProxy66 🇷🇺'
-  type: vless
-  server: 185.141.227.153
-  port: 9001
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  servername: api-maps.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-reality
-- name: 🇷🇺_俄罗斯_69
-  type: vless
-  server: 168.222.203.14
-  port: 4100
-  uuid: 2e79f3ca-b8db-4d4d-a96e-8f7313480696
-  network: ws
-  servername: live.ok.ru
-  ws-opts:
-    path: /v1
-- name: 🇷🇺
-  type: vless
-  server: 185.141.227.150
-  port: 9001
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  network: tcp
-  tls: true
-- name: '🌀 CYBERPORTAL | White List Lite #26'
-  type: vless
-  server: 104.20.40.184
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #31'
-  type: vless
-  server: 104.24.199.107
   port: 443
   uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
   network: ws
@@ -1779,35 +124,35 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #44'
+- name: '🌀 CYBERPORTAL | White List Lite #21'
   type: vless
-  server: 162.159.156.214
-  port: 8880
-  uuid: 86dc5fb4-f279-45b7-a2c6-0d1e84b85c18
+  server: 172.67.92.208
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
   network: ws
-  servername: lingering-dawn-5d4a.163-3f1.workers.dev
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
   client-fingerprint: chrome
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /sync
     headers:
-      Host: lingering-dawn-5d4a.163-3f1.workers.dev
-- name: 🇩🇪 Germany | [*CIDR] CDN
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #22'
   type: vless
-  server: 46.243.234.143
-  port: 2053
-  uuid: 9d635464-57dc-4bac-a1be-dd731d74ed06
-  network: grpc
+  server: 104.16.25.224
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
   tls: true
-  reality-opts:
-    public-key: EtfCxtqZmJ_cNs8Q02ZLuiHFoH7o7DogIcMSQjuuAiI
-    short-id: 346951f93706f6ec
-  servername: 5post-gate.x5.ru
-  client-fingerprint: android
-  grpc-opts:
-    grpc-service-name: grpc-wl
-- name: '🌀 CYBERPORTAL | White List Lite #29'
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #26'
   type: vless
-  server: 172.67.218.64
+  server: 104.20.40.184
   port: 443
   uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
   network: ws
@@ -1829,9 +174,58 @@ proxies:
     path: /j100sy9wn073cxbvir
     headers:
       Host: index.harmonica02.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #33'
+  type: vless
+  server: 172.64.150.34
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  network: ws
+  tls: true
+  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #34'
   type: vless
   server: 104.25.244.60
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #37'
+  type: vless
+  server: 45.192.224.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: vms.lifetime17.workers.dev
+  ws-opts:
+    headers:
+      Host: vms.lifetime17.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #38'
+  type: vless
+  server: 104.19.68.119
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #40'
+  type: vless
+  server: 104.18.30.56
   port: 443
   uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
   network: ws
@@ -1868,6 +262,29 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #44'
+  type: vless
+  server: 162.159.156.214
+  port: 8880
+  uuid: 86dc5fb4-f279-45b7-a2c6-0d1e84b85c18
+  network: ws
+  servername: lingering-dawn-5d4a.163-3f1.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lingering-dawn-5d4a.163-3f1.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #47'
+  type: vless
+  server: 104.21.46.101
+  port: 2086
+  uuid: 4a956dfd-b65a-4846-b6da-c85fc79918a5
+  network: ws
+  servername: green-scene-32df.atalastchance.workers.dev
+  ws-opts:
+    path: /eyJqdW5rIjoibW81VDZwNXg5S2IiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+    headers:
+      Host: green-scene-32df.atalastchance.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #48'
   type: vless
   server: 104.19.104.110
@@ -1881,58 +298,6 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #54'
-  type: vless
-  server: 104.18.160.210
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #14'
-  type: vless
-  server: 51.158.238.49
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  network: ws
-  servername: 51.158.238.49
-- name: '🌀 CYBERPORTAL | White List Lite #27'
-  type: vless
-  server: 91.107.154.19
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-- name: '🌀 CYBERPORTAL | White List Lite #40'
-  type: vless
-  server: 104.18.30.56
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #47'
-  type: vless
-  server: 104.21.46.101
-  port: 2086
-  uuid: 4a956dfd-b65a-4846-b6da-c85fc79918a5
-  network: ws
-  servername: green-scene-32df.atalastchance.workers.dev
-  ws-opts:
-    path: /eyJqdW5rIjoibW81VDZwNXg5S2IiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
-    headers:
-      Host: green-scene-32df.atalastchance.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #49'
   type: vless
   server: 104.17.167.194
@@ -1957,6 +322,19 @@ proxies:
     path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
     headers:
       Host: vms.lifetime58.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #54'
+  type: vless
+  server: 104.18.160.210
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #59'
   type: vless
   server: 104.25.122.72
@@ -2092,41 +470,6 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #83'
-  type: vless
-  server: 104.19.62.192
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #51\nvless://103744ce-0153-49b1-2eac-d293a6ddd7e2@104.18.163.22:443?encryption=none&fp=chrome&host=nahan-mouse-7749.amirsina2026.workers.dev&path=/sync&security=tls&sni=nahan-mouse-7749.amirsina2026.workers.dev&type=ws#🌀 CYBERPORTAL | White List Lite #52'
-  type: vless
-  server: 89.34.90.68
-  port: 8443
-  uuid: fe8e2ffb-8796-408c-af5b-0d4774215e00
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: dTdncizxtVTqDZDkQoYdRTkf2Mn6XuKtkzg8vZhrkzA
-    short-id: 6ba85179e30d4fc2
-  servername: 360.yandex.ru
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '🌀 CYBERPORTAL | White List Lite #66'
-  type: vless
-  server: 51.158.241.182
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  network: ws
-  ws-opts:
-    path: /?ed=2048
 - name: '🌀 CYBERPORTAL | White List Lite #77'
   type: vless
   server: 172.67.151.77
@@ -2143,6 +486,19 @@ proxies:
 - name: '🌀 CYBERPORTAL | White List Lite #82'
   type: vless
   server: 104.25.81.51
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #83'
+  type: vless
+  server: 104.19.62.192
   port: 443
   uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
   network: ws
@@ -2200,16 +556,6 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #91'
-  type: vless
-  server: 201.24.49.233
-  port: 4100
-  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
 - name: '🌀 CYBERPORTAL | White List Lite #94'
   type: vless
   server: 104.16.125.13
@@ -2223,78 +569,6 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #98'
-  type: vless
-  server: 104.19.234.104
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #101'
-  type: vless
-  server: 201.24.51.241
-  port: 4100
-  uuid: 5181e3af-4a0c-47d7-8beb-7e4fa4786cdd
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🌀 CYBERPORTAL | White List Lite #105'
-  type: vless
-  server: 201.24.49.53
-  port: 4100
-  uuid: 33965d4f-f9bd-4437-8867-ed705b435518
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🌀 CYBERPORTAL | White List Lite #107'
-  type: vless
-  server: 104.16.219.186
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #109'
-  type: vless
-  server: 104.16.154.144
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #68'
-  type: vless
-  server: 3.166.17.55
-  port: 443
-  uuid: 2b262080-f68a-4108-9ac3-d89140faaf6f
-  network: ws
-  tls: true
-  servername: 127.0.0.1
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d1bezfxa40zhk8.cloudfront.net
 - name: '🌀 CYBERPORTAL | White List Lite #95\n'
   type: vless
   server: 104.27.54.196
@@ -2321,6 +595,19 @@ proxies:
     path: /eyJqdW5rIjoidnlSRWhQQ3ZCNGZRNHVYMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ%3D%3D
     headers:
       Host: peekconfig.peekconf1.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #98'
+  type: vless
+  server: 104.19.234.104
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #99'
   type: vless
   server: 104.21.56.202
@@ -2367,6 +654,32 @@ proxies:
 - name: '🌀 CYBERPORTAL | White List Lite #106'
   type: vless
   server: 172.67.121.74
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #107'
+  type: vless
+  server: 104.16.219.186
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #109'
+  type: vless
+  server: 104.16.154.144
   port: 443
   uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
   network: ws
@@ -2464,16 +777,6 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #118'
-  type: vless
-  server: 201.24.49.19
-  port: 2200
-  uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
 - name: '🌀 CYBERPORTAL | White List Lite #119'
   type: vless
   server: 172.67.229.44
@@ -2513,15 +816,6 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #122'
-  type: vless
-  server: 5.42.109.42
-  port: 8443
-  uuid: 11f3e7b1-5507-46da-a268-1f70a543e40a
-  network: ws
-  tls: true
-  servername: css.rbxcdn.com
-  client-fingerprint: android
 - name: '🌀 CYBERPORTAL | White List Lite #124'
   type: vless
   server: 104.19.129.8
@@ -2558,9 +852,124 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: mute-surf-0003.209.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #127'
+- name: '🌀 CYBERPORTAL | White List Lite #1'
   type: vless
-  server: 104.16.24.107
+  server: 104.21.54.140
+  port: 443
+  uuid: d9f94532-c4d4-4f94-ba23-6eb6d35bfc7d
+  network: ws
+  tls: true
+  servername: small-scene-f215.amiralizarefast1.workers.dev
+  ws-opts:
+    path: /eyJqdW5rIjoiZW5GMjJSRmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0%3D
+    headers:
+      Host: small-scene-f215.amiralizarefast1.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #3'
+  type: vless
+  server: 104.16.107.139
+  port: 8880
+  uuid: 86dc5fb4-f279-45b7-a2c6-0d1e84b85c18
+  network: ws
+  servername: lingering-dawn-5d4a.163-3f1.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lingering-dawn-5d4a.163-3f1.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #4'
+  type: vless
+  server: 104.18.226.252
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #5'
+  type: vless
+  server: 104.25.181.9
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #7'
+  type: vless
+  server: 104.24.252.141
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #10'
+  type: vless
+  server: 104.19.46.223
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #11'
+  type: vless
+  server: 104.21.45.40
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #23'
+  type: vless
+  server: 104.17.222.14
+  port: 2053
+  uuid: ad40a583-2d59-44ff-88cf-b5db0e1e00a7
+  network: ws
+  tls: true
+  servername: edgetunnel.kalmevebto.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel.kalmevebto.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #29'
+  type: vless
+  server: 172.67.218.64
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #31'
+  type: vless
+  server: 104.24.199.107
   port: 443
   uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
   network: ws
@@ -2582,33 +991,6 @@ proxies:
     path: /eyJqdW5rIjoiSWZqSHF3Q2RLIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560
     headers:
       Host: server1.poludiro.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #130'
-  type: vless
-  server: 91.224.87.22
-  port: 9873
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  servername: dl.google.com
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: '🌀 CYBERPORTAL | White List Lite #131'
-  type: vless
-  server: 104.19.160.63
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #132'
   type: vless
   server: 104.24.254.202
@@ -2634,18 +1016,45 @@ proxies:
     path: /eyJqdW5rIjoiYmNCdUhCVkFEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0%253D
     headers:
       Host: server20.peekconfig5.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #134'
+- name: '🌀 CYBERPORTAL | White List Lite #149'
   type: vless
-  server: 188.114.97.0
+  server: 104.25.198.128
   port: 443
-  uuid: 6a110378-70b6-4fda-a092-5dcf23207710
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
   network: ws
   tls: true
-  servername: nq7qh6khkkjlcmuorei7dgcjd3no63fdai3jqojvltpglwbtxumtofqosr2w6pm.sd4yn.workers.dev
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
   ws-opts:
-    path: '/:'
+    path: /sync
     headers:
-      Host: nq7qh6khkkjlcmuorei7dgcjd3no63fdai3jqojvltpglwbtxumtofqosr2w6pm.sd4yn.workers.dev
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #153'
+  type: vless
+  server: 104.17.219.174
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #127'
+  type: vless
+  server: 104.16.24.107
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #135'
   type: vless
   server: 104.19.19.39
@@ -2683,107 +1092,6 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #139'
-  type: vless
-  server: 104.16.130.86
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #147'
-  type: vless
-  server: 46.101.196.101
-  port: 2096
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  network: ws
-  tls: true
-  servername: lucky-sky-0104.alvlirm444.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-sky-0104.alvlirm444.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #148'
-  type: vless
-  server: 8.39.125.152
-  port: 8443
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  network: ws
-  tls: true
-  servername: bitter-shadow-4fc5.alvlirm852.workers.dev
-  client-fingerprint: random
-  ws-opts:
-    path: /
-    headers:
-      Host: bitter-shadow-4fc5.alvlirm852.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #149'
-  type: vless
-  server: 104.25.198.128
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #151'
-  type: vless
-  server: 104.19.80.114
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #152'
-  type: vless
-  server: 201.24.49.233
-  port: 2200
-  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
-- name: '🌀 CYBERPORTAL | White List Lite #153'
-  type: vless
-  server: 104.17.219.174
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #154'
-  type: vless
-  server: 91.210.169.181
-  port: 443
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  network: ws
-  tls: true
-  servername: wstg.datasynctrue.online
-  client-fingerprint: chrome
-  ws-opts:
-    path: /api/connect
-    headers:
-      Host: wstg.datasynctrue.online
 - name: '🌀 CYBERPORTAL | White List Lite #156'
   type: vless
   server: 172.64.87.249
@@ -2797,54 +1105,6 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #157'
-  type: vless
-  server: 178.72.147.249
-  port: 4100
-  uuid: 47f2ac7a-7bc6-4d4c-b4f2-c4681da7f231
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: live.ok.ru
-- name: '🌀 CYBERPORTAL | White List Lite #159'
-  type: vless
-  server: 104.26.13.142
-  port: 2083
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  network: ws
-  tls: true
-  servername: shanxp.dpdns.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: shanxp.dpdns.org
-- name: '🌀 CYBERPORTAL | White List Lite #160'
-  type: vless
-  server: 104.16.40.1
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #162'
-  type: vless
-  server: 104.21.87.65
-  port: 443
-  uuid: 36d9003c-7240-40bc-af62-07c39f7a0b94
-  network: ws
-  tls: true
-  servername: server20.peekconfig5.workers.dev
-  ws-opts:
-    path: /eyJqdW5rIjoiYmNCdUhCVkFEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0%253D
-    headers:
-      Host: server20.peekconfig5.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #163'
   type: vless
   server: 104.24.197.191
@@ -2894,19 +1154,6 @@ proxies:
     path: /
     headers:
       Host: round-art-52ee.eadfgv.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #167'
-  type: vless
-  server: 104.18.32.47
-  port: 2087
-  uuid: 5a0028f9-c656-cec9-4b61-54678477a408
-  network: ws
-  tls: true
-  servername: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /game
-    headers:
-      Host: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #169'
   type: vless
   server: 172.67.176.31
@@ -2943,42 +1190,22 @@ proxies:
     path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
     headers:
       Host: elenaaaaaaaaaa.cloudns.pro.
+- name: '🌀 CYBERPORTAL | White List Lite #173'
+  type: vless
+  server: 172.67.215.201
+  port: 2096
+  uuid: f8fff57f-224a-4ae3-80c1-a9299796ad7c
+  network: ws
+  tls: true
+  servername: 11.ez-70ef02.workers.dev
+  client-fingerprint: ios
+  ws-opts:
+    path: /eyJqdW5rIjoicmc2S3lEeXFMV3Y3UHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI1Ny4xMjkuNDcuNTIiXX0=?ed=2560
+    headers:
+      Host: 11.ez-70ef02.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #174'
   type: vless
   server: 104.17.239.179
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #177'
-  type: vless
-  server: 104.19.118.203
-  port: 443
-  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
-  network: ws
-  tls: true
-  servername: nahan-mouse-7749.amirsina2026.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #81'
-  type: vless
-  server: 40.160.69.55
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  network: ws
-  servername: 40.160.69.55
-- name: '🌀 CYBERPORTAL | White List Lite #168'
-  type: vless
-  server: 172.66.164.24
   port: 443
   uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
   network: ws
@@ -2999,6 +1226,64 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: dark-cake-4743.198-46c.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #180'
+  type: vless
+  server: 172.67.180.158
+  port: 2096
+  uuid: 7380cb5d-e34f-5558-8efd-027e28baaef7
+  network: ws
+  tls: true
+  servername: dark-sunset-b9e8.holid82408.workers.dev
+  ws-opts:
+    path: /vless-ws/
+    headers:
+      Host: dark-sunset-b9e8.holid82408.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #183'
+  type: vless
+  server: 104.21.88.129
+  port: 8880
+  uuid: 70c16ec7-13f7-473b-b97d-06399f1481e3
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: mute-surf-0003.209.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #185'
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
+  network: ws
+  ws-opts:
+    path: /xiron
+    headers:
+      Host: xstack.mahanfixe.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #186'
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: '🌀 CYBERPORTAL | White List Lite #168'
+  type: vless
+  server: 172.66.164.24
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #178'
   type: vless
   server: 172.66.216.117
@@ -3012,18 +1297,6 @@ proxies:
     path: /sync
     headers:
       Host: nahan-mouse-7749.amirsina2026.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #180'
-  type: vless
-  server: 172.67.180.158
-  port: 2096
-  uuid: 7380cb5d-e34f-5558-8efd-027e28baaef7
-  network: ws
-  tls: true
-  servername: dark-sunset-b9e8.holid82408.workers.dev
-  ws-opts:
-    path: /vless-ws/
-    headers:
-      Host: dark-sunset-b9e8.holid82408.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #182'
   type: vless
   server: 172.67.192.84
@@ -3035,16 +1308,109 @@ proxies:
     path: /juvsrnmgdu8i0179k5
     headers:
       Host: index.harmonica02.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #183'
+- name: '🌀 CYBERPORTAL | White List Lite #187'
   type: vless
-  server: 104.21.88.129
-  port: 8880
-  uuid: 70c16ec7-13f7-473b-b97d-06399f1481e3
+  server: 104.25.157.74
+  port: 2083
+  uuid: 3cb4c775-bf08-4158-a0e3-cbae9ac452d7
   network: ws
+  tls: true
+  servername: orange-darkness-749f.phantomnettest1-65d.workers.dev
+  client-fingerprint: chrome
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /sync
     headers:
-      Host: mute-surf-0003.209.workers.dev
+      Host: orange-darkness-749f.phantomnettest1-65d.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #139'
+  type: vless
+  server: 104.16.130.86
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #151'
+  type: vless
+  server: 104.19.80.114
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #131'
+  type: vless
+  server: 104.19.160.63
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #148'
+  type: vless
+  server: 8.39.125.152
+  port: 8443
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  network: ws
+  tls: true
+  servername: bitter-shadow-4fc5.alvlirm852.workers.dev
+  client-fingerprint: random
+  ws-opts:
+    path: /
+    headers:
+      Host: bitter-shadow-4fc5.alvlirm852.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #160'
+  type: vless
+  server: 104.16.40.1
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #162'
+  type: vless
+  server: 104.21.87.65
+  port: 443
+  uuid: 36d9003c-7240-40bc-af62-07c39f7a0b94
+  network: ws
+  tls: true
+  servername: server20.peekconfig5.workers.dev
+  ws-opts:
+    path: /eyJqdW5rIjoiYmNCdUhCVkFEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0%253D
+    headers:
+      Host: server20.peekconfig5.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #177'
+  type: vless
+  server: 104.19.118.203
+  port: 443
+  uuid: 103744ce-0153-49b1-2eac-d293a6ddd7e2
+  network: ws
+  tls: true
+  servername: nahan-mouse-7749.amirsina2026.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-mouse-7749.amirsina2026.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #189'
   type: vless
   server: 104.17.147.22
@@ -3058,6 +1424,34 @@ proxies:
     path: /eyJqdW5rIjoiaEZzc0lFSmlmbHdNUWYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
     headers:
       Host: blacknet0.blacknet89.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #25'
+  type: vless
+  server: spring-sound-8d8e.36-9ff.workers.dev
+  port: 8880
+  uuid: 81d55675-8570-4b40-9a77-3125339a0f86
+  network: ws
+  servername: spring-sound-8d8e.36-9ff.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #159'
+  type: vless
+  server: 104.26.13.142
+  port: 2083
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  network: ws
+  tls: true
+  servername: shanxp.dpdns.org
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: shanxp.dpdns.org
+- name: '🌀 CYBERPORTAL | White List Lite #2'
+  type: vless
+  server: rapid-lab-95ef.173-74c.workers.dev
+  port: 8880
+  uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - name: '🌀 CYBERPORTAL | White List Lite #190'
   type: vless
   server: 104.17.148.22
@@ -3071,54 +1465,52 @@ proxies:
     path: /eyJqdW5rIjoiaEZzc0lFSmlmbHdNUWYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
     headers:
       Host: blacknet0.blacknet89.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #2'
+- name: '🌀 CYBERPORTAL | White List Lite #167'
   type: vless
-  server: rapid-lab-95ef.173-74c.workers.dev
-  port: 8880
-  uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '🌀 CYBERPORTAL | White List Lite #6'
-  type: vless
-  server: cf9.466688.xyz
-  port: 8880
-  uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-    headers:
-      Host: broken-star-c5ae.446.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #12'
-  type: vless
-  server: www.baipiao.eu.org
-  port: 8880
-  uuid: ef770523-8eb5-403f-9e95-06b328719c87
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lucky-sunset-d12e.201-98c.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #13'
-  type: vless
-  server: nuclear.us.kg
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  server: 104.18.32.47
+  port: 2087
+  uuid: 5a0028f9-c656-cec9-4b61-54678477a408
   network: ws
   tls: true
+  servername: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+  client-fingerprint: chrome
   ws-opts:
-    path: /free/1.226.227.169:50001
-- name: '🌀 CYBERPORTAL | White List Lite #17'
+    path: /game
+    headers:
+      Host: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #134'
   type: vless
-  server: wstg.datasynctrue.online
+  server: 188.114.97.0
   port: 443
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  uuid: 6a110378-70b6-4fda-a092-5dcf23207710
   network: ws
   tls: true
+  servername: nq7qh6khkkjlcmuorei7dgcjd3no63fdai3jqojvltpglwbtxumtofqosr2w6pm.sd4yn.workers.dev
   ws-opts:
-    path: /api/connect
+    path: '/:'
     headers:
-      Host: wstg.datasynctrue.online
+      Host: nq7qh6khkkjlcmuorei7dgcjd3no63fdai3jqojvltpglwbtxumtofqosr2w6pm.sd4yn.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #45'
+  type: vless
+  server: 40.160.68.55
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  network: ws
+  servername: 40.160.68.55
+- name: '🌀 CYBERPORTAL | White List Lite #62'
+  type: vless
+  server: 40.160.68.136
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  network: ws
+  servername: 40.160.68.136
+- name: '🌀 CYBERPORTAL | White List Lite #78'
+  type: vless
+  server: 40.160.69.97
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  network: ws
+  servername: 40.160.69.97
 - name: '🌀 CYBERPORTAL | White List Lite #19'
   type: vless
   server: log.bpminecraft.com
@@ -3142,13 +1534,23 @@ proxies:
     path: /eyJqdW5rIjoiZW5GMjJSRmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
     headers:
       Host: small-scene-f215.amiralizarefast1.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #25'
+- name: '🌀 CYBERPORTAL | White List Lite #81'
   type: vless
-  server: spring-sound-8d8e.36-9ff.workers.dev
-  port: 8880
-  uuid: 81d55675-8570-4b40-9a77-3125339a0f86
+  server: 40.160.69.55
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
   network: ws
-  servername: spring-sound-8d8e.36-9ff.workers.dev
+  servername: 40.160.69.55
+- name: '🌀 CYBERPORTAL | White List Lite #6'
+  type: vless
+  server: cf9.466688.xyz
+  port: 8880
+  uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    headers:
+      Host: broken-star-c5ae.446.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #30'
   type: vless
   server: aged-mud-9b4c.202-2dc.workers.dev
@@ -3157,6 +1559,61 @@ proxies:
   network: ws
   ws-opts:
     path: /pyip
+- name: '🌀 CYBERPORTAL | White List Lite #145'
+  type: vless
+  server: 40.160.68.79
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  network: ws
+  servername: 40.160.68.79
+- name: '🌀 CYBERPORTAL | White List Lite #28'
+  type: vless
+  server: flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev
+  port: 443
+  uuid: 49c0ae46-767c-47d1-9703-8740e0c4b15a
+  network: ws
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /eyJqdW5rIjoiZU1pQlVqNTBYVmpTeDlCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
+    headers:
+      Host: flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev
+- name: '🌀 CYBERPORTAL | White List #408'
+  type: vless
+  server: 31.76.91.138
+  port: 2087
+  uuid: 309b0ce3-09a8-4883-bfe4-bd56e215be44
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: JfuItzJ81sJehx1PbxyliWSJvuBMKoa9ahNgPO3R7R4
+    short-id: c226283c4de5b1ad
+  servername: ads.x5.ru
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🌀 CYBERPORTAL | White List Lite #150'
+  type: vless
+  server: 40.160.69.214
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+- name: '🌀 CYBERPORTAL | White List #466'
+  type: vless
+  server: 31.76.91.72
+  port: 2087
+  uuid: 524e00ce-ed89-481d-b4a4-6d7017f884e3
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: -ZTJcZ_UcqAB7LHgkUqhnlJsQs_oBafRgjsFtWZElmM
+    short-id: c226283c4de5b1ad
+  servername: ads.x5.ru
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
 - name: '🌀 CYBERPORTAL | White List Lite #35'
   type: vless
   server: tiny-lake-c7f3.16-1af.workers.dev
@@ -3164,13 +1621,6 @@ proxies:
   uuid: ff7390de-ce93-4d7d-b08b-bef8f71a85cf
   network: ws
   servername: tiny-lake-c7f3.16-1af.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #36'
-  type: vless
-  server: shrill-frost-6da5.155-dec.workers.dev
-  port: 8880
-  uuid: 9b7d9618-29a6-45e9-9eca-dcc7ad42f974
-  network: ws
-  servername: shrill-frost-6da5.155-dec.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #39'
   type: vless
   server: 0406.infinityconfig7.workers.dev
@@ -3187,6 +1637,65 @@ proxies:
   client-fingerprint: qq
   ws-opts:
     path: /eyJqdW5rIjoiaEZzc0lFSmlmbHdNUWYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+- name: '🌀 CYBERPORTAL | White List #338'
+  type: vless
+  server: 89.124.86.6
+  port: 8443
+  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: EGxJpl6UtxBovvg0-E9utvD3VvEIVYwBtRN8yy8enUs
+    short-id: a3f7b2e91c8d4056
+  servername: www.tradingview.com
+  client-fingerprint: firefox
+- name: Reality
+  type: vless
+  server: 144.124.226.216
+  port: 443
+  uuid: a6cc3164-87d8-5a1e-9e89-4a2d8a81450f
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: JkU5Vn1pM0jelR62NIqNwbE-b6Xs4kx-Vc6F-qNq1Fo
+    short-id: e359
+  servername: ozon.ru
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | White Keys #20'
+  type: vless
+  server: 95.85.228.30
+  port: 443
+  uuid: 8c105407-82fb-4dd1-8df4-916d34a7d3fe
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
+  servername: www.google.com
+  client-fingerprint: qq
+- name: '🌀 CYBERPORTAL | White List #336'
+  type: vless
+  server: 205.237.104.142
+  port: 8443
+  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: uYlJKmVHsSuCk-T9Y4CpqyR2LIP9etRZkRmDEt8-fUs
+    short-id: 2a75501193cb97c0
+  servername: www.tradingview.com
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List #342'
+  type: vless
+  server: 205.237.104.131
+  port: 8443
+  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: uYlJKmVHsSuCk-T9Y4CpqyR2LIP9etRZkRmDEt8-fUs
+    short-id: 2a75501193cb97c0
+  servername: www.tradingview.com
+  client-fingerprint: firefox
 - name: '🌀 CYBERPORTAL | White List Lite #50'
   type: vless
   server: broad-bush-c2c8.37-9a0.workers.dev
@@ -3196,6 +1705,95 @@ proxies:
   client-fingerprint: qq
   ws-opts:
     path: /pyip=ProxyIP.SG.CMLiussss.net
+- name: '🌀 CYBERPORTAL | White List Lite #158'
+  type: trojan
+  server: 185.220.238.77
+  port: 11543
+  password: HutaoCloud
+  network: ws
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /api
+- name: '🌀 CYBERPORTAL | White List Lite #27'
+  type: vless
+  server: 91.107.154.19
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+- name: '🌀 CYBERPORTAL | White List #324'
+  type: trojan
+  server: 45.85.88.194
+  port: 2234
+  password: tripitropa994825
+  network: tcp
+  servername: vk.com
+  skip-cert-verify: true
+  client-fingerprint: android
+- name: '🌀 CYBERPORTAL | White List Lite #36'
+  type: vless
+  server: shrill-frost-6da5.155-dec.workers.dev
+  port: 8880
+  uuid: 9b7d9618-29a6-45e9-9eca-dcc7ad42f974
+  network: ws
+  servername: shrill-frost-6da5.155-dec.workers.dev
+- name: gRPC
+  type: vless
+  server: 193.108.52.99
+  port: 8082
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: Reality
+  type: vless
+  server: 195.15.213.66
+  port: 8082
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: gRPC
+  type: vless
+  server: 193.108.52.167
+  port: 8082
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: '🌀 CYBERPORTAL | White List Lite #14'
+  type: vless
+  server: 51.158.238.49
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  network: ws
+  servername: 51.158.238.49
+- name: '🌀 CYBERPORTAL | White List Lite #12'
+  type: vless
+  server: www.baipiao.eu.org
+  port: 8880
+  uuid: ef770523-8eb5-403f-9e95-06b328719c87
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lucky-sunset-d12e.201-98c.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #55'
   type: vless
   server: muddy-shadow-8905.qara-atayi-1.workers.dev
@@ -3204,14 +1802,19 @@ proxies:
   network: ws
   ws-opts:
     path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-- name: '🌀 CYBERPORTAL | White List Lite #57'
+- name: gRPC
   type: vless
-  server: lively-lab-4fd2.150-6f7.workers.dev
-  port: 8880
-  uuid: 8c56b4af-4762-4299-a1f8-799790dbaac7
-  network: ws
-  ws-opts:
-    path: /pyip
+  server: 83.228.197.161
+  port: 8082
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: id.vk.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
 - name: '🌀 CYBERPORTAL | White List Lite #58'
   type: vless
   server: o.server5peekconfig.workers.dev
@@ -3224,16 +1827,529 @@ proxies:
     path: /eyJqdW5rIjoiSU9LdXp3R1p6IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560
     headers:
       Host: o.server5peekconfig.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #65'
+- name: '🌀 CYBERPORTAL | White List #344'
   type: vless
-  server: cf10.466688.xyz
-  port: 8880
-  uuid: 5659b42c-636f-4563-ac41-87d565d0dd1e
+  server: 2.26.90.204
+  port: 443
+  uuid: fe0afb65-a43e-4493-81b9-6d9edd57f79c
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4
+    short-id: b4c823
+  servername: www.yandex.ru
+  client-fingerprint: edge
+- name: '🌀 CYBERPORTAL | White List Lite #51\nvless://103744ce-0153-49b1-2eac-d293a6ddd7e2@104.18.163.22:443?encryption=none&fp=chrome&host=nahan-mouse-7749.amirsina2026.workers.dev&path=/sync&security=tls&sni=nahan-mouse-7749.amirsina2026.workers.dev&type=ws#🌀 CYBERPORTAL | White List Lite #52'
+  type: vless
+  server: 89.34.90.68
+  port: 8443
+  uuid: fe8e2ffb-8796-408c-af5b-0d4774215e00
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: dTdncizxtVTqDZDkQoYdRTkf2Mn6XuKtkzg8vZhrkzA
+    short-id: 6ba85179e30d4fc2
+  servername: 360.yandex.ru
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🌀 CYBERPORTAL | White List Lite #68'
+  type: vless
+  server: 3.166.17.55
+  port: 443
+  uuid: 2b262080-f68a-4108-9ac3-d89140faaf6f
+  network: ws
+  tls: true
+  servername: 127.0.0.1
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d1bezfxa40zhk8.cloudfront.net
+- name: XHTTP
+  type: vless
+  server: 91.84.117.29
+  port: 443
+  uuid: a4037b4c-6a9d-528c-9efb-7d801cce8adb
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: PyV8IrAs0LkE2d_DdjvdCtpWG7MZyUKsYkb52GUmuDM
+    short-id: '67'
+  servername: vk.com
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | White List #345'
+  type: vless
+  server: 31.76.88.150
+  port: 443
+  uuid: fe0afb65-a43e-4493-81b9-6d9edd57f79c
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4
+    short-id: b4c823
+  servername: www.yandex.ru
+  client-fingerprint: edge
+- name: '🌀 CYBERPORTAL | White List #478'
+  type: vless
+  server: 31.76.113.161
+  port: 2087
+  uuid: fe56cb08-6d4c-4954-808d-216fa945d3e8
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: IrgMA7g_C4JRT3gXWQvNXtHRd7dgC6fkSkKvxIxbfF0
+    short-id: c226283c4de5b1ad
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+- name: '[OpenRay] 🇷🇺 RU-34335'
+  type: vless
+  server: 185.185.69.26
+  port: 2200
+  uuid: 7ee53e03-96ed-4121-9da2-62f3d3374506
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.JP.autumniussss.net
+    path: /v1
     headers:
-      Host: autumn-base-0eb9.116-d25.workers.dev
+      Host: rzd.ru
+- name: '🌀 CYBERPORTAL | White Keys #267'
+  type: vless
+  server: 45.9.156.24
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4
+    short-id: 501ab3325b77e1ca
+  servername: bg2.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: api.v2.PushService
+- name: '🌀 CYBERPORTAL | White List #125'
+  type: vless
+  server: 64.188.82.152
+  port: 443
+  uuid: 7836b28e-8451-4596-ad3e-e3601b2335ba
+  network: ws
+  tls: true
+  servername: cloudflare.vhub.pro
+  client-fingerprint: safari
+  ws-opts:
+    path: /websocket?ed=2560
+    headers:
+      Host: cloudflare.vhub.pro
+- name: '[OpenRay] 🇷🇺 RU-35007'
+  type: vless
+  server: 80.90.188.104
+  port: 2200
+  uuid: 2da8106d-8c6a-4818-9a79-07890f9dd859
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '🌀 CYBERPORTAL | White List Lite #57'
+  type: vless
+  server: lively-lab-4fd2.150-6f7.workers.dev
+  port: 8880
+  uuid: 8c56b4af-4762-4299-a1f8-799790dbaac7
+  network: ws
+  ws-opts:
+    path: /pyip
+- name: '🌀 CYBERPORTAL | White List #341'
+  type: vless
+  server: 188.214.129.163
+  port: 8443
+  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: NnDloDdLzhLM1CVF36kbOkc0JFzsqVaT3k1fYX_vXRY
+    short-id: 58ae8cd85cc31074
+  servername: www.tradingview.com
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List #524'
+  type: vless
+  server: 111.88.99.27
+  port: 9894
+  uuid: 86221972-81a1-41f4-a48c-c512af05777c
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aabbccdd
+  servername: dl.google.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🌀 CYBERPORTAL | White List #532'
+  type: vless
+  server: 111.88.99.27
+  port: 9872
+  uuid: 86221972-81a1-41f4-a48c-c512af05777c
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  servername: dl.google.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🌀 CYBERPORTAL | White Keys #39'
+  type: vless
+  server: 45.9.156.28
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: k-vH6pkyAv26L1_dXKOFhp0Kesur9-FCUDoj-IIpVhc
+    short-id: 51f45d4fd58cc319
+  servername: bg4.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: cloud.v1.RelayService
+- name: '🌀 CYBERPORTAL | White Keys #184'
+  type: vless
+  server: 87.249.54.48
+  port: 4100
+  uuid: fe3489e2-6b59-4adb-91f3-e34300a13d5a
+  network: ws
+  ws-opts:
+    path: /v1
+- name: '🌀 CYBERPORTAL | White List #161'
+  type: vless
+  server: 188.72.103.3
+  port: 443
+  uuid: c94c37a5-98fe-40ac-8651-d894e9c1e53c
+  network: xhttp
+  tls: true
+  servername: potato.dbintro.space
+  client-fingerprint: edge
+- name: '🌀 CYBERPORTAL | White List #197'
+  type: vless
+  server: 188.72.103.3
+  port: 443
+  uuid: a8d6ee54-a8a2-412b-93a0-48f96ec6cc91
+  network: xhttp
+  tls: true
+  servername: worldstream.club
+  client-fingerprint: edge
+- name: '🌀 CYBERPORTAL | White List #322'
+  type: vless
+  server: 46.243.234.143
+  port: 2053
+  uuid: 9d635464-57dc-4bac-a1be-dd731d74ed06
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: EtfCxtqZmJ_cNs8Q02ZLuiHFoH7o7DogIcMSQjuuAiI
+    short-id: 346951f93706f6ec
+  servername: 5post-gate.x5.ru
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc-wl
+- name: '🌀 CYBERPORTAL | White List #514'
+  type: vless
+  server: 45.92.177.10
+  port: 9895
+  uuid: 86221972-81a1-41f4-a48c-c512af05777c
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  servername: dl.google.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🌀 CYBERPORTAL | White List Lite #66'
+  type: vless
+  server: 51.158.241.182
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+- name: '🌀 CYBERPORTAL | White Keys #158'
+  type: vless
+  server: 201.24.49.228
+  port: 2200
+  uuid: 09f2e2f4-3225-4342-bc92-cb58ee841f72
+  network: ws
+  ws-opts:
+    path: /v1
+- name: '🌀 CYBERPORTAL | White Keys #109'
+  type: vless
+  server: 83.147.246.153
+  port: 2200
+  uuid: 85223e1a-f55d-4d0d-b27d-39e8be49d220
+  network: ws
+  client-fingerprint: firefox
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '🌀 CYBERPORTAL | White Keys #136'
+  type: vless
+  server: 139.28.170.108
+  port: 443
+  uuid: 8535e46f-4c0b-4b02-9369-d4d553c9a892
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 92-4L36t-VbEcSQAaAkr1WGFc14gzeliUNeswPr0KB4
+    short-id: 2cdc1de40ce6cd0f
+  flow: xtls-rprx-vision
+  servername: www.nokia.com
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | White List #337'
+  type: vless
+  server: 85.192.48.236
+  port: 8443
+  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: EGxJpl6UtxBovvg0-E9utvD3VvEIVYwBtRN8yy8enUs
+    short-id: f1a84d63b20e7c95
+  servername: www.tradingview.com
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #147'
+  type: vless
+  server: 46.101.196.101
+  port: 2096
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  network: ws
+  tls: true
+  servername: lucky-sky-0104.alvlirm444.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: lucky-sky-0104.alvlirm444.workers.dev
+- name: '🌀 CYBERPORTAL | White Keys #204'
+  type: vless
+  server: 188.225.47.234
+  port: 4100
+  uuid: 7b2ce6b0-6d2b-4926-b7bf-6247eb1a0050
+  network: ws
+  ws-opts:
+    path: /v1
+- name: '[OpenRay] 🇧🇷 BR-257'
+  type: vless
+  server: 201.24.49.79
+  port: 4100
+  uuid: 3b4274c1-4744-452e-9903-e11ccc0c9900
+  network: ws
+  client-fingerprint: edge
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '[OpenRay] 🇧🇷 BR-258'
+  type: vless
+  server: 201.24.49.79
+  port: 2200
+  uuid: 3b4274c1-4744-452e-9903-e11ccc0c9900
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇧🇷 BR-270'
+  type: vless
+  server: 201.24.49.74
+  port: 2200
+  uuid: f0528a17-863f-4160-a5a0-0d9ad03f2ee7
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '🌀 CYBERPORTAL | White List #20'
+  type: vless
+  server: 45.92.177.10
+  port: 9894
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  servername: dl.google.com
+  client-fingerprint: ios
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🌀 CYBERPORTAL | White List #523'
+  type: vless
+  server: 212.41.11.31
+  port: 9882
+  uuid: 86221972-81a1-41f4-a48c-c512af05777c
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  servername: dl.google.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: gRPC, Яндекс Карты [V.O.I.D]
+  type: vless
+  server: 2.27.26.71
+  port: 2053
+  uuid: bd44419a-02a9-4c03-9cb8-a7f8ffd3ae68
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
+  servername: api-maps.yandex.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: MapsYandexAPI
+- name: '🌀 CYBERPORTAL | White List #7'
+  type: vless
+  server: 81.200.153.169
+  port: 9871
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aa
+  servername: dl.google.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🌀 CYBERPORTAL | White List #121'
+  type: vless
+  server: 217.19.122.142
+  port: 15565
+  uuid: 28629240-2a26-48ea-9149-5dce8bcbd5f4
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw
+    short-id: a5bd715862513387
+  servername: iv.kommersant.ru
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🌀 CYBERPORTAL | White Keys #211'
+  type: vless
+  server: 200.165.234.119
+  port: 2200
+  uuid: 936b7663-a841-4b42-b639-6e3fab1dbf45
+  network: ws
+  servername: rzd.ru
+  client-fingerprint: firefox
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇸🇨 SC-85'
+  type: vless
+  server: 200.165.234.62
+  port: 4100
+  uuid: 5383fb97-1178-4709-9a25-b767b743e911
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '[OpenRay] 🇧🇷 BR-287'
+  type: vless
+  server: 201.24.49.240
+  port: 4100
+  uuid: aa7d939b-feaa-4ad3-9615-74216f490807
+  network: ws
+  client-fingerprint: edge
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '🌀 CYBERPORTAL | White List #120'
+  type: vless
+  server: 217.19.122.20
+  port: 15565
+  uuid: 28629240-2a26-48ea-9149-5dce8bcbd5f4
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw
+    short-id: a5bd715862513387
+  servername: iv.kommersant.ru
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🌀 CYBERPORTAL | White List #172'
+  type: vless
+  server: 188.72.103.3
+  port: 443
+  uuid: 4ba1eee3-ced2-48b7-9a87-3893a03febf4
+  network: xhttp
+  tls: true
+  servername: tomato.dragonborn.space
+  client-fingerprint: edge
+- name: '🌀 CYBERPORTAL | White List #323'
+  type: vless
+  server: 77.110.104.125
+  port: 6443
+  uuid: 235fab16-5bb4-4593-b125-09f2e7ba7aa3
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  servername: maps.apple.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: your-custom-path
+- name: '🌀 CYBERPORTAL | White Keys #13'
+  type: vless
+  server: 91.224.86.107
+  port: 9830
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  servername: dl.google.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🌀 CYBERPORTAL | White List #118'
+  type: vless
+  server: 78.159.245.201
+  port: 15565
+  uuid: 28629240-2a26-48ea-9149-5dce8bcbd5f4
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw
+    short-id: a5bd715862513387
+  servername: iv.kommersant.ru
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '🌀 CYBERPORTAL | White Keys #90'
+  type: vless
+  server: 91.224.87.22
+  port: 9882
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  servername: dl.google.com
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: '🌀 CYBERPORTAL | White List Lite #69'
   type: vless
   server: channel.t-me-sh4dow-vpn.workers.dev
@@ -3246,16 +2362,137 @@ proxies:
     path: /eyJqdW5rIjoiWlNHcnk5RHUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0=?ed=2560
     headers:
       Host: channel.t-me-sh4dow-vpn.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #79'
+- name: 4Sarina-b574f7ca7d
   type: vless
-  server: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
+  server: 201.51.8.235
+  port: 2200
+  uuid: 099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '[OpenRay] 🇧🇷 BR-246'
+  type: vless
+  server: 201.24.49.69
+  port: 4100
+  uuid: 2cd5f052-6455-4153-b7d3-0545184dc64c
+  network: ws
+  client-fingerprint: edge
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '🌀 CYBERPORTAL | White Keys #4'
+  type: vless
+  server: 201.24.49.233
+  port: 4100
+  uuid: aa7d939b-feaa-4ad3-9615-74216f490807
+  network: ws
+  ws-opts:
+    path: /v1
+- name: '🌀 CYBERPORTAL | White Keys #27'
+  type: vless
+  server: 89.35.14.34
   port: 443
-  uuid: c5db14f6-2a21-401c-8160-a8093ff4ffd3
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
+    short-id: aa9884f2982b7d3c
+  servername: md5.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: app.v1.PushService
+- name: '🌀 CYBERPORTAL | White Keys #64'
+  type: vless
+  server: 45.9.156.27
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: XBfCioniAKXgKYBUVnvBXu80AIaIa4SpAB3w8qeF7Gk
+    short-id: 1be1bd931c98c84a
+  servername: bg3.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: home.v1.ApiService
+- name: '🌀 CYBERPORTAL | White Keys #255'
+  type: vless
+  server: 150.40.126.22
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
+    short-id: 861ac7d66953e55f
+  servername: rs4.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: media.v1.StreamService
+- name: '🌀 CYBERPORTAL | White List #116'
+  type: vless
+  server: 84.201.136.20
+  port: 8443
+  uuid: 9b4c96f9-60e8-4694-b069-c46992390555
   network: ws
   tls: true
-  client-fingerprint: qq
+  servername: cloudflare.vhub.pro
+  client-fingerprint: firefox
   ws-opts:
-    path: /vl/14m2B3TtxW5N85ews?ed=2560
+    path: /websocket?ed=2560
+    headers:
+      Host: cloudflare.vhub.pro
+- name: '🌀 CYBERPORTAL | White List #331'
+  type: vless
+  server: 45.11.26.99
+  port: 8001
+  uuid: a58f5798-69ef-40c7-a038-cae3a0ed031a
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #137'
+  type: vless
+  server: 91.107.190.175
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+- name: '🌀 CYBERPORTAL | White Keys #34'
+  type: vless
+  server: 89.35.14.33
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg
+    short-id: 8e07337954f9823f
+  servername: md4.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: hub.v1.ApiService
+- name: '🌀 CYBERPORTAL | White Keys #93'
+  type: vless
+  server: 150.40.126.24
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+    short-id: 4872856d5489c37d
+  servername: rs5.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: gw.v1.ObjectService
 - name: '🌀 CYBERPORTAL | White List Lite #90'
   type: vless
   server: novantunnel.tech
@@ -3268,6 +2505,153 @@ proxies:
     path: /Novan-AE9
     headers:
       Host: novantunnel.tech
+- name: '🌀 CYBERPORTAL | White Keys #44'
+  type: vless
+  server: 150.40.126.18
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
+    short-id: ed0cd5cc2e26e6e7
+  servername: rs1.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: node.v2.ObjectService
+- name: '🌀 CYBERPORTAL | White Keys #129'
+  type: vless
+  server: 150.40.126.19
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
+    short-id: 1469af2040b7c323
+  servername: rs2.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: media.v1.ObjectService
+- name: '🌀 CYBERPORTAL | White List #332'
+  type: vless
+  server: 45.11.26.99
+  port: 8002
+  uuid: a58f5798-69ef-40c7-a038-cae3a0ed031a
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #65'
+  type: vless
+  server: cf10.466688.xyz
+  port: 8880
+  uuid: 5659b42c-636f-4563-ac41-87d565d0dd1e
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.autumniussss.net
+    headers:
+      Host: autumn-base-0eb9.116-d25.workers.dev
+- name: '🌀 CYBERPORTAL | White List #333'
+  type: vless
+  server: 45.11.26.99
+  port: 443
+  uuid: 0f240308-5771-4636-9315-f3259ff87f98
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #80'
+  type: vless
+  server: billowing-sunset-e340.qaraatayi.workers.dev
+  port: 443
+  uuid: c6ba83a7-c4b5-481f-8f71-0f17deff0bf2
+  network: ws
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /eyJqdW5rIjoiVnJ5TkZEWnQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+- name: '🌀 CYBERPORTAL | White Keys #68'
+  type: vless
+  server: 150.40.126.21
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ
+    short-id: 35d05b666e2c6cdf
+  servername: rs3.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: edge.v2.FeedService
+- name: '🌀 CYBERPORTAL | White List #334'
+  type: vless
+  server: 45.11.26.99
+  port: 8001
+  uuid: 0f240308-5771-4636-9315-f3259ff87f98
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List #330'
+  type: vless
+  server: 45.11.26.99
+  port: 443
+  uuid: a58f5798-69ef-40c7-a038-cae3a0ed031a
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #101'
+  type: vless
+  server: 201.24.51.241
+  port: 4100
+  uuid: 5181e3af-4a0c-47d7-8beb-7e4fa4786cdd
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '🌀 CYBERPORTAL | White List Lite #79'
+  type: vless
+  server: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
+  port: 443
+  uuid: c5db14f6-2a21-401c-8160-a8093ff4ffd3
+  network: ws
+  tls: true
+  client-fingerprint: qq
+  ws-opts:
+    path: /vl/14m2B3TtxW5N85ews?ed=2560
+- name: '🌀 CYBERPORTAL | White List Lite #91'
+  type: vless
+  server: 201.24.49.233
+  port: 4100
+  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '🌀 CYBERPORTAL | White List #335'
+  type: vless
+  server: 45.11.26.99
+  port: 8002
+  uuid: 0f240308-5771-4636-9315-f3259ff87f98
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U
+  servername: ads.x5.ru
+  client-fingerprint: firefox
 - name: '🌀 CYBERPORTAL | White List Lite #92'
   type: vless
   server: hidden-union-a4b2.436.workers.dev
@@ -3277,13 +2661,200 @@ proxies:
   servername: hidden-union-a4b2.436.workers.dev
   ws-opts:
     path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '🌀 CYBERPORTAL | White List Lite #97'
+- name: '🌀 CYBERPORTAL | White List Lite #93'
   type: vless
-  server: blue-sky-e65b.221-553.workers.dev
+  server: rapid-base-6c9e.45-d79.workers.dev
   port: 8880
-  uuid: 723c410e-5789-4b21-abb9-d6ec05547ba9
+  uuid: 725c66a2-2bce-4a24-ba52-b4e2e7047076
   network: ws
-  servername: blue-sky-e65b.221-553.workers.dev
+  servername: rapid-base-6c9e.45-d79.workers.dev
+- name: '🌀 CYBERPORTAL | White Keys #14'
+  type: vless
+  server: 89.35.14.31
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: JXFsWHYjhAcR-7yz9tuCTMdcfuiyC9a-C9ewA55Z63o
+    short-id: d36a38659ce106cb
+  servername: md2.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: hub.v1.SyncService
+- name: '🌀 CYBERPORTAL | White Keys #86'
+  type: vless
+  server: 45.9.156.42
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw
+    short-id: 1a3102bb8e51399e
+  servername: bg5.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: gw.v2.RelayService
+- name: 🇵🇱 Poland [*CIDR]
+  type: vless
+  server: 45.92.177.10
+  port: 9895
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  servername: dl.google.com
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇸🇪 Sweden [*CIDR]
+  type: vless
+  server: 111.88.99.27
+  port: 9872
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aa
+  servername: dl.google.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇳🇱 The Netherlands [*CIDR]
+  type: vless
+  server: 111.88.99.27
+  port: 9894
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aa
+  servername: dl.google.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🌀 CYBERPORTAL | White List Lite #130'
+  type: vless
+  server: 91.224.87.22
+  port: 9873
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
+  servername: dl.google.com
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇨🇿 Czechia [*CIDR]
+  type: vless
+  server: 212.41.11.31
+  port: 9891
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: aa
+  servername: dl.google.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🏳️ ShatakVPN 705562
+  type: vless
+  server: 200.165.234.45
+  port: 4100
+  uuid: 39e0f41b-180b-4f7e-a607-37b135f0fd83
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '🌀 CYBERPORTAL | White List #321'
+  type: vless
+  server: 79.174.92.85
+  port: 6443
+  uuid: 545d7cfe-152e-46d5-a868-914522b447b9
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8
+    short-id: bad5722c72a0
+  servername: iv.kommersant.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '@Vip_Security'
+  type: vless
+  server: 178.72.167.151
+  port: 443
+  uuid: d7ff1a6d-529e-4260-aa46-3c8a7fd681f4
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: 54p7hD_YYV5f2ATL7rTBk4NG_KhStO76-1_tSKmXah8
+    short-id: d45603
+  servername: 2gis.ru
+  client-fingerprint: firefox
+- name: 🏳️ ShatakVPN 463633
+  type: vless
+  server: 201.24.49.117
+  port: 2200
+  uuid: 2e228435-33a0-47d1-a1d8-9a34b5a03c45
+  network: ws
+  servername: 201.24.49.117
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: '🌀 CYBERPORTAL | White List Lite #154'
+  type: vless
+  server: 91.210.169.181
+  port: 443
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  network: ws
+  tls: true
+  servername: wstg.datasynctrue.online
+  client-fingerprint: chrome
+  ws-opts:
+    path: /api/connect
+    headers:
+      Host: wstg.datasynctrue.online
+- name: 🏳️ ShatakVPN 587993
+  type: vless
+  server: 81.200.146.190
+  port: 4100
+  uuid: 9c2307ba-7972-4ea5-a199-f2c80049be7f
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+- name: '🌀 CYBERPORTAL | White List Lite #152'
+  type: vless
+  server: 201.24.49.233
+  port: 2200
+  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+- name: 🏳️ ShatakVPN 878098
+  type: vless
+  server: 201.24.49.237
+  port: 2200
+  uuid: af412668-578c-4296-bc8c-8fac6a8d9003
+  network: ws
+  servername: rzd.ru
+  ws-opts:
+    path: /v1
 - name: '🌀 CYBERPORTAL | White List Lite #108'
   type: vless
   server: mute-surf-0003.209.workers.dev
@@ -3314,6 +2885,20 @@ proxies:
     path: /eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==?ed=2560
     headers:
       Host: free.server11peekconfig.workers.dev
+- name: '🌀 CYBERPORTAL | White List #12'
+  type: vless
+  server: 87.228.33.129
+  port: 443
+  uuid: 1aca6d41-1807-426d-b2c8-40ef512e9b55
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a52
+  servername: api-maps.yandex.ru
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc-vk
 - name: '🌀 CYBERPORTAL | White List Lite #128'
   type: vless
   server: fancy-king-6fb5.33-615.workers.dev
@@ -3323,6 +2908,156 @@ proxies:
   client-fingerprint: qq
   ws-opts:
     path: /pyip=ProxyIP.SG.CMLiussss.net
+- name: '🌀 CYBERPORTAL | White List Lite #142'
+  type: vless
+  server: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev
+  port: 443
+  uuid: 2730487f-0ed5-4f04-92d5-f95f9253d4f4
+  network: ws
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: ws
+- name: '🌀 CYBERPORTAL | White List Lite #97'
+  type: vless
+  server: blue-sky-e65b.221-553.workers.dev
+  port: 8880
+  uuid: 723c410e-5789-4b21-abb9-d6ec05547ba9
+  network: ws
+  servername: blue-sky-e65b.221-553.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #13'
+  type: vless
+  server: nuclear.us.kg
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  network: ws
+  tls: true
+  ws-opts:
+    path: /free/1.226.227.169:50001
+- name: '🌀 CYBERPORTAL | White List Lite #17'
+  type: vless
+  server: wstg.datasynctrue.online
+  port: 443
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  network: ws
+  tls: true
+  ws-opts:
+    path: /api/connect
+    headers:
+      Host: wstg.datasynctrue.online
+- name: '🌀 CYBERPORTAL | White List #316'
+  type: vless
+  server: 46.243.234.72
+  port: 2053
+  uuid: 24708d62-a508-4c63-a860-7d4e04e440b1
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: IDjWshY2nmbQJzUme5TMymI-RI99Zku45lO9k1HKyTA
+    short-id: 20a080af5636a681
+  servername: 5post-gate.x5.ru
+  client-fingerprint: safari
+  grpc-opts:
+    grpc-service-name: grpc-wl
+- name: '🌀 CYBERPORTAL | White List Lite #144'
+  type: vless
+  server: weathered-union-5358.101-262.workers.dev
+  port: 8880
+  uuid: f12cc297-c9ce-4cdb-98d4-8e47c3f09644
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: '🌀 CYBERPORTAL | White List Lite #143'
+  type: vless
+  server: cnmfangbinxing.cnmfangbinxing-f.workers.dev.
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  network: ws
+- name: '🌀 CYBERPORTAL | White List Lite #171'
+  type: vless
+  server: biyapain.biyapainbache.workers.dev
+  port: 443
+  uuid: 5a5fba4d-6ae8-4975-936d-bb643fb15957
+  network: ws
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /eyJqdW5rIjoiV0lISkpXU0trWFI4OGdUIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19?ed=2560
+    headers:
+      Host: biyapain.biyapainbache.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #176'
+  type: vless
+  server: young-rice-749e.heliy78750.workers.dev
+  port: 80
+  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
+  network: ws
+- name: '🌀 CYBERPORTAL | White List Lite #155'
+  type: vless
+  server: www.speedtest.net
+  port: 443
+  uuid: d9224de0-fcff-4534-bfcb-1d7bdb1453e8
+  network: ws
+  tls: true
+  servername: blacknet0.blacknet89.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /eyJqdW5rIjoiaEZzc0lFSmlmbHdNUWYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+    headers:
+      Host: blacknet0.blacknet89.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #188'
+  type: vless
+  server: nahan-core.fatitelegram.workers.dev
+  port: 443
+  uuid: 73796e63-0000-4000-8000-000000000000
+  network: ws
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sync
+    headers:
+      Host: nahan-core.fatitelegram.workers.dev
+- name: '🌀 CYBERPORTAL | White List Lite #184'
+  type: trojan
+  server: 194.9.172.236
+  port: 1105
+  password: kakashka13222
+  network: tcp
+  servername: 194.9.172.236
+  skip-cert-verify: true
+- name: '🌀 CYBERPORTAL | White List Lite #46'
+  type: vless
+  server: www.usyun.cc
+  port: 443
+  uuid: c2427767-23f5-4d1a-ae1d-b6490452ca51
+  network: ws
+  tls: true
+  servername: usyun.cc
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Ftrial-gs-relay'
+    headers:
+      Host: usyun.cc
+- name: '🌀 CYBERPORTAL | White List Lite #181'
+  type: trojan
+  server: jquery.com
+  port: 443
+  password: 988sR-269PKCKlb&3pMrFTEr
+  network: ws
+  servername: letiranbreath-7rrkevfu2hjbis5uhcxwztz24t5vp6trf1oka8dkrw0n.he3fmq6z0mfszsk3xy2e.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+- name: '🌀 CYBERPORTAL | White List Lite #179'
+  type: vless
+  server: www.gov.ua
+  port: 8880
+  uuid: da5ff974-c135-4b57-a0ff-53dd2502e71e
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: long-smoke-b6cb.290-cd1.workers.dev
 - name: '🌀 CYBERPORTAL | White List Lite #140'
   type: vless
   server: skk.moe
@@ -3335,346 +3070,306 @@ proxies:
     path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
     headers:
       Host: proud-cloud-7bdd.208-a52.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #143'
+- name: '🌀 CYBERPORTAL | White List #117'
   type: vless
-  server: cnmfangbinxing.cnmfangbinxing-f.workers.dev.
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-- name: '🌀 CYBERPORTAL | White List Lite #144'
-  type: vless
-  server: weathered-union-5358.101-262.workers.dev
-  port: 8880
-  uuid: f12cc297-c9ce-4cdb-98d4-8e47c3f09644
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '🌀 CYBERPORTAL | White List Lite #145'
-  type: vless
-  server: 40.160.68.79
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  network: ws
-  servername: 40.160.68.79
-- name: '🌀 CYBERPORTAL | White List Lite #146'
-  type: vless
-  server: run5.wba-pn.ru
-  port: 8443
-  uuid: 11f3e7b1-5507-46da-a268-1f70a543e40a
-  network: ws
-  tls: true
-  servername: css.rbxcdn.com
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #173'
-  type: vless
-  server: 172.67.215.201
-  port: 2096
-  uuid: f8fff57f-224a-4ae3-80c1-a9299796ad7c
-  network: ws
-  tls: true
-  servername: 11.ez-70ef02.workers.dev
-  client-fingerprint: ios
-  ws-opts:
-    path: /eyJqdW5rIjoicmc2S3lEeXFMV3Y3UHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI1Ny4xMjkuNDcuNTIiXX0=?ed=2560
-    headers:
-      Host: 11.ez-70ef02.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #185'
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
-  network: ws
-  ws-opts:
-    path: /xiron
-    headers:
-      Host: xstack.mahanfixe.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #186'
-  type: vless
-  server: 162.159.254.3
+  server: 95.163.232.165
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 9b4c96f9-60e8-4694-b069-c46992390555
   network: ws
   tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: '🌀 CYBERPORTAL | White List Lite #187'
-  type: vless
-  server: 104.25.157.74
-  port: 2083
-  uuid: 3cb4c775-bf08-4158-a0e3-cbae9ac452d7
-  network: ws
-  tls: true
-  servername: orange-darkness-749f.phantomnettest1-65d.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sync
-    headers:
-      Host: orange-darkness-749f.phantomnettest1-65d.workers.dev
-- name: 🇬🇧 United Kingdom, Newcastle upon Tyne | [BL]
-  type: trojan
-  server: 45.85.88.194
-  port: 2234
-  password: tripitropa994825
-  network: tcp
-  servername: css.rbxcdn.com
-  skip-cert-verify: true
-  client-fingerprint: android
-- name: 🇫🇷 France, Paris | [BL]
-  type: vless
-  server: 205.237.104.131
-  port: 8443
-  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: uYlJKmVHsSuCk-T9Y4CpqyR2LIP9etRZkRmDEt8-fUs
-    short-id: 2a75501193cb97c0
-  servername: www.tradingview.com
+  servername: cloudflare.vhub.pro
   client-fingerprint: firefox
-- name: 🇫🇷 France, Paris | [BL]
+  ws-opts:
+    path: /websocket?ed=2560
+    headers:
+      Host: cloudflare.vhub.pro
+- name: '🌀 CYBERPORTAL | White Keys #106'
   type: vless
-  server: 205.237.104.142
-  port: 8443
-  uuid: cfd29242-a9b1-454d-8f48-09eebb9a7d79
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: uYlJKmVHsSuCk-T9Y4CpqyR2LIP9etRZkRmDEt8-fUs
-    short-id: 2a75501193cb97c0
-  servername: www.tradingview.com
-  client-fingerprint: firefox
-- name: 🇩🇪 Germany, Frankfurt am Main (Innenstadt II) | [BL]
-  type: vless
-  server: 94.26.83.7
-  port: 443
-  uuid: 0dd9cfaa-cebd-4444-8778-70cb22737944
+  server: 46.16.36.222
+  port: 11443
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
   network: grpc
   tls: true
   reality-opts:
-    public-key: HFTFARa1OS53m4HWnjwtZ0J3lu7aoKkE7OujIyM62QI
-    short-id: 2a236a7fcbe0ce61
-  servername: dl.google.com
-  client-fingerprint: firefox
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: 3b149d533a
+  servername: mageia.ubuntuhosting.host
+  client-fingerprint: edge
   grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: gRPC, Яндекс [V.O.I.D]
+    grpc-service-name: gun
+- name: 🏳️ ShatakVPN 384193
   type: vless
-  server: 144.31.242.164
-  port: 443
-  uuid: fa98f221-29e1-4a7e-8797-3bf294aeda35
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A
-    short-id: 6ba85179e30d4fc2
-  servername: 360.yandex.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-- name: gRPC
-  type: vless
-  server: 195.15.213.54
-  port: 8082
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  server: 185.141.227.150
+  port: 9001
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
   network: grpc
   tls: true
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: id.vk.com
-- name: '🌀 CYBERPORTAL | White List Lite #28'
+    short-id: 6ba85179e30d4fc2
+  servername: api-maps.yandex.ru
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: grpc-reality
+- name: 🇨🇭 Switzerland [*CIDR]
   type: vless
-  server: flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev
+  server: 212.41.11.31
+  port: 9882
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabb
+  servername: dl.google.com
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🌀 CYBERPORTAL | White List #518'
+  type: vless
+  server: 87.228.33.129
   port: 443
-  uuid: 49c0ae46-767c-47d1-9703-8740e0c4b15a
+  uuid: 55fa341e-b8fe-4663-bd35-4b04461d0ab0
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a52
+  servername: api-maps.yandex.ru
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: grpc-vk
+- name: '🌀 CYBERPORTAL | White Keys #12'
+  type: vless
+  server: md5.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg
+    short-id: aa9884f2982b7d3c
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: app.v1.PushService
+- name: '🌀 CYBERPORTAL | White Keys #17'
+  type: vless
+  server: md2.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: JXFsWHYjhAcR-7yz9tuCTMdcfuiyC9a-C9ewA55Z63o
+    short-id: d36a38659ce106cb
+  servername: md2.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: hub.v1.SyncService
+- name: '🌀 CYBERPORTAL | White Keys #57'
+  type: vless
+  server: rs1.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
+    short-id: ed0cd5cc2e26e6e7
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: node.v2.ObjectService
+- name: '🌀 CYBERPORTAL | White Keys #24'
+  type: vless
+  server: md4.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg
+    short-id: 8e07337954f9823f
+  servername: md4.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: hub.v1.ApiService
+- name: '🌀 CYBERPORTAL | White Keys #59'
+  type: vless
+  server: rs3.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ
+    short-id: 35d05b666e2c6cdf
+  servername: rs3.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: edge.v2.FeedService
+- name: '🌀 CYBERPORTAL | White Keys #87'
+  type: vless
+  server: rs5.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+    short-id: 4872856d5489c37d
+  servername: rs5.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: gw.v1.ObjectService
+- name: '🌀 CYBERPORTAL | White Keys #78'
+  type: vless
+  server: bg3.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: XBfCioniAKXgKYBUVnvBXu80AIaIa4SpAB3w8qeF7Gk
+    short-id: 1be1bd931c98c84a
+  servername: bg3.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: home.v1.ApiService
+- name: '🌀 CYBERPORTAL | White Keys #82'
+  type: vless
+  server: bg4.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: k-vH6pkyAv26L1_dXKOFhp0Kesur9-FCUDoj-IIpVhc
+    short-id: 51f45d4fd58cc319
+  servername: bg4.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: cloud.v1.RelayService
+- name: '🌀 CYBERPORTAL | White Keys #89'
+  type: vless
+  server: bg5.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw
+    short-id: 1a3102bb8e51399e
+  servername: bg5.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: gw.v2.RelayService
+- name: '🌀 CYBERPORTAL | White Keys #254'
+  type: vless
+  server: rs4.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
+    short-id: 861ac7d66953e55f
+  servername: rs4.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: media.v1.StreamService
+- name: '🌀 CYBERPORTAL | White Keys #139'
+  type: vless
+  server: rs2.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
+    short-id: 1469af2040b7c323
+  servername: rs2.univesalsrv.com
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: media.v1.ObjectService
+- name: '🌀 CYBERPORTAL | White Keys #269'
+  type: vless
+  server: bg2.univesalsrv.com
+  port: 443
+  uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4
+    short-id: 501ab3325b77e1ca
+  servername: bg2.univesalsrv.com
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: api.v2.PushService
+- name: '🌀 CYBERPORTAL | White Keys #281'
+  type: hysteria2
+  server: ee1.sferavpn.pro
+  port: 443
+  password: cd74c0a406664a5bc0bac098220a2468
+  sni: ee1.sferavpn.pro
+- name: '🌀 CYBERPORTAL | White List #327'
+  type: trojan
+  server: ee01.botovod.space
+  port: 510
+  password: 8qCNZU2XdtefT7uB4uPxgRR839btqMG8
+  network: xhttp
+  servername: www.icloud.com
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | White List #317'
+  type: vless
+  server: bz9.wba-pn.ru
+  port: 2053
+  uuid: 9a47a8ff-8cdd-4a35-b765-fbad6d40e0a0
   network: ws
   tls: true
+  servername: speedtest.tinkoff.ru
   client-fingerprint: chrome
-  ws-opts:
-    path: /eyJqdW5rIjoiZU1pQlVqNTBYVmpTeDlCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
-    headers:
-      Host: flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev
-- name: '🌀 CYBERPORTAL | White List Lite #80'
+- name: '🌀 CYBERPORTAL | White List #325'
   type: vless
-  server: billowing-sunset-e340.qaraatayi.workers.dev
-  port: 443
-  uuid: c6ba83a7-c4b5-481f-8f71-0f17deff0bf2
+  server: nlxy.korgivps.ru
+  port: 8443
+  uuid: a3f59a62-b4ad-4f02-bfce-ef68e63ab6f7
   network: ws
   tls: true
+  servername: speedtest.tinkoff.ru
   client-fingerprint: chrome
   ws-opts:
-    path: /eyJqdW5rIjoiVnJ5TkZEWnQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+    path: /api/user
 proxy-groups:
 - name: VPN-UNIFIER
   type: url-test
   proxies:
-  - '[OpenRay] 🇸🇨 SC-85'
-  - '🌀 CYBERPORTAL | White Keys #2'
-  - '🌀 CYBERPORTAL | White Keys #8'
-  - '🌀 CYBERPORTAL | White Keys #84'
-  - '🌀 CYBERPORTAL | White Keys #113'
-  - '🌀 CYBERPORTAL | White Keys #142'
-  - '🌀 CYBERPORTAL | White Keys #47'
-  - '🌀 CYBERPORTAL | White Keys #64'
-  - '🌀 CYBERPORTAL | White Keys #105'
-  - '🌀 CYBERPORTAL | White Keys #114'
-  - '🌀 CYBERPORTAL | White Keys #254'
-  - '🌀 CYBERPORTAL | White List #74'
-  - '🌀 CYBERPORTAL | White List #289'
-  - '🌀 CYBERPORTAL | White List #414'
-  - '🌀 CYBERPORTAL | White Keys #45'
-  - '🌀 CYBERPORTAL | White List #93'
-  - '🌀 CYBERPORTAL | White Keys #100'
-  - '🌀 CYBERPORTAL | White Keys #211'
-  - '🌀 CYBERPORTAL | White List #95'
-  - '🌀 CYBERPORTAL | White List #479'
-  - '🌀 CYBERPORTAL | White Keys #52'
-  - '🌀 CYBERPORTAL | White Keys #54'
-  - '🌀 CYBERPORTAL | White Keys #55'
-  - '🌀 CYBERPORTAL | White Keys #107'
-  - '🌀 CYBERPORTAL | White Keys #131'
-  - '🌀 CYBERPORTAL | White Keys #244'
-  - '🌀 CYBERPORTAL | White List #91'
-  - '🌀 CYBERPORTAL | White List #96'
-  - '🌀 CYBERPORTAL | White List #136'
-  - '🌀 CYBERPORTAL | White List #172'
-  - '🌀 CYBERPORTAL | White List #290'
-  - '🌀 CYBERPORTAL | White List #291'
-  - '🌀 CYBERPORTAL | White List #294'
-  - '🌀 CYBERPORTAL | White List #295'
-  - '🌀 CYBERPORTAL | White List #297'
-  - '🌀 CYBERPORTAL | White Keys #156'
-  - '🌀 CYBERPORTAL | White Keys #295'
-  - '🌀 CYBERPORTAL | White List #147'
-  - '🌀 CYBERPORTAL | White List #262'
-  - '🌀 CYBERPORTAL | White List #265'
-  - '🌀 CYBERPORTAL | White List #270'
-  - '🌀 CYBERPORTAL | White List #277'
-  - '🌀 CYBERPORTAL | White List #288'
-  - '🌀 CYBERPORTAL | White List #305'
-  - '🌀 CYBERPORTAL | White List #467'
-  - '🌀 CYBERPORTAL | White List #477'
-  - '🌀 CYBERPORTAL | White Keys #14'
-  - '🌀 CYBERPORTAL | White Keys #20'
-  - '🌀 CYBERPORTAL | White Keys #69'
-  - '🌀 CYBERPORTAL | White List #292'
-  - '🌀 CYBERPORTAL | White List #293'
-  - '🌀 CYBERPORTAL | White List #487'
-  - '🌀 CYBERPORTAL | White List #488'
-  - '🌀 CYBERPORTAL | White List #568'
-  - '[OpenRay] 🇧🇷 BR-258'
-  - '🌀 CYBERPORTAL | White Keys #60'
-  - '🌀 CYBERPORTAL | White Keys #96'
-  - '🌀 CYBERPORTAL | White List #100'
-  - '🌀 CYBERPORTAL | White List #269'
-  - '🌀 CYBERPORTAL | White List #298'
-  - '🌀 CYBERPORTAL | White List #480'
-  - '🌀 CYBERPORTAL | White Keys #128'
-  - '🌀 CYBERPORTAL | White List #482'
-  - '[OpenRay] 🇧🇷 BR-270'
-  - '🌀 CYBERPORTAL | White Keys #46'
-  - '🌀 CYBERPORTAL | White Keys #71'
-  - '🌀 CYBERPORTAL | White Keys #129'
-  - '🌀 CYBERPORTAL | White Keys #132'
-  - '🌀 CYBERPORTAL | White Keys #280'
-  - '🌀 CYBERPORTAL | White List #285'
-  - '🌀 CYBERPORTAL | White List #301'
-  - '🌀 CYBERPORTAL | White List #304'
-  - '🌀 CYBERPORTAL | White Keys #70'
+  - '🌀 CYBERPORTAL | White Keys #206'
+  - '🌀 CYBERPORTAL | White Keys #138'
+  - '🌀 CYBERPORTAL | White Keys #151'
   - '🌀 CYBERPORTAL | White Keys #112'
-  - '🌀 CYBERPORTAL | White Keys #146'
-  - '🌀 CYBERPORTAL | White Keys #249'
-  - '🌀 CYBERPORTAL | White Keys #286'
-  - '🌀 CYBERPORTAL | White List #428'
-  - '🌀 CYBERPORTAL | White List #432'
-  - '🌀 CYBERPORTAL | White List Lite #3'
-  - '🌀 CYBERPORTAL | White List Lite #4'
-  - '🌀 CYBERPORTAL | White Keys #44'
-  - '🌀 CYBERPORTAL | White Keys #145'
-  - '🌀 CYBERPORTAL | White Keys #152'
-  - '🌀 CYBERPORTAL | White Keys #183'
-  - '🌀 CYBERPORTAL | White Keys #199'
-  - '🌀 CYBERPORTAL | White Keys #235'
-  - '🌀 CYBERPORTAL | White List #36'
-  - '🌀 CYBERPORTAL | White List #271'
-  - '🌀 CYBERPORTAL | White Keys #149'
-  - '🌀 CYBERPORTAL | White Keys #158'
-  - '🌀 CYBERPORTAL | White Keys #188'
-  - '🌀 CYBERPORTAL | White List #372'
-  - 🇪🇪 Estonia, Tallinn | [BL]
-  - '🌀 CYBERPORTAL | White Keys #95'
-  - '🌀 CYBERPORTAL | White Keys #110'
-  - '🌀 CYBERPORTAL | White Keys #61'
-  - '🌀 CYBERPORTAL | White Keys #63'
-  - '🌀 CYBERPORTAL | White Keys #73'
-  - '🌀 CYBERPORTAL | White Keys #104'
-  - '🌀 CYBERPORTAL | White Keys #86'
-  - '🌀 CYBERPORTAL | White List #276'
-  - '🌀 CYBERPORTAL | White List Lite #10'
-  - '🌀 CYBERPORTAL | White Keys #59'
-  - '🌀 CYBERPORTAL | White Keys #48'
-  - '🌀 CYBERPORTAL | White List Lite #15'
-  - '🌀 CYBERPORTAL | White Keys #58'
-  - '🌀 CYBERPORTAL | White Keys #93'
-  - '🌀 CYBERPORTAL | White List Lite #5'
-  - '🌀 CYBERPORTAL | White List Lite #22'
-  - '[OpenRay] 🇷🇺 RU-34335'
-  - '[OpenRay] 🇷🇺 RU-34337'
-  - '[OpenRay] 🇷🇺 RU-35016'
-  - '🌀 CYBERPORTAL | White List Lite #1'
   - '🌀 CYBERPORTAL | White List Lite #8'
   - '🌀 CYBERPORTAL | White List Lite #9'
-  - '🌀 CYBERPORTAL | White List Lite #11'
-  - '🌀 CYBERPORTAL | White List Lite #23'
-  - '🌀 CYBERPORTAL | White Keys #49'
-  - 4Kian-facba18c87
-  - '🌀 CYBERPORTAL | White List Lite #7'
+  - '🌀 CYBERPORTAL | White List Lite #15'
   - '🌀 CYBERPORTAL | White List Lite #16'
   - '🌀 CYBERPORTAL | White List Lite #18'
+  - '🌀 CYBERPORTAL | White List Lite #20'
+  - '🌀 CYBERPORTAL | White List Lite #21'
+  - '🌀 CYBERPORTAL | White List Lite #22'
+  - '🌀 CYBERPORTAL | White List Lite #26'
+  - '🌀 CYBERPORTAL | White List Lite #32'
   - '🌀 CYBERPORTAL | White List Lite #33'
+  - '🌀 CYBERPORTAL | White List Lite #34'
   - '🌀 CYBERPORTAL | White List Lite #37'
   - '🌀 CYBERPORTAL | White List Lite #38'
-  - gRPC, Яндекс Карты [V.O.I.D]
-  - 4Jadi-bdd1d315b0
-  - '🌀 CYBERPORTAL | White List #447'
-  - gRPC, Яндекс Карты [V.O.I.D]
-  - gRPC
-  - Reality
-  - '[OpenRay] 🇷🇺 RU-35039'
-  - Reality, Яндекс Путешествия [V.O.I.D]
-  - Reality, Яндекс Карты [V.O.I.D]
-  - gRPC, Яндекс Карты [V.O.I.D]
-  - gRPC, Яндекс [V.O.I.D]
-  - '🌀 CYBERPORTAL | White List Lite #21'
-  - 🏳️ ShatakVPN 818680
-  - 🏳️ ShatakVPN 826847
-  - 🏳️ ShatakVPN 933745
-  - 🏳️ ShatakVPN 790844
-  - 🏳️ ShatakVPN 277179
-  - 'Channel id: @ShadowProxy66 🇷🇺'
-  - 🇷🇺_俄罗斯_69
-  - 🇷🇺
-  - '🌀 CYBERPORTAL | White List Lite #26'
-  - '🌀 CYBERPORTAL | White List Lite #31'
-  - '🌀 CYBERPORTAL | White List Lite #20'
-  - '🌀 CYBERPORTAL | White List Lite #44'
-  - 🇩🇪 Germany | [*CIDR] CDN
-  - '🌀 CYBERPORTAL | White List Lite #29'
-  - '🌀 CYBERPORTAL | White List Lite #32'
-  - '🌀 CYBERPORTAL | White List Lite #34'
+  - '🌀 CYBERPORTAL | White List Lite #40'
   - '🌀 CYBERPORTAL | White List Lite #41'
   - '🌀 CYBERPORTAL | White List Lite #43'
-  - '🌀 CYBERPORTAL | White List Lite #48'
-  - '🌀 CYBERPORTAL | White List Lite #54'
-  - '🌀 CYBERPORTAL | White List Lite #14'
-  - '🌀 CYBERPORTAL | White List Lite #27'
-  - '🌀 CYBERPORTAL | White List Lite #40'
+  - '🌀 CYBERPORTAL | White List Lite #44'
   - '🌀 CYBERPORTAL | White List Lite #47'
+  - '🌀 CYBERPORTAL | White List Lite #48'
   - '🌀 CYBERPORTAL | White List Lite #49'
   - '🌀 CYBERPORTAL | White List Lite #53'
+  - '🌀 CYBERPORTAL | White List Lite #54'
   - '🌀 CYBERPORTAL | White List Lite #59'
   - '🌀 CYBERPORTAL | White List Lite #61'
   - '🌀 CYBERPORTAL | White List Lite #63'
@@ -3686,30 +3381,24 @@ proxy-groups:
   - '🌀 CYBERPORTAL | White List Lite #73'
   - '🌀 CYBERPORTAL | White List Lite #74'
   - '🌀 CYBERPORTAL | White List Lite #75'
-  - '🌀 CYBERPORTAL | White List Lite #83'
-  - '🌀 CYBERPORTAL | White List Lite #51\nvless://103744ce-0153-49b1-2eac-d293a6ddd7e2@104.18.163.22:443?encryption=none&fp=chrome&host=nahan-mouse-7749.amirsina2026.workers.dev&path=/sync&security=tls&sni=nahan-mouse-7749.amirsina2026.workers.dev&type=ws#🌀 CYBERPORTAL | White List Lite #52'
-  - '🌀 CYBERPORTAL | White List Lite #66'
   - '🌀 CYBERPORTAL | White List Lite #77'
   - '🌀 CYBERPORTAL | White List Lite #82'
+  - '🌀 CYBERPORTAL | White List Lite #83'
   - '🌀 CYBERPORTAL | White List Lite #84'
   - '🌀 CYBERPORTAL | White List Lite #85'
   - '🌀 CYBERPORTAL | White List Lite #86'
   - '🌀 CYBERPORTAL | White List Lite #88'
-  - '🌀 CYBERPORTAL | White List Lite #91'
   - '🌀 CYBERPORTAL | White List Lite #94'
-  - '🌀 CYBERPORTAL | White List Lite #98'
-  - '🌀 CYBERPORTAL | White List Lite #101'
-  - '🌀 CYBERPORTAL | White List Lite #105'
-  - '🌀 CYBERPORTAL | White List Lite #107'
-  - '🌀 CYBERPORTAL | White List Lite #109'
-  - '🌀 CYBERPORTAL | White List Lite #68'
   - '🌀 CYBERPORTAL | White List Lite #95\n'
   - '🌀 CYBERPORTAL | White List Lite #96'
+  - '🌀 CYBERPORTAL | White List Lite #98'
   - '🌀 CYBERPORTAL | White List Lite #99'
   - '🌀 CYBERPORTAL | White List Lite #100'
   - '🌀 CYBERPORTAL | White List Lite #102'
   - '🌀 CYBERPORTAL | White List Lite #104'
   - '🌀 CYBERPORTAL | White List Lite #106'
+  - '🌀 CYBERPORTAL | White List Lite #107'
+  - '🌀 CYBERPORTAL | White List Lite #109'
   - '🌀 CYBERPORTAL | White List Lite #110'
   - '🌀 CYBERPORTAL | White List Lite #111'
   - '🌀 CYBERPORTAL | White List Lite #112'
@@ -3717,100 +3406,227 @@ proxy-groups:
   - '🌀 CYBERPORTAL | White List Lite #115'
   - '🌀 CYBERPORTAL | White List Lite #116'
   - '🌀 CYBERPORTAL | White List Lite #117'
-  - '🌀 CYBERPORTAL | White List Lite #118'
   - '🌀 CYBERPORTAL | White List Lite #119'
   - '🌀 CYBERPORTAL | White List Lite #120'
   - '🌀 CYBERPORTAL | White List Lite #121'
-  - '🌀 CYBERPORTAL | White List Lite #122'
   - '🌀 CYBERPORTAL | White List Lite #124'
   - '🌀 CYBERPORTAL | White List Lite #125'
   - '🌀 CYBERPORTAL | White List Lite #126'
-  - '🌀 CYBERPORTAL | White List Lite #127'
+  - '🌀 CYBERPORTAL | White List Lite #1'
+  - '🌀 CYBERPORTAL | White List Lite #3'
+  - '🌀 CYBERPORTAL | White List Lite #4'
+  - '🌀 CYBERPORTAL | White List Lite #5'
+  - '🌀 CYBERPORTAL | White List Lite #7'
+  - '🌀 CYBERPORTAL | White List Lite #10'
+  - '🌀 CYBERPORTAL | White List Lite #11'
+  - '🌀 CYBERPORTAL | White List Lite #23'
+  - '🌀 CYBERPORTAL | White List Lite #29'
+  - '🌀 CYBERPORTAL | White List Lite #31'
   - '🌀 CYBERPORTAL | White List Lite #129'
-  - '🌀 CYBERPORTAL | White List Lite #130'
-  - '🌀 CYBERPORTAL | White List Lite #131'
   - '🌀 CYBERPORTAL | White List Lite #132'
   - '🌀 CYBERPORTAL | White List Lite #133'
-  - '🌀 CYBERPORTAL | White List Lite #134'
+  - '🌀 CYBERPORTAL | White List Lite #149'
+  - '🌀 CYBERPORTAL | White List Lite #153'
+  - '🌀 CYBERPORTAL | White List Lite #127'
   - '🌀 CYBERPORTAL | White List Lite #135'
   - '🌀 CYBERPORTAL | White List Lite #136'
   - '🌀 CYBERPORTAL | White List Lite #138'
-  - '🌀 CYBERPORTAL | White List Lite #139'
-  - '🌀 CYBERPORTAL | White List Lite #147'
-  - '🌀 CYBERPORTAL | White List Lite #148'
-  - '🌀 CYBERPORTAL | White List Lite #149'
-  - '🌀 CYBERPORTAL | White List Lite #151'
-  - '🌀 CYBERPORTAL | White List Lite #152'
-  - '🌀 CYBERPORTAL | White List Lite #153'
-  - '🌀 CYBERPORTAL | White List Lite #154'
   - '🌀 CYBERPORTAL | White List Lite #156'
-  - '🌀 CYBERPORTAL | White List Lite #157'
-  - '🌀 CYBERPORTAL | White List Lite #159'
-  - '🌀 CYBERPORTAL | White List Lite #160'
-  - '🌀 CYBERPORTAL | White List Lite #162'
   - '🌀 CYBERPORTAL | White List Lite #163'
   - '🌀 CYBERPORTAL | White List Lite #164'
   - '🌀 CYBERPORTAL | White List Lite #165'
   - '🌀 CYBERPORTAL | White List Lite #166'
-  - '🌀 CYBERPORTAL | White List Lite #167'
   - '🌀 CYBERPORTAL | White List Lite #169'
   - '🌀 CYBERPORTAL | White List Lite #170'
   - '🌀 CYBERPORTAL | White List Lite #172'
+  - '🌀 CYBERPORTAL | White List Lite #173'
   - '🌀 CYBERPORTAL | White List Lite #174'
-  - '🌀 CYBERPORTAL | White List Lite #177'
-  - '🌀 CYBERPORTAL | White List Lite #81'
-  - '🌀 CYBERPORTAL | White List Lite #168'
   - '🌀 CYBERPORTAL | White List Lite #175'
-  - '🌀 CYBERPORTAL | White List Lite #178'
   - '🌀 CYBERPORTAL | White List Lite #180'
-  - '🌀 CYBERPORTAL | White List Lite #182'
   - '🌀 CYBERPORTAL | White List Lite #183'
+  - '🌀 CYBERPORTAL | White List Lite #185'
+  - '🌀 CYBERPORTAL | White List Lite #186'
+  - '🌀 CYBERPORTAL | White List Lite #168'
+  - '🌀 CYBERPORTAL | White List Lite #178'
+  - '🌀 CYBERPORTAL | White List Lite #182'
+  - '🌀 CYBERPORTAL | White List Lite #187'
+  - '🌀 CYBERPORTAL | White List Lite #139'
+  - '🌀 CYBERPORTAL | White List Lite #151'
+  - '🌀 CYBERPORTAL | White List Lite #131'
+  - '🌀 CYBERPORTAL | White List Lite #148'
+  - '🌀 CYBERPORTAL | White List Lite #160'
+  - '🌀 CYBERPORTAL | White List Lite #162'
+  - '🌀 CYBERPORTAL | White List Lite #177'
   - '🌀 CYBERPORTAL | White List Lite #189'
-  - '🌀 CYBERPORTAL | White List Lite #190'
+  - '🌀 CYBERPORTAL | White List Lite #25'
+  - '🌀 CYBERPORTAL | White List Lite #159'
   - '🌀 CYBERPORTAL | White List Lite #2'
-  - '🌀 CYBERPORTAL | White List Lite #6'
-  - '🌀 CYBERPORTAL | White List Lite #12'
-  - '🌀 CYBERPORTAL | White List Lite #13'
-  - '🌀 CYBERPORTAL | White List Lite #17'
+  - '🌀 CYBERPORTAL | White List Lite #190'
+  - '🌀 CYBERPORTAL | White List Lite #167'
+  - '🌀 CYBERPORTAL | White List Lite #134'
+  - '🌀 CYBERPORTAL | White List Lite #45'
+  - '🌀 CYBERPORTAL | White List Lite #62'
+  - '🌀 CYBERPORTAL | White List Lite #78'
   - '🌀 CYBERPORTAL | White List Lite #19'
   - '🌀 CYBERPORTAL | White List Lite #24'
-  - '🌀 CYBERPORTAL | White List Lite #25'
+  - '🌀 CYBERPORTAL | White List Lite #81'
+  - '🌀 CYBERPORTAL | White List Lite #6'
   - '🌀 CYBERPORTAL | White List Lite #30'
+  - '🌀 CYBERPORTAL | White List Lite #145'
+  - '🌀 CYBERPORTAL | White List Lite #28'
+  - '🌀 CYBERPORTAL | White List #408'
+  - '🌀 CYBERPORTAL | White List Lite #150'
+  - '🌀 CYBERPORTAL | White List #466'
   - '🌀 CYBERPORTAL | White List Lite #35'
-  - '🌀 CYBERPORTAL | White List Lite #36'
   - '🌀 CYBERPORTAL | White List Lite #39'
   - '🌀 CYBERPORTAL | White List Lite #42'
+  - '🌀 CYBERPORTAL | White List #338'
+  - Reality
+  - '🌀 CYBERPORTAL | White Keys #20'
+  - '🌀 CYBERPORTAL | White List #336'
+  - '🌀 CYBERPORTAL | White List #342'
   - '🌀 CYBERPORTAL | White List Lite #50'
+  - '🌀 CYBERPORTAL | White List Lite #158'
+  - '🌀 CYBERPORTAL | White List Lite #27'
+  - '🌀 CYBERPORTAL | White List #324'
+  - '🌀 CYBERPORTAL | White List Lite #36'
+  - gRPC
+  - Reality
+  - gRPC
+  - '🌀 CYBERPORTAL | White List Lite #14'
+  - '🌀 CYBERPORTAL | White List Lite #12'
   - '🌀 CYBERPORTAL | White List Lite #55'
-  - '🌀 CYBERPORTAL | White List Lite #57'
+  - gRPC
   - '🌀 CYBERPORTAL | White List Lite #58'
-  - '🌀 CYBERPORTAL | White List Lite #65'
+  - '🌀 CYBERPORTAL | White List #344'
+  - '🌀 CYBERPORTAL | White List Lite #51\nvless://103744ce-0153-49b1-2eac-d293a6ddd7e2@104.18.163.22:443?encryption=none&fp=chrome&host=nahan-mouse-7749.amirsina2026.workers.dev&path=/sync&security=tls&sni=nahan-mouse-7749.amirsina2026.workers.dev&type=ws#🌀 CYBERPORTAL | White List Lite #52'
+  - '🌀 CYBERPORTAL | White List Lite #68'
+  - XHTTP
+  - '🌀 CYBERPORTAL | White List #345'
+  - '🌀 CYBERPORTAL | White List #478'
+  - '[OpenRay] 🇷🇺 RU-34335'
+  - '🌀 CYBERPORTAL | White Keys #267'
+  - '🌀 CYBERPORTAL | White List #125'
+  - '[OpenRay] 🇷🇺 RU-35007'
+  - '🌀 CYBERPORTAL | White List Lite #57'
+  - '🌀 CYBERPORTAL | White List #341'
+  - '🌀 CYBERPORTAL | White List #524'
+  - '🌀 CYBERPORTAL | White List #532'
+  - '🌀 CYBERPORTAL | White Keys #39'
+  - '🌀 CYBERPORTAL | White Keys #184'
+  - '🌀 CYBERPORTAL | White List #161'
+  - '🌀 CYBERPORTAL | White List #197'
+  - '🌀 CYBERPORTAL | White List #322'
+  - '🌀 CYBERPORTAL | White List #514'
+  - '🌀 CYBERPORTAL | White List Lite #66'
+  - '🌀 CYBERPORTAL | White Keys #158'
+  - '🌀 CYBERPORTAL | White Keys #109'
+  - '🌀 CYBERPORTAL | White Keys #136'
+  - '🌀 CYBERPORTAL | White List #337'
+  - '🌀 CYBERPORTAL | White List Lite #147'
+  - '🌀 CYBERPORTAL | White Keys #204'
+  - '[OpenRay] 🇧🇷 BR-257'
+  - '[OpenRay] 🇧🇷 BR-258'
+  - '[OpenRay] 🇧🇷 BR-270'
+  - '🌀 CYBERPORTAL | White List #20'
+  - '🌀 CYBERPORTAL | White List #523'
+  - gRPC, Яндекс Карты [V.O.I.D]
+  - '🌀 CYBERPORTAL | White List #7'
+  - '🌀 CYBERPORTAL | White List #121'
+  - '🌀 CYBERPORTAL | White Keys #211'
+  - '[OpenRay] 🇸🇨 SC-85'
+  - '[OpenRay] 🇧🇷 BR-287'
+  - '🌀 CYBERPORTAL | White List #120'
+  - '🌀 CYBERPORTAL | White List #172'
+  - '🌀 CYBERPORTAL | White List #323'
+  - '🌀 CYBERPORTAL | White Keys #13'
+  - '🌀 CYBERPORTAL | White List #118'
+  - '🌀 CYBERPORTAL | White Keys #90'
   - '🌀 CYBERPORTAL | White List Lite #69'
-  - '🌀 CYBERPORTAL | White List Lite #79'
+  - 4Sarina-b574f7ca7d
+  - '[OpenRay] 🇧🇷 BR-246'
+  - '🌀 CYBERPORTAL | White Keys #4'
+  - '🌀 CYBERPORTAL | White Keys #27'
+  - '🌀 CYBERPORTAL | White Keys #64'
+  - '🌀 CYBERPORTAL | White Keys #255'
+  - '🌀 CYBERPORTAL | White List #116'
+  - '🌀 CYBERPORTAL | White List #331'
+  - '🌀 CYBERPORTAL | White List Lite #137'
+  - '🌀 CYBERPORTAL | White Keys #34'
+  - '🌀 CYBERPORTAL | White Keys #93'
   - '🌀 CYBERPORTAL | White List Lite #90'
+  - '🌀 CYBERPORTAL | White Keys #44'
+  - '🌀 CYBERPORTAL | White Keys #129'
+  - '🌀 CYBERPORTAL | White List #332'
+  - '🌀 CYBERPORTAL | White List Lite #65'
+  - '🌀 CYBERPORTAL | White List #333'
+  - '🌀 CYBERPORTAL | White List Lite #80'
+  - '🌀 CYBERPORTAL | White Keys #68'
+  - '🌀 CYBERPORTAL | White List #334'
+  - '🌀 CYBERPORTAL | White List #330'
+  - '🌀 CYBERPORTAL | White List Lite #101'
+  - '🌀 CYBERPORTAL | White List Lite #79'
+  - '🌀 CYBERPORTAL | White List Lite #91'
+  - '🌀 CYBERPORTAL | White List #335'
   - '🌀 CYBERPORTAL | White List Lite #92'
-  - '🌀 CYBERPORTAL | White List Lite #97'
+  - '🌀 CYBERPORTAL | White List Lite #93'
+  - '🌀 CYBERPORTAL | White Keys #14'
+  - '🌀 CYBERPORTAL | White Keys #86'
+  - 🇵🇱 Poland [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR]
+  - '🌀 CYBERPORTAL | White List Lite #130'
+  - 🇨🇿 Czechia [*CIDR]
+  - 🏳️ ShatakVPN 705562
+  - '🌀 CYBERPORTAL | White List #321'
+  - '@Vip_Security'
+  - 🏳️ ShatakVPN 463633
+  - '🌀 CYBERPORTAL | White List Lite #154'
+  - 🏳️ ShatakVPN 587993
+  - '🌀 CYBERPORTAL | White List Lite #152'
+  - 🏳️ ShatakVPN 878098
   - '🌀 CYBERPORTAL | White List Lite #108'
   - '🌀 CYBERPORTAL | White List Lite #114'
   - '🌀 CYBERPORTAL | White List Lite #123'
+  - '🌀 CYBERPORTAL | White List #12'
   - '🌀 CYBERPORTAL | White List Lite #128'
-  - '🌀 CYBERPORTAL | White List Lite #140'
-  - '🌀 CYBERPORTAL | White List Lite #143'
+  - '🌀 CYBERPORTAL | White List Lite #142'
+  - '🌀 CYBERPORTAL | White List Lite #97'
+  - '🌀 CYBERPORTAL | White List Lite #13'
+  - '🌀 CYBERPORTAL | White List Lite #17'
+  - '🌀 CYBERPORTAL | White List #316'
   - '🌀 CYBERPORTAL | White List Lite #144'
-  - '🌀 CYBERPORTAL | White List Lite #145'
-  - '🌀 CYBERPORTAL | White List Lite #146'
-  - '🌀 CYBERPORTAL | White List Lite #173'
-  - '🌀 CYBERPORTAL | White List Lite #185'
-  - '🌀 CYBERPORTAL | White List Lite #186'
-  - '🌀 CYBERPORTAL | White List Lite #187'
-  - 🇬🇧 United Kingdom, Newcastle upon Tyne | [BL]
-  - 🇫🇷 France, Paris | [BL]
-  - 🇫🇷 France, Paris | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main (Innenstadt II) | [BL]
-  - gRPC, Яндекс [V.O.I.D]
-  - gRPC
-  - '🌀 CYBERPORTAL | White List Lite #28'
-  - '🌀 CYBERPORTAL | White List Lite #80'
+  - '🌀 CYBERPORTAL | White List Lite #143'
+  - '🌀 CYBERPORTAL | White List Lite #171'
+  - '🌀 CYBERPORTAL | White List Lite #176'
+  - '🌀 CYBERPORTAL | White List Lite #155'
+  - '🌀 CYBERPORTAL | White List Lite #188'
+  - '🌀 CYBERPORTAL | White List Lite #184'
+  - '🌀 CYBERPORTAL | White List Lite #46'
+  - '🌀 CYBERPORTAL | White List Lite #181'
+  - '🌀 CYBERPORTAL | White List Lite #179'
+  - '🌀 CYBERPORTAL | White List Lite #140'
+  - '🌀 CYBERPORTAL | White List #117'
+  - '🌀 CYBERPORTAL | White Keys #106'
+  - 🏳️ ShatakVPN 384193
+  - 🇨🇭 Switzerland [*CIDR]
+  - '🌀 CYBERPORTAL | White List #518'
+  - '🌀 CYBERPORTAL | White Keys #12'
+  - '🌀 CYBERPORTAL | White Keys #17'
+  - '🌀 CYBERPORTAL | White Keys #57'
+  - '🌀 CYBERPORTAL | White Keys #24'
+  - '🌀 CYBERPORTAL | White Keys #59'
+  - '🌀 CYBERPORTAL | White Keys #87'
+  - '🌀 CYBERPORTAL | White Keys #78'
+  - '🌀 CYBERPORTAL | White Keys #82'
+  - '🌀 CYBERPORTAL | White Keys #89'
+  - '🌀 CYBERPORTAL | White Keys #254'
+  - '🌀 CYBERPORTAL | White Keys #139'
+  - '🌀 CYBERPORTAL | White Keys #269'
+  - '🌀 CYBERPORTAL | White Keys #281'
+  - '🌀 CYBERPORTAL | White List #327'
+  - '🌀 CYBERPORTAL | White List #317'
+  - '🌀 CYBERPORTAL | White List #325'
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
