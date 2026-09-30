@@ -23,211 +23,315 @@ proxies:
     path: /cdn/assets/stream
     headers:
       Host: cnd.germany.1.bestcdnshare.com
-- name: '🌀 CYBERPORTAL | White List Lite #51'
-  type: ss
-  server: 15.204.247.175
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: '🌀 CYBERPORTAL | White List Lite #53'
-  type: ss
-  server: 15.204.246.132
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: '🌀 CYBERPORTAL | White List Lite #61'
-  type: ss
-  server: 15.204.247.206
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: '🌀 CYBERPORTAL | White List Lite #73'
-  type: ss
-  server: 15.204.246.107
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: '🌀 CYBERPORTAL | White List Lite #9'
-  type: ss
-  server: 15.204.247.124
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: '🌀 CYBERPORTAL | White List Lite #104'
-  type: ss
-  server: 15.204.247.244
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: '🌀 CYBERPORTAL | White List Lite #89'
-  type: ss
-  server: 51.222.141.125
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-- name: '🌀 CYBERPORTAL | White List Lite #96'
-  type: ss
-  server: 51.79.49.116
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: '🌀 CYBERPORTAL | White List Lite #77'
-  type: ss
-  server: 138.199.42.68
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇬🇧 🇮🇪 🇳🇱 🇸🇪 | [BL]
-  type: trojan
-  server: 104.21.70.21
-  port: 443
-  password: Telegram_healer_config
-  network: ws
-  servername: 47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev
-  client-fingerprint: edge
-  ws-opts:
-    path: /tr/kp0IOvZwWV0X35ln0vIh?ed=2560
-- name: 🇩🇪 Germany, Frankfurt am Main | [BL]
-  type: vless
-  server: 151.101.213.164
-  port: 443
-  uuid: eb98ab60-f16d-4662-a740-c89307400939
-  network: xhttp
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: android
-- name: 🇳🇱 The Netherlands, Amsterdam | [BL]
-  type: vless
-  server: 146.75.57.25
-  port: 443
-  uuid: bf419ba4-2713-474e-a2bb-0d10d3e8fd90
-  network: xhttp
-  tls: true
-  servername: community.fastly.com
-  client-fingerprint: android
-- name: '🌀 CYBERPORTAL | White List Lite #63'
+- name: '🌀 CYBERPORTAL | White List Lite #50'
   type: ss
   server: 5.78.51.123
   port: 1080
   cipher: chacha20-ietf-poly1305
   password: 8tmnvX5zYuWGVIDP2jglZw
-- name: '🌀 CYBERPORTAL | White List Lite #40'
+- name: 🇩🇪 Germany, Falkenstein | [BL]
+  type: vless
+  server: 199.232.78.140
+  port: 80
+  uuid: 33246539-96c9-46d1-8709-254c32e6be8e
+  network: xhttp
+- name: '🌀 CYBERPORTAL | White List Lite #117'
+  type: ss
+  server: 138.199.42.68
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇺🇸 United States, Chicago | [BL]
+  type: ss
+  server: 103.214.111.162
+  port: 16469
+  cipher: aes-128-gcm
+  password: 87e9cb62706b5cd08da95b8b423cb673
+- name: '🌀 CYBERPORTAL | White List Lite #100'
+  type: ss
+  server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: '🌀 CYBERPORTAL | White List Lite #94'
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+- name: '🌀 CYBERPORTAL | White List Lite #1'
+  type: ss
+  server: 15.204.247.175
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: '🌀 CYBERPORTAL | White List Lite #16'
+  type: ss
+  server: 15.204.247.124
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: '🌀 CYBERPORTAL | White List Lite #69'
+  type: ss
+  server: 15.204.247.244
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: '🌀 CYBERPORTAL | White List Lite #72'
+  type: ss
+  server: 15.204.246.107
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: '🌀 CYBERPORTAL | White List Lite #32'
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 🇨🇦 Canada, Pointe-Claire | [BL]
+  type: ss
+  server: 64.74.161.148
+  port: 17201
+  cipher: aes-128-gcm
+  password: 1cbb3e347ee86e1980a7c731e9dd00a0
+- name: 🇺🇸 United States, Ashburn | [BL]
+  type: vless
+  server: 79.141.172.154
+  port: 10453
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc
+  servername: www.google.com
+  client-fingerprint: android
+  grpc-opts:
+    grpc-service-name: TunService
+- name: '🌀 CYBERPORTAL | White List Lite #121'
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: true
+- name: '🌀 CYBERPORTAL | White List Lite #120'
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: '🌀 CYBERPORTAL | White List Lite #36'
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: '🌀 CYBERPORTAL | White List Lite #51'
+  type: ss
+  server: 51.79.49.116
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 🇩🇪 Германия 2 · gRPC Reality
+  type: vless
+  server: 78.111.67.148
+  port: 8443
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: B5-zPBBAI-UATY7rSvoggM1T65h9CfVw7yBluBNd-yI
+    short-id: 4a5f04a5ea205fc3
+  servername: de.aksay.pro
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #95'
   type: vless
   server: 91.215.42.63
   port: 443
-  uuid: adc0f1fd-e78c-420e-b627-8498c64602f7
+  uuid: 927b5ad7-fa89-4c3b-8ec1-338071c7a36e
   network: xhttp
   tls: true
   servername: me.nehtar.ru
   client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #80'
-  type: vless
-  server: 95.129.236.171
-  port: 443
-  uuid: adc0f1fd-e78c-420e-b627-8498c64602f7
-  network: xhttp
-  tls: true
-  servername: my.console.pc-club.app
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #93'
+- name: '🌀 CYBERPORTAL | White List Lite #98'
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: ed11d6e9-c62b-489b-89c4-a3c3797a30ce
+  uuid: dee682bf-e692-4fb1-a5d1-294424b550bc
   network: ws
   tls: true
   servername: 3ds.login.opendns.stream
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   ws-opts:
     path: /stream/615428/socket
     headers:
       Host: 3ds.login.opendns.stream
-- name: '🌀 CYBERPORTAL | White List Lite #90'
+- name: '🌀 CYBERPORTAL | White List Lite #118'
   type: vless
-  server: 95.129.236.216
+  server: 95.129.236.171
   port: 443
-  uuid: 1a0cbda6-4377-4995-b813-93561d05bb34
+  uuid: 927b5ad7-fa89-4c3b-8ec1-338071c7a36e
+  network: xhttp
+  tls: true
+  servername: my.console.pc-club.app
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #71'
+  type: ss
+  server: 211.178.105.134
+  port: 6123
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇨🇿 Чехия · gRPC Reality
+  type: vless
+  server: 67.159.18.222
+  port: 8443
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: B5-zPBBAI-UATY7rSvoggM1T65h9CfVw7yBluBNd-yI
+    short-id: 4a5f04a5ea205fc3
+  servername: cz.aksay.pro
+  client-fingerprint: firefox
+- name: '🇮🇹 Италия  '
+  type: vless
+  server: 31.59.180.161
+  port: 2096
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
   network: ws
   tls: true
-  servername: crm.hourtley.com
+  servername: it.aksay.pro
   client-fingerprint: firefox
   ws-opts:
-    path: /origin/190546791/fetch
-    headers:
-      Host: crm.hourtley.com
-- name: '🌀 CYBERPORTAL | White List Lite #100'
+    path: /ws
+- name: '🇨🇭 Швейцария '
   type: vless
-  server: 91.215.43.114
-  port: 443
-  uuid: f9834b62-6476-43ba-a917-e01552a49ad1
+  server: 176.65.144.45
+  port: 2096
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
   network: ws
   tls: true
-  servername: one.lk.virtual-pc.club
+  servername: ch.aksay.pro
   client-fingerprint: firefox
   ws-opts:
-    path: /gateway/v1/ws/a44b02972dfcb7a1119bf0a28690cf8b
-- name: '🌀 CYBERPORTAL | Bypass List #41'
+    path: /ws
+- name: 🇫🇮 Финляндия 2 · gRPC Reality
   type: vless
-  server: 185.178.208.176
-  port: 443
-  uuid: 3e628fe4-2cbf-4740-9e49-d8b5d9b61916
-  network: ws
+  server: 142.228.52.79
+  port: 8443
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  network: grpc
   tls: true
-  servername: cdn1.pandaonline.org
-  client-fingerprint: random
-  ws-opts:
-    path: /stream/119857546/chat
-    headers:
-      Host: cdn1.pandaonline.org
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: vmess
-  server: 31.77.8.97
-  port: 110
-  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
-  alterId: 0
-  cipher: auto
-  network: tcp
-- name: 🇨🇿 Czechia, Prague | [BL]
+  reality-opts:
+    public-key: B5-zPBBAI-UATY7rSvoggM1T65h9CfVw7yBluBNd-yI
+    short-id: 4a5f04a5ea205fc3
+  servername: fi.aksay.pro
+  client-fingerprint: firefox
+- name: 🇫🇮 Finland  Антиреклама
   type: vless
-  server: 153.76.185.144
+  server: 45.118.248.197
+  port: 8443
+  uuid: f85dec81-905f-4334-b3ea-5f6a89bac7b7
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: 6zycFWbeFOARWwdPHLeP5R_QmLurcmiwYAWOUoOliEM
+  servername: www.amd.com
+  client-fingerprint: firefox
+- name: 🇹🇷 Turkey, Mahmutbey | [BL]
+  type: vless
+  server: 93.190.9.61
   port: 3090
-  uuid: 70ee5bc8-fe28-406a-9e76-76cd725c0a82
+  uuid: 0436b522-fba1-4424-8881-808594916247
   network: grpc
   grpc-opts:
     grpc-service-name: vless
-- name: '🌀 CYBERPORTAL | White List Lite #55'
+- name: 🇫🇮 Финляндия · gRPC Reality
   type: vless
-  server: 188.225.24.73
-  port: 443
-  uuid: 77b60d5a-68ce-4c97-8f9e-ec4e69156b9c
-  network: xhttp
+  server: 37.143.129.161
+  port: 8443
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  network: grpc
   tls: true
-  servername: ob1.floatingcars.net
+  reality-opts:
+    public-key: B5-zPBBAI-UATY7rSvoggM1T65h9CfVw7yBluBNd-yI
+    short-id: 4a5f04a5ea205fc3
+  servername: fi.aksay.pro
   client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #17'
-  type: vless
-  server: 188.72.103.4
-  port: 443
-  uuid: 77b60d5a-68ce-4c97-8f9e-ec4e69156b9c
-  network: xhttp
-  tls: true
-  servername: cdnyan2.floatingcars.net
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #47'
-  type: vless
-  server: 188.225.72.20
-  port: 443
-  uuid: 77b60d5a-68ce-4c97-8f9e-ec4e69156b9c
-  network: xhttp
-  tls: true
-  servername: ob3.floatingcars.net
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #14'
+- name: '🌀 CYBERPORTAL | White List Lite #97'
   type: ss
   server: 130.49.189.158
   port: 43558
   cipher: chacha20-ietf-poly1305
   password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
+- name: '🌀 CYBERPORTAL | White List Lite #92'
+  type: vless
+  server: 176.53.162.58
+  port: 24448
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: esOi15BFVX7pHyci7GQp8_FVlY2EmjSF2-0pPu4lIlk
+    short-id: defeaa98406c7bdf
+  servername: spry-jolt.cdn.cachefleet.com
+  client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: telegram-bridge
+- name: '🌀 CYBERPORTAL | White List Lite #88'
+  type: vless
+  server: 151.236.114.233
+  port: 443
+  uuid: ba9b6cf7-ddcf-41bd-aca6-b76004f1dcc1
+  network: ws
+  tls: true
+  servername: msk-de.avara.fit
+  ws-opts:
+    path: /api/v1/stream/telemetry
+    headers:
+      Host: msk-de.avara.fit
+- name: '🌀 CYBERPORTAL | White List Lite #3'
+  type: vless
+  server: 176.53.162.58
+  port: 24450
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: esOi15BFVX7pHyci7GQp8_FVlY2EmjSF2-0pPu4lIlk
+    short-id: defeaa98406c7bdf
+  servername: spry-jolt.cdn.cachefleet.com
+  client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: telegram-bridge
+- name: '🌀 CYBERPORTAL | White List Lite #105'
+  type: vless
+  server: 87.242.94.19
+  port: 1443
+  uuid: dee682bf-e692-4fb1-a5d1-294424b550bc
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: xuCfFoK0x0ZEOvd7HQ9dF2HlZMkKvVV9rQmkiYcBuik
+    short-id: 327088cd7331
+  servername: edge.edgeprobe.dev
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #112'
+  type: vless
+  server: 46.243.142.192
+  port: 8444
+  uuid: 6b6178c8-9831-49c1-8d3e-3d42480117ad
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 28g5n3dLFkPoggCYNdyOemaK3r55baTU42SYh0cxzUw
+  servername: ppfu3n-01.p.portshaper.com
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: google.storage.v2.Storage
 - name: '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #20'
   type: vless
   server: 46.254.17.58
@@ -236,39 +340,11 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: '🌀 CYBERPORTAL | White List Lite #28'
-  type: vless
-  server: 193.160.208.137
-  port: 443
-  uuid: a08b9c24-3252-4f7f-afa9-4a37040950fd
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: a1b2c3d4e5f6a7b8
-  servername: api.hexagonicfield.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: '🌀 CYBERPORTAL | White List Lite #71'
-  type: vless
-  server: 94.139.255.72
-  port: 8450
-  uuid: c4f5d29c-9eec-4451-861e-3b13d0549f85
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: ZgSVwP_wlM4-oG8E03W3cMqK_VrS8oHXF4wzyBkISWo
-    short-id: a1b2c3d4
-  servername: 86v99n-08.p.portshaper.com
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: media.ingest.v2.ChunkUploadService
-- name: '🌀 CYBERPORTAL | White List Lite #52'
+- name: '🌀 CYBERPORTAL | White List Lite #81'
   type: vless
   server: 94.139.255.254
   port: 5443
-  uuid: 1a0cbda6-4377-4995-b813-93561d05bb34
+  uuid: a4f25cb0-8701-4b28-bd49-7f926eed59fa
   network: xhttp
   tls: true
   reality-opts:
@@ -276,19 +352,48 @@ proxies:
     short-id: eea4ab7bddaeea39
   servername: shprcdn.net
   client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #25'
+- name: '🌀 CYBERPORTAL | White List Lite #8'
   type: vless
-  server: 87.242.94.19
-  port: 1443
-  uuid: 88723728-9460-48a0-9db7-5fbd32491719
+  server: 176.53.162.58
+  port: 24449
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
   network: grpc
   tls: true
   reality-opts:
-    public-key: xuCfFoK0x0ZEOvd7HQ9dF2HlZMkKvVV9rQmkiYcBuik
-    short-id: 327088cd7331
-  servername: edge.edgeprobe.dev
+    public-key: esOi15BFVX7pHyci7GQp8_FVlY2EmjSF2-0pPu4lIlk
+    short-id: defeaa98406c7bdf
+  servername: spry-jolt.cdn.cachefleet.com
+  client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: telegram-bridge
+- name: '🌀 CYBERPORTAL | White List Lite #114'
+  type: vless
+  server: 45.9.24.125
+  port: 8443
+  uuid: a4f25cb0-8701-4b28-bd49-7f926eed59fa
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: 5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0
+    short-id: eea4ab7bddaeea39
+  servername: an9b3d-07.p.portshaper.com
   client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #11'
+- name: '🌀 CYBERPORTAL | White List Lite #27'
+  type: vless
+  server: 188.72.103.3
+  port: 443
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  network: xhttp
+  tls: true
+  servername: cdnapi.streamru15.net
+  client-fingerprint: chrome
+- name: 🇷🇺 Russia, Berdsk | [BL]
+  type: ss
+  server: 194.38.11.86
+  port: 65443
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+- name: '🌀 CYBERPORTAL | White List Lite #9'
   type: vless
   server: 37.18.14.168
   port: 10654
@@ -300,68 +405,37 @@ proxies:
     short-id: 5c3fb122
   servername: bl3fk52.sysopnova.art
   client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #64'
+- name: '🌀 CYBERPORTAL | White List Lite #53'
   type: vless
-  server: 46.254.18.60
+  server: 188.225.72.20
   port: 443
-  uuid: 77b60d5a-68ce-4c97-8f9e-ec4e69156b9c
+  uuid: fe111b94-d613-42a5-b428-f35b1a19168a
   network: xhttp
   tls: true
-  servername: ihcbs1.luxusvpn.app
+  servername: ob3.floatingcars.net
   client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #65'
+- name: 🇸🇬 Singapore, Singapore | 🌐 | [BL]
   type: vless
-  server: 5.178.85.132
-  port: 443
-  uuid: 77b60d5a-68ce-4c97-8f9e-ec4e69156b9c
+  server: 5.223.41.32
+  port: 80
+  uuid: 230c7bf3-f069-470a-a4e8-cd526c39f6b4
+  network: ws
+  ws-opts:
+    path: /
+- name: '🌀 CYBERPORTAL | White List Lite #110'
+  type: vless
+  server: 46.8.208.70
+  port: 8445
+  uuid: 7c86240f-ac0c-4cfe-87c8-fa0dd69b2d25
   network: xhttp
   tls: true
-  servername: selbs3.luxusvpn.app
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #26'
+  servername: m-vrutw-e.mvpstr.com
+  client-fingerprint: random
+- name: '🌀 CYBERPORTAL | White List Lite #119'
   type: vless
-  server: 46.243.142.192
-  port: 8444
-  uuid: 459ba2cb-fed3-4166-b95b-2948dab64d0c
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 28g5n3dLFkPoggCYNdyOemaK3r55baTU42SYh0cxzUw
-  servername: ppfu3n-01.p.portshaper.com
-  client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: google.storage.v2.Storage
-- name: '🌀 CYBERPORTAL | White List Lite #44'
-  type: vless
-  server: 185.22.235.63
+  server: 194.55.239.114
   port: 443
-  uuid: f91b77b6-08b5-470e-8ab2-4fe0ed434bfa
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a33
-  servername: web.max.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-vk
-- name: '🌀 CYBERPORTAL | White List Lite #4'
-  type: vless
-  server: 46.243.205.226
-  port: 11443
-  uuid: 1a0cbda6-4377-4995-b813-93561d05bb34
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: 5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0
-    short-id: eea4ab7bddaeea39
-  servername: shprcdn.xyz
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #81'
-  type: vless
-  server: 185.22.235.181
-  port: 443
-  uuid: f91b77b6-08b5-470e-8ab2-4fe0ed434bfa
+  uuid: 451af335-99fe-445a-9c67-9a3cfde20022
   network: grpc
   tls: true
   reality-opts:
@@ -371,52 +445,141 @@ proxies:
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc-vk
-- name: '🌀 CYBERPORTAL | White List Lite #6'
+- name: '🌀 CYBERPORTAL | White List Lite #107'
   type: vless
-  server: 185.207.66.8
+  server: 46.254.18.60
   port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  network: grpc
+  uuid: fe111b94-d613-42a5-b428-f35b1a19168a
+  network: xhttp
   tls: true
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: 5d1e8b3f6c2a9d4e
-  servername: hexagonicfield.com
-  client-fingerprint: android
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: '🌀 CYBERPORTAL | White List Lite #38'
+  servername: ihcbs1.luxusvpn.app
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #21'
   type: vless
   server: 37.139.42.235
   port: 443
-  uuid: 3ee1b4bb-cd58-486d-b60f-44373e73318e
+  uuid: 4e3b6c3d-101f-4c66-9612-db558f2ef05a
   network: ws
   tls: true
   servername: katering.coteite.pro
-  client-fingerprint: chrome
+  client-fingerprint: edge
   ws-opts:
     path: /euws
     headers:
       Host: katering.coteite.pro
-- name: '🌀 CYBERPORTAL | White List Lite #56'
+- name: '🌀 CYBERPORTAL | White List Lite #66'
   type: vless
-  server: 45.9.24.125
-  port: 8443
-  uuid: 1a0cbda6-4377-4995-b813-93561d05bb34
+  server: 46.243.205.226
+  port: 11443
+  uuid: a4f25cb0-8701-4b28-bd49-7f926eed59fa
   network: xhttp
   tls: true
   reality-opts:
     public-key: 5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0
     short-id: eea4ab7bddaeea39
-  servername: an9b3d-07.p.portshaper.com
+  servername: shprcdn.xyz
   client-fingerprint: firefox
-- name: 🇦🇱 Albania, Tirana | [BL]
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: ziOeKejhhw+fmWet+xvuJsVJH7U9DvSWq1hlqtaKv+I=
-- name: '🌀 CYBERPORTAL | Bypass List #31'
+- name: '🌀 CYBERPORTAL | White List Lite #20'
+  type: vless
+  server: 188.72.103.4
+  port: 443
+  uuid: fe111b94-d613-42a5-b428-f35b1a19168a
+  network: xhttp
+  tls: true
+  servername: cdnyan7.floatingcars.net
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #37'
+  type: vless
+  server: 176.53.162.58
+  port: 24446
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: esOi15BFVX7pHyci7GQp8_FVlY2EmjSF2-0pPu4lIlk
+    short-id: defeaa98406c7bdf
+  servername: spry-jolt.cdn.cachefleet.com
+  client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: telegram-bridge
+- name: '🌀 CYBERPORTAL | White List Lite #18'
+  type: vless
+  server: 31.131.251.32
+  port: 443
+  uuid: 451af335-99fe-445a-9c67-9a3cfde20022
+  network: ws
+  tls: true
+  servername: swswp.smartnet.net.ru
+  client-fingerprint: firefox
+  ws-opts:
+    path: /api/v1/realtime/data/socket
+- name: '🌀 CYBERPORTAL | White List Lite #57'
+  type: vless
+  server: 188.225.24.73
+  port: 443
+  uuid: fe111b94-d613-42a5-b428-f35b1a19168a
+  network: xhttp
+  tls: true
+  servername: ob1.floatingcars.net
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #85'
+  type: vless
+  server: 5.178.85.132
+  port: 443
+  uuid: fe111b94-d613-42a5-b428-f35b1a19168a
+  network: xhttp
+  tls: true
+  servername: selbs3.luxusvpn.app
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | Bypass List #6'
+  type: vless
+  server: 217.149.31.117
+  port: 443
+  uuid: 1f507f26-949e-4dab-9191-0d116e2bd8aa
+  network: ws
+  tls: true
+  servername: tr2.wba-pn.ru
+  client-fingerprint: random
+  ws-opts:
+    path: /
+    headers:
+      Host: 217.149.31.117
+- name: '🌀 CYBERPORTAL | White List Lite #33'
+  type: vless
+  server: 178.236.254.65
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  network: grpc
+  tls: true
+  servername: assets-us.pleiades.codes
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: cdn.v1.NlService
+- name: '🌀 CYBERPORTAL | Bypass List #12'
+  type: vless
+  server: 45.132.177.76
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  network: grpc
+  tls: true
+  servername: ru3.pleiades.codes
+  client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: cdn.v1.DeService
+- name: '🌀 CYBERPORTAL | Bypass List #14'
+  type: vless
+  server: 176.109.111.154
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+  servername: dl.google.com
+  client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: '🌀 CYBERPORTAL | Bypass List #41'
   type: vless
   server: 161.104.38.98
   port: 443
@@ -428,30 +591,29 @@ proxies:
     short-id: 8ba6e72ee60667f6
   servername: donatov.net
   client-fingerprint: random
-- name: '🌀 CYBERPORTAL | White List Lite #88'
+- name: '🌀 CYBERPORTAL | Bypass List #22'
   type: vless
-  server: 188.72.103.3
-  port: 443
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  network: xhttp
+  server: 186.246.12.242
+  port: 2053
+  uuid: 9a47a8ff-8cdd-4a35-b765-fbad6d40e0a0
+  network: ws
   tls: true
-  servername: cdnapi.streamru15.net
-  client-fingerprint: chrome
-- name: '🌀 CYBERPORTAL | White List Lite #69'
-  type: vless
-  server: 45.93.201.119
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: 6f3c1b8e5d2a4f7c
-  servername: vir2albridge.com
-  client-fingerprint: android
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: '🌀 CYBERPORTAL | Bypass List #32'
+  servername: 186.246.12.242
+  ws-opts:
+    path: /
+- name: '🌀 CYBERPORTAL | Bypass List #15'
+  type: ss
+  server: 90.156.203.62
+  port: 5112
+  cipher: chacha20-ietf-poly1305
+  password: VVlAff77CnAU43Aoc5j15Y
+- name: 🇮🇩 Indonesia | 🌐 | [BL]
+  type: ss
+  server: 103.160.63.199
+  port: 31348
+  cipher: chacha20-ietf-poly1305
+  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
+- name: '🌀 CYBERPORTAL | Bypass List #40'
   type: vless
   server: 161.104.38.98
   port: 443
@@ -463,38 +625,7 @@ proxies:
     short-id: 8ba6e72ee60667f6
   servername: donatov.net
   client-fingerprint: random
-- name: 🇷🇺 Russia, Berdsk | [BL]
-  type: ss
-  server: 194.38.11.86
-  port: 65443
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-- name: '🌀 CYBERPORTAL | White List Lite #22'
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ
-    short-id: 5eca
-  servername: bl3fk52.sysopnova.art
-  client-fingerprint: safari
-- name: '🌀 CYBERPORTAL | Bypass List #44'
-  type: vless
-  server: 200.165.231.209
-  port: 443
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  network: ws
-  tls: true
-  servername: wstg.datasynctrue.online
-  client-fingerprint: random
-  ws-opts:
-    path: /api/connect
-    headers:
-      Host: wstg.datasynctrue.online
-- name: '🌀 CYBERPORTAL | Bypass List #43'
+- name: '🌀 CYBERPORTAL | Bypass List #57'
   type: vless
   server: 188.225.33.141
   port: 443
@@ -502,123 +633,109 @@ proxies:
   network: ws
   tls: true
   servername: wstg.datasynctrue.online
-  client-fingerprint: random
   ws-opts:
     path: /api/connect
     headers:
       Host: wstg.datasynctrue.online
-- name: '🌀 CYBERPORTAL | White List Lite #50'
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: true
-- name: 🇯🇵 Japan, Shibuya City | [BL]
-  type: hysteria2
-  server: 43.167.208.94
-  port: 443
-  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
-  skip-cert-verify: true
-- name: '🌀 CYBERPORTAL | Bypass List #40'
+- name: '🌀 CYBERPORTAL | Bypass List #60'
   type: vless
-  server: 81.94.148.178
-  port: 8445
-  uuid: 7836b28e-8451-4596-ad3e-e3601b2335ba
+  server: 200.165.231.209
+  port: 443
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
   network: ws
   tls: true
-  servername: 2.26.148.147.tyr-agentstvo.tech
-  client-fingerprint: random
+  servername: wstg.datasynctrue.online
   ws-opts:
-    path: /websocket
+    path: /api/connect
     headers:
-      Host: 2.26.148.147.tyr-agentstvo.tech
-- name: '🌀 CYBERPORTAL | White List Lite #20'
+      Host: wstg.datasynctrue.online
+- name: 🇺🇸 United States | [*CIDR]
   type: vless
-  server: 95.163.232.98
+  server: 195.133.5.184
   port: 443
-  uuid: c4f5d29c-9eec-4451-861e-3b13d0549f85
+  uuid: 13ef8e97-815a-000d-8688-0154d85d26bf
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: Fe5PnOaERhhHbBXhGBEsQaRUBpSM8hCc03zOEpHz218
+    short-id: 51b784e13468
+  servername: ru26.aimodelhub.top
+  client-fingerprint: chrome
+- name: 🇫🇷 France, Paris | [BL]
+  type: ss
+  server: 80.97.27.52
+  port: 113
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
+- name: 🇷🇴 Romania, Bucharest | [BL]
+  type: ss
+  server: 80.97.27.52
+  port: 111
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
+- name: 🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]
+  type: ss
+  server: 80.97.27.52
+  port: 112
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
+- name: '🌀 CYBERPORTAL | White List Lite #23'
+  type: vless
+  server: 185.40.153.217
+  port: 443
+  uuid: 451af335-99fe-445a-9c67-9a3cfde20022
   network: grpc
   tls: true
   reality-opts:
-    public-key: ZgSVwP_wlM4-oG8E03W3cMqK_VrS8oHXF4wzyBkISWo
-    short-id: a1b2c3d4
-  servername: max.ru
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a33
+  servername: ads.x5.ru
   client-fingerprint: firefox
-- name: 🇰🇷 South Korea, Seoul (Toegye-ro) | [BL]
-  type: ss
-  server: 211.178.105.134
-  port: 6123
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: '🌀 CYBERPORTAL | White List Lite #19'
-  type: ss
-  server: 84.247.155.196
+  grpc-opts:
+    grpc-service-name: grpc-vk
+- name: 🇰🇿 Kazakhstan, Almaty | [BL]
+  type: vmess
+  server: 38.107.234.57
   port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: '🌀 CYBERPORTAL | White List Lite #79'
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇸🇬 Singapore, Singapore (Queenstown Estate) | [BL]
-  type: ss
-  server: 103.36.91.32
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-- name: 🇳🇱 The Netherlands, Amsterdam (Amsterdam-Zuidoost) | [BL]
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+- name: 🇯🇵 Japan, Chiyoda | [BL]
   type: vless
-  server: victoryprovpn-production-3f0f.up.railway.app
-  port: 443
-  uuid: 1ed509a6-ee90-e028-8926-43764597a000
+  server: www.wto.org
+  port: 8443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   network: ws
   tls: true
-  servername: victoryprovpn-production-3f0f.up.railway.app
+  servername: jp.520785.xyz
   client-fingerprint: android
   ws-opts:
-    path: /ws/1ed509a6-ee90-e028-8926-43764597a000
+    path: /static/media/video-chunk.f4v
     headers:
-      Host: victoryprovpn-production-3f0f.up.railway.app
-- name: 🇩🇪 Germany, Falkenstein | 🌐 | [BL]
+      Host: jp.520785.xyz
+- name: 🇸🇪 Sweden, Stockholm | [BL]
+  type: ss
+  server: 80.97.27.52
+  port: 115
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
+- name: 🇪🇪 Estonia, Tallinn | [BL]
+  type: ss
+  server: 80.97.27.52
+  port: 114
+  cipher: chacha20-ietf-poly1305
+  password: 9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj
+- name: 🇫🇮 Finland | 🌐 | [BL]
   type: vless
-  server: s2.zynetraq.ir
-  port: 2087
-  uuid: bb41f317-fb6c-4abc-f278-152901034e17
+  server: speedtest.net
+  port: 80
+  uuid: 6ba68c69-e108-502d-7b1c-e806fbc3cccd
   network: xhttp
-  tls: true
-  servername: s2.zynetraq.ir
-  client-fingerprint: android
-- name: 🇳🇱 Netherlands
-  type: vless
-  server: nl.cdn-assets-pro.com
-  port: 443
-  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
-    short-id: e42075de64c24511
-  flow: xtls-rprx-vision
-  servername: nl.cdn-assets-pro.com
-  client-fingerprint: firefox
-- name: 🇩🇪 Germany
-  type: vless
-  server: de.cdn-assets-pro.com
-  port: 443
-  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
-    short-id: e42075de64c24511
-  flow: xtls-rprx-vision
-  servername: de.cdn-assets-pro.com
-  client-fingerprint: firefox
 - name: 🇺🇸 United States
   type: vless
   server: us.cdn-assets-pro.com
@@ -632,24 +749,31 @@ proxies:
   flow: xtls-rprx-vision
   servername: us.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇺🇸 United States, Seattle | [BL]
-  type: hysteria2
-  server: us3.xiaoliyu.cyou
-  port: 18333
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  skip-cert-verify: true
-- name: 🇬🇧 United Kingdom
+- name: 🇳🇱 Netherlands
   type: vless
-  server: gb.cdn-assets-pro.com
+  server: nl.cdn-assets-pro.com
   port: 443
   uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
   network: tcp
   tls: true
   reality-opts:
-    public-key: DoMh2CkfmWFo0t0lf1HOuZqW6VydIfI-I3mRrdjwSTU
-    short-id: fe682ad6e8765611
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
   flow: xtls-rprx-vision
-  servername: gb.cdn-assets-pro.com
+  servername: nl.cdn-assets-pro.com
+  client-fingerprint: firefox
+- name: 🇫🇮 Finland
+  type: vless
+  server: fi.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: fi.cdn-assets-pro.com
   client-fingerprint: firefox
 - name: 🇫🇷 France
   type: vless
@@ -664,17 +788,29 @@ proxies:
   flow: xtls-rprx-vision
   servername: fr.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇲🇾 Malaysia, Kuala Lumpur | [BL]
-  type: vless
-  server: platform118.golnamakcert.top
+- name: 🇰🇿 Kazakhstan, Almaty | [BL]
+  type: vmess
+  server: 3h-kazakhstan1.09vpn.com
   port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
   network: ws
-  client-fingerprint: android
   ws-opts:
-    path: /platform118
-    headers:
-      Host: platform118.halalkhor.info
+    path: /vmess/
+- name: 🇩🇪 Germany
+  type: vless
+  server: de.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: de.cdn-assets-pro.com
+  client-fingerprint: firefox
 - name: 🇸🇪 Sweden
   type: vless
   server: se.cdn-assets-pro.com
@@ -688,75 +824,19 @@ proxies:
   flow: xtls-rprx-vision
   servername: se.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇸🇪 LTE Sweden
+- name: 🇬🇧 United Kingdom
   type: vless
-  server: lte-se-primary.cdn-assets-pro.com
-  port: 443
-  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
-    short-id: e42075de64c24511
-  servername: id.pervye.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ns
-- name: 🇫🇮 Finland
-  type: vless
-  server: fi.cdn-assets-pro.com
+  server: gb.cdn-assets-pro.com
   port: 443
   uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
   network: tcp
   tls: true
   reality-opts:
-    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
-    short-id: e42075de64c24511
+    public-key: DoMh2CkfmWFo0t0lf1HOuZqW6VydIfI-I3mRrdjwSTU
+    short-id: fe682ad6e8765611
   flow: xtls-rprx-vision
-  servername: fi.cdn-assets-pro.com
+  servername: gb.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | Bypass List #4'
-  type: vless
-  server: 95.163.232.171
-  port: 14443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  network: ws
-  tls: true
-  servername: media-se.compressor.work
-  client-fingerprint: random
-  ws-opts:
-    path: /ws
-- name: 🌐 Anycast-IP | 🇨🇦 🇸🇬 | [BL]
-  type: hysteria2
-  server: sg1.xiaoliyu.cyou
-  port: 18333
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  sni: sg1.xiaoliyu.cyou
-  skip-cert-verify: true
-- name: 🇷🇺 Russia
-  type: vless
-  server: ru.cdn-assets-pro.com
-  port: 443
-  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
-    short-id: e42075de64c24511
-  flow: xtls-rprx-vision
-  servername: ru.cdn-assets-pro.com
-  client-fingerprint: firefox
-- name: 🇲🇾 Malaysia, Kuala Lumpur | 🌐 | [BL]
-  type: vless
-  server: platform113.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  network: ws
-  servername: platform113.halalkhor.info
-  ws-opts:
-    path: /platform113
-    headers:
-      Host: platform113.halalkhor.info
 - name: 🇳🇱 LTE Netherlands
   type: vless
   server: lte-nl.cdn-assets-pro.com
@@ -771,16 +851,16 @@ proxies:
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ns
-- name: 🇩🇪LTE Germany
+- name: 🇸🇪 LTE Sweden
   type: vless
-  server: lte-de.cdn-assets-pro.com
-  port: 4443
+  server: lte-se-primary.cdn-assets-pro.com
+  port: 443
   uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
   network: grpc
   tls: true
   reality-opts:
-    public-key: bN5Pm3Aze47gy7aAkTp8E8Xwq9HgwBBbwIT_suEn2zg
-    short-id: de2951818461abcd
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
   servername: id.pervye.ru
   client-fingerprint: firefox
   grpc-opts:
@@ -799,18 +879,64 @@ proxies:
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ns
-- name: 🇲🇾 Malaysia, Kuala Lumpur | 🌐 | [BL]
+- name: 🇩🇪LTE Germany
   type: vless
-  server: platform128.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  server: lte-de.cdn-assets-pro.com
+  port: 4443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bN5Pm3Aze47gy7aAkTp8E8Xwq9HgwBBbwIT_suEn2zg
+    short-id: de2951818461abcd
+  servername: id.pervye.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: ns
+- name: 🇷🇺 Russia
+  type: vless
+  server: ru.cdn-assets-pro.com
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
+  flow: xtls-rprx-vision
+  servername: ru.cdn-assets-pro.com
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | Bypass List #13'
+  type: vless
+  server: ru4.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  network: grpc
+  tls: true
+  servername: ru4.pleiades.codes
+  client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: cdn.v1.NlService
+- name: 🇮🇹 Italy, Milan | 🌐 | [BL]
+  type: hysteria2
+  server: us3.xiaoliyu.cyou
+  port: 18333
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  skip-cert-verify: true
+- name: '🌀 CYBERPORTAL | White List Lite #113'
+  type: vless
+  server: msk-de.avara.fit
+  port: 443
+  uuid: ba9b6cf7-ddcf-41bd-aca6-b76004f1dcc1
   network: ws
-  servername: platform128.halalkhor.info
+  tls: true
+  servername: msk-de.avara.fit
+  client-fingerprint: random
   ws-opts:
-    path: /platform128
+    path: /api/v1/stream/telemetry
     headers:
-      Host: platform128.halalkhor.info
-- name: '🌀 CYBERPORTAL | Bypass List #30'
+      Host: msk-de.avara.fit
+- name: '🌀 CYBERPORTAL | White List Lite #103'
   type: vless
   server: tg1.cdnphotos.org
   port: 443
@@ -819,18 +945,17 @@ proxies:
   tls: true
   servername: tg1.cdnphotos.org
   client-fingerprint: random
-- name: '🌀 CYBERPORTAL | Bypass List #3'
+- name: '🌀 CYBERPORTAL | White List Lite #123'
   type: vless
-  server: itga8.guardora.pro
-  port: 10654
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  network: xhttp
+  server: assets-us.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  network: grpc
   tls: true
-  reality-opts:
-    public-key: W6Y-zf2KrmIKVAEYuxpzQhxMyQliUnEo9LAZYEPAlEI
-    short-id: d14d6fc0
-  servername: pl314j2.sysopnova.art
+  servername: assets-us.pleiades.codes
   client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: cdn.v1.NlService
 - name: 🇬🇧 United Kingdom [*CIDR]
   type: vless
   server: 84.38.181.249
@@ -842,7 +967,36 @@ proxies:
     public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
     short-id: 6bc02f1c474260c3
   servername: open.spotify.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
+- name: 🇩🇪 Германия
+  type: vless
+  server: de.aksay.pro
+  port: 8443
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: B5-zPBBAI-UATY7rSvoggM1T65h9CfVw7yBluBNd-yI
+    short-id: 4a5f04a5ea205fc3
+  servername: de.aksay.pro
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #4'
+  type: vless
+  server: ru3.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  network: grpc
+  tls: true
+  servername: ru3.pleiades.codes
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: cdn.v1.DeService
+- name: 🇫🇮 LTE Finland (slow
+  type: vless
+  server: cl-541e19d9.service.cdn.msk.vkcs.cloud
+  port: 80
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: xhttp
 - name: 🇬🇧 LTE United Kingdom (slow
   type: vless
   server: lte-gb.cdn-assets-pro.com
@@ -852,124 +1006,110 @@ proxies:
   tls: true
   servername: get-gb-recovery.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #31'
-  type: vless
-  server: cdn1.pandaonline.org
-  port: 443
-  uuid: 3e628fe4-2cbf-4740-9e49-d8b5d9b61916
-  network: ws
-  tls: true
-  servername: cdn1.pandaonline.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: /stream/119857546/chat
-    headers:
-      Host: cdn1.pandaonline.org
-- name: 🇫🇮 LTE Finland (slow
-  type: vless
-  server: cl-541e19d9.service.cdn.msk.vkcs.cloud
-  port: 80
-  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
-  network: xhttp
-- name: '🌀 CYBERPORTAL | Bypass List #13'
-  type: vless
-  server: dismissaltree.net
-  port: 2053
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  network: xhttp
-  tls: true
-  servername: dismissaltree.net
-  client-fingerprint: random
 proxy-groups:
 - name: VPN-UNIFIER
   type: url-test
   proxies:
   - '🌀 CYBERPORTAL | TCP Pack | 🇫🇮 Финляндия #11'
   - '🌀 CYBERPORTAL | TCP Pack #14'
-  - '🌀 CYBERPORTAL | White List Lite #51'
-  - '🌀 CYBERPORTAL | White List Lite #53'
-  - '🌀 CYBERPORTAL | White List Lite #61'
-  - '🌀 CYBERPORTAL | White List Lite #73'
-  - '🌀 CYBERPORTAL | White List Lite #9'
-  - '🌀 CYBERPORTAL | White List Lite #104'
-  - '🌀 CYBERPORTAL | White List Lite #89'
-  - '🌀 CYBERPORTAL | White List Lite #96'
-  - '🌀 CYBERPORTAL | White List Lite #77'
-  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇬🇧 🇮🇪 🇳🇱 🇸🇪 | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main | [BL]
-  - 🇳🇱 The Netherlands, Amsterdam | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #63'
-  - '🌀 CYBERPORTAL | White List Lite #40'
-  - '🌀 CYBERPORTAL | White List Lite #80'
-  - '🌀 CYBERPORTAL | White List Lite #93'
-  - '🌀 CYBERPORTAL | White List Lite #90'
-  - '🌀 CYBERPORTAL | White List Lite #100'
-  - '🌀 CYBERPORTAL | Bypass List #41'
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - 🇨🇿 Czechia, Prague | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #55'
-  - '🌀 CYBERPORTAL | White List Lite #17'
-  - '🌀 CYBERPORTAL | White List Lite #47'
-  - '🌀 CYBERPORTAL | White List Lite #14'
-  - '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #20'
-  - '🌀 CYBERPORTAL | White List Lite #28'
-  - '🌀 CYBERPORTAL | White List Lite #71'
-  - '🌀 CYBERPORTAL | White List Lite #52'
-  - '🌀 CYBERPORTAL | White List Lite #25'
-  - '🌀 CYBERPORTAL | White List Lite #11'
-  - '🌀 CYBERPORTAL | White List Lite #64'
-  - '🌀 CYBERPORTAL | White List Lite #65'
-  - '🌀 CYBERPORTAL | White List Lite #26'
-  - '🌀 CYBERPORTAL | White List Lite #44'
-  - '🌀 CYBERPORTAL | White List Lite #4'
-  - '🌀 CYBERPORTAL | White List Lite #81'
-  - '🌀 CYBERPORTAL | White List Lite #6'
-  - '🌀 CYBERPORTAL | White List Lite #38'
-  - '🌀 CYBERPORTAL | White List Lite #56'
-  - 🇦🇱 Albania, Tirana | [BL]
-  - '🌀 CYBERPORTAL | Bypass List #31'
-  - '🌀 CYBERPORTAL | White List Lite #88'
-  - '🌀 CYBERPORTAL | White List Lite #69'
-  - '🌀 CYBERPORTAL | Bypass List #32'
-  - 🇷🇺 Russia, Berdsk | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #22'
-  - '🌀 CYBERPORTAL | Bypass List #44'
-  - '🌀 CYBERPORTAL | Bypass List #43'
   - '🌀 CYBERPORTAL | White List Lite #50'
-  - 🇯🇵 Japan, Shibuya City | [BL]
-  - '🌀 CYBERPORTAL | Bypass List #40'
+  - 🇩🇪 Germany, Falkenstein | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #117'
+  - 🇺🇸 United States, Chicago | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #100'
+  - '🌀 CYBERPORTAL | White List Lite #94'
+  - '🌀 CYBERPORTAL | White List Lite #1'
+  - '🌀 CYBERPORTAL | White List Lite #16'
+  - '🌀 CYBERPORTAL | White List Lite #69'
+  - '🌀 CYBERPORTAL | White List Lite #72'
+  - '🌀 CYBERPORTAL | White List Lite #32'
+  - 🇨🇦 Canada, Pointe-Claire | [BL]
+  - 🇺🇸 United States, Ashburn | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #121'
+  - '🌀 CYBERPORTAL | White List Lite #120'
+  - '🌀 CYBERPORTAL | White List Lite #36'
+  - '🌀 CYBERPORTAL | White List Lite #51'
+  - 🇩🇪 Германия 2 · gRPC Reality
+  - '🌀 CYBERPORTAL | White List Lite #95'
+  - '🌀 CYBERPORTAL | White List Lite #98'
+  - '🌀 CYBERPORTAL | White List Lite #118'
+  - '🌀 CYBERPORTAL | White List Lite #71'
+  - 🇨🇿 Чехия · gRPC Reality
+  - '🇮🇹 Италия  '
+  - '🇨🇭 Швейцария '
+  - 🇫🇮 Финляндия 2 · gRPC Reality
+  - 🇫🇮 Finland  Антиреклама
+  - 🇹🇷 Turkey, Mahmutbey | [BL]
+  - 🇫🇮 Финляндия · gRPC Reality
+  - '🌀 CYBERPORTAL | White List Lite #97'
+  - '🌀 CYBERPORTAL | White List Lite #92'
+  - '🌀 CYBERPORTAL | White List Lite #88'
+  - '🌀 CYBERPORTAL | White List Lite #3'
+  - '🌀 CYBERPORTAL | White List Lite #105'
+  - '🌀 CYBERPORTAL | White List Lite #112'
+  - '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #20'
+  - '🌀 CYBERPORTAL | White List Lite #81'
+  - '🌀 CYBERPORTAL | White List Lite #8'
+  - '🌀 CYBERPORTAL | White List Lite #114'
+  - '🌀 CYBERPORTAL | White List Lite #27'
+  - 🇷🇺 Russia, Berdsk | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #9'
+  - '🌀 CYBERPORTAL | White List Lite #53'
+  - 🇸🇬 Singapore, Singapore | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #110'
+  - '🌀 CYBERPORTAL | White List Lite #119'
+  - '🌀 CYBERPORTAL | White List Lite #107'
+  - '🌀 CYBERPORTAL | White List Lite #21'
+  - '🌀 CYBERPORTAL | White List Lite #66'
   - '🌀 CYBERPORTAL | White List Lite #20'
-  - 🇰🇷 South Korea, Seoul (Toegye-ro) | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #19'
-  - '🌀 CYBERPORTAL | White List Lite #79'
-  - 🇸🇬 Singapore, Singapore (Queenstown Estate) | [BL]
-  - 🇳🇱 The Netherlands, Amsterdam (Amsterdam-Zuidoost) | [BL]
-  - 🇩🇪 Germany, Falkenstein | 🌐 | [BL]
-  - 🇳🇱 Netherlands
-  - 🇩🇪 Germany
+  - '🌀 CYBERPORTAL | White List Lite #37'
+  - '🌀 CYBERPORTAL | White List Lite #18'
+  - '🌀 CYBERPORTAL | White List Lite #57'
+  - '🌀 CYBERPORTAL | White List Lite #85'
+  - '🌀 CYBERPORTAL | Bypass List #6'
+  - '🌀 CYBERPORTAL | White List Lite #33'
+  - '🌀 CYBERPORTAL | Bypass List #12'
+  - '🌀 CYBERPORTAL | Bypass List #14'
+  - '🌀 CYBERPORTAL | Bypass List #41'
+  - '🌀 CYBERPORTAL | Bypass List #22'
+  - '🌀 CYBERPORTAL | Bypass List #15'
+  - 🇮🇩 Indonesia | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | Bypass List #40'
+  - '🌀 CYBERPORTAL | Bypass List #57'
+  - '🌀 CYBERPORTAL | Bypass List #60'
+  - 🇺🇸 United States | [*CIDR]
+  - 🇫🇷 France, Paris | [BL]
+  - 🇷🇴 Romania, Bucharest | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #23'
+  - 🇰🇿 Kazakhstan, Almaty | [BL]
+  - 🇯🇵 Japan, Chiyoda | [BL]
+  - 🇸🇪 Sweden, Stockholm | [BL]
+  - 🇪🇪 Estonia, Tallinn | [BL]
+  - 🇫🇮 Finland | 🌐 | [BL]
   - 🇺🇸 United States
-  - 🇺🇸 United States, Seattle | [BL]
-  - 🇬🇧 United Kingdom
-  - 🇫🇷 France
-  - 🇲🇾 Malaysia, Kuala Lumpur | [BL]
-  - 🇸🇪 Sweden
-  - 🇸🇪 LTE Sweden
+  - 🇳🇱 Netherlands
   - 🇫🇮 Finland
-  - '🌀 CYBERPORTAL | Bypass List #4'
-  - 🌐 Anycast-IP | 🇨🇦 🇸🇬 | [BL]
-  - 🇷🇺 Russia
-  - 🇲🇾 Malaysia, Kuala Lumpur | 🌐 | [BL]
+  - 🇫🇷 France
+  - 🇰🇿 Kazakhstan, Almaty | [BL]
+  - 🇩🇪 Germany
+  - 🇸🇪 Sweden
+  - 🇬🇧 United Kingdom
   - 🇳🇱 LTE Netherlands
-  - 🇩🇪LTE Germany
+  - 🇸🇪 LTE Sweden
   - 🇷🇺 LTE Russia
-  - 🇲🇾 Malaysia, Kuala Lumpur | 🌐 | [BL]
-  - '🌀 CYBERPORTAL | Bypass List #30'
-  - '🌀 CYBERPORTAL | Bypass List #3'
-  - 🇬🇧 United Kingdom [*CIDR]
-  - 🇬🇧 LTE United Kingdom (slow
-  - '🌀 CYBERPORTAL | White List Lite #31'
-  - 🇫🇮 LTE Finland (slow
+  - 🇩🇪LTE Germany
+  - 🇷🇺 Russia
   - '🌀 CYBERPORTAL | Bypass List #13'
+  - 🇮🇹 Italy, Milan | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #113'
+  - '🌀 CYBERPORTAL | White List Lite #103'
+  - '🌀 CYBERPORTAL | White List Lite #123'
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇩🇪 Германия
+  - '🌀 CYBERPORTAL | White List Lite #4'
+  - 🇫🇮 LTE Finland (slow
+  - 🇬🇧 LTE United Kingdom (slow
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
