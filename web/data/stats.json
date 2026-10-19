@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-10-18 08:39:18",
-  "updated_ts": 1792312758,
-  "total": 693,
-  "alive": 568,
-  "unknown": 91,
+  "updated_at": "2026-10-19 09:41:22",
+  "updated_ts": 1792402882,
+  "total": 676,
+  "alive": 532,
+  "unknown": 110,
   "dead": 34,
-  "in_config": 126,
-  "vip_config": 300,
+  "in_config": 153,
+  "vip_config": 292,
   "protocols": {
     "vless": {
-      "alive": 453,
-      "unknown": 82,
-      "dead": 27
+      "alive": 415,
+      "unknown": 96,
+      "dead": 26
     },
     "trojan": {
-      "alive": 42,
+      "alive": 26,
       "unknown": 3
     },
     "hysteria2": {
-      "alive": 5,
-      "dead": 4,
-      "unknown": 4
+      "alive": 3,
+      "dead": 5,
+      "unknown": 3
     },
     "vmess": {
-      "alive": 9,
+      "alive": 12,
       "unknown": 1
     },
     "ss": {
-      "alive": 59,
-      "dead": 3,
-      "unknown": 1
+      "alive": 76,
+      "unknown": 7,
+      "dead": 3
     }
   }
 }
