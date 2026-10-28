@@ -3,40 +3,12 @@ allow-lan: true
 mode: rule
 log-level: warning
 proxies:
-- name: '🌀 CYBERPORTAL | TCP Pack #14'
-  type: vless
-  server: 45.80.111.208
-  port: 8880
-  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
-  network: ws
-  ws-opts:
-    path: /cdn/assets/stream
-    headers:
-      Host: cnd.germany.1.bestcdnshare.com
-- name: '🌀 CYBERPORTAL | White List Lite #17'
+- name: '🌀 CYBERPORTAL | White List Lite #44'
   type: ss
-  server: 15.204.246.107
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: '🌀 CYBERPORTAL | White List Lite #36'
-  type: ss
-  server: 15.204.247.175
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: '🌀 CYBERPORTAL | White List Lite #40'
-  type: ss
-  server: 15.204.246.132
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: '🌀 CYBERPORTAL | White List Lite #58'
-  type: ss
-  server: 15.204.247.124
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
+  server: 138.199.42.68
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
 - name: '🌀 CYBERPORTAL | TCP Pack | 🇫🇮 Финляндия #11'
   type: vless
   server: 66.81.247.209
@@ -47,159 +19,76 @@ proxies:
     path: /cdn/assets/stream
     headers:
       Host: cnd.finland2.2.newwaycdn.com
-- name: '🌀 CYBERPORTAL | White List Lite #11'
+- name: '🌀 CYBERPORTAL | TCP Pack #14'
+  type: vless
+  server: 45.80.111.208
+  port: 8880
+  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
+  network: ws
+  ws-opts:
+    path: /cdn/assets/stream
+    headers:
+      Host: cnd.germany.1.bestcdnshare.com
+- name: '🌀 CYBERPORTAL | White List Lite #65'
   type: ss
-  server: 15.204.247.244
-  port: 4444
+  server: 15.204.247.124
+  port: 2375
   cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: '🌀 CYBERPORTAL | White List Lite #59'
+  password: faBAoD54k87UJG7
+- name: '🌀 CYBERPORTAL | White List Lite #15'
   type: ss
-  server: 15.204.247.206
-  port: 4444
+  server: 15.204.247.175
+  port: 8008
   cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: '🌀 CYBERPORTAL | White List Lite #53'
+  password: XKFKl2rULjIp74
+- name: '🌀 CYBERPORTAL | White List Lite #16'
   type: ss
-  server: 51.79.49.116
-  port: 8882
+  server: 15.204.246.132
+  port: 7307
   cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: '🌀 CYBERPORTAL | White List Lite #48'
+  password: FoOiGlkAA9yPEGP
+- name: '🌀 CYBERPORTAL | White List Lite #45'
+  type: ss
+  server: 15.204.246.107
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: '🌀 CYBERPORTAL | White List Lite #17'
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '🌀 CYBERPORTAL | White List Lite #41'
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '🌀 CYBERPORTAL | White List Lite #58'
   type: ss
   server: 51.222.141.125
   port: 445
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
-- name: '🌀 CYBERPORTAL | White List Lite #8'
+- name: '🌀 CYBERPORTAL | White List Lite #70'
   type: ss
-  server: 138.199.42.68
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇫🇮 Finland, Helsinki | [BL]
-  type: vless
-  server: 151.101.3.6
-  port: 443
-  uuid: 80c2ebdb-755f-4516-a3ea-72fc3f4caed0
-  network: xhttp
-  tls: true
-  servername: Apps.apple.com
-  client-fingerprint: chrome
-- name: 🇫🇮 Finland, Helsinki | 🌐 | [BL]
-  type: vless
-  server: 206.238.239.20
-  port: 2083
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  network: ws
-  tls: true
-  servername: vipfree.dr-ping.ir
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
-- name: 🇫🇷 France, Paris | 🌐 | [BL]
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-53
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇫🇷 France, Paris | 🌐 | [BL]
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: XpnTeam-54
-  network: ws
-  tls: true
-  servername: ssl.fastly.com
-  client-fingerprint: android
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  type: vless
-  server: 188.164.248.246
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  network: ws
-  tls: true
-  servername: tamoai.ccwu.cc
-  client-fingerprint: chrome
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  type: vless
-  server: 188.164.248.248
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  network: ws
-  tls: true
-  servername: tamoai.ccwu.cc
-  client-fingerprint: android
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  type: vless
-  server: 188.164.248.91
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  network: ws
-  tls: true
-  servername: tamoai.ccwu.cc
-  client-fingerprint: chrome
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  type: vless
-  server: 188.164.248.216
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  network: ws
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: android
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  type: vless
-  server: 188.164.248.181
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  network: ws
-  tls: true
-  servername: tamoai.ccwu.cc
-  client-fingerprint: firefox
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🇫🇷 France, Paris | [BL]
-  type: trojan
-  server: 141.193.213.172
-  port: 443
-  password: humanity
-  network: ws
-  servername: www.calmlunch.com
-  client-fingerprint: android
-  ws-opts:
-    path: /assignment
+  server: 15.204.247.244
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: '🌀 CYBERPORTAL | White List Lite #62'
+  type: ss
+  server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: '🌀 CYBERPORTAL | White List Lite #59'
+  type: ss
+  server: 51.79.49.116
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
 - name: 🇫🇷 France, Paris | [BL]
   type: trojan
   server: 45.80.111.7
@@ -220,6 +109,53 @@ proxies:
   client-fingerprint: android
   ws-opts:
     path: /assignment
+- name: 🇫🇮 Finland, Helsinki | [BL]
+  type: vless
+  server: 151.101.3.6
+  port: 443
+  uuid: 80c2ebdb-755f-4516-a3ea-72fc3f4caed0
+  network: xhttp
+  tls: true
+  servername: Apps.apple.com
+  client-fingerprint: chrome
+- name: 🇫🇮 Finland, Helsinki | 🌐 | [BL]
+  type: vless
+  server: 199.232.239.239
+  port: 443
+  uuid: 71a195c5-df47-47ad-81be-f4d3a3a21be3
+  network: xhttp
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France, Paris | 🌐 | [BL]
+  type: vless
+  server: 199.232.78.160
+  port: 443
+  uuid: XpnTeam-57
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+- name: '🌀 CYBERPORTAL | White List Lite #6'
+  type: ss
+  server: 156.146.38.167
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇫🇷 France, Paris | [BL]
+  type: trojan
+  server: 141.193.213.172
+  port: 443
+  password: humanity
+  network: ws
+  servername: www.calmlunch.com
+  client-fingerprint: android
+  ws-opts:
+    path: /assignment
 - name: 🇳🇱 The Netherlands, Haarlem | [BL]
   type: trojan
   server: 8.47.69.0
@@ -227,74 +163,94 @@ proxies:
   password: humanity
   network: ws
   servername: www.pleadcourt.org
-  client-fingerprint: android
+  client-fingerprint: chrome
   ws-opts:
     path: /assignment
-- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇸🇪 🇺🇸 | [BL]
-  type: trojan
-  server: 151.101.36.244
-  port: 443
-  password: mitivpn
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]
+  type: vmess
+  server: 104.21.7.133
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   network: ws
-  servername: ns2.firefox.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
   ws-opts:
-    path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSus---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
-- name: 🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL]
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: mitivpn
-  network: ws
-  servername: community.fastly.steamstatic.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSus---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
-- name: 🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL]
-  type: trojan
-  server: 199.232.9.244
-  port: 443
-  password: mitivpn
-  network: ws
-  servername: ns1.firefox.com
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2F—%40MiTiVPN—%40MiTiVPN%2F—%40MiTiVPN—%40MiTiVPN%2F—%40MiTiVPN—%40MiTiVPN%2FNLSus—%40MiTiVPN—%40MiTiVPN%2F—%40MiTiVPN—%40MiTiVPN%2F—%40MiTiVPN—%40MiTiVPN'
-- name: 🇺🇸 United States, New York | [BL]
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🇫🇷 France, Paris | 🌐 | [BL]
   type: vless
-  server: 147.78.182.6
-  port: 8443
-  uuid: 5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f
-  network: grpc
+  server: 199.232.78.170
+  port: 443
+  uuid: XpnTeam-58
+  network: ws
   tls: true
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-  servername: www.epson.com
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+- name: 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
+  type: vless
+  server: 188.164.248.216
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  tls: true
+  servername: ccc.010304.xyz
   client-fingerprint: android
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: '🌀 CYBERPORTAL | White List Lite #56'
   type: ss
-  server: 64.83.20.73
-  port: 8388
-  cipher: aes-256-gcm
-  password: BookCloud2026
-- name: 🇬🇧 United Kingdom | 🌐 | [BL]
+  server: 173.244.56.9
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇺🇸 United States | 🌐 | [BL]
   type: ss
-  server: 37.153.158.160
-  port: 56137
+  server: 103.11.76.248
+  port: 28679
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+- name: '🌀 CYBERPORTAL | White List Lite #47'
+  type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: d49f7cc7-0c15-4a49-9644-ef72e00d8e56
+  network: ws
+  tls: true
+  servername: dropstyle.lol
+  client-fingerprint: firefox
+  ws-opts:
+    path: /player/metrics/97662863db53/
+    headers:
+      Host: dropstyle.lol
+- name: '🌀 CYBERPORTAL | White List Lite #63'
+  type: vless
+  server: 95.129.236.171
+  port: 443
+  uuid: d96d3d65-91e8-4b9a-bed6-ad36b019c4e9
+  network: xhttp
+  tls: true
+  servername: my.console.pc-club.app
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #35'
+  type: ss
+  server: 82.38.31.203
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Roosendaal | [BL]
   type: ss
-  server: 177.202.111.18
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  server: 109.201.152.181
+  port: 443
+  cipher: aes-128-cfb
+  password: shadowsocks
+- name: 🇵🇱 Poland | [*CIDR]
   type: vless
   server: 185.178.208.140
   port: 443
@@ -303,96 +259,12 @@ proxies:
   tls: true
   servername: static.bakarova-top.ru
   client-fingerprint: chrome
-- name: 🇬🇧 United Kingdom | 🌐 | [BL]
+- name: '🌀 CYBERPORTAL | White List Lite #78'
   type: ss
-  server: 37.153.158.30
+  server: 37.153.158.136
   port: 56137
   cipher: chacha20-ietf-poly1305
   password: uvKNudV-N8AUCrykPiyznA
-- name: 🇬🇧 United Kingdom, Erith | [BL]
-  type: ss
-  server: 177.202.111.21
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: '🌀 CYBERPORTAL | White List Lite #15'
-  type: ss
-  server: 64.176.2.21
-  port: 8388
-  cipher: aes-256-gcm
-  password: xBStBEVqvGwHPocc
-- name: '🌀 CYBERPORTAL | White List Lite #49'
-  type: vless
-  server: 188.225.77.254
-  port: 8443
-  uuid: d1f0c6cb-0d8b-4f13-8104-b7c8e8c57110
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s
-    short-id: 4951a2313524dd8f
-  servername: io.ozone.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ozone
-- name: 🇪🇪 Estonia [*CIDR]
-  type: vless
-  server: 185.178.208.167
-  port: 443
-  uuid: d49f7cc7-0c15-4a49-9644-ef72e00d8e56
-  network: ws
-  tls: true
-  servername: dropstyle.lol
-  client-fingerprint: chrome
-  ws-opts:
-    path: /player/metrics/97662863db53/
-    headers:
-      Host: dropstyle.lol
-- name: '🌀 CYBERPORTAL | White List Lite #14'
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
-- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
-  type: ss
-  server: 82.38.31.149
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
-  type: ss
-  server: 82.38.31.169
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇩🇪 Germany, Frankfurt am Main | [BL]
-  type: vless
-  server: 83.143.106.9
-  port: 8443
-  uuid: 5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: 4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo
-  servername: res.cdn.office.net
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: TunService
-- name: '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #20'
-  type: vless
-  server: 46.254.17.58
-  port: 80
-  uuid: 7c018044-164b-4ccc-862c-2830eba34145
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇮🇹 Italy, Milan | [BL]
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 Italy, Milan | [BL]
   type: ss
   server: 202.50.253.63
@@ -401,117 +273,296 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 Italy, Milan | [BL]
   type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '🌀 CYBERPORTAL | White List Lite #51'
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  type: ss
+  server: 82.38.31.183
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇮🇹 Italy, Milan | [BL]
+  type: ss
   server: 202.50.253.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇵🇱 Poland, Cianowice Duże | [BL]
+- name: 🇮🇹 Italy, Milan | [BL]
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 Italy, Milan | [BL]
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.219
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.195
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.149
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.198
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.207
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.211
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.171
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.175
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.54
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇮🇹 Italy, Milan | [BL]
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.149
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.206
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.169
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇮🇹 Italy, Milan | [BL]
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.11
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.174
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.182
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.192
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.193
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.185
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.204
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.7
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.178
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.216
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.220
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.2
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.212
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇮🇹 Italy, Milan | [BL]
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 Italy, Milan | [BL]
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.180
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.213
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.215
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.201
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: '🌀 CYBERPORTAL | White List Lite #48'
   type: vless
-  server: 104.245.243.2
-  port: 8443
-  uuid: 5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f
+  server: 37.18.14.43
+  port: 2053
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  network: xhttp
+  tls: true
+  servername: flatcrest.net
+- name: '🌀 CYBERPORTAL | White List Lite #49'
+  type: vless
+  server: 81.17.154.181
+  port: 443
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+  network: xhttp
+  tls: true
+  servername: fafeqdhlett2p5la6d.cdn.cachefleet.com
+  client-fingerprint: firefox
+- name: 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  type: ss
+  server: 82.38.31.26
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: '🌀 CYBERPORTAL | White List Lite #24'
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: '🌀 CYBERPORTAL | White List Lite #37'
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #20'
+  type: vless
+  server: 46.254.17.58
+  port: 80
+  uuid: 7c018044-164b-4ccc-862c-2830eba34145
   network: grpc
-  tls: true
-  reality-opts:
-    public-key: skXBkyphBIt0TWVM0R5U3U-8UG0cuW00ONkaQpJ-OxU
-  servername: download.nvidia.com
-  client-fingerprint: android
   grpc-opts:
-    grpc-service-name: TunService
-- name: 🇵🇱 Poland, Cianowice Duże | [BL]
+    grpc-service-name: grpc
+- name: '🌀 CYBERPORTAL | White List Lite #22'
+  type: ss
+  server: 37.153.158.167
+  port: 56137
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
+- name: '🌀 CYBERPORTAL | White List Lite #74'
   type: vless
-  server: 104.245.243.2
+  server: 188.72.111.8
   port: 443
-  uuid: 5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f
+  uuid: d3c83ed8-6a91-4d6d-ab9b-3479d67de101
   network: xhttp
   tls: true
-  reality-opts:
-    public-key: skXBkyphBIt0TWVM0R5U3U-8UG0cuW00ONkaQpJ-OxU
-  servername: download.nvidia.com
-  client-fingerprint: chrome
-- name: 🇬🇧 United Kingdom, London | [BL]
-  type: vless
-  server: 45.88.13.7
-  port: 443
-  uuid: 5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
-  servername: download.nvidia.com
-  client-fingerprint: chrome
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: ss
-  server: 177.202.111.19
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇬🇧 United Kingdom | 🌐 | [BL]
-  type: ss
-  server: 37.153.158.154
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇬🇧 United Kingdom | 🌐 | [BL]
-  type: ss
-  server: 37.153.158.229
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇬🇧 United Kingdom | 🌐 | [BL]
-  type: ss
-  server: 37.153.158.27
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇹🇷 Turkey, Istanbul | [BL]
-  type: vless
-  server: 122.8.46.6
-  port: 8443
-  uuid: 5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  servername: download.nvidia.com
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: TunService
-- name: '🌀 CYBERPORTAL | White List Lite #2'
-  type: vless
-  server: 188.225.33.141
-  port: 443
-  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
-  network: ws
-  tls: true
-  servername: wstg.datasynctrue.online
-  ws-opts:
-    path: /api/connect
-    headers:
-      Host: wstg.datasynctrue.online
-- name: 🇦🇪 United Arab Emirates, Abu Dhabi | [BL]
-  type: vless
-  server: 122.8.46.3
-  port: 443
-  uuid: 5bb82f6f-e5b1-2bcf-6584-1abc8a3ec21f
-  network: xhttp
-  tls: true
-  reality-opts:
-    public-key: iVDh09Vm2DqZMNQoUdf-LCZ6TqVGb9mLXnClAK2LRj4
-  servername: www.canon.com
-  client-fingerprint: android
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: ss
-  server: 87.236.166.217
-  port: 56134
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: ss
-  server: 87.236.166.234
-  port: 56134
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
+  servername: white.underground.company
+  client-fingerprint: firefox
 - name: 🇷🇴 Romania, Bucharest | 🌐 | [BL]
   type: hysteria2
   server: 185.156.44.99
@@ -519,24 +570,90 @@ proxies:
   password: gf1:gfhysteria2024
   sni: css.rbxcdn.com
   skip-cert-verify: true
-- name: 🇳🇱 The Netherlands [*CIDR]
+- name: 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 | [BL]
   type: vless
-  server: 72.56.242.232
+  server: 43.174.193.1
   port: 443
-  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
-  network: grpc
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
   tls: true
-  servername: renderer-bridge-1-881.mirra.now
+  servername: ccc.010304.xyz
   client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: VideoRenderer
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: ss
-  server: 87.236.166.134
-  port: 56134
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇧🇬 Bulgaria | 🌐 [*CIDR] CDN
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: '🌀 CYBERPORTAL | White List Lite #28'
+  type: vless
+  server: 194.55.239.89
+  port: 443
+  uuid: 073b7df7-5527-45a2-ba29-183b85c39071
+  network: ws
+  tls: true
+  servername: broadcast.liveflow.space
+  client-fingerprint: android
+  ws-opts:
+    path: /live.stream.v1.Broadcast/
+    headers:
+      Host: broadcast.liveflow.space
+- name: 🇲🇩 Moldova, Chisinau | 🌐 | [BL]
+  type: vless
+  server: 87.228.71.196
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  network: ws
+  tls: true
+  servername: ap2.directly.chat
+  client-fingerprint: android
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: '🌀 CYBERPORTAL | White List Lite #26'
+  type: vless
+  server: 81.17.154.97
+  port: 443
+  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+  network: xhttp
+  tls: true
+  servername: is-tw-relay.cdn.cachefleet.com
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #66'
+  type: vless
+  server: 188.72.111.7
+  port: 443
+  uuid: d3c83ed8-6a91-4d6d-ab9b-3479d67de101
+  network: xhttp
+  tls: true
+  servername: white.underground.company
+  client-fingerprint: firefox
+- name: 🇲🇩 Moldova, Chisinau | 🌐 | [BL]
+  type: vless
+  server: 87.228.71.197
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  network: ws
+  tls: true
+  servername: ap2.directly.chat
+  client-fingerprint: firefox
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 Moldova, Chisinau | 🌐 | [BL]
+  type: vless
+  server: 87.228.71.198
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  network: ws
+  tls: true
+  servername: ap2.directly.chat
+  client-fingerprint: chrome
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇧🇬 Bulgaria | [*CIDR] CDN
   type: vless
   server: 37.18.14.43
   port: 8443
@@ -544,20 +661,27 @@ proxies:
   network: xhttp
   tls: true
   servername: flatcrest.net
-  client-fingerprint: qq
-- name: 🇷🇺 Russia, Moscow | [BL]
-  type: ss
-  server: 195.133.5.107
-  port: 18443
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: '🌀 CYBERPORTAL | White List Lite #13'
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: '🌀 CYBERPORTAL | White List Lite #41'
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #64'
+  type: vless
+  server: 200.165.231.209
+  port: 443
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  network: ws
+  tls: true
+  servername: wstg.datasynctrue.online
+  client-fingerprint: firefox
+  ws-opts:
+    path: /api/connect
+    headers:
+      Host: wstg.datasynctrue.online
+- name: 🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]
+  type: hysteria2
+  server: 5.129.235.85
+  port: 443
+  password: gf1:gfhysteria2024
+  skip-cert-verify: true
+- name: '🌀 CYBERPORTAL | White List Lite #23'
   type: vless
   server: 188.72.103.3
   port: 443
@@ -566,31 +690,62 @@ proxies:
   tls: true
   servername: cdnapi.streamru15.net
   client-fingerprint: chrome
-- name: 🇹🇷 Turkey, İncesu | [BL]
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
   type: ss
-  server: 177.202.111.24
-  port: 56134
+  server: 91.206.92.238
+  port: 18443
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+- name: '🌀 CYBERPORTAL | White List Lite #19'
+  type: vless
+  server: 188.225.33.141
+  port: 443
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  network: ws
+  tls: true
+  servername: wstg.datasynctrue.online
+  client-fingerprint: firefox
+  ws-opts:
+    path: /api/connect
+    headers:
+      Host: wstg.datasynctrue.online
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  type: vless
+  server: 81.222.148.104
+  port: 443
+  uuid: f439e4fe-139b-4882-ad8b-a16176d09c88
+  network: raw
+  tls: true
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: 1ed136481e0ede74
+  servername: eu53.cdn77.icu
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | White List Lite #39'
+  type: ss
+  server: 87.236.166.178
+  port: 56137
   cipher: chacha20-ietf-poly1305
   password: uvKNudV-N8AUCrykPiyznA
-- name: '🌀 CYBERPORTAL | White List Lite #38'
+- name: 🇭🇰 Hong Kong, Mong Kok | [BL]
   type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  server: 103.141.221.124
+  port: 8388
+  cipher: chacha20-ietf
+  password: asd123456
+- name: 🇭🇰 Hong Kong, Wan Chai | [BL]
+  type: ss
+  server: 103.149.182.79
+  port: 8388
+  cipher: chacha20-ietf
+  password: asd123456
+- name: 🇹🇷 Turkey, Fatih | [BL]
   type: ss
   server: 206.1.103.237
   port: 19999
   cipher: 2022-blake3-aes-256-gcm
   password: 1/kU1gF9gGRGdF5JH2jf3GeeLsItfkkOhmMP5cnPMUI=:ojXUsKiyV41J4EsaiAZFaKCW+zhuD3Tl0Z7pWkKq6eM=
-- name: 🇰🇷 South Korea, Seoul (Toegye-ro) | [BL]
-  type: ss
-  server: 211.178.105.134
-  port: 6123
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: '🌀 CYBERPORTAL | White List Lite #12'
+- name: '🌀 CYBERPORTAL | White List Lite #60'
   type: vless
   server: 188.72.103.4
   port: 443
@@ -599,25 +754,22 @@ proxies:
   tls: true
   servername: ru.nnight.cfd
   client-fingerprint: firefox
-- name: 🇭🇰 Hong Kong, Mong Kok | [BL]
-  type: ss
-  server: 103.149.182.105
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-- name: 🇪🇪 Estonia [*CIDR]
-  type: vless
-  server: dropstyle.lol
-  port: 443
-  uuid: d49f7cc7-0c15-4a49-9644-ef72e00d8e56
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  type: vmess
+  server: 120.48.133.162
+  port: 10086
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
+  alterId: 0
+  cipher: auto
   network: ws
-  tls: true
-  servername: dropstyle.lol
-  client-fingerprint: android
-  ws-opts:
-    path: /service/metrics/51dec2df3071/
-    headers:
-      Host: dropstyle.lol
+- name: 🇨🇳 China, Jinrongjie (Xicheng District) | [BL]
+  type: vmess
+  server: 120.48.133.162
+  port: 10086
+  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
+  alterId: 0
+  cipher: auto
+  network: ws
 - name: 🇺🇸 United States
   type: vless
   server: us.cdn-assets-pro.com
@@ -631,20 +783,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: us.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇸🇬 Singapore, Singapore (Queenstown Estate) | [BL]
-  type: ss
-  server: 103.36.91.32
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-- name: 🇨🇳 China, Jinrongjie (Xicheng District) | [BL]
-  type: vmess
-  server: 120.48.133.162
-  port: 10086
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  alterId: 0
-  cipher: auto
-  network: ws
 - name: 🇳🇱 Netherlands
   type: vless
   server: nl4.cdn-assets-pro.com
@@ -658,17 +796,15 @@ proxies:
   flow: xtls-rprx-vision
   servername: nl4.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇳🇱 The Netherlands [*CIDR]
+- name: 🇧🇬 Bulgaria | 🌐 [*CIDR] CDN
   type: vless
-  server: renderer-bridge-1-881.mirra.now
-  port: 443
-  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
-  network: grpc
+  server: flatcrest.net
+  port: 8443
+  uuid: 7dd69047-047e-422e-a2ba-ed773c34fd1a
+  network: xhttp
   tls: true
-  servername: renderer-bridge-1-881.mirra.now
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: VideoRenderer
+  servername: flatcrest.net
+  client-fingerprint: ios
 - name: 🇩🇪 Germany
   type: vless
   server: de4.cdn-assets-pro.com
@@ -694,15 +830,6 @@ proxies:
     short-id: e42075de64c24511
   flow: xtls-rprx-vision
   servername: fi.cdn-assets-pro.com
-  client-fingerprint: firefox
-- name: 🇧🇬 Bulgaria | [*CIDR] CDN
-  type: vless
-  server: flatcrest.net
-  port: 8443
-  uuid: 7dd69047-047e-422e-a2ba-ed773c34fd1a
-  network: xhttp
-  tls: true
-  servername: flatcrest.net
   client-fingerprint: firefox
 - name: 🇫🇷 France
   type: vless
@@ -730,20 +857,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: ru.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇩🇪LTE Germany
-  type: vless
-  server: lte-de.cdn-assets-pro.com
-  port: 4443
-  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: bN5Pm3Aze47gy7aAkTp8E8Xwq9HgwBBbwIT_suEn2zg
-    short-id: de2951818461abcd
-  servername: id.pervye.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ns
 - name: 🇬🇧 United Kingdom
   type: vless
   server: gb.cdn-assets-pro.com
@@ -770,16 +883,16 @@ proxies:
   flow: xtls-rprx-vision
   servername: se.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇷🇺 LTE Russia
+- name: 🇸🇪 LTE Sweden
   type: vless
-  server: lte-ru.cdn-assets-pro.com
-  port: 4444
+  server: lte-se-primary.cdn-assets-pro.com
+  port: 443
   uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
   network: grpc
   tls: true
   reality-opts:
-    public-key: Rb4vgAdvP8Eg59fAl07OpCQxD9-hec_8fWmuqB5KmVk
-    short-id: 808e88c0591324d2
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
   servername: id.pervye.ru
   client-fingerprint: firefox
   grpc-opts:
@@ -798,26 +911,34 @@ proxies:
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ns
-- name: 🇸🇪 LTE Sweden
+- name: 🇩🇪LTE Germany
   type: vless
-  server: lte-se-primary.cdn-assets-pro.com
-  port: 443
+  server: lte-de.cdn-assets-pro.com
+  port: 4443
   uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
   network: grpc
   tls: true
   reality-opts:
-    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
-    short-id: e42075de64c24511
+    public-key: bN5Pm3Aze47gy7aAkTp8E8Xwq9HgwBBbwIT_suEn2zg
+    short-id: de2951818461abcd
   servername: id.pervye.ru
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ns
-- name: 🇸🇬 Singapore, Singapore (Queenstown Estate) | [BL]
-  type: hysteria2
-  server: s3.huhiuh.space
-  port: 18642
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  skip-cert-verify: true
+- name: 🇷🇺 LTE Russia
+  type: vless
+  server: lte-ru.cdn-assets-pro.com
+  port: 4444
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: Rb4vgAdvP8Eg59fAl07OpCQxD9-hec_8fWmuqB5KmVk
+    short-id: 808e88c0591324d2
+  servername: id.pervye.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: ns
 - name: 🇯🇵 Japan
   type: vless
   server: jp.cdn-assets-pro.com
@@ -831,147 +952,245 @@ proxies:
   flow: xtls-rprx-vision
   servername: jp.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: ss
-  server: 89.251.9.219
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇬🇧 United Kingdom | 🌐 | [BL]
-  type: ss
-  server: 37.153.158.167
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇬🇧 United Kingdom | 🌐 | [BL]
-  type: ss
-  server: location15.cpanel-host16.ir
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: ss
-  server: 177.202.111.20
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: ss
-  server: 87.236.166.166
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇩🇰 Denmark, Rødding | [BL]
-  type: vless
-  server: friren.iki-servers.com
+- name: 🇭🇰 Hong Kong, Hong Kong | [BL]
+  type: vmess
+  server: QlxYtBpuqj3qqJsJ.v.3dns.vip
   port: 443
-  uuid: 345e0ef7-6861-4722-ab44-799c37507b24
+  uuid: b664cc36-4896-454b-bb9c-1377c76176de
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: QlxYtBpuqj3qqJsJ.v.3dns.vip
+- name: 🇩🇪 Germany, Düsseldorf | [BL]
+  type: vmess
+  server: de.zhou-yufan.com
+  port: 443
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: true
+- name: 🇮🇩 Indonesia, Jakarta | [BL]
+  type: vmess
+  server: TnmXPIFVwfvyFZvf.v.3dns.vip
+  port: 443
+  uuid: b664cc36-4896-454b-bb9c-1377c76176de
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: TnmXPIFVwfvyFZvf.v.3dns.vip
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: TnmXPIFVwfvyFZvf.v.3dns.vip
+- name: '🌀 CYBERPORTAL | White List Lite #10'
+  type: vless
+  server: randomquaint.net
+  port: 8443
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
   network: xhttp
   tls: true
-  reality-opts:
-    public-key: iD0nfLVyK9EbtFtKZgj_UcuGINq6yTqQM4jFfuTMFSY
-    short-id: 5f5962cc9ec6b180
-  servername: friren.iki-servers.com
+  servername: randomquaint.net
+- name: 🇰🇷 South Korea, Seoul (Toegye-ro) | [BL]
+  type: ss
+  server: 211.178.105.134
+  port: 6123
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+- name: 🇫🇮 LTE Finland
+  type: vless
+  server: fibdheazet.cdn.twcstorage.ru
+  port: 443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: xhttp
+  tls: true
+  servername: fibdheazet.cdn.twcstorage.ru
   client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | White List Lite #13'
+  type: vless
+  server: windytrout.net
+  port: 8443
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  network: xhttp
+  tls: true
+  servername: windytrout.net
+  client-fingerprint: chrome
+- name: '🌀 CYBERPORTAL | White List Lite #42'
+  type: vless
+  server: czech.nnight.cfd
+  port: 443
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  network: xhttp
+  tls: true
+  servername: czech.nnight.cfd
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #53'
+  type: vless
+  server: ch-cdn.fius.dev
+  port: 443
+  uuid: 000187a2-924b-8be4-b475-485a4699c80d
+  network: xhttp
+  tls: true
+  servername: ch-cdn.fius.dev
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #50'
+  type: vless
+  server: white.underground.company
+  port: 443
+  uuid: d3c83ed8-6a91-4d6d-ab9b-3479d67de101
+  network: xhttp
+  tls: true
+  servername: white.underground.company
+  client-fingerprint: firefox
+- name: '🌀 CYBERPORTAL | White List Lite #80'
+  type: ss
+  server: 216.128.168.190
+  port: 8388
+  cipher: aes-256-gcm
+  password: owVdNnQcdPgthSyX
+- name: '🌀 CYBERPORTAL | White List Lite #40'
+  type: ss
+  server: 64.176.2.21
+  port: 8388
+  cipher: aes-256-gcm
+  password: xBStBEVqvGwHPocc
 proxy-groups:
 - name: VPN-UNIFIER
   type: url-test
   proxies:
-  - '🌀 CYBERPORTAL | TCP Pack #14'
-  - '🌀 CYBERPORTAL | White List Lite #17'
-  - '🌀 CYBERPORTAL | White List Lite #36'
-  - '🌀 CYBERPORTAL | White List Lite #40'
-  - '🌀 CYBERPORTAL | White List Lite #58'
+  - '🌀 CYBERPORTAL | White List Lite #44'
   - '🌀 CYBERPORTAL | TCP Pack | 🇫🇮 Финляндия #11'
-  - '🌀 CYBERPORTAL | White List Lite #11'
+  - '🌀 CYBERPORTAL | TCP Pack #14'
+  - '🌀 CYBERPORTAL | White List Lite #65'
+  - '🌀 CYBERPORTAL | White List Lite #15'
+  - '🌀 CYBERPORTAL | White List Lite #16'
+  - '🌀 CYBERPORTAL | White List Lite #45'
+  - '🌀 CYBERPORTAL | White List Lite #17'
+  - '🌀 CYBERPORTAL | White List Lite #41'
+  - '🌀 CYBERPORTAL | White List Lite #58'
+  - '🌀 CYBERPORTAL | White List Lite #70'
+  - '🌀 CYBERPORTAL | White List Lite #62'
   - '🌀 CYBERPORTAL | White List Lite #59'
-  - '🌀 CYBERPORTAL | White List Lite #53'
-  - '🌀 CYBERPORTAL | White List Lite #48'
-  - '🌀 CYBERPORTAL | White List Lite #8'
+  - 🇫🇷 France, Paris | [BL]
+  - 🇳🇱 The Netherlands, Haarlem | [BL]
   - 🇫🇮 Finland, Helsinki | [BL]
   - 🇫🇮 Finland, Helsinki | 🌐 | [BL]
   - 🇫🇷 France, Paris | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #6'
+  - 🇫🇷 France, Paris | [BL]
+  - 🇳🇱 The Netherlands, Haarlem | [BL]
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]
   - 🇫🇷 France, Paris | 🌐 | [BL]
   - 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 | [BL]
-  - 🇫🇷 France, Paris | [BL]
-  - 🇫🇷 France, Paris | [BL]
-  - 🇳🇱 The Netherlands, Haarlem | [BL]
-  - 🇳🇱 The Netherlands, Haarlem | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇸🇪 🇺🇸 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇸🇪 | [BL]
-  - 🇺🇸 United States, New York | [BL]
-  - 🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]
-  - 🇬🇧 United Kingdom | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #56'
+  - 🇺🇸 United States | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #47'
+  - '🌀 CYBERPORTAL | White List Lite #63'
+  - '🌀 CYBERPORTAL | White List Lite #35'
+  - 🇳🇱 The Netherlands, Roosendaal | [BL]
+  - 🇵🇱 Poland | [*CIDR]
+  - '🌀 CYBERPORTAL | White List Lite #78'
+  - 🇮🇹 Italy, Milan | [BL]
+  - 🇮🇹 Italy, Milan | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #51'
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🇬🇧 United Kingdom | 🌐 | [BL]
-  - 🇬🇧 United Kingdom, Erith | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #15'
+  - 🇮🇹 Italy, Milan | [BL]
+  - 🇮🇹 Italy, Milan | [BL]
+  - 🇮🇹 Italy, Milan | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇮🇹 Italy, Milan | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇮🇹 Italy, Milan | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇮🇹 Italy, Milan | [BL]
+  - 🇮🇹 Italy, Milan | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #48'
   - '🌀 CYBERPORTAL | White List Lite #49'
-  - 🇪🇪 Estonia [*CIDR]
-  - '🌀 CYBERPORTAL | White List Lite #14'
   - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
-  - 🇳🇱 The Netherlands, Amsterdam (Noord) | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #24'
+  - '🌀 CYBERPORTAL | White List Lite #37'
   - '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #20'
-  - 🇮🇹 Italy, Milan | [BL]
-  - 🇮🇹 Italy, Milan | [BL]
-  - 🇮🇹 Italy, Milan | [BL]
-  - 🇵🇱 Poland, Cianowice Duże | [BL]
-  - 🇵🇱 Poland, Cianowice Duże | [BL]
-  - 🇬🇧 United Kingdom, London | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - 🇬🇧 United Kingdom | 🌐 | [BL]
-  - 🇬🇧 United Kingdom | 🌐 | [BL]
-  - 🇬🇧 United Kingdom | 🌐 | [BL]
-  - 🇹🇷 Turkey, Istanbul | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #2'
-  - 🇦🇪 United Arab Emirates, Abu Dhabi | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #22'
+  - '🌀 CYBERPORTAL | White List Lite #74'
   - 🇷🇴 Romania, Bucharest | 🌐 | [BL]
-  - 🇳🇱 The Netherlands [*CIDR]
+  - 🌐 Anycast-IP | 🇦🇷 🇨🇦 🇩🇪 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #28'
+  - 🇲🇩 Moldova, Chisinau | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #26'
+  - '🌀 CYBERPORTAL | White List Lite #66'
+  - 🇲🇩 Moldova, Chisinau | 🌐 | [BL]
+  - 🇲🇩 Moldova, Chisinau | 🌐 | [BL]
+  - 🇧🇬 Bulgaria | [*CIDR] CDN
+  - '🌀 CYBERPORTAL | White List Lite #64'
+  - 🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #23'
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - 🇧🇬 Bulgaria | 🌐 [*CIDR] CDN
-  - 🇷🇺 Russia, Moscow | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #13'
-  - '🌀 CYBERPORTAL | White List Lite #41'
-  - 🇹🇷 Turkey, İncesu | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #38'
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - 🇰🇷 South Korea, Seoul (Toegye-ro) | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #12'
+  - '🌀 CYBERPORTAL | White List Lite #19'
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  - '🌀 CYBERPORTAL | White List Lite #39'
   - 🇭🇰 Hong Kong, Mong Kok | [BL]
-  - 🇪🇪 Estonia [*CIDR]
-  - 🇺🇸 United States
-  - 🇸🇬 Singapore, Singapore (Queenstown Estate) | [BL]
+  - 🇭🇰 Hong Kong, Wan Chai | [BL]
+  - 🇹🇷 Turkey, Fatih | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #60'
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
   - 🇨🇳 China, Jinrongjie (Xicheng District) | [BL]
+  - 🇺🇸 United States
   - 🇳🇱 Netherlands
-  - 🇳🇱 The Netherlands [*CIDR]
+  - 🇧🇬 Bulgaria | 🌐 [*CIDR] CDN
   - 🇩🇪 Germany
   - 🇫🇮 Finland
-  - 🇧🇬 Bulgaria | [*CIDR] CDN
   - 🇫🇷 France
   - 🇷🇺 Russia
-  - 🇩🇪LTE Germany
   - 🇬🇧 United Kingdom
   - 🇸🇪 Sweden
-  - 🇷🇺 LTE Russia
-  - 🇳🇱 LTE Netherlands
   - 🇸🇪 LTE Sweden
-  - 🇸🇬 Singapore, Singapore (Queenstown Estate) | [BL]
+  - 🇳🇱 LTE Netherlands
+  - 🇩🇪LTE Germany
+  - 🇷🇺 LTE Russia
   - 🇯🇵 Japan
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - 🇬🇧 United Kingdom | 🌐 | [BL]
-  - 🇬🇧 United Kingdom | 🌐 | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - 🇩🇰 Denmark, Rødding | [BL]
+  - 🇭🇰 Hong Kong, Hong Kong | [BL]
+  - 🇩🇪 Germany, Düsseldorf | [BL]
+  - 🇮🇩 Indonesia, Jakarta | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #10'
+  - 🇰🇷 South Korea, Seoul (Toegye-ro) | [BL]
+  - 🇫🇮 LTE Finland
+  - '🌀 CYBERPORTAL | White List Lite #13'
+  - '🌀 CYBERPORTAL | White List Lite #42'
+  - '🌀 CYBERPORTAL | White List Lite #53'
+  - '🌀 CYBERPORTAL | White List Lite #50'
+  - '🌀 CYBERPORTAL | White List Lite #80'
+  - '🌀 CYBERPORTAL | White List Lite #40'
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
