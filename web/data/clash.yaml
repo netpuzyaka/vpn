@@ -3,16 +3,6 @@ allow-lan: true
 mode: rule
 log-level: warning
 proxies:
-- name: '🌀 CYBERPORTAL | TCP Pack | 🇫🇮 Финляндия #11'
-  type: vless
-  server: 66.81.247.209
-  port: 8880
-  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
-  network: ws
-  ws-opts:
-    path: /cdn/assets/stream
-    headers:
-      Host: cnd.finland2.2.newwaycdn.com
 - name: '🌀 CYBERPORTAL | TCP Pack #14'
   type: vless
   server: 45.80.111.208
@@ -23,24 +13,40 @@ proxies:
     path: /cdn/assets/stream
     headers:
       Host: cnd.germany.1.bestcdnshare.com
-- name: '🌀 CYBERPORTAL | White List Lite #75'
+- name: '🌀 CYBERPORTAL | White List Lite #13'
   type: ss
-  server: 15.204.247.124
-  port: 2375
+  server: 15.204.247.244
+  port: 4444
   cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
+  password: pKEW8JPByTVTLtM
 - name: '🌀 CYBERPORTAL | White List Lite #56'
   type: ss
   server: 15.204.246.132
   port: 7307
   cipher: aes-256-gcm
   password: FoOiGlkAA9yPEGP
-- name: '🌀 CYBERPORTAL | White List Lite #58'
+- name: '🌀 CYBERPORTAL | White List Lite #75'
   type: ss
-  server: 15.204.246.107
-  port: 8888
+  server: 15.204.247.124
+  port: 2375
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  password: faBAoD54k87UJG7
+- name: '🌀 CYBERPORTAL | TCP Pack | 🇫🇮 Финляндия #11'
+  type: vless
+  server: 66.81.247.209
+  port: 8880
+  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
+  network: ws
+  ws-opts:
+    path: /cdn/assets/stream
+    headers:
+      Host: cnd.finland2.2.newwaycdn.com
+- name: '🌀 CYBERPORTAL | White List Lite #6'
+  type: ss
+  server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
 - name: '🌀 CYBERPORTAL | White List Lite #22'
   type: ss
   server: 15.204.247.175
@@ -53,18 +59,12 @@ proxies:
   port: 8882
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
-- name: '🌀 CYBERPORTAL | White List Lite #6'
+- name: '🌀 CYBERPORTAL | White List Lite #58'
   type: ss
-  server: 15.204.247.206
-  port: 4444
+  server: 15.204.246.107
+  port: 8888
   cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: '🌀 CYBERPORTAL | White List Lite #13'
-  type: ss
-  server: 15.204.247.244
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
+  password: Y6R9pAtvxxzmGC
 - name: '🌀 CYBERPORTAL | White List Lite #19'
   type: ss
   server: 138.199.42.68
@@ -77,7 +77,207 @@ proxies:
   port: 445
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
-- name: 🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]
+- name: 🇨🇦 Canada, Vancouver | [BL]
+  type: vless
+  server: 172.67.219.189
+  port: 443
+  uuid: d027b485-4e11-4485-9d0f-2ef1f1129eff
+  network: ws
+  tls: true
+  servername: cdn4.salamfox.ir
+  client-fingerprint: firefox
+  ws-opts:
+    path: /d027b485-4e11-4485-9d0f-2ef1f1129eff
+    headers:
+      Host: cdn4.salamfox.ir
+- name: 🇫🇮 Finland, Helsinki | 🌐 | [BL]
+  type: vless
+  server: 151.101.3.6
+  port: 443
+  uuid: a0144f3b-b7d4-47c3-b0bc-413194f001a8
+  network: xhttp
+  tls: true
+  servername: apps.apple.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France | 🌐 | [BL]
+  type: vless
+  server: 151.101.36.111
+  port: 443
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  network: xhttp
+  tls: true
+  servername: accounts.fastly.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France | 🌐 | [BL]
+  type: vless
+  server: 151.101.36.201
+  port: 443
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  network: xhttp
+  tls: true
+  servername: accounts.fastly.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France | 🌐 | [BL]
+  type: vless
+  server: 151.101.36.246
+  port: 443
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  network: xhttp
+  tls: true
+  servername: accounts.fastly.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France | 🌐 | [BL]
+  type: vless
+  server: 151.101.36.2
+  port: 443
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  network: xhttp
+  tls: true
+  servername: accounts.fastly.com
+  client-fingerprint: chrome
+- name: 🇫🇷 France | 🌐 | [BL]
+  type: vless
+  server: 151.101.36.88
+  port: 443
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  network: xhttp
+  tls: true
+  servername: accounts.fastly.com
+  client-fingerprint: edge
+- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
+  type: vless
+  server: 104.17.50.53
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
+  type: vless
+  server: 104.19.164.155
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: edge
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  network: ws
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: firefox
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇵🇱 Poland | 🌐 | [BL]
+  type: vless
+  server: 151.101.36.128
+  port: 443
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  network: xhttp
+  tls: true
+  servername: accounts.fastly.com
+  client-fingerprint: chrome
+- name: 🇵🇱 Poland | 🌐 | [BL]
+  type: vless
+  server: 151.101.36.227
+  port: 443
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  network: xhttp
+  tls: true
+  servername: accounts.fastly.com
+  client-fingerprint: chrome
+- name: 🇵🇱 Poland | 🌐 | [BL]
+  type: vless
+  server: 151.101.36.253
+  port: 443
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
+  network: xhttp
+  tls: true
+  servername: accounts.fastly.com
+  client-fingerprint: chrome
+- name: 🇺🇸 United States, Buffalo | [BL]
+  type: vless
+  server: 104.21.51.182
+  port: 443
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  network: ws
+  tls: true
+  servername: mao.kipfelmao.de5.net
+  client-fingerprint: ios
+  ws-opts:
+    path: /api/v1/guests/profiles/5de14443985f/
+    headers:
+      Host: mao.kipfelmao.de5.net
+- name: 🇺🇸 United States, North Bergen | [BL]
+  type: vless
+  server: 172.67.199.126
+  port: 2053
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  network: ws
+  tls: true
+  servername: fast.145779.xyz
+  client-fingerprint: firefox
+  ws-opts:
+    path: /ws-tesla
+    headers:
+      Host: fast.145779.xyz
+- name: 🇺🇸 United States, North Bergen | [BL]
+  type: vless
+  server: 104.21.58.37
+  port: 2053
+  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+  network: ws
+  tls: true
+  servername: fast.145779.xyz
+  client-fingerprint: chrome
+  ws-opts:
+    path: /ws-tesla
+    headers:
+      Host: fast.145779.xyz
+- name: 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [BL]
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
+  network: ws
+  tls: true
+  servername: web-app-nr6wpa.app-tp57xz.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-nr6wpa.app-tp57xz.workers.dev
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  type: vmess
+  server: 172.66.203.67
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  client-fingerprint: chrome
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
   type: vmess
   server: 162.159.128.17
   port: 443
@@ -86,7 +286,6 @@ proxies:
   cipher: auto
   network: ws
   tls: true
-  servername: v2ray.ryin.vip
   ws-opts:
     path: /ryinsocksv2board
     headers:
@@ -105,7 +304,22 @@ proxies:
     path: /ws?ed=2048
 - name: 🇺🇸 United States, Chicago | [BL]
   type: vmess
-  server: 172.66.203.67
+  server: 172.64.229.21
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  client-fingerprint: chrome
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🇺🇸 United States, Chicago | [BL]
+  type: vmess
+  server: 104.21.7.133
   port: 443
   uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
@@ -116,6 +330,60 @@ proxies:
     path: /ws?ed=2048
     headers:
       Host: vmess.lbw666.dpdns.org
+- name: 🇺🇸 United States, Chicago | [BL]
+  type: vmess
+  server: 172.66.0.1
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  ws-opts:
+    path: /ws
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]
+  type: vmess
+  server: 104.17.136.198
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  client-fingerprint: chrome
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]
+  type: vmess
+  server: 104.27.0.1
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]
+  type: vmess
+  server: 104.18.63.16
+  port: 443
+  uuid: c08d2444-cc3c-43ad-9a41-f5ea60f99293
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: wonbill.1565995.xyz
+  ws-opts:
+    path: /wonbill
+    headers:
+      Host: wonbill.1565995.xyz
 - name: 🇺🇸 United States, St Louis (Downtown) | [BL]
   type: vmess
   server: 104.21.57.84
@@ -152,6 +420,8 @@ proxies:
   servername: v2ray1.dozapp.xyz
   ws-opts:
     path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
 - name: 🇺🇸 United States, St Louis (Downtown) | [BL]
   type: vmess
   server: 104.18.32.47
@@ -223,26 +493,12 @@ proxies:
   cipher: auto
   network: ws
   tls: true
+  servername: v2ray1.dozapp.xyz
   ws-opts:
     path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
 - name: 🌐 Anycast-IP | 🇯🇵 | [BL]
   type: vmess
-  server: 162.159.130.234
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]
-  type: vmess
-  server: 104.21.50.177
+  server: 104.21.0.1
   port: 2083
   uuid: ac251237-576f-40c8-a543-554960c958b1
   alterId: 0
@@ -254,20 +510,6 @@ proxies:
     path: /or3
     headers:
       Host: or3.sfacg.uk
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]
-  type: vmess
-  server: 162.159.135.234
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: cdn.sfacg.uk
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
   type: vless
   server: 104.21.58.37
@@ -276,7 +518,7 @@ proxies:
   network: ws
   tls: true
   servername: fast.145779.xyz
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   ws-opts:
     path: /ws-tesla
     headers:
@@ -285,485 +527,50 @@ proxies:
   type: vless
   server: 172.67.199.126
   port: 2053
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  network: ws
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: vless
-  server: 172.67.219.189
-  port: 443
-  uuid: d027b485-4e11-4485-9d0f-2ef1f1129eff
-  network: ws
-  tls: true
-  servername: cdn4.salamfox.ir
-  client-fingerprint: safari
-  ws-opts:
-    path: /d027b485-4e11-4485-9d0f-2ef1f1129eff
-    headers:
-      Host: cdn4.salamfox.ir
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: vless
-  server: 104.21.58.37
-  port: 2053
   uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
   network: ws
   tls: true
   servername: fast.145779.xyz
-  client-fingerprint: edge
+  client-fingerprint: safari
   ws-opts:
     path: '%2Fws-tesla'
     headers:
       Host: fast.145779.xyz
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+- name: 🇹🇭 Thailand, Chana | [BL]
   type: vless
-  server: 172.67.199.126
-  port: 2053
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+  server: 54.192.55.98
+  port: 80
+  uuid: 0c85001b-ad48-4f43-bdc9-b2b5c626a26e
   network: ws
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: ios
   ws-opts:
-    path: /ws-tesla
+    path: /logout
     headers:
-      Host: fast.145779.xyz
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+      Host: d36lt9hzl2ug3d.cloudfront.net:assets.opensignal.com
+- name: 🇫🇷 France | 🌐 | [BL]
   type: vless
-  server: 170.114.46.6
-  port: 2096
-  uuid: efd11a89-7506-44ce-95b6-6654859f155b
-  network: ws
-  tls: true
-  servername: pcloud.z-tas.com
-  ws-opts:
-    path: /
-    headers:
-      Host: pcloud.z-tas.com
-- name: 🇯🇵 Japan, Inzai (Otsuka) | [BL]
-  type: vless
-  server: 104.16.0.1
+  server: 3.169.218.0
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
   network: ws
   tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: qq
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  type: vless
-  server: 104.16.10.72
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  type: vless
-  server: 104.18.42.98
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: android
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: edge
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  type: vless
-  server: 104.24.0.1
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: firefox
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇳🇱 The Netherlands | 🌐 | [BL]
-  type: vless
-  server: 104.18.151.231
-  port: 443
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-  network: ws
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: shiny-base-4d9a.mifolan4697928.workers.dev
-- name: 🇺🇸 United States, Buffalo | [BL]
-  type: vless
-  server: 104.21.51.182
-  port: 443
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
-  network: ws
-  tls: true
-  servername: mao.kipfelmao.de5.net
-  client-fingerprint: android
-  ws-opts:
-    path: /api/v1/guests/profiles/5de14443985f/
-    headers:
-      Host: mao.kipfelmao.de5.net
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.18.21.69
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.18.32.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.18.34.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.18.37.228
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.18.38.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.18.39.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.18.40.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.21.41.243
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
+  servername: d1aedflfr97jes.cloudfront.net
   client-fingerprint: chrome
   ws-opts:
     path: /
     headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
+      Host: d1aedflfr97jes.cloudfront.net
+- name: 🌐 Anycast-IP | 🇵🇱 [*CIDR]
   type: vless
-  server: 104.21.60.73
+  server: 185.178.208.167
   port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  uuid: 7a321b5c-521a-0001-a902-32716218a804
   network: ws
   tls: true
-  servername: fs.qicai99.com
+  servername: api.14887277.xyz
   ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /session
     headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.24.196.20
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.24.197.20
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.26.13.54
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 162.159.198.1
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 172.64.150.28
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 172.64.152.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 172.64.153.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 172.64.155.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /DailyConfigs--DailyConfigs--DailyConfigs
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 172.64.158.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 172.64.159.33
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 188.114.99.137
-  port: 8443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2F'
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 172.67.167.207
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 172.67.66.177
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 172.67.74.177
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
-  tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: 104.20.63.254
-  port: 443
-  uuid: cd3d8e5c-794f-4c34-8222-59d3e99e35fe
-  network: ws
-  tls: true
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: joeypg.ezbiz.dynv6.net
-- name: 🌐 Anycast-IP | 🇱🇰 🇸🇬 | [BL]
-  type: vless
-  server: 170.114.45.6
-  port: 2096
-  uuid: efd11a89-7506-44ce-95b6-6654859f155b
-  network: ws
-  tls: true
-  servername: pcloud.z-tas.com
-  ws-opts:
-    headers:
-      Host: pcloud.z-tas.com
+      Host: api.14887277.xyz
 - name: '🌀 CYBERPORTAL | White List Lite #29'
   type: vless
   server: 185.178.208.140
@@ -795,21 +602,81 @@ proxies:
   client-fingerprint: firefox
   ws-opts:
     path: /gateway/v1/ws/74c4d5e82a8e50ccf09fc628c17dc9be
-- name: 🌐 Anycast-IP | 🇬🇧 🇷🇴 [*CIDR]
+- name: 🌐 Anycast-IP | 🇸🇪 [*CIDR]
   type: vless
-  server: 185.178.208.140
+  server: 185.178.208.167
   port: 443
-  uuid: 5be144a2-75d3-476a-badb-fa57336617e5
-  network: xhttp
+  uuid: 777e22fe-1cc0-0001-805e-b7efd683b309
+  network: ws
   tls: true
-  servername: kfx7q.bakarova-top.ru
-  client-fingerprint: edge
-- name: 🇺🇸 United States | 🌐 | [BL]
-  type: ss
-  server: 216.23.124.158
-  port: 8443
-  cipher: 2022-blake3-aes-128-gcm
-  password: cwC9f/Q0pc9j5A0d4gileg==
+  servername: api.14887277.xyz
+  ws-opts:
+    path: /session
+    headers:
+      Host: api.14887277.xyz
+- name: 🌐 Anycast-IP | 🇮🇷 [*CIDR]
+  type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: 4eebdec5-08eb-4772-a0e6-35fec4c91cb0
+  network: ws
+  tls: true
+  servername: uwugirl.dev
+  client-fingerprint: firefox
+  ws-opts:
+    path: /player/collect/9c8514f9552d/
+    headers:
+      Host: speakpro.lol
+- name: 🌐 Anycast-IP | 🇳🇱 [*CIDR]
+  type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: d39eefdc-8e5a-0001-8bde-b333b1f03519
+  network: ws
+  tls: true
+  servername: api.14887277.xyz
+  ws-opts:
+    path: /session
+    headers:
+      Host: api.14887277.xyz
+- name: 🌐 Anycast-IP | 🇺🇸 [*CIDR]
+  type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  network: ws
+  tls: true
+  servername: speakpro.lol
+  client-fingerprint: firefox
+  ws-opts:
+    path: /useraction/metrics/4c907dfe0305/
+    headers:
+      Host: speakpro.lol
+- name: 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]
+  type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: b525921f-1902-0001-9b18-34aa847f5b57
+  network: ws
+  tls: true
+  servername: api.14887277.xyz
+  ws-opts:
+    path: /session
+    headers:
+      Host: api.14887277.xyz
+- name: 🌐 Anycast-IP | 🇳🇱 [*CIDR]
+  type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: fa5aa882-6edf-0001-baa0-add2cbc01e23
+  network: ws
+  tls: true
+  servername: api.14887277.xyz
+  client-fingerprint: ios
+  ws-opts:
+    path: /session
+    headers:
+      Host: api.14887277.xyz
 - name: 🇩🇪 Germany, Nuremberg | [BL]
   type: vless
   server: 3.174.189.0
@@ -818,62 +685,25 @@ proxies:
   network: xhttp
   tls: true
   servername: d1b9pmaut2v26v.cloudfront.net
-  client-fingerprint: chrome
-- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [BL]
+  client-fingerprint: safari
+- name: '🌀 CYBERPORTAL | White List Lite #1'
   type: vless
-  server: 200.102.183.243
-  port: 443
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
-  network: grpc
+  server: 46.243.233.170
+  port: 8443
+  uuid: 7dd69047-047e-422e-a2ba-ed773c34fd1a
+  network: xhttp
   tls: true
-  servername: f2hbck5x3c0g8pl7.cdn.cachefleet.com
+  servername: flatcrest.net
+  client-fingerprint: safari
+- name: '🌀 CYBERPORTAL | White List Lite #17'
+  type: vless
+  server: 95.129.234.113
+  port: 8443
+  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+  network: xhttp
+  tls: true
+  servername: tansy-wharf.cdn.cachefleet.com
   client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: qi8ws15c7jv5q2fa
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: ss
-  server: 47.91.74.232
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-- name: 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  type: vless
-  server: 3.168.218.14
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  network: ws
-  tls: true
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  ws-opts:
-    path: /
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
-- name: 3.168.218.8:443
-  type: vless
-  server: 3.168.218.8
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  network: ws
-  tls: true
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
-- name: 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  type: vless
-  server: 3.168.218.9
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  network: ws
-  tls: true
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
 - name: '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #20'
   type: vless
   server: 46.254.17.58
@@ -890,76 +720,18 @@ proxies:
   network: ws
   tls: true
   servername: d1aedflfr97jes.cloudfront.net
-  client-fingerprint: chrome
   ws-opts:
     path: /
     headers:
       Host: d1aedflfr97jes.cloudfront.net
-- name: 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
+- name: '🌀 CYBERPORTAL | White List Lite #36'
   type: vless
-  server: 3.168.217.188
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  network: ws
-  tls: true
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
-- name: 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  type: vless
-  server: 3.168.218.7
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  network: ws
-  tls: true
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
-- name: 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  type: vless
-  server: 3.168.217.190
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  network: ws
-  tls: true
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  ws-opts:
-    path: /
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
-- name: 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  type: vless
-  server: 3.168.218.6
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  network: ws
-  tls: true
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  client-fingerprint: edge
-  ws-opts:
-    path: /
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
-- name: '🌀 CYBERPORTAL | White List Lite #71'
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
-- name: '🌀 CYBERPORTAL | White List Lite #41'
-  type: vless
-  server: 5.178.85.132
+  server: 46.254.18.60
   port: 443
   uuid: 29a8a793-dc05-42a6-a657-6ae0ca214038
   network: xhttp
   tls: true
-  servername: selbs3.luxusvpn.app
+  servername: ihcbs1.luxusvpn.app
   client-fingerprint: firefox
 - name: '🌀 CYBERPORTAL | White List Lite #46'
   type: vless
@@ -970,33 +742,21 @@ proxies:
   tls: true
   servername: cdnyan.floatingcars.net
   client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #48'
+- name: '🌀 CYBERPORTAL | White List Lite #71'
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
+- name: '🌀 CYBERPORTAL | White List Lite #70'
   type: vless
-  server: 178.176.128.203
-  port: 443
-  uuid: 29a8a793-dc05-42a6-a657-6ae0ca214038
+  server: 46.243.233.170
+  port: 2053
+  uuid: 7dd69047-047e-422e-a2ba-ed773c34fd1a
   network: xhttp
   tls: true
-  servername: vkcdn1.floatingcars.net
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #36'
-  type: vless
-  server: 46.254.18.60
-  port: 443
-  uuid: 29a8a793-dc05-42a6-a657-6ae0ca214038
-  network: xhttp
-  tls: true
-  servername: ihcbs1.luxusvpn.app
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #23'
-  type: vless
-  server: 95.129.234.108
-  port: 8443
-  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
-  network: xhttp
-  tls: true
-  servername: hazel-beacon.cdn.cachefleet.com
-  client-fingerprint: firefox
+  servername: flatcrest.net
+  client-fingerprint: safari
 - name: '🌀 CYBERPORTAL | White List Lite #67'
   type: vless
   server: 157.22.190.220
@@ -1010,59 +770,42 @@ proxies:
     path: /
     headers:
       Host: 666-7sf.pages.dev
-- name: '🌀 CYBERPORTAL | White List Lite #17'
-  type: vless
-  server: 95.129.234.113
-  port: 8443
-  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
-  network: xhttp
-  tls: true
-  servername: tansy-wharf.cdn.cachefleet.com
-  client-fingerprint: firefox
-- name: '🌀 CYBERPORTAL | White List Lite #51'
-  type: vless
-  server: 188.72.103.4
+- name: 🇯🇵 Japan, Ueda | [BL]
+  type: vmess
+  server: JP032008.ssgreen.org
   port: 443
-  uuid: 00a560f4-035e-48eb-b698-6f6be0b5e477
-  network: xhttp
+  uuid: 1525e515-443e-4afc-a683-3acf19e8e470
+  alterId: 0
+  cipher: auto
+  network: ws
   tls: true
-  servername: decdn2.bota7.com
-  client-fingerprint: chrome
-- name: 🇳🇱 The Netherlands, Eygelshoven | [BL]
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032008.ssgreen.org
+- name: 🇳🇱 The Netherlands [*CIDR]
   type: vless
-  server: 45.10.217.5
-  port: 6443
-  uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+  server: 138.124.254.116
+  port: 2053
+  uuid: 6392cd80-967f-0009-a4b2-41502f5c68b6
   network: xhttp
   tls: true
   reality-opts:
-    public-key: RBQhVV7u-QBkQL79vHRE2tQEeR1SA8CJ9zI9i99XA24
-    short-id: 3bcbfe3856680516
-  servername: nl.krabvpn.pro
-  client-fingerprint: firefox
-- name: 🇳🇱 The Netherlands [*CIDR] VK
+    public-key: iKYXOJoOvOk71UnjIzyEj502_nBalSNLJRWjKTf1fQc
+    short-id: 8096b8ec0b504d8f
+  servername: i9opm01r3dlmnajh.customer.velacdn.com
+  client-fingerprint: edge
+- name: 🇵🇱 Poland [*CIDR] CDN
   type: vless
-  server: 185.86.147.175
-  port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  network: ws
+  server: 46.243.233.165
+  port: 59715
+  uuid: 3ecbd833-40d8-4ddb-b80b-a7c4628ec7e5
+  network: grpc
   tls: true
-  servername: bhjolq0d0l.flowersgood.top
-  client-fingerprint: chrome
-  ws-opts:
-    path: /service/telemetry/045d381f1166/
-    headers:
-      Host: bhjolq0d0l.flowersgood.top
-- name: 🇳🇱 The Netherlands [*CIDR]
-  type: vless
-  server: 46.29.161.126
-  port: 8080
-  uuid: FastKey_632672
-  network: ws
-  ws-opts:
-    path: /api
-    headers:
-      Host: google.com
+  servername: wn-pl4.static-s3.org
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: wn-adaptcloud
 - name: '🌀 CYBERPORTAL | White List Lite #3'
   type: vless
   server: 188.72.103.3
@@ -1072,26 +815,156 @@ proxies:
   tls: true
   servername: cdnapi.streamru15.net
   client-fingerprint: chrome
-- name: 🇫🇮 Finland, Helsinki | [BL]
-  type: trojan
-  server: 5.59.204.26
-  port: 21443
-  password: X00HagvwL8gQXNDAnsxsN8dv1_VdneEo
-  network: ws
-  servername: fi1.nebulaguard.org
-  ws-opts:
-    path: /trojan/
-- name: 🇩🇪 Germany, Frankfurt am Main | [BL]
+- name: 🇧🇪 Belgium | 🌐 [*CIDR]
   type: vless
-  server: 45.10.217.5
-  port: 8443
-  uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+  server: 185.22.155.97
+  port: 8080
+  uuid: FastKey_331443
+  network: grpc
+  grpc-opts:
+    grpc-service-name: api
+- name: 🇵🇱 Poland [*CIDR]
+  type: vless
+  server: 31.76.34.142
+  port: 2053
+  uuid: 6392cd80-967f-000c-a4b2-41502f5c68b6
   network: xhttp
   tls: true
   reality-opts:
-    public-key: 1SldfhWqqF_Rg9QlPKQqufcHi5GhkxwcEV5HGyOy4Qg
-    short-id: 64ad711102f56ca2
-  servername: de.krabvpn.pro
+    public-key: Zobd5crq6DzOZQjWiR0nGzyX0QU5zLNqL4VtSqwiyUo
+    short-id: 966eadda72000d7c
+  servername: 30916121.client.sushihost.su
+  client-fingerprint: edge
+- name: 🇩🇪 Germany [*CIDR]
+  type: vless
+  server: 31.76.34.142
+  port: 2053
+  uuid: 6392cd80-967f-000f-a4b2-41502f5c68b6
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: Zobd5crq6DzOZQjWiR0nGzyX0QU5zLNqL4VtSqwiyUo
+    short-id: 966eadda72000d7c
+  servername: 30916121.client.sushihost.su
+  client-fingerprint: edge
+- name: '🌀 CYBERPORTAL | White List Lite #48'
+  type: vless
+  server: 178.176.128.203
+  port: 443
+  uuid: 29a8a793-dc05-42a6-a657-6ae0ca214038
+  network: xhttp
+  tls: true
+  servername: vkcdn1.floatingcars.net
+  client-fingerprint: firefox
+- name: 🇩🇪 Germany | 🌐 [*CIDR]
+  type: vless
+  server: 129.101.106.219
+  port: 443
+  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
+  network: grpc
+  tls: true
+  servername: notebook.filnex.baby
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: glush.de6.v1
+- name: 🇩🇪 Germany | 🌐 [*CIDR]
+  type: vless
+  server: 91.198.220.117
+  port: 443
+  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
+  network: grpc
+  tls: true
+  servername: linen.gerqix.online
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: glush.de1.v1
+- name: 🇫🇮 Finland | 🌐 [*CIDR]
+  type: vless
+  server: 31.76.34.142
+  port: 2053
+  uuid: 6392cd80-967f-000b-a4b2-41502f5c68b6
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: Zobd5crq6DzOZQjWiR0nGzyX0QU5zLNqL4VtSqwiyUo
+    short-id: 966eadda72000d7c
+  servername: 30916121.client.sushihost.su
+  client-fingerprint: firefox
+- name: 🇵🇱 Poland [*CIDR]
+  type: vless
+  server: 138.124.254.116
+  port: 2053
+  uuid: 6392cd80-967f-000a-a4b2-41502f5c68b6
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: iKYXOJoOvOk71UnjIzyEj502_nBalSNLJRWjKTf1fQc
+    short-id: 8096b8ec0b504d8f
+  servername: i9opm01r3dlmnajh.customer.velacdn.com
+  client-fingerprint: edge
+- name: 🇩🇪 Germany | 🌐 [*CIDR]
+  type: vless
+  server: 72.56.233.150
+  port: 443
+  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
+  network: ws
+  tls: true
+  servername: silk.filnex.baby
+  client-fingerprint: firefox
+  ws-opts:
+    path: /api/de5/stream
+    headers:
+      Host: silk.filnex.baby
+- name: '🌀 CYBERPORTAL | White List Lite #51'
+  type: vless
+  server: 188.72.103.4
+  port: 443
+  uuid: 00a560f4-035e-48eb-b698-6f6be0b5e477
+  network: xhttp
+  tls: true
+  servername: decdn2.bota7.com
+  client-fingerprint: chrome
+- name: 🇹🇷 Turkey [*CIDR]
+  type: vless
+  server: 31.76.34.142
+  port: 2053
+  uuid: 6392cd80-967f-000e-a4b2-41502f5c68b6
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: Zobd5crq6DzOZQjWiR0nGzyX0QU5zLNqL4VtSqwiyUo
+    short-id: 966eadda72000d7c
+  servername: 30916121.client.sushihost.su
+  client-fingerprint: firefox
+- name: 🇳🇱 The Netherlands [*CIDR]
+  type: vless
+  server: 31.76.34.142
+  port: 2053
+  uuid: 6392cd80-967f-000d-a4b2-41502f5c68b6
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: Zobd5crq6DzOZQjWiR0nGzyX0QU5zLNqL4VtSqwiyUo
+    short-id: 966eadda72000d7c
+  servername: 30916121.client.sushihost.su
+  client-fingerprint: edge
+- name: 🇯🇵 Japan, Shibuya City | [BL]
+  type: hysteria2
+  server: 167.17.179.175
+  port: 443
+  password: SW_COSMOS:sYcUMf7G9g67Zuho
+  sni: spacearea.onthewifi.com
+- name: 🇮🇱 Israel [*CIDR]
+  type: vless
+  server: 83.171.241.166
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw
+    short-id: 7b2b1a14a6e0630d
+  servername: fc82dfx.nl8.h1clayd.click
   client-fingerprint: firefox
 - name: '🌀 CYBERPORTAL | White List Lite #9'
   type: ss
@@ -1105,74 +978,61 @@ proxies:
   port: 80
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
-- name: 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  type: vless
-  server: 3.169.9.125
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  network: ws
-  tls: true
-  servername: d2ex4nxd2e01ub.cloudfront.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2ex4nxd2e01ub.cloudfront.net
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US032017.ssgreen.org
-  port: 443
-  uuid: b97d1137-1769-412a-aed9-ded78af9a325
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US032017.ssgreen.org
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US032022.ssgreen.org
-  port: 443
-  uuid: 8d097009-98d2-41c3-8ca5-0472f111bfda
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US032022.ssgreen.org
 - name: 🇮🇱 Israel [*CIDR]
   type: vless
-  server: 83.171.241.146
+  server: 83.171.241.192
   port: 443
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   network: xhttp
   tls: true
   reality-opts:
-    public-key: dtO7khFLUkpFDQOtNzo4Th4hJKLoPSY2VtD_9k4Hgiw
-    short-id: 7b2b1a14a6e0630d
-  servername: fc82dfx.nl8.h1clayd.click
-- name: 🌐 Anycast-IP | 🇨🇦 🇮🇳 🇮🇶 🇰🇷 | [BL]
+    public-key: jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0
+    short-id: f72d4a2c7cbbacb1
+  servername: 80cb66x.nl13.h1clayd.click
+  client-fingerprint: firefox
+- name: 🇮🇱 Israel [*CIDR]
   type: vless
-  server: 5.253.30.226
+  server: 83.171.241.180
   port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  network: ws
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  network: xhttp
   tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US032012.westmgreen.com
+  reality-opts:
+    public-key: jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0
+    short-id: f72d4a2c7cbbacb1
+  servername: 80cb66x.nl17.h1clayd.click
+  client-fingerprint: firefox
+- name: 🇪🇸 Spain [*CIDR]
+  type: vless
+  server: 83.171.241.181
   port: 443
-  uuid: 6a1c6e2d-56fc-4eb8-98f9-98fdb0436c73
+  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: N4cPAkl5hvo7SchiN_WHEwLBLICAXGtq85BP7S_6ORI
+    short-id: dfd8d9d06bd8ce60
+  servername: 3b3377x.es5.h1clayd.click
+  client-fingerprint: firefox
+- name: 🇪🇸 Spain [*CIDR]
+  type: vless
+  server: 83.171.241.132
+  port: 443
+  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw
+    short-id: 2437eeeb791b6d80
+  servername: 49930ag.es8.h1clayd.click
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 61c20be08f4f
+- name: 🇯🇵 Japan, Ueda | [BL]
+  type: vmess
+  server: JP032011.ssgreen.org
+  port: 443
+  uuid: c6489f2c-a0cc-40d7-9328-469c943ba360
   alterId: 0
   cipher: auto
   network: ws
@@ -1180,12 +1040,130 @@ proxies:
   ws-opts:
     path: /wes
     headers:
-      Host: US032012.westmgreen.com
+      Host: JP032011.ssgreen.org
+- name: 🇯🇵 Japan, Ueda | [BL]
+  type: vmess
+  server: JP032001.ssgreen.org
+  port: 443
+  uuid: 45e374bd-942e-4b6a-992e-d770fbacda4c
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032001.ssgreen.org
+- name: 🇯🇵 Japan, Ueda | [BL]
+  type: vmess
+  server: JP032006.ssgreen.org
+  port: 443
+  uuid: 62523ee3-f3a4-4cf3-8e86-31ba2f114fc5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032006.ssgreen.org
+- name: 🇯🇵 Japan, Ueda | [BL]
+  type: vmess
+  server: JP032006.ssgreen.org
+  port: 443
+  uuid: a7c841c9-8875-434e-8a76-e1a5a6f59026
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032006.ssgreen.org
+- name: 🇯🇵 Japan, Ueda | [BL]
+  type: vmess
+  server: JP032005.ssgreen.org
+  port: 443
+  uuid: 20a43ba0-6066-496e-9d42-e8fe846e9f51
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: JP032005.ssgreen.org
+- name: 🇺🇸 United States, Hillsboro | [BL]
+  type: vmess
+  server: US032018.ssgreen.org
+  port: 443
+  uuid: 5aa06e43-d249-462f-a620-7efdb348056e
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032018.ssgreen.org
+- name: 🇺🇸 United States, Hillsboro | [BL]
+  type: vmess
+  server: US032013.ssgreen.org
+  port: 443
+  uuid: 4b6411e3-914d-4d6c-b486-58b1b88f5c5f
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: US032013.ssgreen.org
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032013.ssgreen.org
+- name: 🇺🇸 United States, Hillsboro | [BL]
+  type: vmess
+  server: US032013.ssgreen.org
+  port: 443
+  uuid: 73c3ee4c-67d2-476b-8774-ce63ca19b084
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032013.ssgreen.org
+- name: 🇺🇸 United States, Hillsboro | [BL]
+  type: vmess
+  server: US032020.ssgreen.org
+  port: 443
+  uuid: 6b1f3c43-01fd-4d93-a18f-b52d5a4b0419
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032020.ssgreen.org
+- name: 🇺🇸 United States, Hillsboro | [BL]
+  type: vmess
+  server: US032019.ssgreen.org
+  port: 443
+  uuid: 4f5b48f4-66fc-4dab-afd5-4461b7a92973
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032019.ssgreen.org
 - name: 🇯🇵 Japan, Ueda | [BL]
   type: vmess
   server: JP032010.ssgreen.org
   port: 443
-  uuid: 3d7189ba-1efa-41eb-b7a5-793af4d2d728
+  uuid: 02992bef-5d91-4175-9d2e-233f5c17151f
   alterId: 0
   cipher: auto
   network: ws
@@ -1196,9 +1174,9 @@ proxies:
       Host: JP032010.ssgreen.org
 - name: 🇯🇵 Japan, Ueda | [BL]
   type: vmess
-  server: JP032004.ssgreen.org
+  server: JP032009.ssgreen.org
   port: 443
-  uuid: 01258924-ee53-495e-8adb-36303844d330
+  uuid: 3734800b-3191-470b-ac36-86b18e3a826e
   alterId: 0
   cipher: auto
   network: ws
@@ -1206,77 +1184,25 @@ proxies:
   ws-opts:
     path: /wes
     headers:
-      Host: JP032004.ssgreen.org
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US032014.ssgreen.org
-  port: 443
-  uuid: e14d1005-1813-4e52-bd11-3b45f52bb892
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US032014.ssgreen.org
-- name: 🇺🇸 United States, Chicago | 🌐 | [BL]
-  type: vmess
-  server: cf.0sm.com
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 United States, Chicago | [BL]
-  type: vmess
-  server: cf.090227.xyz
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US032023.ssgreen.org
-  port: 443
-  uuid: dcf58754-8f3b-4249-847c-aede792f6110
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US032023.ssgreen.org
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US122206.ssgreen.org
-  port: 443
-  uuid: 874ed329-bb23-4cef-88dc-6c4d67bee89d
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US122206.ssgreen.org
+      Host: JP032009.ssgreen.org
 - name: 🇺🇸 United States, Hillsboro | [BL]
   type: vmess
   server: US122208.ssgreen.org
   port: 443
-  uuid: 2ead383b-c5f4-4c1e-9ee6-8d733ca17c4e
+  uuid: 8d89a6d0-6fab-4bd8-87e9-5d00de6af7f8
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122208.ssgreen.org
+- name: 🇺🇸 United States, Hillsboro | [BL]
+  type: vmess
+  server: US122208.ssgreen.org
+  port: 443
+  uuid: 7cd664c5-3738-4638-a0bd-b3baaad0fb27
   alterId: 0
   cipher: auto
   network: ws
@@ -1294,124 +1220,16 @@ proxies:
   cipher: auto
   network: ws
   tls: true
+  servername: v2ray1.dozapp.xyz
   ws-opts:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US122201.ssgreen.org
-  port: 443
-  uuid: 7a8f7391-1711-4fcc-b29b-562a00f357f3
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US122201.ssgreen.org
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US032019.ssgreen.org
-  port: 443
-  uuid: 52b039aa-83a8-4745-a83c-9c18355cdb35
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US032019.ssgreen.org
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US032021.ssgreen.org
-  port: 443
-  uuid: 6d26e5cf-b816-4b3c-8dcd-5771c96e6850
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US032021.ssgreen.org
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]
-  type: vmess
-  server: or3.sfacg.uk
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: cdn.sfacg.uk
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: vless
-  server: fast.145779.xyz
-  port: 2053
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  network: ws
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: /ws-tesla
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: vless
-  server: fast.145779.xyz
-  port: 2053
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  network: ws
-  tls: true
-  servername: fast.145779.xyz
-  ws-opts:
-    path: /ws-tesla
-- name: 🇩🇪 Germany, Frankfurt am Main (Bergen-Enkheim) | [BL]
-  type: vless
-  server: check-host.net
-  port: 2053
-  uuid: d133dd1c-3084-46c3-ba6e-aa3597c43cc1
-  network: xhttp
-  tls: true
-  servername: n8.hyby.ir
-  client-fingerprint: chrome
-- name: 🇺🇸 United States, Reston | [BL]
-  type: vmess
-  server: US122202.ssgreen.org
-  port: 443
-  uuid: 0f0385a9-69b2-4cbf-8e7f-333a423f889a
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US122202.ssgreen.org
-- name: 🇺🇸 United States, Hillsboro | [BL]
-  type: vmess
-  server: US122205.ssgreen.org
-  port: 443
-  uuid: 4cdd2672-839d-4b10-8c37-ca2b57956d86
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /wes
-    headers:
-      Host: US122205.ssgreen.org
 - name: 🇺🇸 United States, Reston | [BL]
   type: vmess
   server: US122209.ssgreen.org
   port: 443
-  uuid: e9111db7-b122-4eab-988c-548d85943fc1
+  uuid: 1e96a7fa-94e5-45da-aec6-7c811a846734
   alterId: 0
   cipher: auto
   network: ws
@@ -1420,11 +1238,47 @@ proxies:
     path: /wes
     headers:
       Host: US122209.ssgreen.org
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  type: vless
+  server: fast.145779.xyz
+  port: 2053
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  network: ws
+  tls: true
+  servername: fast.145779.xyz
+  client-fingerprint: qq
+  ws-opts:
+    path: '%2Fws-tesla'
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  type: vless
+  server: fast.145779.xyz
+  port: 2053
+  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+  network: ws
+  tls: true
+  servername: fast.145779.xyz
+  client-fingerprint: firefox
+  ws-opts:
+    path: /ws-tesla
+    headers:
+      Host: fast.145779.xyz
+- name: 🇦🇺 Australia, Sydney | [BL]
+  type: vless
+  server: ujp.xn--ghqu5fm27b67w.com
+  port: 443
+  uuid: debafe5b-6760-4b00-b0b2-ee30cbf769f0
+  network: ws
+  tls: true
+  servername: portland-wins-robbie-skirt.trycloudflare.com
+  ws-opts:
+    path: /e0843c8ad581
+    headers:
+      Host: portland-wins-robbie-skirt.trycloudflare.com
 - name: 🇺🇸 United States, Reston | [BL]
   type: vmess
   server: US032024.ssgreen.org
   port: 443
-  uuid: 8bef58c1-41b4-49a8-a8d2-0591efaeba7e
+  uuid: 550d45bf-00f5-4212-8024-3156b2faf2d0
   alterId: 0
   cipher: auto
   network: ws
@@ -1433,24 +1287,84 @@ proxies:
     path: /wes
     headers:
       Host: US032024.ssgreen.org
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: fs.qicai99.com
+- name: 🇺🇸 United States, Chicago | [BL]
+  type: vmess
+  server: cf.090227.xyz
   port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   network: ws
   tls: true
-- name: 🌐 Anycast-IP | 🇧🇪 🇺🇸 | [BL]
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🇩🇪 Germany, Nuremberg | 🌐 | [BL]
   type: vless
-  server: hk1t.wawojk.dpdns.org
+  server: mali.www-fifaweb.com
   port: 443
-  uuid: 5d967efa-702c-4cde-9e79-29386c8012e5
+  uuid: bf5e6b69-d2a9-bb8f-f091-2e2b1d81ca8c
   network: ws
   tls: true
-  servername: hk1t.wawojk.dpdns.org
+  servername: odincdforge.arka5tech.ir
   client-fingerprint: chrome
   ws-opts:
-    path: /hk1-ws-1f8915c8964a
+    path: /odin-ssl/
+    headers:
+      Host: odincdforge.arka5tech.ir
+- name: 🇺🇸 United States, Chicago | [BL]
+  type: vmess
+  server: cf.0sm.com
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]
+  type: vless
+  server: www.zoom.us
+  port: 443
+  uuid: b19c62cc-f2c2-4895-aee1-978a0f58f8c8
+  network: ws
+  tls: true
+  servername: matrix.phonicsindia.mobi
+  client-fingerprint: safari
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: matrix.phonicsindia.mobi
+- name: 🇺🇸 United States, Reston | [BL]
+  type: vmess
+  server: US122204.ssgreen.org
+  port: 443
+  uuid: 2ec96d7a-f3c8-4bf4-bfe2-ee24ad1f97a3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122204.ssgreen.org
+- name: 🇺🇸 United States, Reston | [BL]
+  type: vmess
+  server: US122204.ssgreen.org
+  port: 443
+  uuid: 6f98d679-f610-4870-bba5-777da803e0f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US122204.ssgreen.org
 - name: 🇺🇸 United States, Buffalo | [BL]
   type: vless
   server: mao.kipfelmao.de5.net
@@ -1459,32 +1373,9 @@ proxies:
   network: ws
   tls: true
   servername: mao.kipfelmao.de5.net
-  client-fingerprint: chrome
+  client-fingerprint: ios
   ws-opts:
     path: /api/v1/guests/profiles/5de14443985f/
-    headers:
-      Host: mao.kipfelmao.de5.net
-- name: 🇱🇹 Lithuania [*CIDR]
-  type: vless
-  server: lorettmay.top
-  port: 443
-  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
-  network: ws
-  tls: true
-  servername: lorettmay.top
-  client-fingerprint: chrome
-  ws-opts:
-    path: /blog/posts
-- name: 🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]
-  type: vless
-  server: luminexorizon.ink
-  port: 443
-  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
-  network: grpc
-  tls: true
-  servername: luminexorizon.ink
-  grpc-opts:
-    grpc-service-name: glush.de3.v1
 - name: 🇺🇸 United States
   type: vless
   server: us.cdn-assets-pro.com
@@ -1498,18 +1389,62 @@ proxies:
   flow: xtls-rprx-vision
   servername: us.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇫🇮 Finland
+- name: 🇹🇭 Thailand, Chana | [BL]
   type: vless
-  server: fi.cdn-assets-pro.com
+  server: assets.opensignal.com
+  port: 80
+  uuid: 0c85001b-ad48-4f43-bdc9-b2b5c626a26e
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /logout
+    headers:
+      Host: d36lt9hzl2ug3d.cloudfront.net:assets.opensignal.com
+- name: 🇺🇸 United States [*CIDR]
+  type: vless
+  server: speakpro.lol
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  network: ws
+  tls: true
+  servername: speakpro.lol
+  ws-opts:
+    path: /useraction/metrics/4c907dfe0305/
+    headers:
+      Host: speakpro.lol
+- name: 🇺🇸 United States | 🌐 | [BL]
+  type: trojan
+  server: fastly2.dunnexa.ir
+  port: 443
+  password: jcTG9WSWMJAmR4rv10xpww
+  network: ws
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
+- name: 🇱🇹 Lithuania [*CIDR]
+  type: vless
+  server: lorettmay.top
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  network: ws
+  tls: true
+  servername: lorettmay.top
+  client-fingerprint: chrome
+  ws-opts:
+    path: /blog/posts
+- name: 🇳🇱 Netherlands
+  type: vless
+  server: nl4.cdn-assets-pro.com
   port: 443
   uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
   network: tcp
   tls: true
   reality-opts:
-    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
-    short-id: e42075de64c24511
+    public-key: IFVjYYxByCHY4aXN66_HIoem_GWvqmdEl08CWWEWpXE
+    short-id: a75c14baf6501472
   flow: xtls-rprx-vision
-  servername: fi.cdn-assets-pro.com
+  servername: nl4.cdn-assets-pro.com
   client-fingerprint: firefox
 - name: 🇩🇪 Germany
   type: vless
@@ -1524,59 +1459,9 @@ proxies:
   flow: xtls-rprx-vision
   servername: de4.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇮🇷 Iran [*CIDR] VK
+- name: 🇫🇮 Finland
   type: vless
-  server: nguyxejonb.flowersgood.top
-  port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  network: ws
-  tls: true
-  servername: nguyxejonb.flowersgood.top
-  client-fingerprint: chrome
-  ws-opts:
-    path: /service/telemetry/0294da469190/
-    headers:
-      Host: nguyxejonb.flowersgood.top
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
-  type: vless
-  server: bhjolq0d0l.flowersgood.top
-  port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  network: ws
-  tls: true
-  servername: bhjolq0d0l.flowersgood.top
-  client-fingerprint: android
-  ws-opts:
-    path: /service/telemetry/045d381f1166/
-- name: 🇳🇱 Netherlands
-  type: vless
-  server: nl4.cdn-assets-pro.com
-  port: 443
-  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
-  network: tcp
-  tls: true
-  reality-opts:
-    public-key: IFVjYYxByCHY4aXN66_HIoem_GWvqmdEl08CWWEWpXE
-    short-id: a75c14baf6501472
-  flow: xtls-rprx-vision
-  servername: nl4.cdn-assets-pro.com
-  client-fingerprint: firefox
-- name: 🌐 Anycast-IP | 🇯🇵 | [BL]
-  type: vmess
-  server: cdn.sfacg.uk
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
-- name: 🇸🇪 Sweden
-  type: vless
-  server: se.cdn-assets-pro.com
+  server: fi.cdn-assets-pro.com
   port: 443
   uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
   network: tcp
@@ -1585,8 +1470,19 @@ proxies:
     public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
     short-id: e42075de64c24511
   flow: xtls-rprx-vision
-  servername: se.cdn-assets-pro.com
+  servername: fi.cdn-assets-pro.com
   client-fingerprint: firefox
+- name: 🇩🇪 Germany | 🌐 [*CIDR]
+  type: vless
+  server: luminexorizon.ink
+  port: 443
+  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+  network: grpc
+  tls: true
+  servername: luminexorizon.ink
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: glush.de3.v1
 - name: 🇫🇷 France
   type: vless
   server: fr.cdn-assets-pro.com
@@ -1600,18 +1496,32 @@ proxies:
   flow: xtls-rprx-vision
   servername: fr.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇬🇧 United Kingdom
+- name: 🇩🇪LTE Germany
   type: vless
-  server: gb.cdn-assets-pro.com
+  server: lte-de.cdn-assets-pro.com
+  port: 4443
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: bN5Pm3Aze47gy7aAkTp8E8Xwq9HgwBBbwIT_suEn2zg
+    short-id: de2951818461abcd
+  servername: id.pervye.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: ns
+- name: 🇸🇪 Sweden
+  type: vless
+  server: se.cdn-assets-pro.com
   port: 443
   uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
   network: tcp
   tls: true
   reality-opts:
-    public-key: DoMh2CkfmWFo0t0lf1HOuZqW6VydIfI-I3mRrdjwSTU
-    short-id: fe682ad6e8765611
+    public-key: N6RiU4XHQl31HeKmBNOFDypgfDqqshGa7zxfqe72hjk
+    short-id: e42075de64c24511
   flow: xtls-rprx-vision
-  servername: gb.cdn-assets-pro.com
+  servername: se.cdn-assets-pro.com
   client-fingerprint: firefox
 - name: 🇳🇱 LTE Netherlands
   type: vless
@@ -1640,34 +1550,19 @@ proxies:
   flow: xtls-rprx-vision
   servername: ru.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🇷🇺 LTE Russia
+- name: 🇬🇧 United Kingdom
   type: vless
-  server: lte-ru.cdn-assets-pro.com
-  port: 4444
+  server: gb.cdn-assets-pro.com
+  port: 443
   uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
-  network: grpc
+  network: tcp
   tls: true
   reality-opts:
-    public-key: Rb4vgAdvP8Eg59fAl07OpCQxD9-hec_8fWmuqB5KmVk
-    short-id: 808e88c0591324d2
-  servername: id.pervye.ru
+    public-key: DoMh2CkfmWFo0t0lf1HOuZqW6VydIfI-I3mRrdjwSTU
+    short-id: fe682ad6e8765611
+  flow: xtls-rprx-vision
+  servername: gb.cdn-assets-pro.com
   client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ns
-- name: 🇩🇪LTE Germany
-  type: vless
-  server: lte-de.cdn-assets-pro.com
-  port: 4443
-  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
-  network: grpc
-  tls: true
-  reality-opts:
-    public-key: bN5Pm3Aze47gy7aAkTp8E8Xwq9HgwBBbwIT_suEn2zg
-    short-id: de2951818461abcd
-  servername: id.pervye.ru
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ns
 - name: 🇸🇪 LTE Sweden
   type: vless
   server: lte-se-primary.cdn-assets-pro.com
@@ -1682,29 +1577,44 @@ proxies:
   client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: ns
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
+- name: 🇫🇷 France | 🌐 [*CIDR]
   type: vless
-  server: yx.l110.us.ci
+  server: cdn.snyalby.ru
+  port: 17014
+  uuid: 25567295-9b9b-4aed-aa0b-ce9c562c74ef
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: mqFYVFk9FKZBDy2qjiWJR8Gy8FAxOAkBBMTdPF6avX0
+    short-id: b9eb4a95b4828b86
+  servername: www.inria.fr
+- name: 🇷🇺 LTE Russia
+  type: vless
+  server: lte-ru.cdn-assets-pro.com
+  port: 4444
+  uuid: d7feaa8d-ee17-4e0b-b1c2-38ed432024ca
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: Rb4vgAdvP8Eg59fAl07OpCQxD9-hec_8fWmuqB5KmVk
+    short-id: 808e88c0591324d2
+  servername: id.pervye.ru
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: ns
+- name: 🌐 Anycast-IP | 🇧🇪 🇺🇸 | [BL]
+  type: vless
+  server: hk1t.wawojk.dpdns.org
   port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  uuid: 5d967efa-702c-4cde-9e79-29386c8012e5
   network: ws
   tls: true
-  servername: fs.qicai99.com
+  servername: hk1t.wawojk.dpdns.org
   client-fingerprint: chrome
   ws-opts:
-    path: /
+    path: /hk1-ws-1f8915c8964a
     headers:
-      Host: fs.qicai99.com
-- name: 🇺🇸 United States | 🌐 | [BL]
-  type: trojan
-  server: fastly2.dunnexa.ir
-  port: 443
-  password: jcTG9WSWMJAmR4rv10xpww
-  network: ws
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER
+      Host: hk1t.wawojk.dpdns.org
 - name: 🇯🇵 Japan
   type: vless
   server: jp.cdn-assets-pro.com
@@ -1718,19 +1628,29 @@ proxies:
   flow: xtls-rprx-vision
   servername: jp.cdn-assets-pro.com
   client-fingerprint: firefox
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  type: vless
-  server: cucc.cloudflare.seeck.cn
+- name: 🇺🇸 United States, Chicago | 🌐 | [BL]
+  type: vmess
+  server: cf.877771.xyz
   port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   network: ws
   tls: true
-  servername: fs.qicai99.com
-  client-fingerprint: chrome
+  servername: vmess.lbw666.dpdns.org
   ws-opts:
-    path: /fp=chrome
+    path: /ws
     headers:
-      Host: fs.qicai99.com
+      Host: vmess.lbw666.dpdns.org
+- name: '🌀 CYBERPORTAL | White List Lite #23'
+  type: vless
+  server: 95.129.234.108
+  port: 8443
+  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
+  network: xhttp
+  tls: true
+  servername: hazel-beacon.cdn.cachefleet.com
+  client-fingerprint: firefox
 - name: '🌀 CYBERPORTAL | White List Lite #2'
   type: vless
   server: 5abad7g.de13.h1clayd.click
@@ -1751,162 +1671,163 @@ proxies:
   port: 6123
   cipher: aes-256-cfb
   password: qwerREWQ@@
+- name: 🇩🇪 Germany, Frankfurt am Main | [BL]
+  type: ss
+  server: 135.220.178.46
+  port: 46303
+  cipher: chacha20-ietf-poly1305
+  password: zZMNTGpPl38ASlbI1EKOBJ
 proxy-groups:
 - name: VPN-UNIFIER
   type: url-test
   proxies:
-  - '🌀 CYBERPORTAL | TCP Pack | 🇫🇮 Финляндия #11'
   - '🌀 CYBERPORTAL | TCP Pack #14'
-  - '🌀 CYBERPORTAL | White List Lite #75'
+  - '🌀 CYBERPORTAL | White List Lite #13'
   - '🌀 CYBERPORTAL | White List Lite #56'
-  - '🌀 CYBERPORTAL | White List Lite #58'
+  - '🌀 CYBERPORTAL | White List Lite #75'
+  - '🌀 CYBERPORTAL | TCP Pack | 🇫🇮 Финляндия #11'
+  - '🌀 CYBERPORTAL | White List Lite #6'
   - '🌀 CYBERPORTAL | White List Lite #22'
   - '🌀 CYBERPORTAL | White List Lite #40'
-  - '🌀 CYBERPORTAL | White List Lite #6'
-  - '🌀 CYBERPORTAL | White List Lite #13'
+  - '🌀 CYBERPORTAL | White List Lite #58'
   - '🌀 CYBERPORTAL | White List Lite #19'
   - '🌀 CYBERPORTAL | White List Lite #7'
-  - 🇯🇵 Japan, Osaka (Shiromi) | 🌐 | [BL]
-  - 🇺🇸 United States, Chicago | [BL]
-  - 🇺🇸 United States, Chicago | [BL]
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - 🇯🇵 Japan, Inzai (Otsuka) | [BL]
+  - 🇨🇦 Canada, Vancouver | [BL]
+  - 🇫🇮 Finland, Helsinki | 🌐 | [BL]
+  - 🇫🇷 France | 🌐 | [BL]
+  - 🇫🇷 France | 🌐 | [BL]
+  - 🇫🇷 France | 🌐 | [BL]
+  - 🇫🇷 France | 🌐 | [BL]
+  - 🇫🇷 France | 🌐 | [BL]
   - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
   - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
   - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
-  - 🇳🇱 The Netherlands | 🌐 | [BL]
+  - 🇵🇱 Poland | 🌐 | [BL]
+  - 🇵🇱 Poland | 🌐 | [BL]
+  - 🇵🇱 Poland | 🌐 | [BL]
   - 🇺🇸 United States, Buffalo | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇱🇰 🇸🇬 | [BL]
+  - 🇺🇸 United States, North Bergen | [BL]
+  - 🇺🇸 United States, North Bergen | [BL]
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [BL]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  - 🇺🇸 United States, Chicago | [BL]
+  - 🇺🇸 United States, Chicago | [BL]
+  - 🇺🇸 United States, Chicago | [BL]
+  - 🇺🇸 United States, Chicago | [BL]
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]
+  - 🇺🇸 United States, Los Angeles (Central-Alameda) | [BL]
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - 🇺🇸 United States, St Louis (Downtown) | [BL]
+  - 🌐 Anycast-IP | 🇯🇵 | [BL]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  - 🇹🇭 Thailand, Chana | [BL]
+  - 🇫🇷 France | 🌐 | [BL]
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR]
   - '🌀 CYBERPORTAL | White List Lite #29'
   - '🌀 CYBERPORTAL | White List Lite #52'
   - '🌀 CYBERPORTAL | White List Lite #73'
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇴 [*CIDR]
-  - 🇺🇸 United States | 🌐 | [BL]
+  - 🌐 Anycast-IP | 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇮🇷 [*CIDR]
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR]
+  - 🌐 Anycast-IP | 🇺🇸 [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR]
   - 🇩🇪 Germany, Nuremberg | [BL]
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [BL]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  - 3.168.218.8:443
-  - 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #1'
+  - '🌀 CYBERPORTAL | White List Lite #17'
   - '🌀 CYBERPORTAL | TCP Pack | 🇷🇺 Россия #20'
   - 🇫🇷 France | 🌐 | [BL]
-  - 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  - 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  - 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  - 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  - '🌀 CYBERPORTAL | White List Lite #71'
-  - '🌀 CYBERPORTAL | White List Lite #41'
-  - '🌀 CYBERPORTAL | White List Lite #46'
-  - '🌀 CYBERPORTAL | White List Lite #48'
   - '🌀 CYBERPORTAL | White List Lite #36'
-  - '🌀 CYBERPORTAL | White List Lite #23'
+  - '🌀 CYBERPORTAL | White List Lite #46'
+  - '🌀 CYBERPORTAL | White List Lite #71'
+  - '🌀 CYBERPORTAL | White List Lite #70'
   - '🌀 CYBERPORTAL | White List Lite #67'
-  - '🌀 CYBERPORTAL | White List Lite #17'
-  - '🌀 CYBERPORTAL | White List Lite #51'
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL]
-  - 🇳🇱 The Netherlands [*CIDR] VK
+  - 🇯🇵 Japan, Ueda | [BL]
   - 🇳🇱 The Netherlands [*CIDR]
+  - 🇵🇱 Poland [*CIDR] CDN
   - '🌀 CYBERPORTAL | White List Lite #3'
-  - 🇫🇮 Finland, Helsinki | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main | [BL]
+  - 🇧🇪 Belgium | 🌐 [*CIDR]
+  - 🇵🇱 Poland [*CIDR]
+  - 🇩🇪 Germany [*CIDR]
+  - '🌀 CYBERPORTAL | White List Lite #48'
+  - 🇩🇪 Germany | 🌐 [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR]
+  - 🇫🇮 Finland | 🌐 [*CIDR]
+  - 🇵🇱 Poland [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR]
+  - '🌀 CYBERPORTAL | White List Lite #51'
+  - 🇹🇷 Turkey [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR]
+  - 🇯🇵 Japan, Shibuya City | [BL]
+  - 🇮🇱 Israel [*CIDR]
   - '🌀 CYBERPORTAL | White List Lite #9'
   - '🌀 CYBERPORTAL | White List Lite #38'
-  - 🇵🇱 Poland, Wroclaw (Krzyki) | 🌐 | [BL]
-  - 🇺🇸 United States, Hillsboro | [BL]
-  - 🇺🇸 United States, Hillsboro | [BL]
   - 🇮🇱 Israel [*CIDR]
-  - 🌐 Anycast-IP | 🇨🇦 🇮🇳 🇮🇶 🇰🇷 | [BL]
+  - 🇮🇱 Israel [*CIDR]
+  - 🇪🇸 Spain [*CIDR]
+  - 🇪🇸 Spain [*CIDR]
+  - 🇯🇵 Japan, Ueda | [BL]
+  - 🇯🇵 Japan, Ueda | [BL]
+  - 🇯🇵 Japan, Ueda | [BL]
+  - 🇯🇵 Japan, Ueda | [BL]
+  - 🇯🇵 Japan, Ueda | [BL]
+  - 🇺🇸 United States, Hillsboro | [BL]
+  - 🇺🇸 United States, Hillsboro | [BL]
+  - 🇺🇸 United States, Hillsboro | [BL]
+  - 🇺🇸 United States, Hillsboro | [BL]
   - 🇺🇸 United States, Hillsboro | [BL]
   - 🇯🇵 Japan, Ueda | [BL]
   - 🇯🇵 Japan, Ueda | [BL]
-  - 🇺🇸 United States, Hillsboro | [BL]
-  - 🇺🇸 United States, Chicago | 🌐 | [BL]
-  - 🇺🇸 United States, Chicago | [BL]
-  - 🇺🇸 United States, Hillsboro | [BL]
   - 🇺🇸 United States, Hillsboro | [BL]
   - 🇺🇸 United States, Hillsboro | [BL]
   - 🇺🇸 United States, St Louis (Downtown) | [BL]
-  - 🇺🇸 United States, Hillsboro | [BL]
-  - 🇺🇸 United States, Hillsboro | [BL]
-  - 🇺🇸 United States, Hillsboro | [BL]
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]
+  - 🇺🇸 United States, Reston | [BL]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main (Bergen-Enkheim) | [BL]
+  - 🇦🇺 Australia, Sydney | [BL]
   - 🇺🇸 United States, Reston | [BL]
-  - 🇺🇸 United States, Hillsboro | [BL]
+  - 🇺🇸 United States, Chicago | [BL]
+  - 🇩🇪 Germany, Nuremberg | 🌐 | [BL]
+  - 🇺🇸 United States, Chicago | [BL]
+  - 🇸🇬 Singapore, Singapore (Outram) | 🌐 | [BL]
   - 🇺🇸 United States, Reston | [BL]
   - 🇺🇸 United States, Reston | [BL]
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🌐 Anycast-IP | 🇧🇪 🇺🇸 | [BL]
   - 🇺🇸 United States, Buffalo | [BL]
-  - 🇱🇹 Lithuania [*CIDR]
-  - 🇩🇪 Germany, Frankfurt am Main (Innenstadt I) | 🌐 | [BL]
   - 🇺🇸 United States
-  - 🇫🇮 Finland
-  - 🇩🇪 Germany
-  - 🇮🇷 Iran [*CIDR] VK
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
+  - 🇹🇭 Thailand, Chana | [BL]
+  - 🇺🇸 United States [*CIDR]
+  - 🇺🇸 United States | 🌐 | [BL]
+  - 🇱🇹 Lithuania [*CIDR]
   - 🇳🇱 Netherlands
-  - 🌐 Anycast-IP | 🇯🇵 | [BL]
-  - 🇸🇪 Sweden
+  - 🇩🇪 Germany
+  - 🇫🇮 Finland
+  - 🇩🇪 Germany | 🌐 [*CIDR]
   - 🇫🇷 France
-  - 🇬🇧 United Kingdom
+  - 🇩🇪LTE Germany
+  - 🇸🇪 Sweden
   - 🇳🇱 LTE Netherlands
   - 🇷🇺 Russia
-  - 🇷🇺 LTE Russia
-  - 🇩🇪LTE Germany
+  - 🇬🇧 United Kingdom
   - 🇸🇪 LTE Sweden
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
-  - 🇺🇸 United States | 🌐 | [BL]
+  - 🇫🇷 France | 🌐 [*CIDR]
+  - 🇷🇺 LTE Russia
+  - 🌐 Anycast-IP | 🇧🇪 🇺🇸 | [BL]
   - 🇯🇵 Japan
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]
+  - 🇺🇸 United States, Chicago | 🌐 | [BL]
+  - '🌀 CYBERPORTAL | White List Lite #23'
   - '🌀 CYBERPORTAL | White List Lite #2'
   - '🌀 CYBERPORTAL | White List Lite #53'
+  - 🇩🇪 Germany, Frankfurt am Main | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
